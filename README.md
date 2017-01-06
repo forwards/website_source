@@ -1,2 +1,3 @@
 # website_source
-source for blogdown website
+
+Source files for blogdown version of the website (in development).

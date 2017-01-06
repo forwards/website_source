@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FORWARDS</title>
+    <link>/index.xml</link>
+    <description>Recent content on FORWARDS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Forwards. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Sat, 10 Oct 2015 16:56:43 +0200</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introducing Icarus and its features</title>
+      <link>/blog/2015/10/10/introducing-icarus-and-its-features</link>
+      <pubDate>Sat, 10 Oct 2015 16:56:43 +0200</pubDate>
+      
+      <guid>/blog/2015/10/10/introducing-icarus-and-its-features</guid>
+      <description>
+
+&lt;p&gt;Icarus is a responsive and customizable theme for bloggers. It&amp;rsquo;s a port of the same-named theme for &lt;a href=&#34;//hexo.io&#34;&gt;Hexo&lt;/a&gt; made by &lt;a href=&#34;https://github.com/ppoffice&#34;&gt;Ruipeng Zhang&lt;/a&gt;. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34;&gt;shortcodes&lt;/a&gt; to make your life easier.&lt;/p&gt;
+
+&lt;h2 id=&#34;get-the-theme&#34;&gt;Get the theme&lt;/h2&gt;
+
+&lt;p&gt;I assume you&amp;rsquo;ve Git installed. Inside the folder of your Hugo site run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone git@github.com:digitalcraftsman/hugo-icarus-theme.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should see a folder called &lt;code&gt;hugo-icarus-theme&lt;/code&gt; inside the &lt;code&gt;themes&lt;/code&gt; directory that we created a few moments ago. For more information read the official &lt;a href=&#34;https://gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;In the next step navigate to the &lt;code&gt;exampleSite&lt;/code&gt; folder at &lt;code&gt;themes/hugo-icarus-theme/exampleSite/&lt;/code&gt;. Its structure should look similar to this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;exampleSite
+├── config.toml
+├── content
+│   └── post
+│       ├── creating-a-new-theme.md
+│       ├── go-is-for-lovers.md
+│       ├── hugo-is-for-lovers.md
+│       ├── introducing-icarus-and-its-features.md
+│       ├── linked-post.md
+│       └── migrate-from-jekyll.md
+├── data
+│   └── l10n.toml
+└── static
+    └── banners
+        └── placeholder.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In order to get your site running, you need to copy &lt;code&gt;config.toml&lt;/code&gt; and &lt;code&gt;data/l10n.toml&lt;/code&gt; into the root folders.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-config-file&#34;&gt;The config file&lt;/h2&gt;
+
+&lt;p&gt;Now, let us take a look into the &lt;code&gt;config.toml&lt;/code&gt;. Feel free to play around with the settings.&lt;/p&gt;
+
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+
+&lt;p&gt;The optional comment system is powered by Disqus. Enter your shortname to enable the comment section under your posts.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;disqusShortname = &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tip: you can disable the comment section for a single page in its frontmatter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+disable_comments = true
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;menu&#34;&gt;Menu&lt;/h3&gt;
+
+&lt;p&gt;You can also define the items menu entries as you like. First, let us link a post that you&amp;rsquo;ve written. We can do this in the frontmatter of the post&amp;rsquo;s content file by setting &lt;code&gt;menu&lt;/code&gt; to &lt;code&gt;main&lt;/code&gt;. Take a look at the menu if you want to see a live example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+menu = &amp;quot;main&amp;quot;
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Furthermore, we can add entries that don&amp;rsquo;t link to posts. Back in the &lt;code&gt;config.toml&lt;/code&gt; you&amp;rsquo;ll find a section for the menus:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[params.menu]]
+    before = true
+    label  = &amp;quot;Home&amp;quot;
+    link   = &amp;quot;/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Define a label and enter the URL to resource you want to link. With &lt;code&gt;before&lt;/code&gt; you can decide whether the link should appear before &lt;strong&gt;or&lt;/strong&gt; after all linked posts in the menu. &lt;code&gt;Home&lt;/code&gt; appears before the linked post, &lt;code&gt;Tags&lt;/code&gt; and &lt;code&gt;Categories&lt;/code&gt; after them (as in the menu above).&lt;/p&gt;
+
+&lt;h3 id=&#34;sidebars&#34;&gt;Sidebars&lt;/h3&gt;
+
+&lt;p&gt;In order to use the full width of the website you can disable the profile on the left and / or the widgets on the right for a single page in the frontmatter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+disable_profile = true
+disable_widgets = true
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;tell-me-who-you-are&#34;&gt;Tell me who you are&lt;/h3&gt;
+
+&lt;p&gt;Maybe you noticed the profile section on the left. Add your social network accounts to the profile section on the left by entering your username under &lt;code&gt;social&lt;/code&gt;. The links to your account will be create automatically.&lt;/p&gt;
+
+&lt;h3 id=&#34;widgets&#34;&gt;Widgets&lt;/h3&gt;
+
+&lt;p&gt;On the right, you can see some useful widgets that you can activate as you like. You can deactivate them under &lt;code&gt;params.widgets&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params.widgets]
+    recent_articles = false
+    categories = true
+    tags = true
+    tag_cloud = true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;localization-l10n&#34;&gt;Localization (l10n)&lt;/h2&gt;
+
+&lt;p&gt;You don&amp;rsquo;t blog in English and you want to translate the theme into your native locale? No problem. Take a look in the &lt;code&gt;data&lt;/code&gt; folder and you&amp;rsquo;ll find a file &lt;code&gt;l10n.toml&lt;/code&gt; that we&amp;rsquo;ve copied at the beginning. It contains all strings related to the theme. Just replace the original strings with your own.&lt;/p&gt;
+
+&lt;h2 id=&#34;linking-thumbnails&#34;&gt;Linking thumbnails&lt;/h2&gt;
+
+&lt;p&gt;After creating a new post you can define a banner by entering the relative path to the image.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;banner = &amp;quot;banners/placeholder.png&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This way you can store them either next to the content file or in the &lt;code&gt;static&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;h2 id=&#34;mathematical-equations&#34;&gt;Mathematical equations&lt;/h2&gt;
+
+&lt;p&gt;Mathematical equations in form of LaTeX or MathML code can be rendered with the support of &lt;a href=&#34;https://www.mathjax.org&#34;&gt;MathJax&lt;/a&gt;. MathML works out of the box. If you&amp;rsquo;re using LaTeX you need to wrap your equation with &lt;code&gt;$$&lt;/code&gt; as shown in the following example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;$$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$&lt;/p&gt;
+
+&lt;p&gt;You can also print formulas inline: $a^2 + b^2 = c^2$. In this case wrap the formula only once with &lt;code&gt;$&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h2&gt;
+
+&lt;p&gt;Last but not least I included some useful &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34;&gt;shortcodes&lt;/a&gt; to make your life easier.&lt;/p&gt;
+
+&lt;h3 id=&#34;gallery&#34;&gt;Gallery&lt;/h3&gt;
+
+&lt;p&gt;This way you can include a gallery into your post. Copy the code below into your content file and enter the relative paths to your images.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gallery
+    &amp;quot;/banners/placeholder.png&amp;quot;
+    &amp;quot;/banners/placeholder.png&amp;quot;
+    &amp;quot;/banners/placeholder.png&amp;quot;
+&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;div class=&#34;article-gallery&#34;&gt;
+    &lt;div class=&#34;article-gallery-photos&#34;&gt;
+        
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;./banners/placeholder.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;./banners/placeholder.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;./banners/placeholder.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;./banners/placeholder.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;/a&gt;
+        
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;./banners/placeholder.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;./banners/placeholder.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;/a&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;jsfiddle&#34;&gt;JSFiddle&lt;/h3&gt;
+
+&lt;p&gt;It works the same with JSFiddle examples you want to showcase. The parameter &lt;code&gt;id&lt;/code&gt; consists of the username and id of the example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; jsfiddle id=&amp;quot;zalun/NmudS&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;iframe
+  style=&#34;width: 100%; height: auto;&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;
+  src=&#34;https://jsfiddle.net/zalun/NmudS/embedded/&#34;&gt;
+&lt;/iframe&gt;
+&lt;br&gt;&lt;br&gt;
+
+
+&lt;p&gt;As descibed in the &lt;a href=&#34;http://doc.jsfiddle.net/use/embedding.html&#34;&gt;docs of JSFiddle&lt;/a&gt;, you can define which tabs will be shown. Enter the tabs you want to see separated by a comma in the &lt;code&gt;tabs&lt;/code&gt; parameter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; jsfiddle id=&amp;quot;zalun/NmudS&amp;quot; tabs=&amp;quot;html,result&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Do you see the difference?&lt;/p&gt;
+
+&lt;iframe
+  style=&#34;width: 100%; height: auto;&#34; frameBorder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;
+  src=&#34;https://jsfiddle.net/zalun/NmudS/embedded/html,result/&#34;&gt;
+&lt;/iframe&gt;
+&lt;br&gt;&lt;br&gt;
+
+
+&lt;h2 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h2&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;a href=&#34;http://localhost:1313&#34;&gt;&lt;code&gt;localhost:1313&lt;/code&gt;&lt;/a&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Have you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-icarus-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-icarus-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the MIT license. For more information read the &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme/blob/master/LICENSE.md&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the awesome community around the project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+
+/BLOGDOWN-BODY-BEFORE --&gt;
+
+&lt;div id=&#34;mission&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Mission&lt;/h2&gt;
+&lt;p&gt;Leading the R community forwards in widening the participation of women and other under-represented groups.&lt;/p&gt;
+&lt;p&gt;Find out more &lt;a href=&#34;about.html&#34;&gt;about&lt;/a&gt; the task force.&lt;/p&gt;
+&lt;div style=&#34;display: flex; align-items: flexstart;&#34;&gt;
+&lt;div style=&#34;width:50%&#34;&gt;
+&lt;!-- need to use &lt;a&gt;&lt;/a&gt; here as markdown href don&#39;t seem to work in div --&gt;
+&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;2016/11/13&lt;/em&gt; Heather Turner’s presentation from &lt;a href=&#34;http://erum.ue.poznan.pl/&#34;&gt;eRum 2016&lt;/a&gt;, “Addressing the Gender Gap in the R Project”, now on &lt;a href=https://www.youtube.com/watch?v=fp6JY7cirww&amp;list=PLCsJUtCRSFbejqCqAURNVOFFpoDCMeuO5&gt;YouTube&lt;/a&gt; [&lt;a href=&#34;http://rpubs.com/hturner/eRum2016&#34;&gt;slides&lt;/a&gt;].&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2016/11/04&lt;/em&gt; Jenny Bryan, Di Cook and Julie Josse are elected as ordinary members of the R Foundation, bringing the total number of women to 5 out of 37.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2016/10/20&lt;/em&gt; Di Cook presents the work of the task force at &lt;a href=&#34;https://ww2.amstat.org/meetings/wsds/2016/onlineprogram/AbstractDetails.cfm?AbstractID=303353)&#34;&gt;Women in Statistics and Data Science 2016&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2016/08/22&lt;/em&gt; R Consortium approves funding for a &lt;a href=&#34;https://www.r-consortium.org/blog/2016/08/22/the-r-consortium-funds-three-projects-in-july&#34;&gt;joint proposal&lt;/a&gt; from the San Francisco and London R-ladies groups for alignment and global expansion.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2016/06/27&lt;/em&gt; Proportion of women at useR! 2016 rises to 28% from 19% at useR! 2015.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2016/06/23&lt;/em&gt; Heather Turner presents the work of the task force at &lt;a href=&#34;https://r2016-toulouse.sciencesconf.org/&#34;&gt;Rencontres R 2016&lt;/a&gt; [&lt;a href=&#34;http://rpubs.com/hturner/RencontresR2016&#34;&gt;slides&lt;/a&gt;].&lt;/p&gt;
+&lt;/div&gt;
+&lt;!--https://dev.twitter.com/web/embedded-timelines/parameters --&gt;
+&lt;!-- data-tweet-limit=&#34;3&#34; --&gt;
+&lt;div style=&#34;width:50%&#34;&gt;
+&lt;h2 id=&#34;latest-tweets&#34;&gt;Latest Tweets&lt;/h2&gt;
+&lt;a class=&#34;twitter-timeline&#34; data-height = &#34;500&#34; data-theme=&#34;light&#34; data-chrome=&#34;noheader&#34; href=&#34;https://twitter.com/RWomenTaskforce&#34;&gt;&lt;/a&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;events&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Events&lt;/h2&gt;
+&lt;p&gt;R-ladies meet-ups and other relevant events.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br /&gt;
+&lt;iframe src=&#34;https://calendar.google.com/calendar/embed?title=FORWARDS%20calendar&amp;amp;mode=AGENDA&amp;amp;height=600&amp;amp;wkst=1&amp;amp;bgcolor=%23FFFFFF&amp;amp;src=98i553ll9id8l35qmj5u05ui7o%40group.calendar.google.com&amp;amp;&amp;amp;src=3ahe2f1q4a3upfu8096g5odu0n5h8icp%40import.calendar.google.com&amp;amp;color=%232952A3&amp;amp;ctz=Australia%2FSydney&#34; style=&#34;border-width: 0; display: block; margin: 0 auto;&#34; width=&#34;600&#34; height=&#34;400&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;!-- BLOGDOWN-HEAD
+
+
+
+
+
+
+/BLOGDOWN-HEAD --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+
+/BLOGDOWN-BODY-BEFORE --&gt;
+
+&lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;The Women in R task force was set up by the &lt;a href=&#34;https://www.r-project.org/foundation/&#34;&gt;R Foundation&lt;/a&gt; in December 2015 to address the underrepresentation of women among contributors to the R project and in the R community more generally.&lt;/p&gt;
+&lt;p&gt;The members of the task force were invited to participate based on their interest in addressing the gender imbalance and their contributions in this area, as well as to give a reasonable balance of different genders, different geographic regions, different work contexts, different career stages and different aspects of the R project (e.g. CRAN and Bioconductor).&lt;/p&gt;
+&lt;p&gt;The task force is happy to engage with other individuals and organisations (such as &lt;a href=&#34;http://r-ladies.org&#34;&gt;R-ladies&lt;/a&gt;) that are concerned about this issue and actively seeks outside contributions on specific tasks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;current-members&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Current Members&lt;/h2&gt;
+&lt;div class=&#34;idblock&#34;&gt;
+&lt;div class=&#34;idcontainer&#34;&gt;
+&lt;img class = &#34;idphoto&#34; src=&#34;../images/jenny_bryan.jpg&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.stat.ubc.ca/~jenny/&#34;&gt;Jenny Bryan&lt;/a&gt; is an Associate Professor of Statistics at the University of British Columbia, on secondment to RStudio for 2017. She promotes good practice in data science, leading and collaborating on the development of open learning materials, e.g. &lt;a href=&#34;http://stat545.com&#34;&gt;STAT545&lt;/a&gt;, &lt;a href=&#34;http://happygitwithr.com&#34;&gt;Happy Git with R&lt;/a&gt;, &lt;a href=&#34;http://shinyapps.stat.ubc.ca/r-graph-catalog/&#34;&gt;R Graph Catalog&lt;/a&gt;. Jenny is a former member of the &lt;a href=&#34;http://software-carpentry.org&#34;&gt;Software Carpentry Foundation&lt;/a&gt;’s Steering Committee and an advisor to &lt;a href=&#34;http://ropensci.org/&#34;&gt;ROpenSci&lt;/a&gt;. Jenny was elected to the R Foundation in 2016.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;idblock&#34;&gt;
+&lt;div class=&#34;idcontainer&#34;&gt;
+&lt;img class = &#34;idphoto&#34; src=&#34;../images/alicia_oshlack.jpg&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.mcri.edu.au/users/dr-alicia-oshlack&#34;&gt;Alicia Oshlack&lt;/a&gt; is Head of Bioinformatics at Murdoch Children’s Research Institute and has overseen the development of a wide number of &lt;a href=&#34;http://oshlacklab.com/software/&#34;&gt;R packages by her lab&lt;/a&gt;. Alicia began her career as an astrophysicist before moving into moving into the field of bioinformatics and throughout this time has advocated for gender equity in science. As a leading female scientist, she is often asked to share her experience, see for example this &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3439960/&#34;&gt;Genome Biology article&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;idblock&#34;&gt;
+&lt;div class=&#34;idcontainer&#34;&gt;
+&lt;img class = &#34;idphoto&#34; src=&#34;../images/oliver_keyes.jpg&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://ironholds.org/index.html&#34;&gt;Oliver Keyes&lt;/a&gt; is a Senior Data Scientist working in information security at Rapid7. Informed by his previous experience as a lawyer and a community liaison/research analyst at the Wikimedia Foundation, Oliver brings a unique perspective of social issues in technology communities. He is a tireless campaigner for marginalized groups and was instrumental in the introduction of a &lt;a href=&#34;https://www.r-project.org/behaviour.html&#34;&gt;Code of Conduct&lt;/a&gt; and diversity scholarships at the useR! conference.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;idblock&#34;&gt;
+&lt;div class=&#34;idcontainer&#34;&gt;
+&lt;img class = &#34;idphoto&#34; src=&#34;../images/di_cook.jpg&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://dicook.github.io/&#34;&gt;Di Cook&lt;/a&gt; is a Professor in the Department of Econometrics &amp;amp; Business Statistics at Monash University. As well as promoting the use of R at Monash, she is a regular mentor on &lt;a href=&#34;https://github.com/rstats-gsoc&#34;&gt;R Google Summer of Code projects&lt;/a&gt; and has been involved in the organisation of several R conferences, not least the first useR! conference in the US. Following her motto, “Show me the data”, Di is encouraging the task force to prioritize data gathering and analysis. Di was elected to the R Foundation in 2016.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;idblock&#34;&gt;
+&lt;div class=&#34;idcontainer&#34;&gt;
+&lt;img class = &#34;idphoto&#34; src=&#34;../images/carolin_strobl.jpg&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.psychologie.uzh.ch/en/fachrichtungen/methoden/team/carolinstrobl.html&#34;&gt;Carolin Strobl&lt;/a&gt; is a Professor in the Department of Psychology at the University of Zurich. She is dedicated to improving statistical and computational literacy within the psychology community and beyond, notably establishing the &lt;a href=&#34;http://www.zhrcourses.uzh.ch/en.html&#34;&gt;Zurich R Courses&lt;/a&gt; and co-founding the &lt;a href=&#34;https://eeecon.uibk.ac.at/psychoco/courses.html&#34;&gt;Psychoco&lt;/a&gt; workshops on psychometric computing. Carolin is also interested in the sociological and psychological factors that hinder women in progressing as computer programmers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;idblock&#34;&gt;
+&lt;div class=&#34;idcontainer&#34;&gt;
+&lt;img class = &#34;idphoto&#34; src=&#34;../images/kevin_obrien.jpg&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://ie.linkedin.com/in/kobriendublin&#34;&gt;Kevin O’Brien&lt;/a&gt; is a freelance statistical consultant and tutor with wide programming expertise, particularly in R, Python and Julia. Kevin founded the Dublin R User Group and has strong links with other data science user groups in Ireland and beyond. He has co-organised many female-friendly coding workshops, in particular through &lt;a href=&#34;https://www.codinggrace.com/&#34;&gt;Coding Grace&lt;/a&gt;, and would like to see more of such events in the R community.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;idblock&#34;&gt;
+&lt;div class=&#34;idcontainer&#34;&gt;
+&lt;img class = &#34;idphoto&#34; src=&#34;../images/julie_josse.jpg&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://juliejosse.com/&#34;&gt;Julie Josse&lt;/a&gt; is a Professor of Statistics at École Polytechnique. Julie was a local organizer for useR! 2009, the first useR! to feature a female keynote speaker, and chair of the first female-majority program committee of useR! in 2016. She is active in promoting R in the French community, for example co-founding the French R board to support the organization of Les Rencontres R (the French R conference). Julie was elected to the R Foundation in 2016.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;idblock&#34;&gt;
+&lt;div class=&#34;idcontainer&#34;&gt;
+&lt;img class = &#34;idphoto&#34; src=&#34;../images/heather_turner.jpg&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;http://heatherturner.net/&#34;&gt;Heather Turner&lt;/a&gt; is a freelance statistical programmer and an Associate Fellow of the Statistics Department at the University of Warwick. Heather was the first female editor of The R Journal, becoming editor-in-chief in 2011. She was a local organizer and program chair for useR! 2011 and is the program co-chair for 2017. She was one of the first women to be elected as an ordinary member of the R Foundation and a co-founder of the Women in R task force.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;idblock&#34;&gt;
+&lt;div class=&#34;idcontainer&#34;&gt;
+&lt;img class = &#34;idphoto&#34; src=&#34;../images/michael_lawrence.jpg&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/michael-lawrence-74a9b482&#34;&gt;Michael Lawrence&lt;/a&gt; is a computational biologist at Genentech. Michael is a member of &lt;a href=&#34;https://www.r-project.org/contributors.html&#34;&gt;R core&lt;/a&gt;, the team of developers with write access to the base R sources, and on the &lt;a href=&#34;https://www.bioconductor.org/about/advisory-board/&#34;&gt;Technical Advisory Board&lt;/a&gt; of Bioconductor. He is on the editorial board of The R Journal and was editor-in-chief for 2016. Michael has been a member of the R Foundation since 2014 and was commissioned to set up the Women in R taskforce.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;!-- BLOGDOWN-HEAD
+
+
+
+
+
+
+/BLOGDOWN-HEAD --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;The Women in R task force was set up by the &lt;a href=&#34;https://www.r-project.org/foundation/&#34;&gt;R Foundation&lt;/a&gt; in December
+2015 to address the underrepresentation of women among contributors to the R
+project and in the R community more generally.&lt;/p&gt;
+
+&lt;p&gt;The members of the task force were invited to participate based on their
+interest in addressing the gender imbalance and their contributions in this
+area, as well as to give a reasonable balance of different genders, different
+geographic regions, different work contexts, different career stages and
+different aspects of the R project (e.g. CRAN and Bioconductor).&lt;/p&gt;
+
+&lt;p&gt;The task force is happy to engage with other individuals and organisations (such
+as &lt;a href=&#34;http://r-ladies.org&#34;&gt;R-ladies&lt;/a&gt;) that are concerned about this issue and
+actively seeks outside contributions on specific tasks.&lt;/p&gt;
+
+&lt;h2 id=&#34;current-members&#34;&gt;Current Members&lt;/h2&gt;
+
+&lt;div class = &#34;idblock&#34;&gt;
+&lt;div class = &#34;idcontainer&#34;&gt;&lt;img class = &#34;idphoto&#34; src=&#34;../images/jenny_bryan.jpg&#34;&gt;&lt;/div&gt;
+[Jenny Bryan](https://www.stat.ubc.ca/~jenny/) is an Associate Professor of Statistics at the University of British Columbia, on secondment to RStudio for 2017. She promotes good practice in data science, leading and collaborating on the development of open learning materials, e.g. [STAT545](http://stat545.com), [Happy Git with R](http://happygitwithr.com), [R Graph Catalog](http://shinyapps.stat.ubc.ca/r-graph-catalog/).
+Jenny is a former member of the [Software Carpentry Foundation](http://software-carpentry.org)&#39;s Steering Committee and an advisor to [ROpenSci](http://ropensci.org/). Jenny was elected to the R Foundation in 2016.
+&lt;/div&gt;
+
+&lt;div class = &#34;idblock&#34;&gt;
+&lt;div class = &#34;idcontainer&#34;&gt;&lt;img class = &#34;idphoto&#34; src=&#34;../images/alicia_oshlack.jpg&#34;&gt;&lt;/div&gt;
+[Alicia Oshlack](https://www.mcri.edu.au/users/dr-alicia-oshlack) is Head of Bioinformatics at Murdoch Children&#39;s Research Institute and has overseen the development of a wide number of [R packages by her lab](http://oshlacklab.com/software/). Alicia began her career as an astrophysicist before moving into moving into the field of bioinformatics and throughout this time has advocated for gender equity in science. As a leading female scientist, she is often asked to share her experience, see for example this [Genome Biology article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3439960/).
+&lt;/div&gt;
+
+&lt;div class = &#34;idblock&#34;&gt;
+&lt;div class = &#34;idcontainer&#34;&gt;&lt;img class = &#34;idphoto&#34; src=&#34;../images/oliver_keyes.jpg&#34;&gt;&lt;/div&gt;
+[Oliver Keyes](https://ironholds.org/index.html) is a Senior Data Scientist working in information security at Rapid7. Informed by his previous experience as a lawyer and a community liaison/research analyst at the Wikimedia Foundation, Oliver brings a unique perspective of social issues in technology communities. He is a tireless campaigner for marginalized groups and was instrumental in the introduction of a [Code of Conduct](https://www.r-project.org/behaviour.html) and diversity scholarships at the useR! conference.
+&lt;/div&gt;
+
+&lt;div class = &#34;idblock&#34;&gt;
+&lt;div class = &#34;idcontainer&#34;&gt;&lt;img class = &#34;idphoto&#34; src=&#34;../images/di_cook.jpg&#34;&gt;&lt;/div&gt;
+[Di Cook](http://dicook.github.io/) is a Professor in the Department of Econometrics &amp; Business Statistics at Monash University. As well as promoting the use of R at Monash, she is a regular mentor on [R Google Summer of Code projects](https://github.com/rstats-gsoc) and has been involved in the organisation of several R conferences, not least the first useR! conference in the US. Following her motto, &#34;Show me the data&#34;, Di is encouraging the task force to prioritize data gathering and analysis. Di was elected to the R Foundation in 2016.
+&lt;/div&gt;
+
+&lt;div class = &#34;idblock&#34;&gt;
+&lt;div class = &#34;idcontainer&#34;&gt;&lt;img class = &#34;idphoto&#34; src=&#34;../images/carolin_strobl.jpg&#34;&gt;&lt;/div&gt;
+[Carolin Strobl](http://www.psychologie.uzh.ch/en/fachrichtungen/methoden/team/carolinstrobl.html) is a Professor in the Department of Psychology at the University of Zurich. She is dedicated to improving statistical and computational literacy within the psychology community and beyond, notably establishing the [Zurich R Courses](http://www.zhrcourses.uzh.ch/en.html) and co-founding the [Psychoco](https://eeecon.uibk.ac.at/psychoco/courses.html) workshops on psychometric computing. Carolin is also interested in the sociological and psychological factors that hinder women in progressing as computer programmers.
+&lt;/div&gt;
+
+&lt;div class = &#34;idblock&#34;&gt;
+&lt;div class = &#34;idcontainer&#34;&gt;&lt;img class = &#34;idphoto&#34; src=&#34;../images/kevin_obrien.jpg&#34;&gt;&lt;/div&gt;
+[Kevin O&#39;Brien](https://ie.linkedin.com/in/kobriendublin) is a freelance statistical consultant and tutor with wide programming expertise, particularly in R, Python and Julia. Kevin founded the Dublin R User Group and has strong links with other data science user groups in Ireland and beyond. He has co-organised many female-friendly coding workshops, in particular through [Coding Grace](https://www.codinggrace.com/), and would like to see more of such events in the R community.
+&lt;/div&gt;
+
+&lt;div class = &#34;idblock&#34;&gt;
+&lt;div class = &#34;idcontainer&#34;&gt;&lt;img class = &#34;idphoto&#34; src=&#34;../images/julie_josse.jpg&#34;&gt;&lt;/div&gt;
+[Julie Josse](http://juliejosse.com/) is a Professor of Statistics at École Polytechnique. Julie was a local organizer for useR! 2009, the first useR! to feature a female keynote speaker, and chair of the first female-majority program committee of useR! in 2016. She is active in promoting R in the French community, for example co-founding the French R board to support the organization of Les Rencontres R (the French R conference). Julie was elected to the R Foundation in 2016.
+
+
+&lt;/div&gt;
+
+&lt;div class = &#34;idblock&#34;&gt;
+&lt;div class = &#34;idcontainer&#34;&gt;&lt;img class = &#34;idphoto&#34; src=&#34;../images/heather_turner.jpg&#34;&gt;&lt;/div&gt;
+[Heather Turner](http://heatherturner.net/) is a freelance statistical programmer and an Associate Fellow of the Statistics Department at the University of Warwick. Heather was the first female editor of The R Journal, becoming editor-in-chief in 2011. She was a local organizer and program chair for useR! 2011 and is the program co-chair for 2017. She was one of the first women to be elected as an ordinary member of the R Foundation and a co-founder of the Women in R task force.
+&lt;/div&gt;
+
+&lt;div class = &#34;idblock&#34;&gt;
+&lt;div class = &#34;idcontainer&#34;&gt;&lt;img class = &#34;idphoto&#34; src=&#34;../images/michael_lawrence.jpg&#34;&gt;&lt;/div&gt;
+[Michael Lawrence](https://www.linkedin.com/in/michael-lawrence-74a9b482) is a computational biologist at Genentech. Michael is a member of [R core](https://www.r-project.org/contributors.html), the team of developers with write access to the base R sources, and on the [Technical Advisory Board](https://www.bioconductor.org/about/advisory-board/) of Bioconductor. He is on the editorial board of The R Journal and was editor-in-chief for 2016. Michael has been a member of the R Foundation since 2014 and was commissioned to set up the Women in R taskforce.
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/data/</guid>
+      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+
+/BLOGDOWN-BODY-BEFORE --&gt;
+
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The taskforce collates data on the gender breakdown and other demographics of contributors to the R project, particularly R Foundation supported activities. For many of the gender summaries the gender is predicted based on first name, giving a rough approximation that assumes binary gender categories.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;packages&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Packages&lt;/h2&gt;
+&lt;div id=&#34;maintainer-gender-2016&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Maintainer Gender 2016&lt;/h3&gt;
+&lt;p&gt;CRAN maintainers as of March 2016 were processed with the &lt;strong&gt;genderizer&lt;/strong&gt; package, which utilizes the &lt;a href=&#34;https://genderize.io/&#34; class=&#34;uri&#34;&gt;https://genderize.io/&lt;/a&gt; API to predict gender from first names, with an associated probability that the prediction is correct. In some cases genderize.io fails to make a prediction, particularly for Asian names, so the results were supplemented by manual predictions based on personal knowledge (with help from Chinese colleagues).&lt;/p&gt;
+&lt;p&gt;Using assignments as given, i.e. treating predictions with probability &amp;gt; 0.5 as correct, 14.8% of the 7854 maintainers were predicted as female. Clearly this is a rough estimate as not all maintainers with the same name will share the same gender. The frequencies could be adjusted by the probabilities, but this would over-estimate the proportion of female maintainers as the probabilities are based on a general population rather than the population of programmers, which is known to be male-dominated. For example genderize.io assigns the name “Robin” as female with probability 0.59, however the proportion of females among CRAN maintainers with the name Robin is around 10%. So a better estimate is obtained by focusing on names that are strongly predictive of gender, i.e. with probability at least 0.8, giving an estimate of 11.4%.&lt;/p&gt;
+&lt;div class=&#34;commentbox&#34;&gt;
+In 2016, 11.4% of package maintainers were women.
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;../images/genderizer_authors.svg&#34; 
+    alt=&#34;histogram of male/female package authors&#34;
+    height = &#34;450px&#34;
+    width = &#34;310px&#34;/&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;author-demographics-2010&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Author Demographics 2010&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.pnas.org/content/112/48/14788.abstract&#34;&gt;Mair, P., Hofmann, E., Gruber, K., Hatzinger, R., Zeleis, A. and Hornik, K. (2015) Motivation, values, and work design as drivers of participation in the R open source project for statistical computing, &lt;em&gt;PNAS&lt;/em&gt;&lt;/a&gt; describes the feedback from 1087 R package authors. The survey was conducted in 2010. Package authors were contacted by email and asked to complete a web form, with a response rate of 27%.&lt;/p&gt;
+&lt;div class=&#34;commentbox&#34;&gt;
+In 2010, 9% of package authors were women.
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;The 95% confidence interval for the proportion of women package authors in 2010 is 7.1-11.0%.&lt;/li&gt;
+&lt;li&gt;32.5% of authors are from the USA, but they are distributed across the globe, including Indonesia, Kenya, Slovenia and Singapore.&lt;/li&gt;
+&lt;li&gt;The average package author was almost 39 years old, 50% of authors are between 30 and 45, and the youngest was 20.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img style = &#34;width:600px&#34; src=&#34;../images/map-authors.png&#34;&gt;&lt;/p&gt;
+&lt;!-- probably flexbox better but okay for now --&gt;
+&lt;div style=&#34;display: flex; justify-content: center&#34;&gt;
+&lt;div&gt;
+&lt;img style=&#34;height:250px&#34; src=&#34;../images/gender-authors.svg&#34;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img style=&#34;height:250px&#34; src=&#34;../images/age-authors.png&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conferences&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Conferences&lt;/h2&gt;
+&lt;p&gt;Data is being collated on past useR! conferences, the plots below show the data gathered so far.&lt;/p&gt;
+&lt;p&gt;&lt;img style=&#34;display: block; margin: 0 auto;&#34; src=&#34;../images/user.svg&#34; width=&#34;600&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;commentbox&#34;&gt;
+2016 saw a rise in the proportion of female attendees from 19% to 28%.
+&lt;/div&gt;
+&lt;p&gt;The proportion of contributed presentations is similar to the proportion of female attendees, showing that women are as likely to contribute and have their contributions accepted as their male counterparts. There was a greater increase in poster contributions from women than lightning or regular talks in 2016, which perhaps reflects a lower level of experience among the newcomers.&lt;/p&gt;
+&lt;p&gt;Plot &lt;strong&gt;c&lt;/strong&gt; shows groups that are more heavily selected. The numbers of female invited speakers has increased from zero in the early years (2004-2008) through one in later years (2009-2013) to two in recent years - this is the level that useR! is seeking to maintain for now. The number of tutorials with a female tutor was decreasing since 2007, but went up again to 1/3 in 2016. This is the target for 2017. useR! does not always have panel sessions, but apart from a panel in 2014 on women in the R community, women have been poorly represented. This is something useR! plans to address in any future panels.&lt;/p&gt;
+&lt;p&gt;The last plot shows invited organisational roles. Data on session chairs is only available for a few years, but recently the proportion of women has been similar that of attendees. The proportion of female committee members has been slowly rising to parity over the history of useR! (with an unusal high in 2007 when Di Cook, a taskforce member was a key organiser). The make-up of the local organising committee is much more variable, partly because the size of the committee changes a lot according to local needs. In recent years the proportion of women on the comittee has been similar to or greater than that of attendees.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;!-- BLOGDOWN-HEAD
+
+
+
+
+
+
+/BLOGDOWN-HEAD --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/data/</guid>
+      <description>
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;The taskforce collates data on the gender breakdown and other demographics of
+contributors to the R project, particularly R Foundation supported activities.
+For many of the gender summaries the gender is predicted based on first name,
+giving a rough approximation that assumes binary gender categories.&lt;/p&gt;
+
+&lt;h2 id=&#34;packages&#34;&gt;Packages&lt;/h2&gt;
+
+&lt;h3 id=&#34;maintainer-gender-2016&#34;&gt;Maintainer Gender 2016&lt;/h3&gt;
+
+&lt;p&gt;CRAN maintainers as of March 2016 were processed with the &lt;strong&gt;genderizer&lt;/strong&gt;
+package, which utilizes the &lt;a href=&#34;https://genderize.io/&#34;&gt;https://genderize.io/&lt;/a&gt; API to predict gender from
+first names, with an associated probability that the prediction is correct. In
+some cases genderize.io fails to make a prediction, particularly
+for Asian names, so the results were supplemented by manual predictions based on
+personal knowledge (with help from Chinese colleagues).&lt;/p&gt;
+
+&lt;p&gt;Using assignments as given, i.e. treating predictions with probability &amp;gt; 0.5
+as correct, 14.8% of the 7854 maintainers were predicted as female. Clearly this
+is a rough estimate as not all maintainers with the same name will share the
+same gender. The frequencies could be adjusted by the probabilities, but this
+would over-estimate the proportion of female maintainers as the probabilities
+are based on a general population rather than the population of programmers,
+which is known to be male-dominated. For example genderize.io assigns the name
+&amp;ldquo;Robin&amp;rdquo; as female with probability 0.59, however the proportion of females among
+CRAN maintainers with the name Robin is around 10%. So a better estimate is
+obtained by focusing on names that are strongly predictive of gender, i.e. with
+probability at least 0.8, giving an estimate of 11.4%.&lt;/p&gt;
+
+&lt;div class=&#34;commentbox&#34;&gt;
+In 2016, 11.4% of package maintainers were women. &lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/genderizer_authors.svg&#34; 
+    alt=&#34;histogram of male/female package authors&#34;
+    height = &#34;450px&#34;
+    width = &#34;310px&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;author-demographics-2010&#34;&gt;Author Demographics 2010&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.pnas.org/content/112/48/14788.abstract&#34;&gt;Mair, P., Hofmann, E., Gruber, K., Hatzinger, R., Zeleis, A. and Hornik, K. (2015) Motivation, values, and work design as drivers of participation in the R open source project for statistical computing, &lt;em&gt;PNAS&lt;/em&gt;&lt;/a&gt; describes the feedback from 1087 R package authors. The survey was conducted in 2010. Package authors were contacted by email and asked to complete a web form, with a response rate of 27%.&lt;/p&gt;
+
+&lt;div class=&#34;commentbox&#34;&gt;
+In 2010, 9% of package authors were women. &lt;/div&gt;
+      
+
+&lt;ul&gt;
+&lt;li&gt;The 95% confidence interval for the proportion of women package authors in 2010 is 7.1-11.0%.&lt;/li&gt;
+&lt;li&gt;32.5% of authors are from the USA, but they are distributed across the globe, including Indonesia, Kenya, Slovenia and Singapore.&lt;/li&gt;
+&lt;li&gt;The average package author was almost 39 years old, 50% of authors are between 30 and 45, and the youngest was 20.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img style = &#34;width:600px&#34; src=&#34;../images/map-authors.png&#34;&gt;&lt;/p&gt;
+
+&lt;!-- probably flexbox better but okay for now --&gt;
+
+&lt;div style=&#34;display: flex; justify-content: center&#34;&gt;
+&lt;div&gt;&lt;img style=&#34;height:250px&#34; src=&#34;../images/gender-authors.svg&#34;&gt;&lt;/div&gt;
+&lt;div&gt;&lt;img style=&#34;height:250px&#34; src=&#34;../images/age-authors.png&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;conferences&#34;&gt;Conferences&lt;/h2&gt;
+
+&lt;p&gt;Data is being collated on past useR! conferences, the plots below show the
+data gathered so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;display: block; margin: 0 auto;&#34; src=&#34;../images/user.svg&#34; width=&#34;600&#34;&gt;&lt;/p&gt;
+
+&lt;div class=&#34;commentbox&#34;&gt;
+2016 saw a rise in the proportion of female attendees from 19% to 28%. &lt;/div&gt;
+
+&lt;p&gt;The proportion of contributed presentations is similar to the proportion of female
+attendees, showing that women are as likely to contribute and have their
+contributions accepted as their male counterparts. There was a greater increase
+in poster contributions from women than lightning or regular talks in 2016,
+which perhaps reflects a lower level of experience among the newcomers.&lt;/p&gt;
+
+&lt;p&gt;Plot &lt;strong&gt;c&lt;/strong&gt; shows groups that are more heavily selected. The numbers of female
+invited speakers has increased from zero in the early years (2004-2008) through
+one in later years (2009-2013) to two in recent years - this is the level that
+useR! is seeking to maintain for now. The number of tutorials with a female tutor was
+decreasing since 2007, but went up again to &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; in 2016. This is the target for
+2017. useR! does not always have panel sessions, but apart from a panel in 2014
+on women in the R community, women have been poorly represented. This is
+something useR! plans to address in any future panels.&lt;/p&gt;
+
+&lt;p&gt;The last plot shows invited organisational roles. Data on session chairs is
+only available for a few years, but recently the proportion of women has been
+similar that of attendees. The proportion of female committee members has been
+slowly rising to parity over the history of useR! (with an unusal high in 2007
+when Di Cook, a taskforce member was a key organiser). The make-up of the local
+organising committee is much more variable, partly because the size of the
+committee changes a lot according to local needs. In recent years the proportion
+of women on the comittee has been similar to or greater than that of attendees.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
