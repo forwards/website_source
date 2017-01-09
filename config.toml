@@ -28,7 +28,7 @@ pluralizelisttitles = false
     date_format = "2006-01-02"
 
     # Add custom assets with their paths relative to the static folder
-	custom_css = []
+	custom_css = ["css/custom.css"]
 	custom_js  = []
 
 # Create custom menu entries by defining a label and a link for

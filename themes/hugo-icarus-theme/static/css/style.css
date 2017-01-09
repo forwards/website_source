@@ -189,9 +189,6 @@ code {
     width: 52.307692307692314%;
     margin: 0 0.769230769230769%;
   }
-  .no-sidebar {
-    width: 73.8461538461539% !important;
-  }
 }
 @media screen and (min-width: 800px) and (max-width: 1199px) {
   #main {
@@ -199,9 +196,6 @@ code {
     float: left;
     width: 67.6923076923077%;
     margin: 0 0.769230769230769%;
-  }
-  .no-sidebar {
-    width: 100% !important;
   }
 }
 .archive-article-header a,
@@ -2160,45 +2154,4 @@ ol.toc {
 .highlight .code .type,
 .highlight .code .selector-id {
   font-weight: bold;
-}
-
-/* centre id photo in container */
-.idblock {
-    clear: both;
-}
-.idcontainer {
-    float: left;
-    margin: 10px 5px 0 5px;
-    height: 90px;
-    width: 120px;
-    position: relative;
-}
-.idphoto {
-     max-height: 100%;  
-    max-width: 100%; 
-    width: auto;
-    height: auto;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;
-}
-/* highlight div based on flatly well */
-.commentbox {
-  text-align: center;
-  color: #565a5f;
-  font-size: 130%;
-  min-height: 20px;
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #ecf0f1;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
