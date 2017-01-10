@@ -2,7 +2,7 @@
 title = "Introducing Icarus and its features"
 date = "2015-10-10T16:56:43+02:00"
 tags = ["theme", "hugo", "static sites"]
-categories = []
+categories = ["example"]
 menu = ""
 images = []
 banner = "banners/placeholder.png"
