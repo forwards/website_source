@@ -49,3 +49,31 @@
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
+/* fix header */
+#header {
+  position: fixed;
+  width: 100%;
+  z-index:1000;
+}
+/* drop profile/main/sidebar */
+#profile {
+  position: fixed;
+}
+@media screen and (min-width: 1320px) {
+  #profile {
+    width: 284px;
+    margin-top: 48px;
+  }
+}
+#main {
+  margin-top: 48px;
+}
+@media screen and (min-width: 1200px) {
+  #main {
+    margin-left: calc(21.53846153846154% + 3 * 0.76923076923076923%);
+  }
+}
+#sidebar {
+  margin-top: 48px;
+}
+/* TOC */

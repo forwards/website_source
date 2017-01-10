@@ -3,11 +3,6 @@
 <div id="container">
 	{{ partial "header" . }}
    	<div class="outer">
-   	    {{ if .Params.toc }}
-   	        <div id="toc">
-                {{ .TableOfContents }}
-            </div>
-        {{ end }}   	        
    	    {{ partial "profile" . }}
 	    {{ partial "static" . }}
 	</div>
