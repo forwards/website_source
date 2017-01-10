@@ -6,7 +6,7 @@
     <description>Recent content in Blog on FORWARDS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Forwards. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <copyright>Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice).</copyright>
     <lastBuildDate>Sat, 10 Oct 2015 16:56:43 +0200</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     

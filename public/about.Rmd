@@ -4,8 +4,7 @@ title: "About"
 
 ## Background
 
-The Women in R task force was set up by the [R Foundation](https://www.r-project.org/foundation/) in December 
-2015 to address the underrepresentation of women among contributors to the R
+The task force was set up by the [R Foundation](https://www.r-project.org/foundation/) in December 2015 to address the underrepresentation of women among contributors to the R
 project and in the R community more generally.
 
 The members of the task force were invited to participate based on their 

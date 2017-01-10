@@ -6,7 +6,7 @@
     <description>Recent content on FORWARDS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Forwards. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <copyright>Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice).</copyright>
     <lastBuildDate>Sat, 10 Oct 2015 16:56:43 +0200</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -295,7 +295,7 @@ disable_widgets = true
 
 &lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Background&lt;/h2&gt;
-&lt;p&gt;The Women in R task force was set up by the &lt;a href=&#34;https://www.r-project.org/foundation/&#34;&gt;R Foundation&lt;/a&gt; in December 2015 to address the underrepresentation of women among contributors to the R project and in the R community more generally.&lt;/p&gt;
+&lt;p&gt;The task force was set up by the &lt;a href=&#34;https://www.r-project.org/foundation/&#34;&gt;R Foundation&lt;/a&gt; in December 2015 to address the underrepresentation of women among contributors to the R project and in the R community more generally.&lt;/p&gt;
 &lt;p&gt;The members of the task force were invited to participate based on their interest in addressing the gender imbalance and their contributions in this area, as well as to give a reasonable balance of different genders, different geographic regions, different work contexts, different career stages and different aspects of the R project (e.g. CRAN and Bioconductor).&lt;/p&gt;
 &lt;p&gt;The task force is happy to engage with other individuals and organisations (such as &lt;a href=&#34;http://r-ladies.org&#34;&gt;R-ladies&lt;/a&gt;) that are concerned about this issue and actively seeks outside contributions on specific tasks.&lt;/p&gt;
 &lt;/div&gt;
