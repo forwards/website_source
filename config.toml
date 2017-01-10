@@ -21,7 +21,7 @@ pluralizelisttitles = false
     location = ""
     site_description = "R Foundation taskforce on women and other under-represented groups."
     copyright  = "Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice)."
-    avatar = "images/forwards3.png"
+    avatar = "images/forwards.svg"
     logo = ""
 
     # Format dates with Go's time formatting
