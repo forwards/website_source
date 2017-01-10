@@ -6,10 +6,7 @@
    	<div class="outer">
    		{{ if .IsPage | and (not .Params.disable_profile) }}
 	    {{ partial "profile" . }}
-	    {{ end }}
-        {{ if .Params.toc }}
-   	        {{ .TableOfContents }}
-        {{ end }}   
+	    {{ end }}   
 	    {{ partial "single_article" . }}
 
 	    {{ if .IsPage | and (not .Params.disable_widgets) }}

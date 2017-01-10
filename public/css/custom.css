@@ -53,16 +53,17 @@
 #header {
   position: fixed;
   width: 100%;
-  z-index:1000;
+  z-index:999;
 }
 /* drop profile/main/sidebar */
 #profile {
   position: fixed;
+  margin-top: 48px;
+  z-index:1000;    
 }
 @media screen and (min-width: 1320px) {
   #profile {
     width: 284px;
-    margin-top: 48px;
   }
 }
 #main {
@@ -76,4 +77,35 @@
 #sidebar {
   margin-top: 48px;
 }
+#profile.card {
+  position: fixed;
+  margin-top: -24px;
+}
 /* TOC */
+/* make room for navbar when jump to link */
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
+#TableOfContents {
+    padding: 5px 10px;
+}
+#TableOfContents li li {
+    font-size: 130%;
+}
+#TableOfContents li li li{
+    font-size: 70%;
+    margin-left: 10%;
+}
+#TableOfContents a {
+    color: #565a5f !important;
+}
+#TableOfContents .active {
+  color: #38b7ea !important;
+}
+#TableOfContents a:hover {
+  color: #38b7ea !important;
+}

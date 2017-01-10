@@ -30,6 +30,8 @@
         $('#profile').toggleClass('card');
     }).on('click', '.profile-inner', function (e) {
         e.stopPropagation();
+        // Also close card if click on link inside (e.g. TOC)
+        $('#profile').removeClass('card');
     });
 
     // To Top

@@ -37,10 +37,9 @@
         </tr>
       </table>
     </div>
-
-   	        <div id="toc">
-                {{ .TableOfContents }}
-            </div>
+   {{ if .Params.toc }}
+       {{ .TableOfContents }}
+   {{ end }}
 
   </div>
 </aside>

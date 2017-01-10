@@ -21,7 +21,7 @@ pluralizelisttitles = false
     location = ""
     site_description = "R Foundation taskforce on women and other under-represented groups."
     copyright  = "Forwards. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
-    avatar = "css/images/forwards3.png"
+    avatar = "images/forwards3.png"
     logo = ""
 
     # Format dates with Go's time formatting
@@ -29,7 +29,7 @@ pluralizelisttitles = false
 
     # Add custom assets with their paths relative to the static folder
 	custom_css = ["css/custom.css"]
-	custom_js  = []
+	custom_js  = ["js/scrollspy.js"]
 
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the
