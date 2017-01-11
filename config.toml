@@ -60,6 +60,11 @@ pluralizelisttitles = false
     before = true
     label  = "Blog"
     link   = "blog/"
+    
+[[params.menu]]
+    before = true
+    label  = "Docs"
+    link   = "docs/"    
 
 # Enter a link for the follow button on the left
 [params.profile]

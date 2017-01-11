@@ -1,0 +1,9 @@
+<h3>Reports</h3>
+<ul class="category-list">
+   {{ range (where .Site.Pages "Type" "report") }}
+    <li>
+        <p class="item-title"><a href="{{ .Permalink }}" class="title">{{ .Title }}</a></p>
+    </li>
+    {{ end }}
+</ul>
+           

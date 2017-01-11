@@ -1,0 +1,23 @@
+{{ partial "head" . }}
+
+<div id="container">
+	{{ partial "header" . }}
+   	<div class="outer">
+   	    {{ partial "profile" . }}
+   	    <section id="main" class="no-sidebar">
+            <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+                <div class="article-inner">
+                    <div class="article-entry" itemprop="articleBody">
+	                {{ partial "reports" . }}
+	                {{ partial "other" . }}
+	                </div>
+                </div>
+            </article>
+            <div id="toTop" class="fa fa-angle-up"></div>
+        </section>
+	</div>
+</div>
+
+{{ partial "footer" . }}
+</body>
+</html>

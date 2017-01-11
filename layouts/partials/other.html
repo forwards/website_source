@@ -1,0 +1,9 @@
+<h3>Other</h3>
+<ul class="category-list">
+   {{ range (where .Site.Pages "Type" "other") }}
+    <li>
+        <p class="item-title"><a href="{{ .Permalink }}" class="title">{{ .Title }}</a></p>
+    </li>
+    {{ end }}
+</ul>
+           
