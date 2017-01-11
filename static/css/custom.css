@@ -82,30 +82,19 @@
   margin-top: -24px;
 }
 /* TOC */
-/* make room for navbar when jump to link */
-*[id]:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -75px; 
-  height: 75px; 
-  visibility: hidden; 
-}
-#TableOfContents {
+#TOC {
     padding: 5px 10px;
 }
-#TableOfContents li li {
+#TOC li {
     font-size: 130%;
 }
-#TableOfContents li li li{
+#TOC .tocify-subheader {
     font-size: 80%;
     margin-left: 10%;
 }
-#TableOfContents a {
-    color: #565a5f !important;
-}
-#TableOfContents .active {
+#TOC .active {
   color: #38b7ea !important;
 }
-#TableOfContents a:hover {
+#TOC li:hover {
   color: #38b7ea !important;
 }

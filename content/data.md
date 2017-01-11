@@ -1,6 +1,6 @@
 ---
 title: Data
-toc: true
+tocify: true
 ---
 
 ## Overview

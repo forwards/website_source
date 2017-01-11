@@ -29,7 +29,8 @@ pluralizelisttitles = false
 
     # Add custom assets with their paths relative to the static folder
 	custom_css = ["css/custom.css"]
-	custom_js  = ["js/scrollspy.js"]
+	custom_js  = ["js/jqueryui-1.11.4/jquery-ui.min.js", 
+	              "js/tocify-1.9.1/jquery.tocify.js"]
 
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the

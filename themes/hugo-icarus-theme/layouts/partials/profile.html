@@ -37,8 +37,9 @@
         </tr>
       </table>
     </div>
-   {{ if .Params.toc }}
-       {{ .TableOfContents }}
+   {{ if .Params.tocify }}
+       <div id="TOC">
+       </div>
    {{ end }}
 
   </div>
