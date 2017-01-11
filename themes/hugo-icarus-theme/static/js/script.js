@@ -36,22 +36,21 @@
     });
 
     // To Top
-    if ($('#sidebar').length) {
-        $(document).on('scroll', function () {
-            if ($(document).width() >= 800) {
-                if(($(this).scrollTop() > toTop) && ($(this).scrollTop() > 0)) {
-                    $('#toTop').fadeIn();
-                    $('#toTop').css('left', $('#sidebar').offset().left);
-                } else {
-                    $('#toTop').fadeOut();
-                }
-            } else {
+    // modify so also appears on pages without sidebar //
+    $(document).on('scroll', function () {
+        if ($(document).width() >= 800) {
+            if(($(this).scrollTop() > toTop) && ($(this).scrollTop() > 0)) {
                 $('#toTop').fadeIn();
                 $('#toTop').css('right', 20);
+            } else {
+                $('#toTop').fadeOut();
             }
-        }).on('click', '#toTop', function () {
-            $('body, html').animate({ scrollTop: 0 }, 600);
-        });
-    }
+        } else {
+            $('#toTop').fadeIn();
+            $('#toTop').css('right', 20);
+        }
+    }).on('click', '#toTop', function () {
+        $('body, html').animate({ scrollTop: 0 }, 600);
+    });
 
 })(jQuery);
