@@ -5,11 +5,8 @@
 
     <div class="outer">
     {{ partial "profile" . }}
-    {{ range .Data.Pages }}
-    {{ if eq .Type "index" }} 
-        {{ partial "static" . }}
-    {{ end }}
-    {{ end }}
+    {{ partial "article_list" . }}
+    {{ partial "sidebar" . }}
     </div>
 </div>
 

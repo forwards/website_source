@@ -54,6 +54,37 @@
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="../site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+
+
+<script>
+$(document).ready(function ()  {
+
+    
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.article-entry',
+      hashGenerator: function (text) {
+        return text.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 70
+    };
+    options.showAndHide = true;
+    options.showAndHideOnScroll = true;
+    options.smoothScroll = true;
+
+    
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 </head>
 <body>
 <div class="container">
@@ -85,9 +116,15 @@
           <a class="main-nav-link" href="../blog/">Blog</a>
           
           
+          
+          <a class="main-nav-link" href="../docs/">Docs</a>
+          
+          
 
           
 
+          
+          
           
           
           
@@ -134,9 +171,15 @@
           <td><a class="main-nav-link" href="../blog/">Blog</a></td>
           
           
+          
+          <td><a class="main-nav-link" href="../docs/">Docs</a></td>
+          
+          
 
           
 
+          
+          
           
           
           
@@ -366,12 +409,14 @@ Forwards logo is licensed under
 </footer>
 
 
-
+<script src="../fancybox/jquery.fancybox.pack.js"></script>
 <script src="../js/script.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<script src="../js/scrollspy.js"></script>
+<script src="../js/jqueryui-1.11.4/jquery-ui.min.js"></script>
+
+<script src="../js/tocify-1.9.1/jquery.tocify.js"></script>
 
 
 <!-- MathJax -->
