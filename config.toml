@@ -1,4 +1,5 @@
-baseurl = "https://example.org/"
+baseurl = "http://forwards.github.io/"
+publishDir = "../forwards.github.io"
 languageCode = "en-us"
 title = "FORWARDS"
 # Enable comments by entering your Disqus shortname
