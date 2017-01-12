@@ -42,6 +42,15 @@ paths <- grid.grep(gPath("gTree", "gTree", "picComplexPath"),
 grid.gradientFill(paths[[2]], fill)
 grid.export("RForwardsLogo-gridSVG.svg")
 
+# white version
+gridSVG.newpage()
+grid.rect(gp=gpar(col=NA, fill="white"))
+grid.picture(Rlogo, ext="gridSVG")
+paths <- grid.grep(gPath("gTree", "gTree", "picComplexPath"),
+                   grep=TRUE, global=TRUE, strict=TRUE)
+grid.gradientFill(paths[[2]], fill)
+grid.export("RForwardsLogo-gridSVG-white.svg")
+
 # Adding the "FORWARDS"
 # First draw the label using (Cairo) SVG device, so we can capture
 # it as a shape
@@ -98,9 +107,13 @@ for (i in seq_along(letters)) {
 grid.export("forwards.svg")
 
 # extra code to create favicon
-# but want without "FORWARDS!"
 library(rsvg)
-convertPicture("forwards.svg", "forwards-cairo.svg")
-forwards <- readPicture("forwards-cairo.svg")
-rsvg_png("forwards.svg", "forwards.ico", 
+rsvg_png("RForwardsLogo-gridSVG-white.svg", "../favicon.ico",
          width = 48, height = 48)
+rsvg_png("RForwardsLogo-gridSVG-white.svg", "../apple-touch-icon.png",
+         width = 256, height = 256)
+
+# tidy up
+img <- setdiff(list.files(pattern = ".svg"),
+               c("forwards.svg", "Rlogo.svg"))
+sapply(img, file.remove)
