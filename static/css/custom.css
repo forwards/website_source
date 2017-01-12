@@ -98,3 +98,7 @@
 #TOC li:hover {
   color: #38b7ea !important;
 }
+/* main section */
+.article-inner {
+    min-height: 365px;
+}
