@@ -2,7 +2,6 @@
 tags : []
 categories : []
 description : ""
-menu : ""
 banner : ""
-images : []
+tocify: false
 ---

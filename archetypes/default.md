@@ -1,3 +1,3 @@
 ---
-date: ""
+tocify: false
 ---
