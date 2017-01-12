@@ -16,7 +16,7 @@ pluralizelisttitles = false
 
 [params]
     # Tell me who you are
-    author = "R Foundation taskforce on women and other underrepresented groups"
+    author = "R Foundation taskforce on women and other under-represented groups"
     bio = ""
     location = ""
     site_description = "R Foundation taskforce on women and other under-represented groups."
@@ -56,10 +56,10 @@ pluralizelisttitles = false
     link   = "data/"
 
 # for when blog goes in
-[[params.menu]]
-    before = true
-    label  = "Blog"
-    link   = "blog/"
+# [[params.menu]]
+#    before = true
+#    label  = "Blog"
+#    link   = "blog/"
     
 [[params.menu]]
     before = true

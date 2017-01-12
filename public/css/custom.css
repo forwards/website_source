@@ -102,3 +102,7 @@
 .article-inner {
     min-height: 365px;
 }
+/* doc lists */
+ul.doctype-list li {
+    list-style: none;
+}

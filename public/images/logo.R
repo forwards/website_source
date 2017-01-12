@@ -1,10 +1,12 @@
 # code contributed by Paul Murrell to convert R logo to Forwards logo
 
 # grConvert 0.1-0
+# https://sjp.co.nz/projects/grconvert/
 library(grConvert)
 convertPicture("Rlogo.svg", "Rlogo-cairo.svg")
 
 # grImport2 0.1-3
+# https://sjp.co.nz/projects/grimport2/
 library(grImport2)
 Rlogo <- readPicture("Rlogo-cairo.svg")
 
@@ -15,6 +17,7 @@ grid.rect(gp=gpar(col=NA, fill="grey80"))
 grid.picture(Rlogo)
 
 # With gridSVG 1.5-1
+# install.packages("gridSVG", repos="http://R-Forge.R-project.org")
 library(gridSVG)
 gridsvg("Rlogo-gridSVG.svg")
 grid.picture(Rlogo, ext="gridSVG")
@@ -38,6 +41,15 @@ paths <- grid.grep(gPath("gTree", "gTree", "picComplexPath"),
                    grep=TRUE, global=TRUE, strict=TRUE)
 grid.gradientFill(paths[[2]], fill)
 grid.export("RForwardsLogo-gridSVG.svg")
+
+# white version
+gridSVG.newpage()
+grid.rect(gp=gpar(col=NA, fill="white"))
+grid.picture(Rlogo, ext="gridSVG")
+paths <- grid.grep(gPath("gTree", "gTree", "picComplexPath"),
+                   grep=TRUE, global=TRUE, strict=TRUE)
+grid.gradientFill(paths[[2]], fill)
+grid.export("RForwardsLogo-gridSVG-white.svg")
 
 # Adding the "FORWARDS"
 # First draw the label using (Cairo) SVG device, so we can capture
@@ -94,3 +106,14 @@ for (i in seq_along(letters)) {
 }
 grid.export("forwards.svg")
 
+# extra code to create favicon
+library(rsvg)
+rsvg_png("RForwardsLogo-gridSVG-white.svg", "../favicon.ico",
+         width = 48, height = 48)
+rsvg_png("RForwardsLogo-gridSVG-white.svg", "../apple-touch-icon.png",
+         width = 256, height = 256)
+
+# tidy up
+img <- setdiff(list.files(pattern = ".svg"),
+               c("forwards.svg", "Rlogo.svg"))
+sapply(img, file.remove)

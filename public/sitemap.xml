@@ -2,18 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/blog/2015/10/10/introducing-icarus-and-its-features</loc>
-    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/nonresponse_weighting/</loc>
-    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/</loc>
-    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+    <loc>/docs/nonresponse_useR2016_survey/</loc>
+    <lastmod>2016-10-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -25,52 +15,18 @@
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/data/</loc>
   </url>
   
   <url>
-    <loc>/categories/example/</loc>
-    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+    <loc>/docs/</loc>
+    <lastmod>2016-10-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/static-sites/</loc>
-    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/theme/</loc>
-    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+    <lastmod>2016-10-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

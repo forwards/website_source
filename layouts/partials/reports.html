@@ -1,8 +1,8 @@
 <h3>Reports</h3>
-<ul class="category-list">
+<ul class="doctype-list">
    {{ range (where .Site.Pages "Type" "report") }}
     <li>
-        <p class="item-title"><a href="{{ .Permalink }}" class="title">{{ .Title }}</a></p>
+        <p class="item-title"><a href="{{ .Permalink }}" class="title"><time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>: {{ .Title }}</a></p>
     </li>
     {{ end }}
 </ul>
