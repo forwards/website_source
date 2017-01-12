@@ -1,10 +1,12 @@
 # code contributed by Paul Murrell to convert R logo to Forwards logo
 
 # grConvert 0.1-0
+# https://sjp.co.nz/projects/grconvert/
 library(grConvert)
 convertPicture("Rlogo.svg", "Rlogo-cairo.svg")
 
 # grImport2 0.1-3
+# https://sjp.co.nz/projects/grimport2/
 library(grImport2)
 Rlogo <- readPicture("Rlogo-cairo.svg")
 
@@ -15,6 +17,7 @@ grid.rect(gp=gpar(col=NA, fill="grey80"))
 grid.picture(Rlogo)
 
 # With gridSVG 1.5-1
+# install.packages("gridSVG", repos="http://R-Forge.R-project.org")
 library(gridSVG)
 gridsvg("Rlogo-gridSVG.svg")
 grid.picture(Rlogo, ext="gridSVG")
@@ -94,3 +97,10 @@ for (i in seq_along(letters)) {
 }
 grid.export("forwards.svg")
 
+# extra code to create favicon
+# but want without "FORWARDS!"
+library(rsvg)
+convertPicture("forwards.svg", "forwards-cairo.svg")
+forwards <- readPicture("forwards-cairo.svg")
+rsvg_png("forwards.svg", "forwards.ico", 
+         width = 48, height = 48)
