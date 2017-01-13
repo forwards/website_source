@@ -14,8 +14,7 @@ in general as it works to broaden the participation of women in the R
 community.
 
 In order to adequately address such issues, we would like to widen the 
-diversity of the taskforce itself and invite individuals belonging to 
-under-represented groups, especially women, to join us.
+diversity of the taskforce itself. Accordingly, we are inviting people who are part of under-represented groups - be they groups identified by race, gender, sexuality, class or diability - to join us.
 
 The taskforce has teleconferences once every two months, although as the 
 taskforce is spread globally it isn't possible for all members to attend 
