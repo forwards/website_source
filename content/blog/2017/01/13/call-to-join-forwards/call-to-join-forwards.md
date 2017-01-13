@@ -2,7 +2,7 @@
 banner: "/blog/2017/01/13/call-for-participation/wocintech_meeting.jpg"
 categories: ["news"]
 date: 2017-01-13T13:07:01Z
-description: ""
+description: "Inviting New Members to join Forwards"
 tags: ["action"]
 title: Call to Join Forwards
 tocify: false

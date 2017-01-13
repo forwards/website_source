@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>news on FORWARDS</title>
+    <title>FORWARDS</title>
     <link>/categories/news/index.xml</link>
-    <description>Recent content in news on FORWARDS</description>
+    <description>Recent content on FORWARDS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice).</copyright>
@@ -21,8 +21,7 @@ in general as it works to broaden the participation of women in the R
 community.&lt;/p&gt;
 
 &lt;p&gt;In order to adequately address such issues, we would like to widen the
-diversity of the taskforce itself and invite individuals belonging to
-under-represented groups, especially women, to join us.&lt;/p&gt;
+diversity of the taskforce itself. Accordingly, we are inviting people who are part of under-represented groups - be they groups identified by race, gender, sexuality, class or diability - to join us.&lt;/p&gt;
 
 &lt;p&gt;The taskforce has teleconferences once every two months, although as the
 taskforce is spread globally it isn&amp;rsquo;t possible for all members to attend

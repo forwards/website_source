@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on FORWARDS</title>
+    <title>Blog-rss on FORWARDS</title>
     <link>/blog/index.xml</link>
-    <description>Recent content in Blog on FORWARDS</description>
+    <description>Recent content in Blog-rss on FORWARDS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice).</copyright>
@@ -22,8 +22,7 @@ in general as it works to broaden the participation of women in the R
 community.&lt;/p&gt;
 
 &lt;p&gt;In order to adequately address such issues, we would like to widen the
-diversity of the taskforce itself and invite individuals belonging to
-under-represented groups, especially women, to join us.&lt;/p&gt;
+diversity of the taskforce itself. Accordingly, we are inviting people who are part of under-represented groups - be they groups identified by race, gender, sexuality, class or diability - to join us.&lt;/p&gt;
 
 &lt;p&gt;The taskforce has teleconferences once every two months, although as the
 taskforce is spread globally it isn&amp;rsquo;t possible for all members to attend
@@ -232,15 +231,15 @@ for R Foundation supported activities.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;See our supplementary report &lt;a href=&#34;http://forwards.github.io/docs/nonresponse_useR2016_survey/&#34; class=&#34;uri&#34;&gt;http://forwards.github.io/docs/nonresponse_useR2016_survey/&lt;/a&gt;&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.nsf.gov/statistics/wmpd/2013/digest/theme2_1.cfm&#34; class=&#34;uri&#34;&gt;https://www.nsf.gov/statistics/wmpd/2013/digest/theme2_1.cfm&lt;/a&gt;&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.census.gov/prod/2013pubs/acs-24.pdf&#34; class=&#34;uri&#34;&gt;https://www.census.gov/prod/2013pubs/acs-24.pdf&lt;/a&gt;&lt;a href=&#34;#fnref3&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Native Americans are technically overrepresented, but given the small numbers we’re dealing with here that probably isn’t meaningful - see &lt;a href=&#34;https://www.nsf.gov/od/oia/activities/ceose/reports/Full_2011-2012_CEOSE_Report_to_Congress_Final_03-04-2014.pdf&#34; class=&#34;uri&#34;&gt;https://www.nsf.gov/od/oia/activities/ceose/reports/Full_2011-2012_CEOSE_Report_to_Congress_Final_03-04-2014.pdf&lt;/a&gt;&lt;a href=&#34;#fnref4&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.census.gov/quickfacts/table/PST045215/00&#34; class=&#34;uri&#34;&gt;https://www.census.gov/quickfacts/table/PST045215/00&lt;/a&gt;&lt;a href=&#34;#fnref5&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn6&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://www.nber.org/papers/w19508.pdfs&#34; class=&#34;uri&#34;&gt;http://www.nber.org/papers/w19508.pdfs&lt;/a&gt;&lt;a href=&#34;#fnref6&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn7&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/&#34; class=&#34;uri&#34;&gt;http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/&lt;/a&gt;&lt;a href=&#34;#fnref7&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn8&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://spartanideas.msu.edu/2014/05/05/pycon-2014-community-community-community-also-childcare/&#34; class=&#34;uri&#34;&gt;http://spartanideas.msu.edu/2014/05/05/pycon-2014-community-community-community-also-childcare/&lt;/a&gt;&lt;a href=&#34;#fnref8&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn9&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.r-project.org/behaviour.html&#34; class=&#34;uri&#34;&gt;https://www.r-project.org/behaviour.html&lt;/a&gt;&lt;a href=&#34;#fnref9&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;See our supplementary report &lt;em&gt;&lt;a href=&#34;http://forwards.github.io/docs/nonresponse_useR2016_survey/&#34;&gt;Non-Responses in the UseR! 2016 Survey&lt;/a&gt;&lt;/em&gt;&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;National Science Foundation (2013) &lt;em&gt;&lt;a href=&#34;https://www.nsf.gov/statistics/wmpd/2013/digest/theme2_1.cfm&#34;&gt;Women, Minorities, and Persons with Disabilities in Science and Engineering&lt;/a&gt;&lt;/em&gt;&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Landivar (2013) &lt;em&gt;&lt;a href=&#34;https://www.census.gov/prod/2013pubs/acs-24.pdf&#34;&gt;Disparities in STEM Employment by Sex, Race, and Hispanic Origin&lt;/a&gt;&lt;/em&gt;&lt;a href=&#34;#fnref3&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Native Americans are technically overrepresented, but given we’re talking about single digits of attendees here that probably isn’t meaningful - see CEOSE (2012) &lt;em&gt;&lt;a href=&#34;https://www.nsf.gov/od/oia/activities/ceose/reports/Full_2011-2012_CEOSE_Report_to_Congress_Final_03-04-2014.pdf&#34;&gt;Biennial Report to Congress&lt;/a&gt;&lt;/em&gt;&lt;a href=&#34;#fnref4&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.census.gov/quickfacts/table/PST045215/00&#34;&gt;United States Census&lt;/a&gt;&lt;/em&gt;&lt;a href=&#34;#fnref5&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn6&#34;&gt;&lt;p&gt;Coffman (2013) &lt;em&gt;&lt;a href=&#34;http://www.nber.org/papers/w19508.pdfs&#34;&gt;The Size of the LGBT Population and the Magnitude of Anti-Gay Sentiment are Substantially Underestimated&lt;/a&gt;&lt;/em&gt;&lt;a href=&#34;#fnref6&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn7&#34;&gt;&lt;p&gt;Gates (2011) &lt;em&gt;&lt;a href=&#34;How%20Many%20People%20are%20Lesbian,%20Gay,%20Bisexual%20and%20Transgender?&#34;&gt;http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/&lt;/a&gt;&lt;/em&gt;&lt;a href=&#34;#fnref7&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn8&#34;&gt;&lt;p&gt;Brown (2014) &lt;em&gt;&lt;a href=&#34;http://spartanideas.msu.edu/2014/05/05/pycon-2014-community-community-community-also-childcare/&#34;&gt;PyCon 2014: Community, community, community. Also, childcare.&lt;/a&gt;&lt;/em&gt;&lt;a href=&#34;#fnref8&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn9&#34;&gt;&lt;p&gt;R Foundation (2015) &lt;em&gt;&lt;a href=&#34;Codes%20of%20Conduct%20at%20R%20Conferences&#34;&gt;https://www.r-project.org/behaviour.html&lt;/a&gt;&lt;/em&gt;&lt;a href=&#34;#fnref9&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 

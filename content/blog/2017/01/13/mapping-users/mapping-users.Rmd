@@ -2,6 +2,7 @@
 title: "Mapping useRs"
 date: 2017-01-13
 tags : ["useR!", "survey", "demographics"]
+description: "Inviting New Members to join Forwards"
 categories : ["analysis"]
 menu : ""
 images : []
