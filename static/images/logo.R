@@ -119,6 +119,7 @@ rsvg_png("RForwardsLogo-gridSVG-white.svg", "../apple-touch-icon.png",
          width = 256, height = 256)
 
 # tidy up
-img <- setdiff(list.files(pattern = ".svg"),
+img <- setdiff(list.files(pattern = "(.svg|.pdf|.png)"),
                c("forwards.svg", "Rlogo.svg"))
 sapply(img, file.remove)
+

@@ -13,6 +13,8 @@ Find out more [about](about.html) the task force.
 <!-- need to use <a></a> here as markdown href don't seem to work in div -->
 ## News
 
+*2017/01/13* Open call to join the taskforce, [further details](/blog/2017/01/13/call-to-join-forwards/).
+
 *2016/11/13* Heather Turner's presentation from <a href="http://erum.ue.poznan.pl/">eRum 2016</a>, "Addressing the Gender Gap in the R Project", now on <a href=https://www.youtube.com/watch?v=fp6JY7cirww&list=PLCsJUtCRSFbejqCqAURNVOFFpoDCMeuO5>YouTube</a> [<a href="http://rpubs.com/hturner/eRum2016">slides</a>].
 
 *2016/11/04* Jenny Bryan, Di Cook and Julie Josse are elected as ordinary members of the R Foundation, bringing the total number of women to 5 out of 37.

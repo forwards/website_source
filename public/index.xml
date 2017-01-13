@@ -7,8 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Fri, 13 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jan 2017 13:07:01 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Call to Join Forwards</title>
+      <link>/blog/2017/01/13/call-to-join-forwards</link>
+      <pubDate>Fri, 13 Jan 2017 13:07:01 +0000</pubDate>
+      
+      <guid>/blog/2017/01/13/call-to-join-forwards</guid>
+      <description>&lt;p&gt;Forwards, the R Foundation taskforce on women and other under-represented
+groups, is seeking to address issues affecting under-represented groups
+in general as it works to broaden the participation of women in the R
+community.&lt;/p&gt;
+
+&lt;p&gt;In order to adequately address such issues, we would like to widen the
+diversity of the taskforce itself and invite individuals belonging to
+under-represented groups, especially women, to join us.&lt;/p&gt;
+
+&lt;p&gt;The taskforce has teleconferences once every two months, although as the
+taskforce is spread globally it isn&amp;rsquo;t possible for all members to attend
+every time. Therefore online communication is also important and there are
+occasional meetings within subteams. Subteams work on specific tasks, such
+as data collection and analysis, social media, or working on recommendations
+for R Foundation supported activities.&lt;/p&gt;
+
+&lt;p&gt;To express your interest or ask for further information, contact us at
+&lt;a href=&#34;mailto:rowforwards@gmail.com&#34;&gt;rowforwards@gmail.com&lt;/a&gt; by 31 January 2017.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Credit: Banner image by &lt;a href=&#34;www.wocintechchat.com/blog/wocintechphotos&#34;&gt;#WOCinTech Chat&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Mapping useRs</title>
@@ -613,6 +642,7 @@ We plan to collate such statistics on the Task Force webpage (&lt;a href=&#34;ht
 &lt;div style=&#34;width:50%&#34;&gt;
 &lt;!-- need to use &lt;a&gt;&lt;/a&gt; here as markdown href don&#39;t seem to work in div --&gt;
 &lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;2017/01/13&lt;/em&gt; Open call to join the taskforce, &lt;a href=&#34;./blog/2017/01/13/call-to-join-forwards/&#34;&gt;further details&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;2016/11/13&lt;/em&gt; Heather Turner’s presentation from &lt;a href=&#34;http://erum.ue.poznan.pl/&#34;&gt;eRum 2016&lt;/a&gt;, “Addressing the Gender Gap in the R Project”, now on &lt;a href=https://www.youtube.com/watch?v=fp6JY7cirww&amp;list=PLCsJUtCRSFbejqCqAURNVOFFpoDCMeuO5&gt;YouTube&lt;/a&gt; [&lt;a href=&#34;http://rpubs.com/hturner/eRum2016&#34;&gt;slides&lt;/a&gt;].&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;2016/11/04&lt;/em&gt; Jenny Bryan, Di Cook and Julie Josse are elected as ordinary members of the R Foundation, bringing the total number of women to 5 out of 37.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;2016/10/20&lt;/em&gt; Di Cook presents the work of the task force at &lt;a href=&#34;https://ww2.amstat.org/meetings/wsds/2016/onlineprogram/AbstractDetails.cfm?AbstractID=303353)&#34;&gt;Women in Statistics and Data Science 2016&lt;/a&gt;.&lt;/p&gt;

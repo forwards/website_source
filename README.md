@@ -141,8 +141,13 @@ The description is optional, if provided it is the short summary of the post
 shown before the "Read more" link. By default a segment of the top of the post 
 is shown.
 
-The title is formatted as a level one header (i.e. #) automatically. Therefore
-use level 2 and 3 headers (i.e. ## and ###) to markup sections.
+The title is automatically generated from the file name. If you change the title,
+it is a good idea to change the folder and file name as well, otherwise the 
+published website will have one folder named by the title (as the permalink) and
+another folder as originally named, with any additional content (e.g. the banner
+image). The title is authomatically added to the body of the final `.html`,
+formatted as a level one header (i.e. #). Therefore use level 2 and 3 headers 
+(i.e. ## and ###) to markup sections.
 
 Within the post, files **can** be reference locally, e.g. use
 `[Rmarkdown file](new-post.Rmd)` to reference the `.Rmd` source of the post.

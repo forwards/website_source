@@ -55,8 +55,12 @@ grid.export("RForwardsLogo-gridSVG-white.svg")
 # First draw the label using (Cairo) SVG device, so we can capture
 # it as a shape
 # font <- "Ubuntu Medium"
+# Work in Cairo PDF device so get consistent results (even in RStudio!)
+cairo_pdf("temp.pdf")
+# Ensure display list is on
+dev.control("enable")
 font <- "Open Sans Extrabold"
-gridSVG.newpage()
+# gridSVG.newpage()
 # Control size and shape of logo a bit more carefully, so we can
 # accurately position label with logo
 bounds <- Rlogo@summary
@@ -82,7 +86,8 @@ grid.text("FORWARDS",
 # Get rid of the logo for this bit
 grid.remove("import", grep=TRUE)
 dev.copy(svg, "RForwards-label.svg", bg="transparent")
-dev.off()
+dev.off() # Cairo SVG device
+dev.off() # Cairo PDF device
 # Import label back in (as shape)
 label <- readPicture("RForwards-label.svg")
 gridSVG.newpage()
@@ -114,6 +119,7 @@ rsvg_png("RForwardsLogo-gridSVG-white.svg", "../apple-touch-icon.png",
          width = 256, height = 256)
 
 # tidy up
-img <- setdiff(list.files(pattern = ".svg"),
+img <- setdiff(list.files(pattern = "(.svg|.pdf|.png)"),
                c("forwards.svg", "Rlogo.svg"))
 sapply(img, file.remove)
+
