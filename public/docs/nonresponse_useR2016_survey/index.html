@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Non-response in useR! 2016 Survey &ndash; FORWARDS</title>
+    <meta name="generator" content="Hugo 0.18.1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="R Foundation taskforce on women and other under-represented groups">
+    
+      <meta name="description" content="R Foundation taskforce on women and other under-represented groups.">
+    
+    
+    <link rel="canonical" href="../../docs/nonresponse_useR2016_survey/"/>
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="apple-touch-icon" href="../../apple-touch-icon.png"/>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/monokai.css">
+
+    
+    <link rel="stylesheet" href="../../css/custom.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="Non-response in useR! 2016 Survey" />
+<meta property="og:description" content="Background The useR! survey received a total of 455 responses out of 904 attendees. Anticipating a high proportion of non-response, questions were included in the survey on participants’ gender, registration type and country of residence, with a view to adjusting observed counts in each cross-classified group to match the proportions in the total useR! 2016 population. Unfortunately the country of residence was not recorded during registration and could not be reliably derived from available information such as affiliation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/nonresponse_useR2016_survey/" />
+
+
+<meta property="og:updated_time" content="2016-10-07T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta itemprop="name" content="Non-response in useR! 2016 Survey">
+<meta itemprop="description" content="Background The useR! survey received a total of 455 responses out of 904 attendees. Anticipating a high proportion of non-response, questions were included in the survey on participants’ gender, registration type and country of residence, with a view to adjusting observed counts in each cross-classified group to match the proportions in the total useR! 2016 population. Unfortunately the country of residence was not recorded during registration and could not be reliably derived from available information such as affiliation.">
+
+
+<meta itemprop="dateModified" content="2016-10-07T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1223">
+
+
+
+<meta itemprop="keywords" content="analysis,demographics,survey,useR!," />
+
+    
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Non-response in useR! 2016 Survey"/>
+<meta name="twitter:description" content="Background The useR! survey received a total of 455 responses out of 904 attendees. Anticipating a high proportion of non-response, questions were included in the survey on participants’ gender, registration type and country of residence, with a view to adjusting observed counts in each cross-classified group to match the proportions in the total useR! 2016 population. Unfortunately the country of residence was not recorded during registration and could not be reliably derived from available information such as affiliation."/>
+<meta name="twitter:site" content="@RWomenTaskforce"/>
+
+
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="../site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+
+
+<script>
+$(document).ready(function ()  {
+
+    
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.article-entry',
+      hashGenerator: function (text) {
+        return text.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 70
+    };
+    options.showAndHide = true;
+    options.showAndHideOnScroll = true;
+    options.smoothScroll = true;
+
+    
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+
+
+
+</head>
+<body>
+<div class="container">
+
+
+<div id="container">
+	<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="../../" id="logo">
+          
+          <span class="site-title">FORWARDS</span>
+      </a>
+      <nav id="main-nav">
+          
+          
+          <a class="main-nav-link" href="../../">Home</a>
+          
+          
+          
+          <a class="main-nav-link" href="../../about/">About</a>
+          
+          
+          
+          <a class="main-nav-link" href="../../data/">Data</a>
+          
+          
+          
+          <a class="main-nav-link" href="../../blog/">Blog</a>
+          
+          
+          
+          <a class="main-nav-link" href="../../docs/">Docs</a>
+          
+          
+
+          
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="../../images/forwards.svg"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+              <input type="search" name="q" class="search-form-input" placeholder="Search">
+              <button type="submit" class="search-form-submit">
+              </button>
+              <input type="hidden" name="sitesearch" value="/" />
+         </form>
+        </div>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tbody>
+          <tr>
+          
+          
+          <td><a class="main-nav-link" href="../../">Home</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="../../about/">About</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="../../data/">Data</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="../../blog/">Blog</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="../../docs/">Docs</a></td>
+          
+          
+
+          
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</header>
+
+   	<div class="outer">
+   	    <aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      <img id="avatar" src="../../images/forwards.svg">
+      <h2 id="name">R Foundation taskforce on women and other under-represented groups</h2>
+      
+      
+      
+    </div>
+    
+    <div class="profile-block social-links">
+      <table>
+        <tr>
+          
+<td><a href="//github.com/forwards" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//twitter.com/RWomenTaskforce" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
+
+
+          <td><a href="../../index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+        </tr>
+      </table>
+    </div>
+   
+
+  </div>
+</aside>
+
+	    <section id="main" class="no-sidebar">
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            
+                <header class="article-header">
+                    <h1 class="article-title" itemprop="name">
+                        Non-response in useR! 2016 Survey
+                    </h1>
+                    <p class = "article-author">Heather Turner and Julie Josse</p>
+                    <time class = "article-date" datetime="2016-10-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">2016-10-07</time>
+                </header>
+            
+            <div class="article-entry" itemprop="articleBody">
+
+
+<div id="background" class="section level2">
+<h2>Background</h2>
+<!-- Survey report says 456 responses, what are extra 2? -->
+<p>The useR! survey received a total of 455 responses out of 904 attendees. Anticipating a high proportion of non-response, questions were included in the survey on participants’ gender, registration type and country of residence, with a view to adjusting observed counts in each cross-classified group to match the proportions in the total useR! 2016 population. Unfortunately the country of residence was not recorded during registration and could not be reliably derived from available information such as affiliation. Although registration type should have been available, in practice it was missing for about one third of participants. This leaves gender, which was (self-)recorded for presenters, but not for other attendees. In order to obtain a gender assignment for all participants, the first names were analysed with the <strong>genderizer</strong> package, which predicts gender from first name, based on profiles scraped from the web. For participants where the gender was unknown, the genderizer prediction was used if it was based on a sample &gt; 10 and had probability &gt; 0.9, otherwise the gender was assigned based on a manual web search, where this led to a clear assignment. This gave estimates of 235 female, 593 male and 76 undetermined.</p>
+<p>Assuming that the gender distribution is similar in the undetermined group, the survey population overrepresents female attendees by about 10%:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Gender</th>
+<th align="right">Survey Percentage</th>
+<th align="right">Attendee Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Female</td>
+<td align="right">37.31</td>
+<td align="right">28.38</td>
+</tr>
+<tr class="even">
+<td align="left">Male</td>
+<td align="right">62.47</td>
+<td align="right">71.62</td>
+</tr>
+<tr class="odd">
+<td align="left">Non-Binary</td>
+<td align="right">0.22</td>
+<td align="right">NA</td>
+</tr>
+</tbody>
+</table>
+<p>(The assumption that the undetermined have a similar gender distribution seems reasonable, as similar estimates of attendee breakdown were obtained based on genderizer results only, where there were 52.17% undetermined). This over-representation of females is a common phenomenon in surveys and particularly unsurprising here as females may be more motivated to respond to a survey run by the Women in R taskforce.</p>
+</div>
+<div id="adjusting-for-non-response" class="section level2">
+<h2>Adjusting for non-response</h2>
+<p>In order to adjust for the difference in gender balance between the sample and the full population, weights may be computed for males and females so that the ratio of females to males based on adjusted counts (sum of weights in each category) is equal to that estimated for the full sample. Specifically, the weight for females is 0.76 and the weight for males is 1.14.</p>
+<p>These weights can then be used in further analysis, for example when tabulating by another survey variable. Here we will consider a few examples for illustration.</p>
+<div id="age" class="section level3">
+<h3>Age</h3>
+<p>The unweighted and weighted densities have a very similar shape, but using the weighting shifts the density slightly to the left, i.e. when females are down-weighted there is a slight shift to a generally older population.</p>
+<p><img src="figures/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="education-level" class="section level3">
+<h3>Education level</h3>
+<p>Here there is very little difference between the unweighted and weighted counts.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Q7</th>
+<th align="right">Count</th>
+<th align="right">Adj.Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Professional degree or certification</td>
+<td align="right">10</td>
+<td align="right">10.67</td>
+</tr>
+<tr class="even">
+<td align="left">Doctorate</td>
+<td align="right">199</td>
+<td align="right">200.69</td>
+</tr>
+<tr class="odd">
+<td align="left">Masters degree</td>
+<td align="right">187</td>
+<td align="right">186.06</td>
+</tr>
+<tr class="even">
+<td align="left">Undergraduate degree</td>
+<td align="right">52</td>
+<td align="right">50.63</td>
+</tr>
+<tr class="odd">
+<td align="left">High school/Secondary school or lower</td>
+<td align="right">3</td>
+<td align="right">3.05</td>
+</tr>
+<tr class="even">
+<td align="left">NA</td>
+<td align="right">7</td>
+<td align="right">6.90</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="employment-status" class="section level3">
+<h3>Employment status</h3>
+<p>Again the differences between unweighted and weighted counts are small here, however there is a consistent shift from less financially secure positions (student, unemployed and employed non-permenantly in academia) to more financially secure positions (employed permenantly in academia, employed in industry). This tallies with the younger distribution of females noted above.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Q8</th>
+<th align="right">Count</th>
+<th align="right">Adj.Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Employed in industry</td>
+<td align="right">183</td>
+<td align="right">186.24</td>
+</tr>
+<tr class="even">
+<td align="left">Employed permanently in academia</td>
+<td align="right">76</td>
+<td align="right">78.08</td>
+</tr>
+<tr class="odd">
+<td align="left">Employed non-permanently in academia</td>
+<td align="right">59</td>
+<td align="right">57.10</td>
+</tr>
+<tr class="even">
+<td align="left">Employed in government/non-profit</td>
+<td align="right">70</td>
+<td align="right">69.54</td>
+</tr>
+<tr class="odd">
+<td align="left">Self-employed</td>
+<td align="right">6</td>
+<td align="right">6.48</td>
+</tr>
+<tr class="even">
+<td align="left">Retired</td>
+<td align="right">2</td>
+<td align="right">2.29</td>
+</tr>
+<tr class="odd">
+<td align="left">Student</td>
+<td align="right">44</td>
+<td align="right">40.71</td>
+</tr>
+<tr class="even">
+<td align="left">Unemployed</td>
+<td align="right">4</td>
+<td align="right">3.42</td>
+</tr>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="right">14</td>
+<td align="right">14.14</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="time-using-r" class="section level3">
+<h3>Time using R</h3>
+<p>With the weighted counts we see a slight shift towards greater experience; this again tallies with females being generally younger and less advanced in their careers.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Q11</th>
+<th align="right">Count</th>
+<th align="right">Adj.Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">&gt; 10 years</td>
+<td align="right">119</td>
+<td align="right">123.28</td>
+</tr>
+<tr class="even">
+<td align="left">5-10 years</td>
+<td align="right">132</td>
+<td align="right">132.38</td>
+</tr>
+<tr class="odd">
+<td align="left">2-5 years</td>
+<td align="right">118</td>
+<td align="right">118.05</td>
+</tr>
+<tr class="even">
+<td align="left">1-2 years</td>
+<td align="right">35</td>
+<td align="right">31.57</td>
+</tr>
+<tr class="odd">
+<td align="left">6-12 months</td>
+<td align="right">29</td>
+<td align="right">28.17</td>
+</tr>
+<tr class="even">
+<td align="left">&lt; 6 months</td>
+<td align="right">9</td>
+<td align="right">8.76</td>
+</tr>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="right">16</td>
+<td align="right">15.80</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="recreational-use-of-r" class="section level3">
+<h3>Recreational use of R</h3>
+<p>With the weighted counts we see a shift towards using R for recreational activity alone or as well as for work. Since the weighting down-weights females relative to males this suggests males are more able or more willing to use R for fun.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Q14</th>
+<th align="right">Count</th>
+<th align="right">Adj.Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">For both recreational and job/educational purposes.</td>
+<td align="right">160</td>
+<td align="right">169.41</td>
+</tr>
+<tr class="even">
+<td align="left">Primarily as a recreational activity, in your free time;</td>
+<td align="right">4</td>
+<td align="right">4.58</td>
+</tr>
+<tr class="odd">
+<td align="left">Primarily as part of a job or educational course;</td>
+<td align="right">275</td>
+<td align="right">265.55</td>
+</tr>
+<tr class="even">
+<td align="left">NA</td>
+<td align="right">19</td>
+<td align="right">18.46</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="summary" class="section level3">
+<h3>Summary</h3>
+<p>The examples above illustrate that the difference between unweighted and weighted counts tends to be small and is unlikely to affect conclusions drawn about the distribution of a particular variable in the useR! population as a whole.</p>
+<p>Where there is a material difference between unweighted and weighted counts, this can be attributed to gender, since the weighting only depends on this factor. In this case it would be more interesting to explore the gender difference by showing a summary grouped by gender and then the weighting becomes irrelevant as we are no longer trying to represent the whole population.</p>
+<p>Summarising by gender will necessarily exclude individuals that are non-binary or have not stated their gender. In addition, summarising by gender can result in (more) categories containing only a few individuals, which is undesirable as we wish to protect anonymity. Therefore a grouped summary should only be used when there is a substantive gender difference and small groups can be combined without too much loss of information. First considering the unweighted and weighted counts can help in making this judgement. Using the weights in this exploratory way is perhaps more appropriate than using them to adjust the counts, given that they are based in part on predicted data.</p>
+</div>
+</div>
+<div id="grouped-summaries" class="section level2">
+<h2>Grouped Summaries</h2>
+<p>Here we show how the conclusions of the previous section might be applied to our illustrative questions.</p>
+<div id="age-1" class="section level3">
+<h3>Age</h3>
+<p>The difference in density between weighted and unweighted is small but consistent across a wide age range so deserves further exploration. Since we are using a density summary there is no issue with small sub-groups.</p>
+<p>Breaking down by gender shows the difference in age distribution much more clearly:</p>
+<p><img src="figures/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="education-level-1" class="section level3">
+<h3>Education level</h3>
+<p>Although there is some evidence of a more educated male population (weighted counts shift to higher education levels) the difference is small. In addition the numbers without university-level education are very small and even combined with the missing group there is potential that individuals are identified when broken down by gender. Therefore it is best to keep genders combined here and base the final summary on unweighted counts.</p>
+<p><img src="figures/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="employment-status-1" class="section level3">
+<h3>Employment status</h3>
+<p>Here the shift from unweighted counts to weighted counts is larger. Although there are small groups, these can reasonably be combined into an “Other” category.</p>
+<p><img src="figures/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="time-using-r-1" class="section level3">
+<h3>Time using R</h3>
+<p>Again there are material differences between unweighted and weighted counts, here the original groups can be left as is:</p>
+<p><img src="figures/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="recreational-use-of-r-1" class="section level3">
+<h3>Recreational use of R</h3>
+<p>Here there is a clear difference between unweighted and weighted counts. As only four people (men) said that they used R primarily as a recreational activity, this can be combined with the missing category:</p>
+<p><img src="figures/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="conclusions" class="section level2">
+<h2>Conclusions</h2>
+<p>Where there is no material difference between genders, the over-representation of women in the sample is unimportant. Where there is a substantive difference, it is interesting to explore this difference in a grouped summary, where again the over-representation of women becomes irrelevant as males and females are summarised separately.</p>
+<p>Therefore rather than base final summaries on weighted counts, which are based in part on predicted data, it is better to use the weighted counts as a guide to when a grouped summary is appropriate.</p>
+</div>
+
+
+
+            </div>
+        </div>
+    </article>
+    <div id="toTop" class="fa fa-angle-up"></div>
+</section>
+
+	</div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      <p> Provide input on this web site, or to the taskforce by <a href="mailto:rowforwards@gmail.com?Subject=Hello%20again" target="_top">email.</a> </p>
+      <p>&copy; 2017
+      Forwards. Powered by <a href="https://github.com/rstudio/blogdown">blogdown</a>/<a href="//gohugo.io">Hugo</a>. Theme based on Icarus by <a href="http://github.com/ppoffice">PPOffice</a>.</p>
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Unless otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      <p>The Forwards logo is a derivative of the <a href = "https://www.r-project.org/logo/Rlogo.svg">R logo</a>, <a href = "https://www.r-project.org/logo/">©2016 The R Foundation</a>, used 
+under <a href = "https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. The 
+Forwards logo is licensed under 
+<a href = "https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, ©2016 Forwards.</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="../../fancybox/jquery.fancybox.pack.js"></script>
+<script src="../../js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script src="../../js/jqueryui-1.11.4/jquery-ui.min.js"></script>
+
+<script src="../../js/tocify-1.9.1/jquery.tocify.js"></script>
+
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+</body>
+</html>

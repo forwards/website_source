@@ -10,7 +10,10 @@ googleAnalytics = ""
 paginate = 5
 footnotereturnlinkcontents = "↩" 
 theme = "hugo-icarus-theme"
+# Don't pluralize section titles (e.g. Blog -> Blogs)
 pluralizelisttitles = false
+# keep tag/category names (e.g. useR! not user)
+preserveTaxonomyNames = true
 
 [permalinks]
     blog = "blog/:year/:month/:day/:slug"
@@ -56,11 +59,10 @@ pluralizelisttitles = false
     label  = "Data"
     link   = "data/"
 
-# for when blog goes in
-# [[params.menu]]
-#    before = true
-#    label  = "Blog"
-#    link   = "blog/"
+[[params.menu]]
+    before = true
+    label  = "Blog"
+    link   = "blog/"
     
 [[params.menu]]
     before = true
