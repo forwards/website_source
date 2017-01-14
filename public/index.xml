@@ -7,8 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Fri, 13 Jan 2017 13:07:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Jan 2017 16:52:32 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Links</title>
+      <link>/links/</link>
+      <pubDate>Sat, 14 Jan 2017 16:52:32 +0000</pubDate>
+      
+      <guid>/links/</guid>
+      <description>
+
+&lt;h2 id=&#34;blog-aggregators&#34;&gt;Blog aggregators&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rweekly.org/&#34;&gt;R Weekly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r-bloggers.com&#34;&gt;R-bloggers&lt;/a&gt; &lt;a href=&#34;http://feeds.feedburner.com/RBloggers&#34; target=&#34;_blank&#34; title=&#34;RSS&#34;&gt;&lt;i class=&#34;fa fa-rss&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Call to Join Forwards</title>

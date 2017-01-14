@@ -70,7 +70,7 @@ should be added to the page.
 
 A new top-level page can be added e.g. via
 ```r
-new_content("Extra.md")
+new_content("extra.md")
 ```
 Due to the default template used by Hugo, this will also add a date to the
 YAML header, but this is not used in the final layout so not needed if you add 
@@ -91,7 +91,7 @@ To add a link to the new page in the navigation bar, you need to edit the
 ```
 The setting of `before` is irrelevant in our layout; `label` is the name to 
 add the navigation bar, `link` is the link to the page which will be `/filename/`
-in this case.
+in this case. The filename should be lower case for consistency.
 
 ### Blog Posts
 

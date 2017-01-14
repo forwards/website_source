@@ -67,7 +67,12 @@ preserveTaxonomyNames = true
 [[params.menu]]
     before = true
     label  = "Docs"
-    link   = "docs/"    
+    link   = "docs/"  
+    
+[[params.menu]]
+    before = true
+    label  = "Links"
+    link   = "links/"     
 
 # Enter a link for the follow button on the left
 [params.profile]
