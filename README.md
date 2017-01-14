@@ -52,7 +52,7 @@ need render either `.md` or `.Rmd` files explicitly, this is all taken care of
 in the build.
 
 There are currently three  different types of content on the website, described 
-further below. In all cases `r draft: true` can be added to the YAML to indicate
+further below. In all cases `draft: true` can be added to the YAML to indicate
 the file is a draft and should not be included in the build website.
 
 ### Top-level pages
@@ -137,9 +137,8 @@ Add categories, e.g. `["analysis"]` and tags
 `["useR!", "survey", "demographics"]` reusing tags/categories from previous 
 posts where possible. 
 
-The description is optional, if provided it is the short summary of the post
-shown before the "Read more" link. By default a segment of the top of the post 
-is shown.
+The description specifies the description field for the metadata of the 
+rendered HTML file.
 
 The title is automatically generated from the file name. If you change the title,
 it is a good idea to change the folder and file name as well, otherwise the 
@@ -189,8 +188,8 @@ In general, you should not need to edit files in `forwards.github.io`. However,
 if you have been adding test content locally, or playing with the layouts (see 
 next section) there may be files there that you don't actually want to publish 
 as Hugo does not clean the directory when building the website. So it's a good 
-idea to delete everything in `forwards.github.io` and do a final `r build_site()`
-or `r serve_site()` before commiting the changes.</s>
+idea to delete everything in `forwards.github.io` and do a final `build_site()`
+or `serve_site()` before commiting the changes.</s>
 
 The above should work, but currently images created by `.Rmd` are not put in the
 right place when using a non-default publish directory. Therefore for now,  we 

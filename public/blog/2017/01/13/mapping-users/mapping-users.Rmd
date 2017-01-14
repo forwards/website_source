@@ -1,8 +1,9 @@
 ---
 title: "Mapping useRs"
+author: "Stella Bollmann, Dianne Cook, Rudolf Debelak, Jasmine Dumas, John Fox, Julie Josse, Oliver Keyes, Carolin Strobl, Heather Turner"
 date: 2017-01-13
 tags : ["useR!", "survey", "demographics"]
-description: "Inviting New Members to join Forwards"
+description: "Report on demographics section of useR! 2016 survey"
 categories : ["analysis"]
 menu : ""
 images : []

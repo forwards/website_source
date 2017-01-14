@@ -1,5 +1,5 @@
 ---
-banner: "/blog/2017/01/13/call-for-participation/wocintech_meeting.jpg"
+banner: "/blog/2017/01/13/call-to-join-forwards/wocintech_meeting.jpg"
 categories: ["news"]
 date: 2017-01-13T13:07:01Z
 description: "Inviting New Members to join Forwards"

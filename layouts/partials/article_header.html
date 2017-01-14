@@ -4,6 +4,10 @@
         {{ .Title }}
     </h1>
     </a>
+    {{ if and (isset .Params "author") (not (eq .Params.author "")) }}
+        <p class = "article-author">{{ .Params.Author }}</p>
+        <br>
+    {{ end }}
     <div class="article-meta">
         <div class="article-date">
             <i class="fa fa-calendar"></i>
