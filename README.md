@@ -199,10 +199,13 @@ right place when using a non-default publish directory. Therefore for now,  we
 build the site locally into `public` and copy that over into `forwards.github.io`
 
 ```r
-# stop any daemonized server
-servr::daemon_stop()
-# build site for publishing
-build_site(local = FALSE)
+# post process RSS
+rss <- readLines("public/blog/index.xml")
+rss <- unname(sapply(rss, function(x){
+    gsub("([^#]*)(#####../content/)(.*)", 
+         "\\1http://forwards.github.io/\\3", x)
+}))
+writeLines(rss, "public/blog/index.xml")
 # purge publication repo
 old <- setdiff(list.files("../forwards.github.io", 
                           include.dirs = TRUE, recursive = TRUE),
