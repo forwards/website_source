@@ -199,11 +199,6 @@ right place when using a non-default publish directory. Therefore for now,  we
 build the site locally into `public` and copy that over into `forwards.github.io`
 
 ```r
-# purge publication repo
-old <- setdiff(list.files("../forwards.github.io", 
-                          include.dirs = TRUE, recursive = TRUE),
-               c("forwards.github.io.Rproj", "README.md"))
-sapply(file.path("../forwards.github.io", old), unlink, recursive = TRUE)
 # post process RSS
 rss <- readLines("public/blog/index.xml")
 rss <- unname(sapply(rss, function(x){
@@ -211,11 +206,15 @@ rss <- unname(sapply(rss, function(x){
          "\\1http://forwards.github.io/\\3", x)
 }))
 writeLines(rss, "public/blog/index.xml")
+# purge publication repo
+old <- setdiff(list.files("../forwards.github.io", 
+                          include.dirs = TRUE, recursive = TRUE),
+               c("forwards.github.io.Rproj", "README.md"))
+sapply(file.path("../forwards.github.io", old), unlink, recursive = TRUE)
 # copy over public folder
 new <- list.files("public")
 file.copy(file.path("public", new), "../forwards.github.io", 
           recursive = TRUE)
-
 ```
 
 Once committed, changes to `forwards.github.io` go live on http://forwards.github.io, 
