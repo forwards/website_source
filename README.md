@@ -200,7 +200,7 @@ build the site locally into `public` and copy that over into `forwards.github.io
 old <- setdiff(list.files("../forwards.github.io", 
                           include.dirs = TRUE, recursive = TRUE),
                c("forwards.github.io.Rproj", "README.md"))
-sapply(file.path("../forwards.github.io", old), file.remove)
+sapply(file.path("../forwards.github.io", old), unlink, recursive = TRUE)
 # copy over public folder
 new <- list.files("public")
 file.copy(file.path("public", new), "../forwards.github.io", 
