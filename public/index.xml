@@ -642,7 +642,7 @@ We plan to collate such statistics on the Task Force webpage (&lt;a href=&#34;ht
 &lt;!-- need to use &lt;a&gt;&lt;/a&gt; here as markdown href don&#39;t seem to work in div --&gt;
 &lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;2017/01/13&lt;/em&gt; Open call to join the taskforce, &lt;a href=&#34;./blog/2017/01/13/call-to-join-forwards/&#34;&gt;further details&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;2016/11/13&lt;/em&gt; Heather Turner’s presentation from &lt;a href=&#34;http://erum.ue.poznan.pl/&#34;&gt;eRum 2016&lt;/a&gt;, “Addressing the Gender Gap in the R Project”, now on &amp;lt;a href=&lt;a href=&#34;https://www.youtube.com/watch?v=fp6JY7cirww&amp;amp;list=PLCsJUtCRSFbejqCqAURNVOFFpoDCMeuO5&#34; class=&#34;uri&#34;&gt;https://www.youtube.com/watch?v=fp6JY7cirww&amp;amp;list=PLCsJUtCRSFbejqCqAURNVOFFpoDCMeuO5&lt;/a&gt;&amp;gt;YouTube&lt;/a&gt; [&lt;a href=&#34;http://rpubs.com/hturner/eRum2016&#34;&gt;slides&lt;/a&gt;].&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2016/11/13&lt;/em&gt; Heather Turner’s presentation from &lt;a href=&#34;http://erum.ue.poznan.pl/&#34;&gt;eRum 2016&lt;/a&gt;, “Addressing the Gender Gap in the R Project”, now on &lt;a href=https://www.youtube.com/watch?v=fp6JY7cirww&amp;list=PLCsJUtCRSFbejqCqAURNVOFFpoDCMeuO5&gt;YouTube&lt;/a&gt; [&lt;a href=&#34;http://rpubs.com/hturner/eRum2016&#34;&gt;slides&lt;/a&gt;].&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;2016/11/04&lt;/em&gt; Jenny Bryan, Di Cook and Julie Josse are elected as ordinary members of the R Foundation, bringing the total number of women to 5 out of 37.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;2016/10/20&lt;/em&gt; Di Cook presents the work of the task force at &lt;a href=&#34;https://ww2.amstat.org/meetings/wsds/2016/onlineprogram/AbstractDetails.cfm?AbstractID=303353)&#34;&gt;Women in Statistics and Data Science 2016&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;2016/08/22&lt;/em&gt; R Consortium approves funding for a &lt;a href=&#34;https://www.r-consortium.org/blog/2016/08/22/the-r-consortium-funds-three-projects-in-july&#34;&gt;joint proposal&lt;/a&gt; from the San Francisco and London R-ladies groups for alignment and global expansion.&lt;/p&gt;
@@ -653,7 +653,7 @@ We plan to collate such statistics on the Task Force webpage (&lt;a href=&#34;ht
 &lt;!-- data-tweet-limit=&#34;3&#34; --&gt;
 &lt;div style=&#34;width:50%&#34;&gt;
 &lt;h2 id=&#34;latest-tweets&#34;&gt;Latest Tweets&lt;/h2&gt;
-&lt;a class=&#34;twitter-timeline&#34; data-height = &#34;500&#34; data-theme=&#34;light&#34; data-chrome=&#34;noheader&#34; href=&#34;https://twitter.com/RWomenTaskforce&#34;&gt;&lt;/a&gt;
+&lt;a class=&#34;twitter-timeline&#34; data-height = &#34;500&#34; data-theme=&#34;light&#34; data-chrome=&#34;noheader&#34; href=&#34;https://twitter.com/R_Forwards&#34;&gt;&lt;/a&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;/div&gt;
 &lt;/div&gt;

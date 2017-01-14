@@ -105,7 +105,7 @@ preserveTaxonomyNames = true
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "RWomenTaskforce"
+    twitter         = "R_Forwards"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]

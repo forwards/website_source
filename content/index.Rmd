@@ -31,7 +31,7 @@ Find out more [about](about.html) the task force.
 <!-- data-tweet-limit="3" -->
 <div style = "width:50%">
 ## Latest Tweets
-<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader" href="https://twitter.com/RWomenTaskforce"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader" href="https://twitter.com/R_Forwards"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </div>
 
