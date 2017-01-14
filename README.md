@@ -204,10 +204,18 @@ old <- setdiff(list.files("../forwards.github.io",
                           include.dirs = TRUE, recursive = TRUE),
                c("forwards.github.io.Rproj", "README.md"))
 sapply(file.path("../forwards.github.io", old), unlink, recursive = TRUE)
+# post process RSS
+rss <- readLines("public/blog/index.xml")
+rss <- unname(sapply(rss, function(x){
+    gsub("([^#]*)(#####../content/)(.*)", 
+         "\\1http://forwards.github.io/\\3", x)
+}))
+writeLines(rss, "public/blog/index.xml")
 # copy over public folder
 new <- list.files("public")
 file.copy(file.path("public", new), "../forwards.github.io", 
           recursive = TRUE)
+
 ```
 
 Once committed, changes to `forwards.github.io` go live on http://forwards.github.io, 
