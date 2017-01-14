@@ -12,7 +12,7 @@ This README documents how to add content and update the published website.
     ```r
     devtools::install_github('rstudio/blogdown')
     ```
- - Install Hugo
+ - Install Hugo (>= 0.18.1)
     ```r
     library(blogdown)
     install_hugo()
@@ -111,6 +111,7 @@ Don't forget to use `01` etc, for consistent naming. Note we don't use the
 template with the YAML header
 ```r
 ---
+author: ""
 banner: ""
 categories: []
 date: 2017-01-12T21:59:41Z
@@ -126,6 +127,8 @@ hierarchy! Therefore you may need to change one or other before publication to
 ensure consistency. If you specify the date manually (because you are adding
 the YAML to an existing markdown file), use ISO 8601 format, i.e. "2017-01-12" (the
 time is not used so can be left out).
+
+The author field is optional, for more formal posts such as analysis reports.
 
 The banner image is set using `banner`. Unfortunately the template doesn't
 (currently) recognise relative links, so you will need to specify the full link
@@ -206,6 +209,10 @@ new <- list.files("public")
 file.copy(file.path("public", new), "../forwards.github.io", 
           recursive = TRUE)
 ```
+
+Once committed, changes to `forwards.github.io` go live on http://forwards.github.io, 
+so only update this repository when you are confident that the pages are 
+rendering correctly (e.g. all images are found, no links to draft posts, etc).
 
 ## Going Further
 
