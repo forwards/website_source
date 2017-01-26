@@ -16,7 +16,7 @@ pluralizelisttitles = false
 preserveTaxonomyNames = true
 
 [permalinks]
-    blog = "blog/:year/:month/:day/:slug"
+    blog = "blog/:year/:month/:day/:slug/"
 
 [params]
     # Tell me who you are
