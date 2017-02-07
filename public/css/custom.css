@@ -110,3 +110,8 @@ ul.doctype-list li {
 .article-author, .article-date {
     font-size: 120%;
 }
+/* (optional) captions on images */
+img + em { 
+    display: block;
+    text-align: center;
+}

@@ -126,9 +126,9 @@ $(document).ready(function () {
 <div id="initial-setup" class="section level2">
 <h2>Initial Setup</h2>
 <ul>
-<li><p>Install <a href="https://github.com/rstudio/blogdown">blogdown</a></p>
+<li><p>Install <a href="https://github.com/rstudio/blogdown">blogdown</a> (&gt;= 0.0.17)</p>
 <pre class="r"><code>devtools::install_github('rstudio/blogdown')</code></pre></li>
-<li><p>Install Hugo</p>
+<li><p>Install Hugo (&gt;= 0.18.1)</p>
 <pre class="r"><code>library(blogdown)
 install_hugo()</code></pre></li>
 <li>Clone this repository</li>
@@ -154,7 +154,7 @@ serve_site()</code></pre>
 <div id="adding-new-content" class="section level2">
 <h2>Adding new content</h2>
 <p>Content is added in the <code>content</code> sub-directory either as plain markdown files (<code>.md</code>) or R markdown files (<code>.Rmd</code>). The <code>.Rmd</code> files will be converted to partial <code>.html</code> files automatically when the site is served/built - you don’t need render either <code>.md</code> or <code>.Rmd</code> files explicitly, this is all taken care of in the build.</p>
-<p>There are currently three different types of content on the website, described further below. In all cases <code>r draft: true</code> can be added to the YAML to indicate the file is a draft and should not be included in the build website.</p>
+<p>There are currently three different types of content on the website, described further below. In all cases <code>draft: true</code> can be added to the YAML to indicate the file is a draft and should not be included in the build website.</p>
 <div id="top-level-pages" class="section level3">
 <h3>Top-level pages</h3>
 <p>For example <a href="http://forwards.github.io/about/">About</a>, <a href="http://forwards.github.io/data/">Data</a>. The markdown files for these pages are added in the top-level of the <code>content</code> directory. The only parameter needed in the YAML header is the title:</p>
@@ -163,7 +163,7 @@ title: &quot;About&quot;
 ---</code></pre>
 <p>The option <code>tocify: true</code> can be used to specify that a table of contents should be added to the page.</p>
 <p>A new top-level page can be added e.g. via</p>
-<pre class="r"><code>new_content(&quot;Extra.md&quot;)</code></pre>
+<pre class="r"><code>new_content(&quot;extra.md&quot;)</code></pre>
 <p>Due to the default template used by Hugo, this will also add a date to the YAML header, but this is not used in the final layout so not needed if you add the YAML manually. Don’t forget to add the file extension: <code>.md</code> or <code>.Rmd</code> to create the desired filetype.</p>
 <p>The title is not displayed in the body of the rendered <code>.html</code>, but is used as the page title (e.g. the name shown on the browser tab). Within the page, use level 2 and level 3 headers (i.e. ## and ###) to mark up sections/</p>
 <p>To add a link to the new page in the navigation bar, you need to edit the<br />
@@ -172,29 +172,39 @@ title: &quot;About&quot;
     before = true
     label  = &quot;About&quot;
     link   = &quot;/about/&quot;</code></pre>
-<p>The setting of <code>before</code> is irrelevant in our layout; <code>label</code> is the name to add the navigation bar, <code>link</code> is the link to the page which will be <code>/filename/</code> in this case.</p>
+<p>The setting of <code>before</code> is irrelevant in our layout; <code>label</code> is the name to add the navigation bar, <code>link</code> is the link to the page which will be <code>/filename/</code> in this case. The filename should be lower case for consistency.</p>
 </div>
 <div id="blog-posts" class="section level3">
 <h3>Blog Posts</h3>
-<p>Posts in the blog section are added in <code>content/blog</code>. They should be put in sub-folders defining the date of publication, e.g. <code>content/blog/2016/01/30/new-post/new-post.md</code>. This set-up is a bit fiddly, but means that the <code>.Rmd</code> file and any images that you want to include directly, can be kept with the <code>.html</code> or <code>.md</code> files when they are processed by Hugo and content for each post is kept separate (unless published on the same day).</p>
+<p>Posts in the blog section are added in <code>content/blog</code>. They should be put in sub-folders defining the date of publication and the article title, e.g. <code>content/blog/2016/01/30/title-in-lower-case-separated-by-hyphens/</code>. This set-up is a bit fiddly, but means that the <code>.Rmd</code> file and any images that you want to include directly, can be kept with the <code>.html</code> or <code>.md</code> files when they are processed by Hugo and content for each post is kept separate (unless published on the same day).</p>
 <p>A new post can be created using</p>
-<pre class="r"><code>new_content(&quot;blog/2016/01/30/new-post/new-post.md&quot;, kind = &quot;blog&quot;)</code></pre>
+<pre class="r"><code>new_content(&quot;blog/2016/01/30/title-in-lower-case/title-in-lower-case.md&quot;, kind = &quot;blog&quot;)</code></pre>
 <p>Don’t forget to use <code>01</code> etc, for consistent naming. Note we don’t use the <code>new_post</code> function because the section of our site with the posts is called “blog” and therefore content in this section is of type “blog”. This creates a template with the YAML header</p>
 <pre class="r"><code>---
+author: &quot;&quot;
 banner: &quot;&quot;
 categories: []
 date: 2017-01-12T21:59:41Z
 description: &quot;&quot;
 tags: []
-title: new post
+title: title in lower case
 tocify: false
 ---</code></pre>
 <p>Note the date is automatically set to the date when you generate the template, which may not be the same as the date you have specified by the folder hierarchy! Therefore you may need to change one or other before publication to ensure consistency. If you specify the date manually (because you are adding the YAML to an existing markdown file), use ISO 8601 format, i.e. “2017-01-12” (the time is not used so can be left out).</p>
-<p>The banner image is set using <code>banner</code>. Unfortunately the template doesn’t (currently) recognise relative links, so you will need to specify the full link to an image file in the post folder, e.g. “/blog/2016/01/30/new-post/banner.png”. If you provide a banner image, a thumbnail image is automatically created for the “Recent posts” sidebar.</p>
+<p>The author field is optional, for more formal posts such as analysis reports.</p>
+<p>The banner image is set using <code>banner</code>. The link to the image must be given relative to the site root, e.g. “/blog/2016/01/30/new-post/banner.png”. If you provide a banner image, a thumbnail image is automatically created for the “Recent posts” sidebar.</p>
 <p>Add categories, e.g. <code>[&quot;analysis&quot;]</code> and tags <code>[&quot;useR!&quot;, &quot;survey&quot;, &quot;demographics&quot;]</code> reusing tags/categories from previous posts where possible.</p>
-<p>The description is optional, if provided it is the short summary of the post shown before the “Read more” link. By default a segment of the top of the post is shown.</p>
-<p>The title is formatted as a level one header (i.e. #) automatically. Therefore use level 2 and 3 headers (i.e. ## and ###) to markup sections.</p>
-<p>Within the post, files <strong>can</strong> be reference locally, e.g. use <code>[Rmarkdown file](new-post.Rmd)</code> to reference the <code>.Rmd</code> source of the post.</p>
+<p>The description specifies the description field for the metadata of the rendered HTML file.</p>
+<p>The title is automatically generated from the file name. If you change the title, it is a good idea to change the folder and file name as well, otherwise the published website will have one folder named by the title (as the permalink) and another folder as originally named, with any additional content (e.g. the banner image). The title is authomatically added to the body of the final <code>.html</code>, formatted as a level one header (i.e. #). Therefore use level 2 and 3 headers (i.e. ## and ###) to markup sections.</p>
+<p>For images, the text in square brackets gives the alternative text shown if the image is unavailable/cannot be viewed, e.g.</p>
+<pre><code>![Emily's R-Dog Abby](/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)</code></pre>
+<p>If you wish to add a caption, you can simply put add emphasized text immediately below the image markup - in this case the alternative text is unnecessary:</p>
+<pre><code>![](/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
+*Emily's R-Dog Abby*</code></pre>
+<p>The CSS will centre the caption. All links to images and other files should be given relative to the site root, e.g.</p>
+<pre><code>[Rmarkdown file](/blog/2017/01/13/mapping-users/mapping-users.Rmd)</code></pre>
+<p>This is so that the correct absolute links will be created in the RSS when the website is built.</p>
+<p>The <code>Blog</code> page of the website is automatically generated and lists a summary of all blog posts. By default, the summary is taken as the first few sentences of content, to give a summary of approximately 70 words. All HTML tags are stripped from the summary, so the text is lumped together in one paragraph regardless of the markup. To specify a different summary, add a <code>&lt;!--more--&gt;</code> divider where you want to split the article (see e.g. <code>/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/emily-robinson-from-social-scientist-to-data-scientist.md</code>).</p>
 </div>
 <div id="documents" class="section level3">
 <h3>Documents</h3>
@@ -215,7 +225,22 @@ type: report
 <div id="publishing-the-website" class="section level2">
 <h2>Publishing the Website</h2>
 <p><s>When you build the site locally, the content of the website is “published” to your local copy of the <code>forwards.github.io</code> repository. To publish the updated website on <a href="http://forwards.github.io/" class="uri">http://forwards.github.io/</a> you should first commit your changes to this repository (<code>website_source</code>), then switch to the <code>forwards.github.io</code> repository and commit the changes there. (This workflow could be streamlined using Travis-CI as noted <a href="http://disq.us/p/1eyc771">here</a>, something to change in future).</p>
-<p>In general, you should not need to edit files in <code>forwards.github.io</code>. However, if you have been adding test content locally, or playing with the layouts (see next section) there may be files there that you don’t actually want to publish as Hugo does not clean the directory when building the website. So it’s a good idea to delete everything in <code>forwards.github.io</code> and do a final <code>r build_site()</code> or <code>r serve_site()</code> before commiting the changes.</s></p>
+<p>In general, you should not need to edit files in <code>forwards.github.io</code>. However, if you have been adding test content locally, or playing with the layouts (see next section) there may be files there that you don’t actually want to publish as Hugo does not clean the directory when building the website. So it’s a good idea to delete everything in <code>forwards.github.io</code> and do a final <code>build_site()</code> or <code>serve_site()</code> before commiting the changes.</s></p>
+<p>The above should work, but currently images created by <code>.Rmd</code> are not put in the right place when using a non-default publish directory. Therefore for now, we build the site locally into <code>public</code> and copy that over into <code>forwards.github.io</code></p>
+<pre class="r"><code># stop any daemonized server
+servr::daemon_stop()
+# build site for publication
+build_site()
+# purge publication repo
+old &lt;- setdiff(list.files(&quot;../forwards.github.io&quot;, 
+                          include.dirs = TRUE, recursive = TRUE),
+               c(&quot;forwards.github.io.Rproj&quot;, &quot;README.md&quot;))
+sapply(file.path(&quot;../forwards.github.io&quot;, old), unlink, recursive = TRUE)
+# copy over public folder
+new &lt;- list.files(&quot;public&quot;)
+file.copy(file.path(&quot;public&quot;, new), &quot;../forwards.github.io&quot;, 
+          recursive = TRUE)</code></pre>
+<p>Once committed, changes to <code>forwards.github.io</code> go live on <a href="http://forwards.github.io" class="uri">http://forwards.github.io</a>, so only update this repository when you are confident that the pages are rendering correctly (e.g. all images are found, no links to draft posts, etc).</p>
 </div>
 <div id="going-further" class="section level2">
 <h2>Going Further</h2>

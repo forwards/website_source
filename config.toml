@@ -14,6 +14,7 @@ theme = "hugo-icarus-theme"
 pluralizelisttitles = false
 # keep tag/category names (e.g. useR! not user)
 preserveTaxonomyNames = true
+canonifyURLs = true
 
 [permalinks]
     blog = "blog/:year/:month/:day/:slug/"

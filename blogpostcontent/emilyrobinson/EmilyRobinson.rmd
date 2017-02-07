@@ -1,7 +1,7 @@
 Emily Robinson, from social scientist to data scientist
 =========================================================================
 
-Maëlle Salmon from RForwards got the chance to interview Emily Robinson, who recently became a data analyst at Etsy. A very inspiring R-Lady!
+Maëlle Salmon, a forwards collabortor, got the chance to interview Emily Robinson, who recently became a data analyst at Etsy. A very inspiring R-Lady!
 
 
 
@@ -10,7 +10,7 @@ Maëlle Salmon from RForwards got the chance to interview Emily Robinson, who re
 
 ***Hi, Emily! Thanks for letting us interview you! You studied  Decision Sciences at Rice University and then graduated from INSEAD with a Master's degree in Management (specialization in Organizational Behavior). What are those fields? How do they help you today?***
 
-Decision Sciences was an interdisciplinary major I actually created at Rice in my sophomore year based on Carnegie Mellon's major. Before then I'd been planning to major in economics or psychology, but I found that neither really satisfied what I was looking for: to understand how people make decisions. So I decided to take the rarely used option at Rice to design my own curriculum with the input of many faculty members, and I created a course list that was a mix of economics, psychology, statistics, and philosophy.
+Decision Sciences was an interdisciplinary major I actually created at Rice in my sophomore year based on [Carnegie Mellon’s major](https://www.cmu.edu/dietrich/sds/). Before then I'd been planning to major in economics or psychology, but I found that neither really satisfied what I was looking for: to understand how people make decisions. So I decided to take the rarely used option at Rice to design my own curriculum with the input of many faculty members, and I created a course list that was a mix of economics, psychology, statistics, and philosophy.
 
 Organizational Behavior is a pretty broad field, but essentially is the application of sociology and psychology applied to organizations/work. So people study everything from the effect of power on behavior to the benefits and pitfalls of multicultural teams to how social activists affect corporate political activity. I focused more on the micro (psychology) side and studied women in STEM fields.
 
@@ -32,7 +32,7 @@ I think this transition from being an R user to R programmer was also helped by 
 
 ***What is this program you've done for transitioning into your new career and how did you hear about it? How much can one learn in 12 weeks?***
 
-Metis is a Data Science Bootcamp that helps people transition into careers as a Data Scientist/Analyst. I heard about it from my brother, who had spoken at Metis and gone to their career day, where students present their final projects to recruiters and data scientists. He had been really impressed by the quality of the students and their work, and so I looked into the program more. I found that it fit perfectly my background, as what I was missing was Python skills and Machine Learning knowledge. Metis is not meant to take you from 0 to 60; everyone who enters the program has some knowledge of statistics and programming, although their backgrounds still vary widely. In my cohort, we had people a few years out of college, one person with twenty years of marketing experience, and a few with PhDs in quantitative fields.
+Metis is a [Data Science Bootcamp](http://www.thisismetis.com/data-science-bootcamps) that helps people transition into careers as a Data Scientist/Analyst. I heard about it from my brother, who had spoken at Metis and gone to their career day, where students present their final projects to recruiters and data scientists. He had been really impressed by the quality of the students and their work, and so I looked into the program more. I found that it fit perfectly my background, as what I was missing was Python skills and Machine Learning knowledge. Metis is not meant to take you from 0 to 60; everyone who enters the program has some knowledge of statistics and programming, although their backgrounds still vary widely. In my cohort, we had people a few years out of college, one person with twenty years of marketing experience, and a few with PhDs in quantitative fields.
 
 ![Emily's Metis cohort plus the two instructors (two people on the right)](figures/metis.jpg)
 
@@ -59,13 +59,13 @@ And as with almost every job, networking is critical. At some companies, there a
 
 Finally, don't be hung up on titles and only focus on positions where the title is "Data Scientist". The work you're doing is what's important, and some data analysts are doing work that at other companies would be classified as a data scientist job. My title is a Data Analyst (as was Hilary Parker's when she started out at Etsy), and while I'm not going to be doing deep learning projects anytime soon, I don't think there's going to be any shortage of interesting and challenging work.
 
-***You mention the importance of giving back to the open-source community on your blog, Hooked on Data. What are your plans with the blog and your programming in general? (Please keep writing on your blog!)***
+***You mention the importance of giving back to the open-source community on your blog, [Hooked on Data](https://robinsones.github.io/). What are your plans with the blog and your programming in general? (Please keep writing on your blog!)***
 
-One big thing I want to do is host some in-person R tutorials for the R-Ladies NYC group. They had their kick-off meeting a few weeks ago, and many people expressed interest in an introduction to R tutorial and a more advanced one. While there are definitely some good resources online, my favorites are [DataCamp](https://www.datacamp.com/) for interactive tutorials and Hadley and Garrett's new "R for Data Science"" book, I do think it can sometimes be easier to learn in person. I tried to get more people in my graduate program (including professors!) to use R, so I'd love to help a group that already recognizes the value of R and is eager to learn.
+One big thing I want to do is host some in-person R tutorials for the R-Ladies NYC group. They had their kick-off meeting a few weeks ago, and many people expressed interest in an introduction to R tutorial and a more advanced one. While there are definitely some good resources online, my favorites are [DataCamp](https://www.datacamp.com/) for interactive tutorials and Hadley and Garrett's new ["R for Data Science"](http://r4ds.had.co.nz/) book, I do think it can sometimes be easier to learn in person. I tried to get more people in my graduate program (including professors!) to use R, so I'd love to help a group that already recognizes the value of R and is eager to learn.
 
 Other than that, I definitely want to keep blogging. I think a lot of my work at Etsy is going to be confidential, so I won't be able to share that, but hopefully I'll be able to talk about some cool side projects I'm doing or general principles I learned from my work. I've promised posts about making my first R package and my final Metis project, so I'd better get going on those!
 
-P.S. DataCamp has a few free courses, but if anyone wants to try unlimited access you can do so for free for two days with this link. There's some really great courses, including one by Hadley and his sister Charlotte, and another by my brother!
+P.S. DataCamp has a few free courses, but if anyone wants to try unlimited access you can do so for free for two days with [this link](https://www.datacamp.com/invite/llm1rCA6gyetm). There's some really great courses, including one by Hadley and his sister Charlotte, and another by my brother!
 
 ***Last but not least, we were thrilled to learn you are a RCatLady although you don't have a cat! Also you have a dog! Is she a good R-Dog?***
 

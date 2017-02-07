@@ -7,7 +7,7 @@ This README documents how to add content and update the published website.
 
 ## Initial Setup
 
- - Install [blogdown](https://github.com/rstudio/blogdown)
+ - Install [blogdown](https://github.com/rstudio/blogdown) (>= 0.0.17)
  
     ```r
     devtools::install_github('rstudio/blogdown')
@@ -96,14 +96,16 @@ in this case. The filename should be lower case for consistency.
 ### Blog Posts
 
 Posts in the blog section are added in `content/blog`. They should be put in 
-sub-folders defining the date of publication, e.g. `content/blog/2016/01/30/new-post/new-post.md`. This set-up is a bit fiddly, but
+sub-folders defining the date of publication and the article title, e.g.
+`content/blog/2016/01/30/title-in-lower-case-separated-by-hyphens/`. 
+This set-up is a bit fiddly, but
 means that the `.Rmd` file and any images that you want to include directly, can
 be kept with the `.html` or `.md` files when they are processed by Hugo and 
 content for each post is kept separate (unless published on the same day).
 
 A new post can be created using
 ```r
-new_content("blog/2016/01/30/new-post/new-post.md", kind = "blog")
+new_content("blog/2016/01/30/title-in-lower-case/title-in-lower-case.md", kind = "blog")
 ```
 Don't forget to use `01` etc, for consistent naming. Note we don't use the 
 `new_post` function because the section of our site with the posts is called 
@@ -117,7 +119,7 @@ categories: []
 date: 2017-01-12T21:59:41Z
 description: ""
 tags: []
-title: new post
+title: title in lower case
 tocify: false
 ---
 ```
@@ -130,9 +132,8 @@ time is not used so can be left out).
 
 The author field is optional, for more formal posts such as analysis reports.
 
-The banner image is set using `banner`. Unfortunately the template doesn't
-(currently) recognise relative links, so you will need to specify the full link
-to an image file in the post folder, e.g. 
+The banner image is set using `banner`. The link to the image must be given 
+relative to the site root,  e.g. 
 "/blog/2016/01/30/new-post/banner.png". If you provide a banner image, a 
 thumbnail image is automatically created for the "Recent posts" sidebar. 
 
@@ -151,8 +152,31 @@ image). The title is authomatically added to the body of the final `.html`,
 formatted as a level one header (i.e. #). Therefore use level 2 and 3 headers 
 (i.e. ## and ###) to markup sections.
 
-Within the post, files **can** be reference locally, e.g. use
-`[Rmarkdown file](new-post.Rmd)` to reference the `.Rmd` source of the post.
+For images, the text in square brackets gives the alternative text shown if the
+image is unavailable/cannot be viewed, e.g.
+
+    ![Emily's R-Dog Abby](/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
+    
+If you wish to add a caption, you can simply put add emphasized text immediately
+below the image markup - in this case the alternative text is unnecessary:
+
+    ![](/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
+    *Emily's R-Dog Abby*
+    
+The CSS will centre the caption. All links to images and other files should be 
+given relative to the site root, e.g.
+
+    [Rmarkdown file](/blog/2017/01/13/mapping-users/mapping-users.Rmd)
+    
+This is so that the correct absolute links will be created in the RSS when the
+website is built.
+
+The `Blog` page of the website is automatically generated and lists a summary
+of all blog posts. By default, the summary is taken as the first few sentences
+of content, to give a summary of approximately 70 words. All HTML tags are stripped
+from the summary, so the text is lumped together in one paragraph regardless of
+the markup. To specify a different summary, add a `<!--more-->` divider where 
+you want to split the article (see e.g. markdown file in  `/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist`).
 
 ### Documents
 
@@ -199,13 +223,10 @@ right place when using a non-default publish directory. Therefore for now,  we
 build the site locally into `public` and copy that over into `forwards.github.io`
 
 ```r
-# post process RSS
-rss <- readLines("public/blog/index.xml")
-rss <- unname(sapply(rss, function(x){
-    gsub("([^#]*)(#####../content/)(.*)", 
-         "\\1http://forwards.github.io/\\3", x)
-}))
-writeLines(rss, "public/blog/index.xml")
+# stop any daemonized server
+servr::daemon_stop()
+# build site for publication
+build_site()
 # purge publication repo
 old <- setdiff(list.files("../forwards.github.io", 
                           include.dirs = TRUE, recursive = TRUE),

@@ -271,7 +271,7 @@ The analysis presented here used the following packages:
  - For visualisaton and reporting: knitr, ggplot2, mapproj, RColorBrewer, rworldmap, 
  scales
  
-The code is available in the [Rmarkdown file](mapping-users.Rmd).
+The code is available in the [Rmarkdown file](/blog/2017/01/13/mapping-users/mapping-users.Rmd).
 
 [^1]: See our supplementary report *[Non-Responses in the UseR! 2016 Survey](http://forwards.github.io/docs/nonresponse_useR2016_survey/)*
 [^2]: Landivar (2013) *[Disparities in STEM Employment by Sex, Race, and Hispanic Origin](https://www.census.gov/prod/2013pubs/acs-24.pdf)*
