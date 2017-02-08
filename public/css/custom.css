@@ -114,4 +114,5 @@ ul.doctype-list li {
 img + em { 
     display: block;
     text-align: center;
+    margin-top: -10px;
 }

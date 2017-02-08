@@ -1,4 +1,5 @@
-baseurl = "http://forwards.github.io/"
+# don't hard code http: or https: - will be added to links according to how page is served
+baseurl = "//forwards.github.io/"
 # publishdir = "../forwards.github.io"
 languageCode = "en-us"
 title = "FORWARDS"
@@ -14,7 +15,8 @@ theme = "hugo-icarus-theme"
 pluralizelisttitles = false
 # keep tag/category names (e.g. useR! not user)
 preserveTaxonomyNames = true
-canonifyURLs = true
+# don't canonify URLs so can use http://forwards.github.io/ or https://forwards.github.io/
+canonifyURLs = false
 
 [permalinks]
     blog = "blog/:year/:month/:day/:slug/"
