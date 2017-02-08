@@ -84,7 +84,7 @@ She is the best R-Dog. I'm very excited that Etsy is a dog-friendly office, and 
 
 ***Okay now we are very jealous! Thanks again Emily for talking with us, all the best for the future!***
 
-Contact Emily via her [email address](mailto:robinson.es@gmail.com), go read her [blog](robinsones.github.io), follow her on [Twitter](www.twitter.com/robinson_es), [Github](www.github.com/robinsones), or [LinkedIn](https://www.linkedin.com/in/robinsones).
+Contact Emily via her [email address](mailto:robinson.es@gmail.com), go read her [blog](https://robinsones.github.io/), follow her on [Twitter](https://twitter.com/robinson_es), [Github](https://github.com/robinsones), or [LinkedIn](https://www.linkedin.com/in/robinsones).
 
 *Disclaimer: The views expressed in this interview represent Emily's own views and opinions, not necessarily those of Etsy.*
 

@@ -172,6 +172,12 @@ files should be given relative to the site root, e.g.
 This is so that the correct absolute links will be created in the RSS when the
 website is built.
 
+Links to external websites should include http: or https: e.g.
+
+    [Github](https://github.com/robinsones)
+    
+otherwise they are interpreted relative to blog page (even if start with www).
+
 The `Blog` page of the website is automatically generated and lists a summary
 of all blog posts. By default, the summary is taken as the first few sentences
 of content, to give a summary of approximately 70 words. All HTML tags are stripped
