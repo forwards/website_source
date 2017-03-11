@@ -4,7 +4,7 @@
     width: 73.8461538461539% !important;
   }
 }
-@media screen and (min-width: 800px) and (max-width: 1199px) {
+@media screen and (min-width: 900px) and (max-width: 1199px) {
   .no-sidebar {
     width: 100% !important;
   }
@@ -67,15 +67,25 @@
   }
 }
 #main {
-  margin-top: 48px;
+  margin-top: 100px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
+  #main {
+    margin-top: 48px;
+  }
+}
+@media screen and (min-width: 1199px) {
   #main {
     margin-left: calc(21.53846153846154% + 3 * 0.76923076923076923%);
   }
 }
 #sidebar {
-  margin-top: 48px;
+  margin-top: 100px;
+}
+@media screen and (min-width: 900px) {
+  #sidebar {
+    margin-top: 48px;
+  }
 }
 #profile.card {
   position: fixed;

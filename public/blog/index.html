@@ -31,7 +31,7 @@
 <meta property="og:url" content="//forwards.github.io/blog/" />
 
 
-<meta property="og:updated_time" content="2017-02-07T19:26:36&#43;00:00"/>
+<meta property="og:updated_time" content="2017-03-11T16:37:43&#43;00:00"/>
 
 
 
@@ -294,6 +294,167 @@ $(document).ready(function ()  {
 
         <section id="main">
     
+    
+    <article class="article article-type-post" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            
+            <a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/" itemprop="url">
+                <img src="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/banner.png" class="article-banner">
+            
+            </a>
+
+            <header class="article-header">
+    <a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/">
+    <h1 class="article-title" itemprop="name">
+        useRs Relationship with R
+    </h1>
+    </a>
+    
+        <p class = "article-author">Stella Bollmann, Dianne Cook, Rudolf Debelak, Jasmine Dumas, John Fox, Julie Josse, Oliver Keyes, Carolin Strobl, Heather Turner</p>
+        <br>
+    
+    <div class="article-meta">
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-03-11 16:37:43 &#43;0000 UTC" itemprop="datePublished">2017-03-11</time>
+            &middot;
+            2220
+            words
+            &middot;
+            11
+            minute read
+        </div>
+
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="//forwards.github.io/categories/analysis">analysis</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="//forwards.github.io/tags/programming">programming</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="//forwards.github.io/tags/survey">survey</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="//forwards.github.io/tags/user">useR!</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+            <div class="article-entry" itemprop="articleBody">
+                <p>
+                    In our first post on the useR! 2016 survey we discussed the responses from the demographic section, finding in particular that:
+ The useR! 2016 attendees were predominately men, typically under 40, White/Caucasian and employed full-time. Women attendees tended to be younger and less advanced in their careers. Non-Asian minority races and LGBT individuals were under-represented. Approximately a quarter of attendees were caregivers.  We now turn to look at useRs relationship with R: what experience do they have in using R and what do they think of R?
+                    <br>
+                </p>
+                <p class="article-more-link">
+                    <a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/">
+                        Read more
+                    </a>
+                </p>
+            </div>
+            <footer class="article-footer">
+    <a data-url="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/" data-id="833fbeca9b0eaa5fdaf33aedb9258fe3" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+        </div>
+    </article>
     
     <article class="article article-type-post" itemscope="" itemprop="blogPost">
         <div class="article-inner">
@@ -779,6 +940,32 @@ In order to adequately address such issues, we would like to widen the diversity
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/" class="thumbnail">
+                    
+                        <span style="background-image:url(//forwards.github.io/blog/2017/03/11/users-relationship-with-r/banner.png)" alt="Blog" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="//forwards.github.io/categories/analysis">
+                        analysis
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/" class="title">useRs Relationship with R</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-03-11 16:37:43 &#43;0000 UTC" itemprop="datePublished">2017-03-11</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="//forwards.github.io/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/" class="thumbnail">
                     
                         <span style="background-image:url(//forwards.github.io/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/portrait.png)" alt="Blog" class="thumbnail-image"></span>
@@ -873,7 +1060,7 @@ In order to adequately address such issues, we would like to widen the diversity
                 <a class="category-list-link" href="//forwards.github.io/categories/analysis">
                     analysis
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
@@ -921,6 +1108,9 @@ In order to adequately address such issues, we would like to widen the diversity
         
         
         <a href="//forwards.github.io/tags/demographics" style="font-size: 12px;">demographics</a>
+        
+        
+        <a href="//forwards.github.io/tags/programming" style="font-size: 12px;">programming</a>
         
         
         <a href="//forwards.github.io/tags/survey" style="font-size: 12px;">survey</a>
