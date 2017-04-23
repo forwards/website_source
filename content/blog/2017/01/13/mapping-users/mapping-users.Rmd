@@ -24,7 +24,7 @@ library(dplyr)
 library(forcats)
 library(tidyr)
 library(matrixStats)
-load("../../../../../../../survey/survey.RData")
+load("../../../../../../../surveys/useR2016/survey.RData")
 opts_chunk$set(warning = FALSE, fig.align = "center")
 # use women/men rather than male/female
 survey_data <- survey_data %>%
