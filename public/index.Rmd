@@ -6,7 +6,7 @@ type: index
 
 Leading the R community forwards in widening the participation of women and other under-represented groups.
 
-Find out more [about](about.html) the task force.
+Find out more [about](about) the task force.
 
 <div style = "display: flex; align-items: flexstart;">
 <div style = "width:50%">

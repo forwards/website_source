@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>useRs Relationship with R &ndash; FORWARDS</title>
+    <meta name="generator" content="Hugo 0.18.1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="R Foundation taskforce on women and other under-represented groups">
+    
+      <meta name="description" content="Report on programming section of useR! 2016 survey">
+    
+    
+    <link rel="canonical" href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/"/>
+    <link rel="icon" href="//forwards.github.io/favicon.ico">
+    <link rel="apple-touch-icon" href="//forwards.github.io/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="//forwards.github.io/css/style.css">
+    <link rel="stylesheet" href="//forwards.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//forwards.github.io/css/monokai.css">
+
+    
+    <link rel="stylesheet" href="//forwards.github.io/css/custom.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="useRs Relationship with R" />
+<meta property="og:description" content="Report on programming section of useR! 2016 survey" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/" />
+
+
+<meta property="og:updated_time" content="2017-03-11T16:37:43&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta itemprop="name" content="useRs Relationship with R">
+<meta itemprop="description" content="Report on programming section of useR! 2016 survey">
+
+
+<meta itemprop="dateModified" content="2017-03-11T16:37:43&#43;00:00" />
+<meta itemprop="wordCount" content="2223">
+
+
+
+<meta itemprop="keywords" content="analysis,interviews,news,action,careers,data science,demographics,programming,survey,useR!," />
+
+    
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="useRs Relationship with R"/>
+<meta name="twitter:description" content="Report on programming section of useR! 2016 survey"/>
+<meta name="twitter:site" content="@R_Forwards"/>
+
+
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="../site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+
+
+<script>
+$(document).ready(function ()  {
+
+    
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.article-entry',
+      hashGenerator: function (text) {
+        return text.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 70
+    };
+    options.showAndHide = true;
+    options.showAndHideOnScroll = true;
+    options.smoothScroll = true;
+
+    
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+</head>
+<body>
+<div class="container">
+
+
+<div id="container">
+	<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="//forwards.github.io/" id="logo">
+          
+          <span class="site-title">FORWARDS</span>
+      </a>
+      <nav id="main-nav">
+          
+          
+          <a class="main-nav-link" href="//forwards.github.io/">Home</a>
+          
+          
+          
+          <a class="main-nav-link" href="//forwards.github.io/about/">About</a>
+          
+          
+          
+          <a class="main-nav-link" href="//forwards.github.io/data/">Data</a>
+          
+          
+          
+          <a class="main-nav-link" href="//forwards.github.io/blog/">Blog</a>
+          
+          
+          
+          <a class="main-nav-link" href="//forwards.github.io/docs/">Docs</a>
+          
+          
+          
+          <a class="main-nav-link" href="//forwards.github.io/links/">Links</a>
+          
+          
+
+          
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="//forwards.github.io/images/forwards.svg"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+              <input type="search" name="q" class="search-form-input" placeholder="Search">
+              <button type="submit" class="search-form-submit">
+              </button>
+              <input type="hidden" name="sitesearch" value="//forwards.github.io/" />
+         </form>
+        </div>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tbody>
+          <tr>
+          
+          
+          <td><a class="main-nav-link" href="//forwards.github.io/">Home</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="//forwards.github.io/about/">About</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="//forwards.github.io/data/">Data</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="//forwards.github.io/blog/">Blog</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="//forwards.github.io/docs/">Docs</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="//forwards.github.io/links/">Links</a></td>
+          
+          
+
+          
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="//forwards.github.io/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</header>
+
+   	
+   	<div class="outer">
+   		
+	    <aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      <img id="avatar" src="//forwards.github.io/images/forwards.svg">
+      <h2 id="name">R Foundation taskforce on women and other under-represented groups</h2>
+      
+      
+      
+    </div>
+    
+    <div class="profile-block social-links">
+      <table>
+        <tr>
+          
+<td><a href="//github.com/forwards" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//twitter.com/R_Forwards" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
+
+
+          <td><a href="/blog/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+        </tr>
+      </table>
+    </div>
+   
+       <div id="TOC">
+       </div>
+   
+
+  </div>
+</aside>
+
+	       
+	    
+<section id="main">
+
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            
+                <img src="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/banner.png" class="article-banner">
+            
+
+            <header class="article-header">
+    <a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/">
+    <h1 class="article-title" itemprop="name">
+        useRs Relationship with R
+    </h1>
+    </a>
+    
+        <p class = "article-author">Stella Bollmann, Dianne Cook, Rudolf Debelak, Jasmine Dumas, John Fox, Julie Josse, Oliver Keyes, Carolin Strobl, Heather Turner</p>
+        <br>
+    
+    <div class="article-meta">
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-03-11 16:37:43 &#43;0000 UTC" itemprop="datePublished">2017-03-11</time>
+            &middot;
+            2223
+            words
+            &middot;
+            11
+            minute read
+        </div>
+
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="//forwards.github.io/categories/analysis">analysis</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="//forwards.github.io/tags/programming">programming</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="//forwards.github.io/tags/survey">survey</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="//forwards.github.io/tags/user">useR!</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+            <div class="article-entry" itemprop="articleBody">
+                
+
+<p>In our <a href="https://forwards.github.io/blog/2017/01/13/mapping-users/">first post on the useR! 2016 survey</a> we discussed the responses from the demographic section, finding in particular that:</p>
+
+<ul>
+<li>The useR! 2016 attendees were predominately men, typically under 40, White/Caucasian and employed full-time.</li>
+<li>Women attendees tended to be younger and less advanced in their careers.</li>
+<li>Non-Asian minority races and LGBT individuals were under-represented.</li>
+<li>Approximately a quarter of attendees were caregivers.</li>
+</ul>
+
+<p>We now turn to look at useRs relationship with R: what experience do they have in using R and what do they think of R?</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>useR! attendees have generally been using R for many years and often have prior programming experience. Women tend to have less experience and a lower involvement in package development, though this can be attributed to a lower age distribution.</p>
+
+<p>Women are less likely to use R for recreation, but are just as likely as men to consider writing R fun. useR! attendees have a generally positive view of R and would recommend it to friends and colleagues for statistical analysis.</p>
+
+<p>We recommend teaching R to newcomers in a way that focuses on data science and does not assume a programming background. Mentors and managers should recognize that people from under-represented groups may need additional support to fill in gaps in their programming knowledge. To encourage people from under-represented groups to develop as R programmers and contribute to the community, we recommend promoting opportunities and activities that are paid and/or help to advance their careers.</p>
+
+<h2 id="survey-results">Survey results</h2>
+
+<h3 id="programming-experience">Programming experience</h3>
+
+<p>We first asked attendees how long they had been using R for. Unsurprisingly for
+attendees of a conference all about R, the respondents tend to be rather experienced, with more than half (57%, 251 of 442) using R for at least 5 years. Nonetheless, the conference does attract people new to R, with a small number having less than 6 months experience. A greater proportion of women than men have fewer than two years experience (24%, 39 of 164 vs 12%, 34 of 276) which correlates with the younger age distribution we noted in our first post. The following plot shows the percentages within each experience category for each gender:</p>
+
+<p><img src="/blog/2017/03/11/users-relationship-with-runnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" /></p>
+
+<p>66% of women (109 of 165) said they had programming experience before learning to use R, compared with 82% of men (227 of 276). Since women tend to be younger, this could be due to increasing use of R in teaching, particularly on undergraduate courses. Thus younger people generally are less likely to have used other languages for data analysis such as SAS, Stata, S-plus, Genstat, etc. However it could indicate a different background of women vs. men, in particular they may be less likely to have any formal training in computer science, where they might have been taught C/C++, Java etc before learning R.</p>
+
+<p>We also asked about <em>how</em> people use the language. Respondents were asked to confirm that any or all of the following statements applied to them:</p>
+
+<ul>
+<li>&ldquo;I use functions from existing R packages to analyze data&rdquo;</li>
+<li>&ldquo;I write R code designed to make my work easier, such as loops or conditionals or functions&rdquo;</li>
+<li>&ldquo;I write R functions for use by myself or my collaborators&rdquo;</li>
+<li>&ldquo;I contribute to R packages (on CRAN or elsewhere)&rdquo;</li>
+<li>&ldquo;I have written my own R package&rdquo;</li>
+<li>&ldquo;I have written my own R package and released it on CRAN or Bioconductor (or shared it on GitHub, R-Forge or similar platforms)&rdquo;</li>
+</ul>
+
+<p>As might be expected given the length of time useR! attendees have been using R, their use is generally quite advanced with the vast majority using techniques to control the flow of their code (86%, 392 of 458) or writing custom R functions (85%, 389 of 458). More than half have written their own package(s) (52%, 238 of 458) and a third have publicly released a package (34%, 155 of 458).</p>
+
+<p>Reflecting the distribution of length of R programming experience, the proportion of women using advanced programming techniques is slightly lower than men and when it comes to package development the proportion is lower still:</p>
+
+<p><img src="/blog/2017/03/11/users-relationship-with-runnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" /></p>
+
+<p>The final question we asked regarding use of R was whether the attendees use R primarily for work, recreation or both. The results were significantly different for men and women, only 22% of women (35 of 162) use R for both work and recreation compared to 45% of men (147 of 275); the few people that use R for recreation only were all men. Although factors such as age and programming experience may come into play here, it is likely that social expectations of women are also a factor. For example, although responsibility for cooking, childcare and housework is shared more evenly among working couples, in different sex couples women often shoulder a greater responsibility<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>. With reduced leisure time, women may be less willing to use R just for fun, or may feel less able to do so, due to expectations of their family and friends about how they should spend their free time.</p>
+
+<p><img src="/blog/2017/03/11/users-relationship-with-runnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" /></p>
+
+<p>Overall, this paints a picture of useR! attendees as a population of mostly long-term R programmers often writing code for more than their individual use - which makes sense. As we discussed in our first post, conferences are expensive in terms of both time and money, so a conference on R is most viable for people that use R substantially in their work and hence can justify the cost to their employers. As the main conference organised by the R Foundation, useR! is particularly attractive to dedicated contributors to the R project, indeed talks and posters should present a contribution which will often be a new package or contribution to a package. This goes some way to explaining some of the inequalities in attendee demographics; we know from separate research (albeit using a rather crude metric) that CRAN maintainers, for example, are mostly not women.<sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup></p>
+
+<p>We have seen that the women that do attend useR! tend to be younger and less experienced. We have not explored the programming experience of other under-represented groups, for example with regard to ethnicity or sexual orientation, as the numbers in the sample are much lower, prohibiting reliable statistical conclusions and creating issues with identifiability. It is possible that, like women, members of other under-represented groups are also less likely to use R for recreation, as they will tend to have less time or money than is the norm.<sup class="footnote-ref" id="fnref:3"><a rel="footnote" href="#fn:3">3</a></sup> This indicates a barrier to women and other under-represented groups transitioning from useRs to developeRs: package authorship and maintenance, and dedication to an open source community, is largely uncompensated.</p>
+
+<h3 id="opinions-about-r">Opinions about R</h3>
+
+<p>The second part of our section on R programming asked respondents for their opinions on R. On these questions there were no significant differences between the responses from men and women, so we present the results for all respondents, including non-binary individuals and those that did not declare their gender.</p>
+
+<p>We first asked respondents how strongly they agreed or disagreed with the following statements:</p>
+
+<ul>
+<li>writing R is fun</li>
+<li>writing R is considered cool or interesting by my peers</li>
+<li>writing R is a monotonous task</li>
+<li>writing R is difficult</li>
+</ul>
+
+<p>The results are presented below:</p>
+
+<p><img src="/blog/2017/03/11/users-relationship-with-runnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" /></p>
+
+<p>We see that respondents overwhelmingly agree that writing R is fun, so even those people that use R primarily for work enjoy doing so. The view of their peers is slightly less positive, with 12%
+(51 of 438) stating that writing R is <em>not</em> considered cool or interesting by their peers and 15% having no opinion on this (65 of 438). Even among those who agreed with the second statement, the proportion that strongly agreed is lower compared to the first statement. So although the overall picture is positive, there is a sizable group for which writing R is not encouraged by their peers, which could affect their motivation to contribute, particularly outside of work.</p>
+
+<p>The majority (61%, 269 of 438) disagree with the statement that writing R is difficult. Those that agreed with this statement are spread across the experience levels, so some may have been expressing a general opinion about R programming rather than a personal one, necessarily. The disagreement is stronger (80%, 349 of 438) against the statement that writing R is a monotonous task, so while writing R may occasionally be difficult most useR! attendees find it challenging and interesting.</p>
+
+<p>The generally positive view of R among useR! attendees is not so surprising, after all most will have chosen to attend the conference, or if it was required by their work they have expressed an interest in R by applying for that job or choosing to use R at work in the first place. Nonetheless, the positive view is a benefit to the community as useRs encourage people to take up R and contribute more to the R project, with many useRs being in a position to teach R, mentor junior colleagues/students or contribute to community events such as R user groups or R-ladies.</p>
+
+<p>91% (418 of 439) said that they would recommend R to friends and colleagues. The reasons some people would not recommend R include a steep learning curve, too many idiosyncrasies, poor performance and that it encourages bad programming practice. Some simply said they would recommend other software over R or they may recommend R, depending on why their friend or colleague wanted to learn a programming language.</p>
+
+<p>When asked to pick a single reason for recommending R, nearly 40% (160 of 425) said it was good for statistical analysis. R has long been described as the lingua franca of statistics or data science, so this makes sense. The next biggest reason was that it was good for reproducible research, indicating the increasing importance that has been put on this topic in recent years. Other important features are the package ecosystem, strength at visualization and the fact that it is free and open source.</p>
+
+<p><img src="/blog/2017/03/11/users-relationship-with-runnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" /></p>
+
+<h2 id="moving-forward">Moving Forward</h2>
+
+<h3 id="outreach-to-under-represented-groups">Outreach to under-represented groups</h3>
+
+<p>As the R community seeks to be more inclusive of under-represented groups we need to be aware that individuals from these groups are less likely to have a programming background and may have less freedom to spend time on unpaid and recreational contributions. Given R&rsquo;s strength as a tool for statistical analysis, introductions to R should focus on this rather than the nuts and bolts of the language, as a general rule. More experienced R programmers from under-represented groups may need additional support to transition to developeRs &ndash; even when writing packages in pure R, concepts such as version control and object-oriented programming may be new and of course interfacing with other languages such as C++ is a further stretch. We should seek to promote opportunities to under-represented groups that are paid and/or will benefit their career, e.g. <a href="https://summerofcode.withgoogle.com/organizations/4947241283354624/">Google Summer of Code projects</a>, <a href="https://user2017.brussels/diversity-scholarships">useR! diversity scholarships</a>, professional development via <a href="https://rladies.org/">R-ladies groups</a>, developing a package with <a href="https://ropensci.org/community/">rOpenSci</a>, publishing in <a href="https://journal.r-project.org/">The R Journal</a> and so on.</p>
+
+<h3 id="taskforce-initiatives">Taskforce initiatives</h3>
+
+<p>Following our recent <a href="http://forwards.github.io/blog/2017/01/13/call-to-join-forwards/">call to join Forwards</a> we have set up a number of sub-teams to support women and other under-represented groups in the R community. In particular the teaching team will focus on more inclusive pedagogy, such as <a href="https://github.com/forwards/teaching_examples">using examples to engage a wider demographic</a>, and running workshops for women and girls. We have also set up a community team, to look at ways to reach out to under-represented groups and an on-ramps team to look at ways to help useRs transition to developeRs. These are all new initiatives, but we hope to get some projects off the ground in all these areas in the coming year. Anyone wishing to get involved can contact us at <a href="mailto:rowforwards@gmail.com">rowforwards@gmail.com</a>.</p>
+
+<h3 id="further-research">Further research</h3>
+
+<p>Some interesting questions for further research on useRs relationship with R include:</p>
+
+<ul>
+<li>What programming experience do people have before using R? For example, what languages did people learn before R?</li>
+<li>Why do people write packages but not publicly release them? For example, are the packages for their own use (work/recreation), for internal company use, or are the packages in development? One respondent commented that their employer prohibited releasing packages on CRAN; how widespread is this?</li>
+<li>What are the pros and cons of using R? Several respondents commented that R has many benefits but also some drawbacks and richer data could be collected on this topic.</li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+<p>We do not plan to release the raw survey data as many individuals can be uniquely identified from one or two demographic questions. We may release the data in an aggregated form once we have completed our full analysis (this post covers the second of three sections).</p>
+
+<p>The analysis presented here used the following packages:</p>
+
+<ul>
+<li>For data manipulation: dplyr, forcats, purrr, tidyr</li>
+<li>For visualization and reporting: knitr, ggplot2, likert</li>
+</ul>
+
+<p>The code is available in the <a href="https://github.com/forwards/surveys-public/blog-posts/useR-2016/users-relationship-with-r/users-relationship-with-r.Rmd">Rmarkdown file</a>.</p>
+
+<p>The banner image was based on the <a href="https://twitter.com/MorphoFun/status/831668445032873985"><code>plotHeart</code></a> function written by Sandy Kawano for Valentine&rsquo;s Day, based on this <a href="http://stackoverflow.com/a/6546778/173755">answer to a Stackoverflow post</a>.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><a href="http://www.familiesandwork.org/downloads/modern-families.pdf">http://www.familiesandwork.org/downloads/modern-families.pdf</a>
+ <a class="footnote-return" href="#fnref:1">↩</a></li>
+<li id="fn:2"><a href="http://forwards.github.io/data/#maintainer_gender_2016">http://forwards.github.io/data/#maintainer_gender_2016</a>
+ <a class="footnote-return" href="#fnref:2">↩</a></li>
+<li id="fn:3">For example, average earnings in the US are lower for many ethnic minorities in general and in science and engineering occupations in particular, including computer and information science specifically (<a href="https://www.nsf.gov/statistics/2017/nsf17310/static/data/tab9-17.pdf">https://www.nsf.gov/statistics/2017/nsf17310/static/data/tab9-17.pdf</a>). The  American Association of University Women report that gay and bisexual men tend to be paid less than similarly qualified heterosexual men; while trans women (who have transitioned from male to female) experience a drop in pay. They also report that transgender people frequently face harassment and discrimination; this may affect their motivation for voluntary contribution (<a href="http://www.aauw.org/resource/the-simple-truth-about-the-gender-pay-gap/">http://www.aauw.org/resource/the-simple-truth-about-the-gender-pay-gap/</a>).
+ <a class="footnote-return" href="#fnref:3">↩</a></li>
+</ol>
+</div>
+
+            </div>
+            <footer class="article-footer">
+    <a data-url="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/" data-id="05583e9e11e74496493236499a7affbf" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+        </div>
+
+        
+<nav id="article-nav">
+    
+    <a href="//forwards.github.io/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">Emily Robinson, from Social Scientist to Data Scientist</div>
+    </a>
+    
+
+    
+</nav>
+
+
+    </article>
+
+    
+    <section id="comments">
+        <div id="disqus_thread">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'forwards';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </section>
+    
+</section>
+
+
+	    
+	    <aside id="sidebar">
+    
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Recent Posts
+    </h3>
+    <div class="widget">
+        <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/" class="thumbnail">
+                    
+                        <span style="background-image:url(//forwards.github.io/blog/2017/03/11/users-relationship-with-r/banner.png)" alt="useRs Relationship with R" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="//forwards.github.io/categories/analysis">
+                        analysis
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/" class="title">useRs Relationship with R</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-03-11 16:37:43 &#43;0000 UTC" itemprop="datePublished">2017-03-11</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="//forwards.github.io/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/" class="thumbnail">
+                    
+                        <span style="background-image:url(//forwards.github.io/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/portrait.png)" alt="useRs Relationship with R" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="//forwards.github.io/categories/interviews">
+                        interviews
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="//forwards.github.io/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/" class="title">Emily Robinson, from Social Scientist to Data Scientist</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-02-07 19:26:36 &#43;0000 UTC" itemprop="datePublished">2017-02-07</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="//forwards.github.io/blog/2017/01/13/call-to-join-forwards/" class="thumbnail">
+                    
+                        <span style="background-image:url(//forwards.github.io/blog/2017/01/13/call-to-join-forwards/wocintech_meeting.jpg)" alt="useRs Relationship with R" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="//forwards.github.io/categories/news">
+                        news
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="//forwards.github.io/blog/2017/01/13/call-to-join-forwards/" class="title">Call to Join Forwards</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-01-13 13:07:01 &#43;0000 UTC" itemprop="datePublished">2017-01-13</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="//forwards.github.io/blog/2017/01/13/mapping-users/" class="thumbnail">
+                    
+                        <span style="background-image:url(//forwards.github.io/blog/2017/01/13/mapping-users/banner.png)" alt="useRs Relationship with R" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="//forwards.github.io/categories/analysis">
+                        analysis
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="//forwards.github.io/blog/2017/01/13/mapping-users/" class="title">Mapping useRs</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-01-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-01-13</time>
+                    </p>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="//forwards.github.io/categories/analysis">
+                    analysis
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="//forwards.github.io/categories/interviews">
+                    interviews
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="//forwards.github.io/categories/news">
+                    news
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tag cloud
+    </h3>
+    <div class="widget tagcloud">
+        
+        
+        <a href="//forwards.github.io/tags/action" style="font-size: 12px;">action</a>
+        
+        
+        <a href="//forwards.github.io/tags/careers" style="font-size: 12px;">careers</a>
+        
+        
+        <a href="//forwards.github.io/tags/data-science" style="font-size: 12px;">data science</a>
+        
+        
+        <a href="//forwards.github.io/tags/demographics" style="font-size: 12px;">demographics</a>
+        
+        
+        <a href="//forwards.github.io/tags/programming" style="font-size: 12px;">programming</a>
+        
+        
+        <a href="//forwards.github.io/tags/survey" style="font-size: 12px;">survey</a>
+        
+        
+        <a href="//forwards.github.io/tags/user" style="font-size: 12px;">useR!</a>
+        
+    </div>
+</div>
+
+
+
+
+
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+	    
+	</div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      <p> Provide input on this web site, or to the taskforce by <a href="mailto:rowforwards@gmail.com?Subject=Hello%20again" target="_top">email.</a> </p>
+      <p>&copy; 2017
+      Forwards. Powered by <a href="https://github.com/rstudio/blogdown">blogdown</a>/<a href="//gohugo.io">Hugo</a>. Theme based on Icarus by <a href="http://github.com/ppoffice">PPOffice</a>.</p>
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Unless otherwise noted, content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      <p>The Forwards logo is a derivative of the <a href = "https://www.r-project.org/logo/Rlogo.svg">R logo</a>, <a href = "https://www.r-project.org/logo/">©2016 The R Foundation</a>, used 
+under <a href = "https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. The 
+Forwards logo is licensed under 
+<a href = "https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, ©2016 Forwards.</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="//forwards.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script src="//forwards.github.io/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script src="//forwards.github.io/js/jqueryui-1.11.4/jquery-ui.min.js"></script>
+
+<script src="//forwards.github.io/js/tocify-1.9.1/jquery.tocify.js"></script>
+
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+</body>
+</html>

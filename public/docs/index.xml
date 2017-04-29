@@ -16,11 +16,7 @@
       <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>//forwards.github.io/docs/nonresponse_useR2016_survey/</guid>
-      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
-
-/BLOGDOWN-BODY-BEFORE --&gt;
-
-&lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
+      <description>&lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Background&lt;/h2&gt;
 &lt;!-- Survey report says 456 responses, what are extra 2? --&gt;
 &lt;p&gt;The useR! survey received a total of 455 responses out of 904 attendees. Anticipating a high proportion of non-response, questions were included in the survey on participants’ gender, registration type and country of residence, with a view to adjusting observed counts in each cross-classified group to match the proportions in the total useR! 2016 population. Unfortunately the country of residence was not recorded during registration and could not be reliably derived from available information such as affiliation. Although registration type should have been available, in practice it was missing for about one third of participants. This leaves gender, which was (self-)recorded for presenters, but not for other attendees. In order to obtain a gender assignment for all participants, the first names were analysed with the &lt;strong&gt;genderizer&lt;/strong&gt; package, which predicts gender from first name, based on profiles scraped from the web. For participants where the gender was unknown, the genderizer prediction was used if it was based on a sample &amp;gt; 10 and had probability &amp;gt; 0.9, otherwise the gender was assigned based on a manual web search, where this led to a clear assignment. This gave estimates of 235 female, 593 male and 76 undetermined.&lt;/p&gt;
@@ -60,7 +56,7 @@
 &lt;div id=&#34;age&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Age&lt;/h3&gt;
 &lt;p&gt;The unweighted and weighted densities have a very similar shape, but using the weighting shifts the density slightly to the left, i.e. when females are down-weighted there is a slight shift to a generally older population.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey/figures/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;education-level&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Education level&lt;/h3&gt;
@@ -266,27 +262,27 @@
 &lt;h3&gt;Age&lt;/h3&gt;
 &lt;p&gt;The difference in density between weighted and unweighted is small but consistent across a wide age range so deserves further exploration. Since we are using a density summary there is no issue with small sub-groups.&lt;/p&gt;
 &lt;p&gt;Breaking down by gender shows the difference in age distribution much more clearly:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey/figures/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;education-level-1&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Education level&lt;/h3&gt;
 &lt;p&gt;Although there is some evidence of a more educated male population (weighted counts shift to higher education levels) the difference is small. In addition the numbers without university-level education are very small and even combined with the missing group there is potential that individuals are identified when broken down by gender. Therefore it is best to keep genders combined here and base the final summary on unweighted counts.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey/figures/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;employment-status-1&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Employment status&lt;/h3&gt;
 &lt;p&gt;Here the shift from unweighted counts to weighted counts is larger. Although there are small groups, these can reasonably be combined into an “Other” category.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey/figures/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;time-using-r-1&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Time using R&lt;/h3&gt;
 &lt;p&gt;Again there are material differences between unweighted and weighted counts, here the original groups can be left as is:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey/figures/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;recreational-use-of-r-1&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Recreational use of R&lt;/h3&gt;
 &lt;p&gt;Here there is a clear difference between unweighted and weighted counts. As only four people (men) said that they used R primarily as a recreational activity, this can be combined with the missing category:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey/figures/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//forwards.github.io/docs/nonresponse_useR2016_survey_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;conclusions&#34; class=&#34;section level2&#34;&gt;
@@ -294,14 +290,6 @@
 &lt;p&gt;Where there is no material difference between genders, the over-representation of women in the sample is unimportant. Where there is a substantive difference, it is interesting to explore this difference in a grouped summary, where again the over-representation of women becomes irrelevant as males and females are summarised separately.&lt;/p&gt;
 &lt;p&gt;Therefore rather than base final summaries on weighted counts, which are based in part on predicted data, it is better to use the weighted counts as a guide to when a grouped summary is appropriate.&lt;/p&gt;
 &lt;/div&gt;
-
-
-&lt;!-- BLOGDOWN-HEAD
-
-
-
-
-/BLOGDOWN-HEAD --&gt;
 </description>
     </item>
     
