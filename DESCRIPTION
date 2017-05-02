@@ -11,24 +11,6 @@ LazyData: true
 Remotes:
     rstudio/blogdown
 Imports:
-    stringr,
-    purrr,
-    httr,
-    magrittr,
-    bookdown,
     devtools,
     blogdown,
-    tutorial,
-    desc,
-    forcats,
-    haven,
-    readr,
-    tibble,
-    tidyr,
-    dplyr,
-    ggplot2,
-    lubridate,
-    rworldmap,
-    mapproj,
-    matrixStats
 RoxygenNote: 5.0.1
