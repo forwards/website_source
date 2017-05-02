@@ -5,6 +5,27 @@ which generates static websites based on [R Markdown](http://rmarkdown.rstudio.c
 
 This README documents how to add content and update the published website.
 
+## View Build Result
+
+**Pull Request**
+
+Preview the result on https://rforwards-auto.github.io/pull
+
+You can rebuild the pull request by creating an empty commit or a new commit to the pull request branch.
+
+**Master Branch** 
+
+Be careful, the master branch is the production environment. The build result will be deployed to https://forwards.github.io 
+
+**Non-master Branch**
+
+Preview the result on https://rforwards-auto.github.io/draft
+
+The [rforwards-auto/draft](https://github.com/rforwards-auto/draft)  repo contains the latest non-master branch build result. 
+
+You can rebuild a commit by creating an empty commit to that branch or [restart the build for the commit on Travis CI](https://travis-ci.org/forwards/website_source)
+
+
 ## Initial Setup
 
  - Install [blogdown](https://github.com/rstudio/blogdown) (>= 0.0.17)
