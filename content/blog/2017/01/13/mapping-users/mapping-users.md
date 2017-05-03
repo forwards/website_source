@@ -66,7 +66,7 @@ Additionally, it is probable that the other demographics of LGBT attendees refle
 
 Approximating age (by subtracting the year of birth from 2016) shows the following:
 
-<img src="//forwards.github.io/blog/2017/01/13/mapping-users/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+<img src="/blog/2017/01/13/mapping-users/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 Women trend younger than men at the conference, but the age distribution is similar across the two genders; *47%* of respondents (n = 438) were born in the 1980s - in other words, were people in their late 20s to mid 30s. This lines up neatly with the education data (more on that later) and suggests that people in their early 20s and 40+ year olds are not finding the conference appealing - because there are other things to spend time on, because money is tighter, or for some other reason. 
 
@@ -80,7 +80,7 @@ The R community is a highly international one, with developers in a wide range o
 
 Altogether, R programmers from 34 nations attended useR!, but the overwhelming majority of respondents (*71%* of n = 443) live in the United States. In some ways this isn't surprising - the cost of getting to Stanford increases the further away you are, and it's expensive to start with! - and the rotation of the conference between continents each year means that many non-US R programmers are likely to simply attend the next European event. At the same time, it's still somewhat disappointing for an event considered the "main" R conference, particularly with only ~20 attendees coming from Canada, a country bordering the U.S.
 
-<img src="//forwards.github.io/blog/2017/01/13/mapping-users/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="/blog/2017/01/13/mapping-users/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 ### Education
 The vast majority of attendees (>85%, of n = 451) had *completed* postgraduate degrees:
@@ -104,7 +104,7 @@ As the age data suggests, women tend to be slightly earlier on in the traditiona
 
 Almost all of the attendees were employed, which (with the cost of the tickets) makes sense. More interestingly, a majority of the attendees (*~57%* of n = 444) were employed outside academia, primarily by private sector organisations. This is a strong indicator of what we've known anecdotally for a while - that R, a language originally designed and used in academia, is becoming more prevalent outside that context. At the same time, this may be a (somewhat) localised effect: while the language is increasingly popular, the technology industry centred on Silicon Valley is certainly an outlier in many respects for research overall.
 
-<img src="//forwards.github.io/blog/2017/01/13/mapping-users/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="/blog/2017/01/13/mapping-users/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
 
 Another interesting takeaway was that men are more likely to work in industry and permanent academic jobs than women - and women are far, *far* more likely to be students. Again, this isn't surprising since it fits the pattern that women attending tend to be younger than men, and overall patterns that the tech industry (which is where one would expect the majority of privately-employed R programmers and scientists to work) has a known problem with employing and promoting women, as does academia.
 

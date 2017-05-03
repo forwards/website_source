@@ -47,7 +47,7 @@ We recommend teaching R to newcomers in a way that focuses on data science and d
 We first asked attendees how long they had been using R for. Unsurprisingly for
 attendees of a conference all about R, the respondents tend to be rather experienced, with more than half (57%, 251 of 442) using R for at least 5 years. Nonetheless, the conference does attract people new to R, with a small number having less than 6 months experience. A greater proportion of women than men have fewer than two years experience (24%, 39 of 164 vs 12%, 34 of 276) which correlates with the younger age distribution we noted in our first post. The following plot shows the percentages within each experience category for each gender:
 
-<img src="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+<img src="/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 
 
@@ -66,11 +66,11 @@ As might be expected given the length of time useR! attendees have been using R,
 
 Reflecting the distribution of length of R programming experience, the proportion of women using advanced programming techniques is slightly lower than men and when it comes to package development the proportion is lower still:
 
-<img src="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 The final question we asked regarding use of R was whether the attendees use R primarily for work, recreation or both. The results were significantly different for men and women, only 22% of women (35 of 162) use R for both work and recreation compared to 45% of men (147 of 275); the few people that use R for recreation only were all men. Although factors such as age and programming experience may come into play here, it is likely that social expectations of women are also a factor. For example, although responsibility for cooking, childcare and housework is shared more evenly among working couples, in different sex couples women often shoulder a greater responsibility[^1]. With reduced leisure time, women may be less willing to use R just for fun, or may feel less able to do so, due to expectations of their family and friends about how they should spend their free time.
 
-<img src="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
 Overall, this paints a picture of useR! attendees as a population of mostly long-term R programmers often writing code for more than their individual use - which makes sense. As we discussed in our first post, conferences are expensive in terms of both time and money, so a conference on R is most viable for people that use R substantially in their work and hence can justify the cost to their employers. As the main conference organised by the R Foundation, useR! is particularly attractive to dedicated contributors to the R project, indeed talks and posters should present a contribution which will often be a new package or contribution to a package. This goes some way to explaining some of the inequalities in attendee demographics; we know from separate research (albeit using a rather crude metric) that CRAN maintainers, for example, are mostly not women.[^2]
 
@@ -89,7 +89,7 @@ We first asked respondents how strongly they agreed or disagreed with the follow
  
 The results are presented below:
 
-<img src="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
 
 We see that respondents overwhelmingly agree that writing R is fun, so even those people that use R primarily for work enjoy doing so. The view of their peers is slightly less positive, with 12% 
 (51 of 438) stating that writing R is *not* considered cool or interesting by their peers and 15% having no opinion on this (65 of 438). Even among those who agreed with the second statement, the proportion that strongly agreed is lower compared to the first statement. So although the overall picture is positive, there is a sizable group for which writing R is not encouraged by their peers, which could affect their motivation to contribute, particularly outside of work.
@@ -104,7 +104,7 @@ The generally positive view of R among useR! attendees is not so surprising, aft
 
 When asked to pick a single reason for recommending R, nearly 40% (160 of 425) said it was good for statistical analysis. R has long been described as the lingua franca of statistics or data science, so this makes sense. The next biggest reason was that it was good for reproducible research, indicating the increasing importance that has been put on this topic in recent years. Other important features are the package ecosystem, strength at visualization and the fact that it is free and open source.
 
-<img src="//forwards.github.io/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
+<img src="/blog/2017/03/11/users-relationship-with-r/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
 
 
 
