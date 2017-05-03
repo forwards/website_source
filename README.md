@@ -33,10 +33,10 @@ You can rebuild a commit by creating an empty commit to that branch or [restart 
     ```r
     devtools::install_github('rstudio/blogdown')
     ```
- - Install Hugo (>= 0.18.1)
+ - Install Hugo (== 0.18.1)
     ```r
     library(blogdown)
-    install_hugo()
+    install_hugo(version = "0.18.1", force = TRUE)
     ```
  - Clone this repository
  - Clone the publication repository: https://github.com/forwards/forwards.github.io
@@ -45,18 +45,25 @@ You can rebuild a commit by creating an empty commit to that branch or [restart 
 
  - Open `website_source.Rproj` in RStudio, or otherwise start R as you usually 
  do, setting the working directory to the repository root directory.
- - Build and serve a local copy of the website
+ - Build a local copy of the website
     ```r
     library(blogdown)
+    build_site()
+    ```
+
+    Alternatively you can just build the website using
+    
+    ```r
     options(servr.daemon = TRUE)
     serve_site()
     ```
+
+    `serve_site()` will ignore the default hostname.
+
     The option setting here means that the website is served in the background 
     and you can continue working in the R session. When you make changes to the
     content, the website is updated, so you can see the changes in the RStudio
     viewer or browser (the site is best previewed in a web browser).
-    
-    Alternatively you can just build the website using `build_site()`.
     
 ## Changing site parameters
 
