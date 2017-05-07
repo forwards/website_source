@@ -9,6 +9,7 @@ at Etsy."
 tags: ["data science", "careers"]
 title: Emily Robinson, from Social Scientist to Data Scientist
 tocify: false
+slug: emily-robinson-from-social-scientist-to-data-scientist
 ---
 
 Maëlle Salmon, a Forwards collaborator, got the chance to interview Emily Robinson, who recently became a data analyst at Etsy. A very inspiring R-Lady!

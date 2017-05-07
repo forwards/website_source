@@ -18,6 +18,7 @@ knit: (function(inputFile, encoding) {
     txt <- readLines(outFile);
     txt <- gsub("src=\"blog/", "src=\"/blog/", txt);
     writeLines(txt, outFile)}) 
+slug: mapping-users
 ---
 
 

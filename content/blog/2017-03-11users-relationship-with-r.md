@@ -15,7 +15,8 @@ knit: (function(inputFile, encoding) {
     knitr::knit(inputFile, output = outFile, encoding = encoding);
     txt <- readLines(outFile);
     txt <- gsub("src=\"blog/", "src=\"/blog/", txt);
-    writeLines(txt, outFile)})                      
+    writeLines(txt, outFile)})        
+slug: users-relationship-with-r              
 ---
 
 
