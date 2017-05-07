@@ -5,6 +5,8 @@ which generates static websites based on [R Markdown](http://rmarkdown.rstudio.c
 
 This README documents how to add content and update the published website.
 
+Please add new blog post to [content/blog](./content/blog) folder.
+
 ## View Build Result
 
 **Pull Request**
@@ -26,7 +28,7 @@ The [rforwards-auto/draft](https://github.com/rforwards-auto/draft)  repo contai
 You can rebuild a commit by creating an empty commit to that branch or [restart the build for the commit on Travis CI](https://travis-ci.org/forwards/website_source)
 
 
-## Initial Setup
+## Local Setup
 
  - Install [blogdown](https://github.com/rstudio/blogdown) (>= 0.0.17)
  
@@ -39,7 +41,7 @@ You can rebuild a commit by creating an empty commit to that branch or [restart 
     install_hugo(version = "0.18.1", force = TRUE)
     ```
  - Clone this repository
- - Clone the publication repository: https://github.com/forwards/forwards.github.io
+
  
 ## Each time you want to work on the website
 
@@ -65,12 +67,6 @@ You can rebuild a commit by creating an empty commit to that branch or [restart 
     content, the website is updated, so you can see the changes in the RStudio
     viewer or browser (the site is best previewed in a web browser).
     
-## Changing site parameters
-
-General configuration settings are specified in the `config.toml` file, which is in 
-the root directory of the repository. For example, the details displayed in the
-profile card (logo, description, social media accounts) are defined here.
-    
 ## Adding new content
 
 Content is added in the `content` sub-directory either as plain markdown files
@@ -79,66 +75,30 @@ partial `.html` files automatically when the site is served/built - you don't
 need render either `.md` or `.Rmd` files explicitly, this is all taken care of 
 in the build.
 
+**For `.Rmd`, please make sure the files are small and reproducible to build on Travis CI.**
+
+**Replace large `.Rmd` files with rendered `.md` files will make the build faster.**
+
 There are currently three  different types of content on the website, described 
-further below. In all cases `draft: true` can be added to the YAML to indicate
-the file is a draft and should not be included in the build website.
+further below. 
 
-### Top-level pages
-
-For example [About](http://forwards.github.io/about/), [Data](http://forwards.github.io/data/). The markdown files for these pages are added in the 
-top-level of the `content` directory. The only parameter needed in the YAML 
-header is the title:
-```r
----
-title: "About"
----
-```
-The option `tocify: true` can be used to specify that a table of contents 
-should be added to the page.
-
-A new top-level page can be added e.g. via
-```r
-new_content("extra.md")
-```
-Due to the default template used by Hugo, this will also add a date to the
-YAML header, but this is not used in the final layout so not needed if you add 
-the YAML manually. Don't forget to add the file extension: `.md`
-or `.Rmd` to create the desired filetype.
-
-The title is not displayed in the body of the rendered `.html`, but is used as 
-the page title (e.g. the name shown on the browser tab). Within the page, use 
-level 2 and level 3 headers (i.e. ## and ###) to mark up sections/
-    
-To add a link to the new page in the navigation bar, you need to edit the  
-`config.toml` file, e.g. adding
-```r
-[[params.menu]]
-    before = true
-    label  = "About"
-    link   = "/about/"
-```
-The setting of `before` is irrelevant in our layout; `label` is the name to 
-add the navigation bar, `link` is the link to the page which will be `/filename/`
-in this case. The filename should be lower case for consistency.
+Use non-master branches for draft post. Preview the result on https://rforwards-auto.github.io/draft
 
 ### Blog Posts
 
-Posts in the blog section are added in `content/blog`. They should be put in 
-sub-folders defining the date of publication and the article title, e.g.
-`content/blog/2016/01/30/title-in-lower-case-separated-by-hyphens/`. 
-This set-up is a bit fiddly, but
-means that the `.Rmd` file and any images that you want to include directly, can
-be kept with the `.html` or `.md` files when they are processed by Hugo and 
-content for each post is kept separate (unless published on the same day).
+Posts in the blog section are added in `content/blog`. 
 
 A new post can be created using
+
 ```r
-new_content("blog/2016/01/30/title-in-lower-case/title-in-lower-case.md", kind = "blog")
+new_content("blog/2016-01-30-title-in-lower-case.md", kind = "blog")
 ```
+
 Don't forget to use `01` etc, for consistent naming. Note we don't use the 
 `new_post` function because the section of our site with the posts is called 
 "blog" and therefore content in this section is of type "blog". This creates a 
 template with the YAML header
+
 ```r
 ---
 author: ""
@@ -151,6 +111,7 @@ title: title in lower case
 tocify: false
 ---
 ```
+
 Note the date is automatically set to the date when you generate the template, 
 which may not be the same as the date you have specified by the folder 
 hierarchy! Therefore you may need to change one or other before publication to 
@@ -213,6 +174,45 @@ from the summary, so the text is lumped together in one paragraph regardless of
 the markup. To specify a different summary, add a `<!--more-->` divider where 
 you want to split the article (see e.g. markdown file in  `/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist`).
 
+### Top-level pages
+
+For example [About](http://forwards.github.io/about/), [Data](http://forwards.github.io/data/). The markdown files for these pages are added in the 
+top-level of the `content` directory. The only parameter needed in the YAML 
+header is the title:
+```r
+---
+title: "About"
+---
+```
+The option `tocify: true` can be used to specify that a table of contents 
+should be added to the page.
+
+A new top-level page can be added e.g. via
+```r
+new_content("extra.md")
+```
+Due to the default template used by Hugo, this will also add a date to the
+YAML header, but this is not used in the final layout so not needed if you add 
+the YAML manually. Don't forget to add the file extension: `.md`
+or `.Rmd` to create the desired filetype.
+
+The title is not displayed in the body of the rendered `.html`, but is used as 
+the page title (e.g. the name shown on the browser tab). Within the page, use 
+level 2 and level 3 headers (i.e. ## and ###) to mark up sections/
+    
+To add a link to the new page in the navigation bar, you need to edit the  
+`config.toml` file, e.g. adding
+```r
+[[params.menu]]
+    before = true
+    label  = "About"
+    link   = "/about/"
+```
+The setting of `before` is irrelevant in our layout; `label` is the name to 
+add the navigation bar, `link` is the link to the page which will be `/filename/`
+in this case. The filename should be lower case for consistency.
+
+
 ### Documents
 
 Reports and other documents can be added to the `content/docs` section.
@@ -238,44 +238,17 @@ use level 2 and 3 headers (i.e. ## and ###) to markup sections.
 
 ## Publishing the Website
 
-<s>When you build the site locally, the content of the website is "published" to 
-your local copy of the `forwards.github.io` repository. To publish the updated
-website on http://forwards.github.io/ you should first commit your changes to
-this repository (`website_source`), then switch to the `forwards.github.io` 
-repository and commit the changes there. (This workflow could be streamlined 
-using Travis-CI as noted [here](http://disq.us/p/1eyc771), something to change 
-in future).
+Commits on the master branch will be published to https://forwards.github.io
 
-In general, you should not need to edit files in `forwards.github.io`. However,
-if you have been adding test content locally, or playing with the layouts (see 
-next section) there may be files there that you don't actually want to publish 
-as Hugo does not clean the directory when building the website. So it's a good 
-idea to delete everything in `forwards.github.io` and do a final `build_site()`
-or `serve_site()` before commiting the changes.</s>
+Commits on non-master branches preview on https://rforwards-auto.github.io/draft
 
-The above should work, but currently images created by `.Rmd` are not put in the
-right place when using a non-default publish directory. Therefore for now,  we 
-build the site locally into `public` and copy that over into `forwards.github.io`
+Pull requests preview on https://rforwards-auto.github.io/pull
 
-```r
-# stop any daemonized server
-servr::daemon_stop()
-# build site for publication
-build_site()
-# purge publication repo
-old <- setdiff(list.files("../forwards.github.io", 
-                          include.dirs = TRUE, recursive = TRUE),
-               c("forwards.github.io.Rproj", "README.md"))
-sapply(file.path("../forwards.github.io", old), unlink, recursive = TRUE)
-# copy over public folder
-new <- list.files("public")
-file.copy(file.path("public", new), "../forwards.github.io", 
-          recursive = TRUE)
-```
+## Changing site parameters
 
-Once committed, changes to `forwards.github.io` go live on http://forwards.github.io, 
-so only update this repository when you are confident that the pages are 
-rendering correctly (e.g. all images are found, no links to draft posts, etc).
+General configuration settings are specified in the `config.toml` file, which is in 
+the root directory of the repository. For example, the details displayed in the
+profile card (logo, description, social media accounts) are defined here.
 
 ## Going Further
 
