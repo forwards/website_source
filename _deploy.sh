@@ -17,4 +17,4 @@ git commit -m "Update website" || true
 
 [ "${TRAVIS_BRANCH}" != "master" ] && git push --force --quiet "https://$GITHUB_PAT@github.com/rforwards-auto/draft.git" master > /dev/null 2>&1 && exit 0
 
-git push --force --quiet "https://$GITHUB_PAT@github.com/rforwards-auto/test-forwards-home.git" master > /dev/null 2>&1
+git push --force --quiet "https://$GITHUB_PAT@github.com/forwards/forwards.github.io" master > /dev/null 2>&1
