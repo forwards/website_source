@@ -41,32 +41,37 @@ You can rebuild a commit by creating an empty commit to that branch or [restart 
     install_hugo(version = "0.18.1", force = TRUE)
     ```
  - Clone this repository
-
  
+ - Set local blogdown options
+   ```r
+   options(blogdown.subdir = "blog")
+   ```
+
 ## Each time you want to work on the website
 
  - Open `website_source.Rproj` in RStudio, or otherwise start R as you usually 
  do, setting the working directory to the repository root directory.
- - Build a local copy of the website
+ - Serve a local copy of the website
     ```r
     library(blogdown)
-    build_site()
+    options(servr.daemon = TRUE)
+    serve_site()
     ```
-
-    Alternatively you can just build the website using
+    The option setting here means that the website is served in the background 
+    and you can continue working in the R session. When you make changes to the
+    content, the website is updated, so you can see the changes in the RStudio
+    viewer or browser (the site is best previewed in a web browser).
+    
+`serve_site()` will ignore the default hostname, so it does not create RSS with
+valid links to images etc. For general previewing of content, this is not an 
+issue, but if you want to build a local copy exactly as it will be built for
+production, use
     
     ```r
     options(servr.daemon = TRUE)
     serve_site()
     ```
 
-    `serve_site()` will ignore the default hostname.
-
-    The option setting here means that the website is served in the background 
-    and you can continue working in the R session. When you make changes to the
-    content, the website is updated, so you can see the changes in the RStudio
-    viewer or browser (the site is best previewed in a web browser).
-    
 ## Adding new content
 
 Content is added in the `content` sub-directory either as plain markdown files
@@ -91,40 +96,47 @@ Posts in the blog section are added in `content/blog`.
 A new post can be created using
 
 ```r
-new_content("blog/2016-01-30-title-in-lower-case.md", kind = "blog")
+new_post("Title in Title Case", kind = "blog")
 ```
 
-Don't forget to use `01` etc, for consistent naming. Note we don't use the 
-`new_post` function because the section of our site with the posts is called 
-"blog" and therefore content in this section is of type "blog". This creates a 
-template with the YAML header
+The date will be automatically pre-prepended to the title to create the file 
+name. If you have set the `blogdown.subdir` option as described above, then the
+file will be created in the `content\blog` subdirectory (otherwise you can use 
+the `subdir` argument to `new_post`.
+
+The Forwards blog has a custom template for blogs, with a couple of additions
+to the YAML header, so you should specify `kind = blog` to use this template.
+This creates a template with the YAML header
 
 ```r
 ---
-author: ""
-banner: ""
+title: Title in Title Case
+author: ~
+date: '2017-05-07'
+slug: ''
 categories: []
-date: 2017-01-12T21:59:41Z
-description: ""
 tags: []
-title: title in lower case
-tocify: false
+banner: ''
+description: ''
+tocify: no
 ---
 ```
 
 Note the date is automatically set to the date when you generate the template, 
-which may not be the same as the date you have specified by the folder 
-hierarchy! Therefore you may need to change one or other before publication to 
-ensure consistency. If you specify the date manually (because you are adding
-the YAML to an existing markdown file), use ISO 8601 format, i.e. "2017-01-12" (the
-time is not used so can be left out).
+so this may need to be updated upon publication (changing the date in the 
+filename is nice for consistency, but it is the date in the YAML that is used to
+generate the website links). If you specify the date manually (because you are 
+adding the YAML to an existing markdown file), use ISO 8601 format, 
+i.e. "2017-01-12".
 
 The author field is optional, for more formal posts such as analysis reports.
 
-The banner image is set using `banner`. The link to the image must be given 
-relative to the site root,  e.g. 
-"/blog/2016/01/30/new-post/banner.png". If you provide a banner image, a 
-thumbnail image is automatically created for the "Recent posts" sidebar. 
+The banner image is set using `banner`. Images for blog posts should be put in
+`content/images/blog` (subdirectories can be created if you wish). When the
+website is built the images folder gets put in the site root, so you can link
+to the images as e.g. "images/blog/banner.png". If you provide a banner image
+(please do!), a thumbnail image is automatically created for the "Recent posts" 
+sidebar. 
 
 Add categories, e.g. `["analysis"]` and tags 
 `["useR!", "survey", "demographics"]` reusing tags/categories from previous 
@@ -134,32 +146,25 @@ The description specifies the description field for the metadata of the
 rendered HTML file.
 
 The title is automatically generated from the file name. If you change the title,
-it is a good idea to change the folder and file name as well, otherwise the 
-published website will have one folder named by the title (as the permalink) and
-another folder as originally named, with any additional content (e.g. the banner
-image). The title is authomatically added to the body of the final `.html`,
-formatted as a level one header (i.e. #). Therefore use level 2 and 3 headers 
-(i.e. ## and ###) to markup sections.
+the title in the YAML is used to create the website links, so changing the
+file name is optional, but nice for consistency. The title is automatically 
+added to the body of the final `.html`, formatted as a level one header 
+(i.e. #). Therefore use level 2 and 3 headers (i.e. ## and ###) to markup 
+sections.
 
 For images, the text in square brackets gives the alternative text shown if the
 image is unavailable/cannot be viewed, e.g.
 
-    ![Emily's R-Dog Abby](/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
+    ![Emily's R-Dog Abby](/blog/images/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
     
 If you wish to add a caption, you can simply put add emphasized text immediately
 below the image markup - in this case the alternative text is unnecessary:
 
-    ![](/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
+    ![](/blog/images/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
     *<br>Emily's R-Dog Abby*
     
 The CSS will centre the caption - start the caption with a line break so that 
-the caption is shown under the image in RSS feeds. All links to images and other
-files should be given relative to the site root, e.g.
-
-    [Rmarkdown file](/blog/2017/01/13/mapping-users/mapping-users.Rmd)
-    
-This is so that the correct absolute links will be created in the RSS when the
-website is built.
+the caption is shown under the image in RSS feeds.
 
 Links to external websites should include http: or https: e.g.
 
@@ -172,7 +177,7 @@ of all blog posts. By default, the summary is taken as the first few sentences
 of content, to give a summary of approximately 70 words. All HTML tags are stripped
 from the summary, so the text is lumped together in one paragraph regardless of
 the markup. To specify a different summary, add a `<!--more-->` divider where 
-you want to split the article (see e.g. markdown file in  `/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist`).
+you want to split the article (see e.g. `content/blog/2017-02-07-emily-robinson-from-social-scientist-to-data-scientist.md`).
 
 ### Top-level pages
 
@@ -184,7 +189,7 @@ header is the title:
 title: "About"
 ---
 ```
-The option `tocify: true` can be used to specify that a table of contents 
+The option `tocify: yes` can be used to specify that a table of contents 
 should be added to the page.
 
 A new top-level page can be added e.g. via
@@ -198,7 +203,7 @@ or `.Rmd` to create the desired filetype.
 
 The title is not displayed in the body of the rendered `.html`, but is used as 
 the page title (e.g. the name shown on the browser tab). Within the page, use 
-level 2 and level 3 headers (i.e. ## and ###) to mark up sections/
+level 2 and level 3 headers (i.e. ## and ###) to mark up sections.
     
 To add a link to the new page in the navigation bar, you need to edit the  
 `config.toml` file, e.g. adding
@@ -243,6 +248,11 @@ Commits on the master branch will be published to https://forwards.github.io
 Commits on non-master branches preview on https://rforwards-auto.github.io/draft
 
 Pull requests preview on https://rforwards-auto.github.io/pull
+
+On preview sites, the hyperlinks will still link to pages on 
+https://forwards.github.io, e.g. https://forwards.github.io/data/, to preview 
+the corresponding page add the slug to the preview hostname, e.g.
+https://rforwards-auto.github.io/draft/data/.
 
 ## Changing site parameters
 
