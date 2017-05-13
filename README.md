@@ -41,11 +41,6 @@ You can rebuild a commit by creating an empty commit to that branch or [restart 
     install_hugo(version = "0.18.1", force = TRUE)
     ```
  - Clone this repository
- 
- - Set local blogdown options
-   ```r
-   options(blogdown.subdir = "blog")
-   ```
 
 ## Each time you want to work on the website
 
@@ -54,13 +49,13 @@ You can rebuild a commit by creating an empty commit to that branch or [restart 
  - Serve a local copy of the website
     ```r
     library(blogdown)
-    options(servr.daemon = TRUE)
+    options(servr.daemon = TRUE, blogdown.subdir = "blog")
     serve_site()
     ```
-    The option setting here means that the website is served in the background 
-    and you can continue working in the R session. When you make changes to the
-    content, the website is updated, so you can see the changes in the RStudio
-    viewer or browser (the site is best previewed in a web browser).
+    The `sevr.daemon` option setting here means that the website is served in 
+    the background and you can continue working in the R session. When you make
+    changes to the content, the website is updated, so you can see the changes 
+    in the RStudio viewer or browser (the site is best previewed in a web browser).
     
 `serve_site()` will ignore the default hostname, so it does not create RSS with
 valid links to images etc. For general previewing of content, this is not an 
@@ -68,8 +63,8 @@ issue, but if you want to build a local copy exactly as it will be built for
 production, use
     
     ```r
-    options(servr.daemon = TRUE)
-    serve_site()
+    servr::daemon_stop() # stop any daemonized servers
+    build_site()
     ```
 
 ## Adding new content
@@ -102,7 +97,7 @@ new_post("Title in Title Case", kind = "blog")
 The date will be automatically pre-prepended to the title to create the file 
 name. If you have set the `blogdown.subdir` option as described above, then the
 file will be created in the `content\blog` subdirectory (otherwise you can use 
-the `subdir` argument to `new_post`.
+the `subdir` argument to `new_post`).
 
 The Forwards blog has a custom template for blogs, with a couple of additions
 to the YAML header, so you should specify `kind = blog` to use this template.
@@ -116,7 +111,7 @@ date: '2017-05-07'
 slug: ''
 categories: []
 tags: []
-banner: ''
+banner: content/images/blog/banner_image_for_this_post.png
 description: ''
 tocify: no
 ---
