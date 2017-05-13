@@ -1,6 +1,6 @@
 ---
 author: ""
-banner: "/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/portrait.png"
+banner: "/images/blog/emily-robinson-from-social-scientist-to-data-scientist/portrait.png"
 categories: ["interviews"]
 date: 2017-02-07T19:26:36Z
 description: "Interview of Emily Robinson, who transitioned from a social 
@@ -42,7 +42,7 @@ I think this transition from being an R user to R programmer was also helped by 
 
 Metis is a [Data Science Bootcamp](http://www.thisismetis.com/data-science-bootcamps) that helps people transition into careers as a Data Scientist/Analyst. I heard about it from my brother, who had spoken at Metis and gone to their career day, where students present their final projects to recruiters and data scientists. He had been really impressed by the quality of the students and their work, and so I looked into the program more. I found that it fit perfectly my background, as what I was missing was Python skills and Machine Learning knowledge. Metis is not meant to take you from 0 to 60; everyone who enters the program has some knowledge of statistics and programming, although their backgrounds still vary widely. In my cohort, we had people a few years out of college, one person with twenty years of marketing experience, and a few with PhDs in quantitative fields.
 
-![](/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/metis.jpg)
+![](/images/blog/emily-robinson-from-social-scientist-to-data-scientist/metis.jpg)
 *<br>Emily’s Metis cohort plus the two instructors (two people on the right)*
 
 
@@ -78,7 +78,7 @@ P.S. DataCamp has a few free courses, but if anyone wants to try unlimited acces
 
 ***Last but not least, we were thrilled to learn you are a RCatLady although you don't have a cat! Also you have a dog! Is she a good R-Dog?***
 
-![](/blog/2017/02/07/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
+![](/images/blog/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
 *<br>Emily's R-Dog Abby*
 
 She is the best R-Dog. I'm very excited that Etsy is a dog-friendly office, and I plan to take her into the office sometime soon. I'm sure she'll be very well-behaved; she spends most days sleeping on her bed or sitting under my mom's desk at home right by her feet.
