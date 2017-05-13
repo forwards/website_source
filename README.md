@@ -1,5 +1,5 @@
 # Source files for forwards.github.io
-
+    
 The Forwards website is maintained using [blogdown](https://github.com/rstudio/blogdown),
 which generates static websites based on [R Markdown](http://rmarkdown.rstudio.com) and [Hugo](https://gohugo.io).
 
@@ -111,7 +111,7 @@ date: '2017-05-07'
 slug: ''
 categories: []
 tags: []
-banner: content/images/blog/banner_image_for_this_post.png
+banner: ''
 description: ''
 tocify: no
 ---
@@ -127,11 +127,11 @@ i.e. "2017-01-12".
 The author field is optional, for more formal posts such as analysis reports.
 
 The banner image is set using `banner`. Images for blog posts should be put in
-`content/images/blog` (subdirectories can be created if you wish). When the
-website is built the images folder gets put in the site root, so you can link
-to the images as e.g. "images/blog/banner.png". If you provide a banner image
-(please do!), a thumbnail image is automatically created for the "Recent posts" 
-sidebar. 
+a subdirectory of `content/images/blog`, following the convention from previous
+post. When the website is built the images folder gets put in the site root, so 
+you can link to the images as e.g. "images/blog/subdir/banner.png". If you 
+provide a banner image (please do!), a thumbnail image is automatically created 
+for the "Recent posts" sidebar. 
 
 Add categories, e.g. `["analysis"]` and tags 
 `["useR!", "survey", "demographics"]` reusing tags/categories from previous 
