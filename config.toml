@@ -17,6 +17,7 @@ pluralizelisttitles = false
 preserveTaxonomyNames = true
 # don't canonify URLs so can use http://forwards.github.io/ or https://forwards.github.io/
 canonifyURLs = false
+rssLimit = 30
 
 [permalinks]
     blog = "blog/:year/:month/:day/:slug/"
@@ -30,7 +31,7 @@ canonifyURLs = false
     copyright  = "Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice)."
     avatar = "images/forwards.svg"
     logo = ""
-
+    fullURL = "//forwards.github.io"
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
 
@@ -121,3 +122,4 @@ canonifyURLs = false
     categories = true
     tags = false
     tag_cloud = true
+
