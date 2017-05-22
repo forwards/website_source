@@ -9,24 +9,15 @@ Please add new blog post to [content/blog](./content/blog) folder.
 
 ## View Build Result
 
-**Pull Request**
+**Non-master Branches and Pull Request**
 
-Preview the result on https://rforwards-auto.github.io/pull
+Preview the result on https://rforwards-auto.github.io/
 
-You can rebuild the pull request by creating an empty commit or a new commit to the pull request branch.
+You can rebuild a commit by creating an empty commit to that branch or [restart the build for the commit on Travis CI](https://travis-ci.org/forwards/website_source)
 
 **Master Branch** 
 
 Be careful, the master branch is the production environment. The build result will be deployed to https://forwards.github.io 
-
-**Non-master Branch**
-
-Preview the result on https://rforwards-auto.github.io/draft
-
-The [rforwards-auto/draft](https://github.com/rforwards-auto/draft)  repo contains the latest non-master branch build result. 
-
-You can rebuild a commit by creating an empty commit to that branch or [restart the build for the commit on Travis CI](https://travis-ci.org/forwards/website_source)
-
 
 ## Local Setup
 
@@ -82,7 +73,7 @@ in the build.
 There are currently three  different types of content on the website, described 
 further below. 
 
-Use non-master branches for draft post. Preview the result on https://rforwards-auto.github.io/draft
+Use non-master branches for draft post. Preview the result on https://rforwards-auto.github.io/
 
 ### Blog Posts
 
@@ -240,14 +231,12 @@ use level 2 and 3 headers (i.e. ## and ###) to markup sections.
 
 Commits on the master branch will be published to https://forwards.github.io
 
-Commits on non-master branches preview on https://rforwards-auto.github.io/draft
-
-Pull requests preview on https://rforwards-auto.github.io/pull
+Commits on non-master branches preview on https://rforwards-auto.github.io/
 
 On preview sites, the hyperlinks will still link to pages on 
 https://forwards.github.io, e.g. https://forwards.github.io/data/, to preview 
 the corresponding page add the slug to the preview hostname, e.g.
-https://rforwards-auto.github.io/draft/data/.
+https://rforwards-auto.github.io/data/.
 
 ## Changing site parameters
 
@@ -264,4 +253,3 @@ template files in `layouts` or `themes/hugo-icarus-theme/layouts`, with
 `layouts` taking priority.
 
 To add custom `CSS`, you should edit `static/css/custom.css`.
-
