@@ -7,8 +7,7 @@ tocify: true
 
 ### Current Efforts
 
-The survey sub-team is focused on diversity monitoring with basic demographic summaries through in-depth surveys which aims at exploring obstacles, motivations, involvement in the community.  
-
+The survey sub-team is focused on monitoring diversity and exploring obstacles, motivations, and involvement of useRs in the community.  Diversity will be monitored via basic demographic summaries from specifically designed surveys or other community surveys (e.g. useR! feedback survey).
 
 ### Former Efforts
 
