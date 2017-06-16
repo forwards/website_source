@@ -6,7 +6,21 @@ title: "About"
 
 The task force was set up by the [R Foundation](https://www.r-project.org/foundation/) in December 2015 to address the underrepresentation of women and rebranded in Janurary 2017 to accommadate more under-represented groups such as LGBT, minority ethnic groups in the R community.
 
-The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.g. CRAN and Bioconductor). Currently, the task force is expanding and welcomes anybody with such interest to join our sub-team. If interested, please contact rowforwards@gmail.com. 
+The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.g. CRAN and Bioconductor). Currently, the task force is expanding and welcomes anybody with such interest to join our sub-teams as below. 
+
+* **Community**: General outreach to help people from under-represented groups get into R and develop as useRs.
+
+* **Conferences**: Focusing on R Foundation conferences,liaising with organizers/program committee on policies.
+
+* **On-ramps to becoming a developR**: Guidance on how to contribute to core R/Bioconductor, marketing package development to women.
+
+* **Social Media**: Posting to Twitter and/or Facebook, soliciting blog posts and publishing them, maintaining website. 
+
+* **Surveys**: Running and analysing surveys polled at useR!, maintaining Data page on website and packaging up data and tools.
+
+* **Teaching**: Methodology and materials designed for under-represented groups, workshops targeted at under-represented groups.
+
+If interested, please contact rowforwards@gmail.com. 
 
 The task force is happy to engage with other individuals and organisations (such as [R-ladies](http://r-ladies.org)) that are concerned about this issue and actively seek outside contributions on specific tasks. 
 
@@ -34,11 +48,18 @@ Julie Josse-**'Conference' team leader**. She is a professor of statistics at Ec
 
 [Madlene Hamilton](https://www.linkedin.com/in/madlenehamilton/)- **'Surveys' team leader**. She is a research scientist and has been working on data projects in the social science and innovation arena for over 20 years. [More about Madlene](https://twitter.com/madlenehamilton)
 
+[Carolin Strobl](http://www.psychologie.uzh.ch/en/fachrichtungen/methoden/team/carolinstrobl.html)-**'Survey' team leader**. She is a Professor in the Department of Psychology at the University of Zurich, established the [Zurich R Courses](http://www.zhrcourses.uzh.ch/en.html) and co-founded the [Psychoco](https://eeecon.uibk.ac.at/psychoco/courses.html) workshops on psychometric computing. 
+
+[Di Cook](http://dicook.github.io/)- **'Teaching' team leader**. She is a Professor in the Department of Econometrics & Business Statistics at Monash University, a regular mentor on [R Google Summer of Code projects](https://github.com/rstats-gsoc) and was elected to the R Foundation in 2016.
+
 [Emily Dodwell](https://www.linkedin.com/in/emilymdodwell/)- **'Teaching' team administrator**. She is a Data Scientist and R enthusiast in the Big Data Research Statistics Department at AT&T Labs, as well as an active member of the New York City R community. 
 
 [Isabella Gollini](https://www.linkedin.com/in/isabellagollini/)- **'Teaching' team leader**. She is a Lecturer in Statistics at Birkbeck, University of London and a RLadies mentor. [More about Isabella](https://sites.google.com/site/isabellagollini/)
 
 Jonathan Godfrey- **Multiple member at 'Conferences', 'Surveys', 'Teaching' teams**. He was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ) and now assists Forwards through advice on how disabled people can be included in the R community.[More about Jonanthan](https://R-Resources.massey.ac.nz/BrailleR)
+
+
+
 
 ## Sub Team Members
 
@@ -63,3 +84,8 @@ Wenfeng Qin- **'Social Media' team member**. [More about Wenfeng](https://github
 
 Maëlle Salmon- **'Surveys' team member**.[More about Maëlle](http://www.masalmon.eu/)
 
+Stella Bollman- **'Surveys' team member**.
+
+Andrea Foulkes- **'Teaching' team member**.
+
+Hadley Wickham- **'Teaching' team member**. 
