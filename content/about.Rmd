@@ -12,13 +12,13 @@ The members of the task force were invited to participate based on their interes
 
 * **Conferences**: Focusing on R Foundation conferences,liaising with organizers/program committee on policies.
 
-* **On-ramps to becoming a developR**: Guidance on how to contribute to core R/Bioconductor, marketing package development to women.
+* **On-ramps to becoming a developR**: Guidance on how to contribute to core R/Bioconductor, marketing package development to under-represented groups.
 
 * **Social Media**: Posting to Twitter and/or Facebook, soliciting blog posts and publishing them, maintaining website. 
 
-* **Surveys**: Running and analysing surveys polled at useR!, maintaining Data page on website and packaging up data and tools.
+* **Surveys**: Running and analysing surveys at useR!, packaging up data and tools and maintaining 'Data' page on website.
 
-* **Teaching**: Methodology and materials designed for under-represented groups, workshops targeted at under-represented groups.
+* **Teaching**: Methodology, materials and workshops designed for under-represented groups. 
 
 If interested, please contact rowforwards@gmail.com. 
 
