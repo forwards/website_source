@@ -4,11 +4,14 @@ author: "Heather Turner and Julie Josse"
 date: "2016-10-07"
 output: html_document
 type: report
-knit: (function(inputFile, encoding) { 
-    knitr::knit(inputFile,
-                output = paste0("../../website_source/content/docs/",
-                                gsub(".*/(.*).Rmd", "\\1", inputFile), ".md"),
-                encoding = encoding)}) 
+knit: (function(inputFile, encoding) {
+    outputFile <- paste0("../../website_source/content/docs/",
+                         gsub(".*/(.*).Rmd", "\\1", inputFile), ".md");
+    knitr::knit(inputFile, output = outputFile, encoding = encoding);
+    out <- readLines(outputFile);
+    out <- gsub("/images/", "//images/", out);
+    writeLines(out, outputFile)
+    })
 ---
 
 
@@ -80,7 +83,7 @@ The unweighted and weighted densities have a very similar shape, but using the
 weighting shifts the density slightly to the left, i.e. when females are 
 down-weighted there is a slight shift to a generally older population.
 
-<img src="images/reports/nonresponse_useR2016_survey/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
+<img src="/images/reports/nonresponse_useR2016_survey/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
 
 ### Education level
 
@@ -187,7 +190,7 @@ using a density summary there is no issue with small sub-groups.
 Breaking down by gender shows the difference in age distribution much more 
 clearly:
 
-<img src="images/reports/nonresponse_useR2016_survey/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+<img src="/images/reports/nonresponse_useR2016_survey/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 ### Education level
 
@@ -198,7 +201,7 @@ with the missing group there is potential that individuals are identified when
 broken down by gender. Therefore it is best to keep genders combined here and 
 base the final summary on unweighted counts.
 
-<img src="images/reports/nonresponse_useR2016_survey/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="/images/reports/nonresponse_useR2016_survey/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
 
 ### Employment status
@@ -207,14 +210,14 @@ Here the shift from unweighted counts to weighted counts is larger. Although
 there are small groups, these can reasonably be combined into an "Other" 
 category.
 
-<img src="images/reports/nonresponse_useR2016_survey/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="/images/reports/nonresponse_useR2016_survey/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 ### Time using R
 
 Again there are material differences between unweighted and weighted counts, 
 here the original groups can be left as is:
 
-<img src="images/reports/nonresponse_useR2016_survey/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="/images/reports/nonresponse_useR2016_survey/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
 ### Recreational use of R
 
@@ -222,7 +225,7 @@ Here there is a clear difference between unweighted and weighted counts. As only
 four people (men) said that they used R primarily as a recreational activity,
 this can be combined with the missing category:
 
-<img src="images/reports/nonresponse_useR2016_survey/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="/images/reports/nonresponse_useR2016_survey/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
 
 ## Conclusions
  
