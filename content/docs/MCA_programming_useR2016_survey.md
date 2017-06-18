@@ -1,6 +1,6 @@
 ---
 title: 'useR! 2016 participants and R programming: a multivariate analysis'
-author: "Julie Josse"
+author: "Julie Josse and Heather Turner"
 date: "2017-06-17"
 type: report
 knit: (function(inputFile, encoding) {
@@ -157,12 +157,9 @@ The size of each cluster is as follows:
 |size | 171| 260| 11| 13|
 _i.e._ in terms of proportions:
 
-```
-## Error: <text>:2:59: unexpected ')'
-## 1: kable(matrix(round(table(res.hcpc$data.clust[,"clust"])/nrow(don.mca),2), 
-## 2:              ncol = 4), dimnames = list("proportion",1:4)))
-##                                                              ^
-```
+|           |    1|    2|    3|    4|
+|:----------|----:|----:|----:|----:|
+|proportion | 0.38| 0.57| 0.02| 0.03|
 
 We now interpret the clusters.
 
@@ -173,28 +170,19 @@ To help us describing the first cluster, we use statistical tests to compare the
 
 |                                                        | Cla/Mod| Mod/Cla| Global| p.value|
 |:-------------------------------------------------------|-------:|-------:|------:|-------:|
-|Q13_C=wrt_func_no                                       |    6.06|    2.34|  14.51| 3.5e-10|
+|Q13_F=rel_pkg_yes                                       |   96.77|   87.72|  34.07| < 2e-16|
+|Q13_D=ctb_pkg_yes                                       |   88.37|   88.89|  37.80| < 2e-16|
+|Q13_E=wrt_pkg_yes                                       |   71.85|  100.00|  52.31| < 2e-16|
 |Q13_C=wrt_func_yes                                      |   42.93|   97.66|  85.49| 3.5e-10|
 |Q13_B=wrt_code_yes                                      |   42.35|   97.08|  86.15| 1.4e-08|
-|Q13_B=wrt_code_no                                       |    7.94|    2.92|  13.85| 1.4e-08|
 |Q2=Men                                                  |   46.64|   77.19|  62.20| 2.2e-07|
 |Q7=Doctorate                                            |   50.75|   59.06|  43.74| 3.5e-07|
 |Q11=> 10 years                                          |   57.14|   39.77|  26.15| 4.6e-07|
 |Q15=fun_Strongly agree                                  |   49.54|   62.57|  47.47| 5.7e-07|
-|Q11=6-12 months                                         |    0.00|    0.00|   6.37| 6.6e-07|
-|Q2=Women                                                |   23.08|   22.81|  37.14| 6.6e-07|
 |Q14=For both recreational and job/educational purposes. |   52.50|   49.12|  35.16| 1.7e-06|
-|Q1_new=Q1_new_Industry                                  |   26.46|   29.24|  41.54| 3.3e-05|
-|Q8=Q8_Employed in industry                              |   26.23|   28.07|  40.22| 3.7e-05|
-|Q14=Q14.NA                                              |    0.00|    0.00|   3.52| 0.00045|
-|Q11=1-2 years                                           |   11.43|    2.34|   7.69| 0.00046|
-|Q7=Masters degree                                       |   28.34|   30.99|  41.10| 0.00065|
 |Q1_new=Q1_new_Academic/Govt                             |   46.81|   51.46|  41.32| 0.00071|
 |Q8=Q8_Employed non-permanently in academia              |   57.63|   19.88|  12.97| 0.00089|
-|Q14=Primarily as part of a job or educational course;   |   31.64|   50.88|  60.44| 0.00131|
 |Q8=Q8_Employed permanently in academia                  |   53.95|   23.98|  16.70| 0.00157|
-|Q11=Q11.NA                                              |    0.00|    0.00|   2.86| 0.00196|
-|Q5=United States                                        |   32.91|   60.82|  69.45| 0.00217|
     
 The table can be interpreted as follows:
 
@@ -205,34 +193,23 @@ To wrap-up, the tests results confirm that **cluster 1 gathers experienced users
 
 This second table represents the categories that are underrepresented in cluster 1.
 
-|                                  |Cla/Mod |Mod/Cla |Global |p.value |
-|:---------------------------------|:-------|:-------|:------|:-------|
-|Q13_F=rel_pkg_yes                 |96.77   |87.72   |34.07  |< 2e-16 |
-|Q13_F=rel_pkg_no                  |7.00    |12.28   |65.93  |< 2e-16 |
-|Q13_D=ctb_pkg_no                  |6.71    |11.11   |62.20  |< 2e-16 |
-|Q13_D=ctb_pkg_yes                 |88.37   |88.89   |37.80  |< 2e-16 |
-|Q13_E=wrt_pkg_no                  |0.00    |0.00    |47.69  |< 2e-16 |
-|Q13_E=wrt_pkg_yes                 |71.85   |100.00  |52.31  |< 2e-16 |
-|Q12=Q12.NA                        |0.00    |0.00    |2.64   |0.00320 |
-|Q2Q3=29-33_Women                  |20.00   |5.85    |10.99  |0.00539 |
-|Q13=use_func_yes                  |39.24   |97.08   |92.97  |0.00607 |
-|Q13=use_func_no                   |15.62   |2.92    |7.03   |0.00607 |
-|Q15=Q15.NA                        |6.67    |0.58    |3.30   |0.00848 |
-|Q4=Asian                          |19.51   |4.68    |9.01   |0.01053 |
-|Q15=fun_Agree                     |30.65   |33.33   |40.88  |0.01109 |
-|Q15=fun_No opinion                |16.67   |2.92    |6.59   |0.01209 |
-|Q2Q3=29-33_Men                    |52.54   |18.13   |12.97  |0.01288 |
-|Q11=< 6 months                    |0.00    |0.00    |1.98   |0.01370 |
-|Q4=Indian                         |0.00    |0.00    |1.98   |0.01370 |
-|Q4=White                          |41.53   |73.10   |66.15  |0.01492 |
-|Q2Q3=20-28_Women                  |22.45   |6.43    |10.77  |0.01885 |
-|Q15_D=difficult_Strongly disagree |51.72   |17.54   |12.75  |0.01985 |
-|Q2Q3=49-58_Women                  |7.69    |0.58    |2.86   |0.01998 |
-|Q2Q3=20-28_Men                    |53.06   |15.20   |10.77  |0.02081 |
-|Q15_C=Q15_C.NA                    |11.76   |1.17    |3.74   |0.02161 |
-|Q17_new=Q17_new.NA                |12.50   |1.17    |3.52   |0.03171 |
-|Q16=Q16.NA                        |12.50   |1.17    |3.52   |0.03171 |
-|Q7=Undergraduate degree           |25.00   |7.60    |11.43  |0.04496 |
+|                                                      | Cla/Mod| Mod/Cla| Global| p.value|
+|:-----------------------------------------------------|-------:|-------:|------:|-------:|
+|Q13_F=rel_pkg_no                                      |    7.00|   12.28|  65.93| < 2e-16|
+|Q13_D=ctb_pkg_no                                      |    6.71|   11.11|  62.20| < 2e-16|
+|Q13_E=wrt_pkg_no                                      |    0.00|    0.00|  47.69| < 2e-16|
+|Q13_C=wrt_func_no                                     |    6.06|    2.34|  14.51| 3.5e-10|
+|Q13_B=wrt_code_no                                     |    7.94|    2.92|  13.85| 1.4e-08|
+|Q11=6-12 months                                       |    0.00|    0.00|   6.37| 6.6e-07|
+|Q2=Women                                              |   23.08|   22.81|  37.14| 6.6e-07|
+|Q1_new=Q1_new_Industry                                |   26.46|   29.24|  41.54| 3.3e-05|
+|Q8=Q8_Employed in industry                            |   26.23|   28.07|  40.22| 3.7e-05|
+|Q14=Q14.NA                                            |    0.00|    0.00|   3.52| 0.00045|
+|Q11=1-2 years                                         |   11.43|    2.34|   7.69| 0.00046|
+|Q7=Masters degree                                     |   28.34|   30.99|  41.10| 0.00065|
+|Q14=Primarily as part of a job or educational course; |   31.64|   50.88|  60.44| 0.00131|
+|Q11=Q11.NA                                            |    0.00|    0.00|   2.86| 0.00196|
+|Q5=United States                                      |   32.91|   60.82|  69.45| 0.00217|
 
 US people are under-represented in cluster 1.  We can imagine that only people deeply using R are motivated to go to the US for such a conference due to the costs.
 
@@ -240,34 +217,28 @@ US people are under-represented in cluster 1.  We can imagine that only people d
 
 Cluster 2 can be described as a cluster of **intermediate users** who use R since 1-2 years or less, but more than 6 months. They use R functions, but don't write their own functions or packages. They appreciate R, but use it primarily for their job. They are more employed in the industry. This cluster gathers more women, more undergraduate and master and people from the US.
 
-|                                                        | Cla/Mod| Mod/Cla| Global| p.value|
-|:-------------------------------------------------------|-------:|-------:|------:|-------:|
-|Q11=6-12 months                                         |  100.00|   11.15|   6.37| 4.4e-08|
-|Q14=Primarily as part of a job or educational course;   |   66.91|   70.77|  60.44| 2.2e-07|
-|Q2=Women                                                |   71.60|   46.54|  37.14| 1.4e-06|
-|Q11=1-2 years                                           |   88.57|   11.92|   7.69| 4.0e-05|
-|Q8=Q8_Employed in industry                              |   67.76|   47.69|  40.22| 0.00017|
-|Q1_new=Q1_new_Industry                                  |   67.20|   48.85|  41.54| 0.00026|
-|Q15=fun_Agree                                           |   67.20|   48.08|  40.88| 0.00031|
-|Q7=Masters degree                                       |   66.31|   47.69|  41.10| 0.00096|
-|Q2Q3=29-33_Women                                        |   78.00|   15.00|  10.99| 0.00129|
-|Q1_new=Q1_new_Academic/Govt                             |   48.40|   35.00|  41.32| 0.00166|
-|Q8=Q8_Employed non-permanently in academia              |   37.29|    8.46|  12.97| 0.00112|
-|Q15=fun_Strongly agree                                  |   49.07|   40.77|  47.47| 0.00098|
-|Q14=For both recreational and job/educational purposes. |   46.25|   28.46|  35.16| 0.00059|
-|Q11=< 6 months                                          |    0.00|    0.00|   1.98| 0.00044|
-|Q17_new=Q17_new.NA                                      |   12.50|    0.77|   3.52| 0.00027|
-|Q16=Q16.NA                                              |   12.50|    0.77|   3.52| 0.00027|
-|Q14=Q14.NA                                              |   12.50|    0.77|   3.52| 0.00027|
-|Q11=> 10 years                                          |   42.02|   19.23|  26.15| 0.00012|
-|Q15=Q15.NA                                              |    6.67|    0.38|   3.30| 5.2e-05|
-|Q12=Q12.NA                                              |    0.00|    0.00|   2.64| 3.1e-05|
-|Q11=Q11.NA                                              |    0.00|    0.00|   2.86| 1.3e-05|
-|Q15_D=Q15_D.NA                                          |    5.88|    0.38|   3.74| 9.8e-06|
-|Q15_C=Q15_C.NA                                          |    5.88|    0.38|   3.74| 9.8e-06|
-|Q15_B=Q15_B.NA                                          |    5.88|    0.38|   3.74| 9.8e-06|
-|Q2=Men                                                  |   48.41|   52.69|  62.20| 1.2e-06|
-|Q7=Doctorate                                            |   43.72|   33.46|  43.74| 3.6e-07|
+|                                                      | Cla/Mod| Mod/Cla| Global| p.value|
+|:-----------------------------------------------------|-------:|-------:|------:|-------:|
+|Q13_F=rel_pkg_no                                      |   85.33|   98.46|  65.93| < 2e-16|
+|Q13_D=ctb_pkg_no                                      |   85.51|   93.08|  62.20| < 2e-16|
+|Q13_E=wrt_pkg_no                                      |   89.86|   75.00|  47.69| < 2e-16|
+|Q11=6-12 months                                       |  100.00|   11.15|   6.37| 4.4e-08|
+|Q14=Primarily as part of a job or educational course; |   66.91|   70.77|  60.44| 2.2e-07|
+|Q2=Women                                              |   71.60|   46.54|  37.14| 1.4e-06|
+|Q11=1-2 years                                         |   88.57|   11.92|   7.69| 4.0e-05|
+|Q8=Q8_Employed in industry                            |   67.76|   47.69|  40.22| 0.00017|
+|Q1_new=Q1_new_Industry                                |   67.20|   48.85|  41.54| 0.00026|
+|Q15=fun_Agree                                         |   67.20|   48.08|  40.88| 0.00031|
+|Q7=Masters degree                                     |   66.31|   47.69|  41.10| 0.00096|
+|Q2Q3=29-33_Women                                      |   74.58|   16.92|  12.97| 0.00334|
+|Q2Q3=20-28_Women                                      |   75.51|   14.23|  10.77| 0.00538|
+|Q16=rcmd_Yes                                          |   59.09|   95.00|  91.87| 0.00558|
+|Q5=United States                                      |   61.08|   74.23|  69.45| 0.01118|
+|Q13=use_func_yes                                      |   58.63|   95.38|  92.97| 0.02258|
+|Q7=Undergraduate degree                               |   71.15|   14.23|  11.43| 0.02953|
+|Q15_D=difficult_Disagree                              |   62.56|   50.77|  46.37| 0.03045|
+|Q2Q3=>58_Men                                          |   80.00|    6.15|   4.40| 0.03401|
+|Q10=Caryng_resp_No                                    |   60.18|   76.15|  72.31| 0.03569|
 
 
 ### Cluster 3
@@ -276,16 +247,16 @@ Cluster 3 gathers respondents with less than 6 months of experience in R. They d
 
 |                                                             | Cla/Mod| Mod/Cla| Global| p.value|
 |:------------------------------------------------------------|-------:|-------:|------:|-------:|
-|Q11=< 6 months                                               |  100.00|   81.82|   1.98|    0.00|
-|Q14=Primarily as a recreational activity, in your free time; |  100.00|   36.36|   0.88|    0.00|
-|Q13_C=wrt_func_no                                            |   12.12|   72.73|  14.51|    0.00|
-|Q13_B=wrt_code_no                                            |   11.11|   63.64|  13.85|    0.00|
-|Q15=fun_No opinion                                           |   13.33|   36.36|   6.59|    0.00|
-|Q16=rcmd_No                                                  |   14.29|   27.27|   4.62|    0.01|
-|Q15_C=monotonous_No opinion                                  |    7.46|   45.45|  14.73|    0.02|
-|Q4=Native American                                           |  100.00|    9.09|   0.22|    0.02|
-|Q17_new=Open source                                          |   11.11|   27.27|   5.93|    0.02|
-|Q13_E=wrt_pkg_no                                             |    4.15|   81.82|  47.69|    0.03|
+|Q11=< 6 months                                               |  100.00|   81.82|   1.98| < 2e-16|
+|Q14=Primarily as a recreational activity, in your free time; |  100.00|   36.36|   0.88| 1.9e-07|
+|Q13_C=wrt_func_no                                            |   12.12|   72.73|  14.51| 1.6e-05|
+|Q13_B=wrt_code_no                                            |   11.11|   63.64|  13.85| 0.00016|
+|Q15=fun_No opinion                                           |   13.33|   36.36|   6.59| 0.00400|
+|Q16=rcmd_No                                                  |   14.29|   27.27|   4.62| 0.01195|
+|Q15_C=monotonous_No opinion                                  |    7.46|   45.45|  14.73| 0.01564|
+|Q4=Native American                                           |  100.00|    9.09|   0.22| 0.02418|
+|Q17_new=Open source                                          |   11.11|   27.27|   5.93| 0.02484|
+|Q13_E=wrt_pkg_no                                             |    4.15|   81.82|  47.69| 0.02518|
 
 
 
