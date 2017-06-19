@@ -124,7 +124,7 @@ The community maintains a [list of R User Groups](https://jumpingrivers.github.i
  - Connecticut CT [R-ladies](https://www.meetup.com/rladies-connecticut/) (**NEW**)
  - Washington DC [RUG](https://www.meetup.com/stats-prog-dc/); [R-Ladies](https://www.meetup.com/rladies-dc/) (**NEW**)
  - Miami, Florida [R-Ladies](https://www.meetup.com/R-Ladies-Miami/) (**NEW**)
- - Orlando, Florida [R-Ladies](https://twitter.com/RLadiesOrlando)(**COMING SOON**)
+ - Orlando, Florida [R-Ladies](https://www.meetup.com/R-Ladies-Orlando/)(**NEW**)
  - Ames, IA [R-Ladies](https://www.meetup.com/R-Ladies-Ames/) (**NEW**)
  - Boston, MA [R-Ladies](https://www.meetup.com/R-Ladies-Boston/) (**NEW**)
  - Greensboro, NC; not so far from Winston Salem  [RUG](https://www.meetup.com/Winston-Salem-R-Users-Group/)
