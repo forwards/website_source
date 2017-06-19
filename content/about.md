@@ -12,7 +12,7 @@ The members of the task force were invited to participate based on their interes
 
 * **Conferences**: Focusing on R Foundation conferences, liaising with organizers/program committee on policies and inclusion initiatives.
 
-* **On-ramps to becoming a developR**: Guidance on how to contribute to core R/Bioconductor, marketing package development to under-represented groups.
+* **On-ramps**: Creating paths for useRs to develop their skills and make contributions to the R/BioConductor package ecosystem.
 
 * **Social Media**: Posting to Twitter and/or Facebook, soliciting blog posts and publishing them, maintaining website. 
 
@@ -36,9 +36,9 @@ Gina Griffin - **'Community' team leader**. Gina is a Social Worker and a trauma
 
 Julie Josse - **'Conference' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. [More about Julie](http://juliejosse.com/).
 
-[Jenny Bryan](https://twitter.com/JennyBryan) - **Team leader for 'On-ramps to becoming a developR"**. Jenny used to be an Assoc. Professor of Statistics at the University of British Columbia and is now a developer at [RStudio](https://www.rstudio.com), a member of the R Foundation and serves in the leadership of rOpenSci. [More about Jenny ](https://www.stat.ubc.ca/~jenny/).
+[Jenny Bryan](https://twitter.com/JennyBryan) - **'On-ramps' team Leader**. Jenny works as a developer for RStudio(https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci.[More about Jenny ](https://www.stat.ubc.ca/~jenny/).
 
-[Michael Lawrence](https://www.linkedin.com/in/michael-lawrence-74a9b482/) - **Team leader for 'On-ramps to becoming a developR**. Michael is a Computational Biologist at Genentech and a member of R Foundation, R Core and Bioconductor Core. 
+[Michael Lawrence](https://www.linkedin.com/in/michael-lawrence-74a9b482/) - **'On-ramps' team leader**. Michael is a Computational Biologist at Genentech and a member of R Foundation, R Core and Bioconductor Core. 
 
 [Tracy Shen](https://www.linkedin.com/in/jiatracyshen/) - **'Social Media' team leader**. Tracy is a Data Analyst at AccuWeather, Inc and holds the Data Science Specialization Certificate in R by Johns Hopkins University. [More about Tracy](https://github.com/tbs08).
 
