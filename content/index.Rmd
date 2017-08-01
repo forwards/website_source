@@ -27,7 +27,6 @@ Find out more [about](about) the task force.
 
 *2016/06/27* Proportion of women at useR! 2016 rises to 28% from 19% at useR! 2015.
 
-*2016/06/23* Heather Turner presents the work of the task force at <a href="https://r2016-toulouse.sciencesconf.org/">Rencontres R 2016</a> [<a href="http://rpubs.com/hturner/RencontresR2016">slides</a>].
 </div>
 <!--https://dev.twitter.com/web/embedded-timelines/parameters -->
 <!-- data-tweet-limit="3" -->
