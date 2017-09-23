@@ -52,7 +52,7 @@ Julie Josse - **'Conference' team leader**. Julie is a professor of statistics a
 
 [Di Cook](http://dicook.github.io/) - **'Teaching' team leader**. Di is a Professor in the Department of Econometrics & Business Statistics at Monash University, a regular mentor on [R Google Summer of Code projects](https://github.com/rstats-gsoc) and was elected to the R Foundation in 2016.
 
-[Isabella Gollini](https://www.linkedin.com/in/isabellagollini/) - **'Teaching' team leader**. Isabella is a Lecturer in Statistics at Birkbeck, University of London and an RLadies mentor. [More about Isabella](https://sites.google.com/site/isabellagollini/).
+[Isabella Gollini](https://www.linkedin.com/in/isabellagollini/) - **'Teaching' team leader**. Isabella is Assistant Professor in Statistics at University College Dublin and an RLadies mentor. [More about Isabella](https://sites.google.com/site/isabellagollini/).
 
 Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). [More about Jonanthan](https://R-Resources.massey.ac.nz/BrailleR)
 
