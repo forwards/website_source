@@ -21,15 +21,15 @@ Be careful, the master branch is the production environment. The build result wi
 
 ## Local Setup
 
- - Install [blogdown](https://github.com/rstudio/blogdown) (>= 0.0.17)
+ - Install [blogdown](https://github.com/rstudio/blogdown) (>= 0.5)
  
     ```r
     devtools::install_github('rstudio/blogdown')
     ```
- - Install Hugo (== 0.18.1)
+ - Install Hugo (== 0.21)
     ```r
     library(blogdown)
-    install_hugo(version = "0.18.1", force = TRUE)
+    install_hugo(version = "0.21", force = TRUE)
     ```
  - Clone this repository
 

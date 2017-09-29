@@ -61,22 +61,27 @@ rssLimit = 30
 [[params.menu]]
     before = true
     label  = "Data"
-    link   = "data/"
+    link   = "/data/"
 
 [[params.menu]]
     before = true
     label  = "Blog"
-    link   = "blog/"
+    link   = "/blog/"
     
 [[params.menu]]
     before = true
+    label  = "Edu"
+    link   = "/edu/"  
+
+[[params.menu]]
+    before = true
     label  = "Docs"
-    link   = "docs/"  
+    link   = "/docs/"  
     
 [[params.menu]]
     before = true
     label  = "Links"
-    link   = "links/"     
+    link   = "/links/"    
 
 # Enter a link for the follow button on the left
 [params.profile]

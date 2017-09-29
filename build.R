@@ -11,5 +11,5 @@ if(Sys.getenv("TRAVIS_PULL_REQUEST") != "false" || Sys.getenv("TRAVIS_BRANCH") !
 
 print(config[baseurl_linenum])
 
-blogdown::install_hugo(version = "0.18.1", force = TRUE)
+blogdown::install_hugo(version = "0.21", force = TRUE)
 blogdown::build_site()
