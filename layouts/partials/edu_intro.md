@@ -1,17 +1,22 @@
-# Teaching examples
+# Workshops for women and girls 
 
-We wish to provide a resource enabling more diverse and inclusive examples to be used in teaching R. Often examples are based on subjects that tend to be more appealing to men (men's sport, cars, finance) or have a US/Western bias (politics, movies/pop songs). While such examples may still be interesting to people that don't usually think much about these things, more diverse and inclusive examples will help to engage a wider set of people.
+foRwards is pleased to announce upcoming [R](https://www.r-project.org) workshops in Melbourne and Auckland. 
 
-Action focuses on three points:
+## Girls workshops 
 
-1. Detect and discourage use of "bad" widely used examples
-2. Collect/produce more diverse examples
-3. Collect/produce examples about gender and inclusivity
+- Melbourne, Oct 28 Kathleen Symes Library 10-4, lunch provided. This is aimed for Year 11 girls who are interested in STEM, coding and data analysis. Girls will learn to code a web app providing an interface for plotting and summarising data, using R. Participation is limited to 18. Girls will be awarded a certificate of completion at the end of the workshop. [Apply to attend](https://visnut.wufoo.com/build/forwards-girls-workshop-registration-for-melbourne/)
+- Auckland, Dec 8, Auckland University 
 
-...... more content
+## Women's workshops
 
-### May want to collaborate
+- Melbourne: TBD
+- Auckland, Dec 7, Auckland University 
 
-- Helena Jambor [project]. Posted call on Twitter to make datasets for girls (https://twitter.com/helenajambor/status/817391370042298368)
-- Hao Ye, Lynn Waterhouse, Jessica Blanton, Tessa P [examples, project]. Developing workshop targeted at local high school girls. (https://twitter.com/Hao_and_Y/status/817427687346212865)
+## Computing information
 
+Install the most recent versions of:
+
+- R (Friday 2017-06-30, Single Candle) R-3.4.1, install on your computer from https://cran.r-project.org
+- RStudio Desktop 1.0.143, install on your computer from https://www.rstudio.com/products/rstudio/download/
+
+on your laptop before the workshop if you can. If you have trouble come 30 mins ahead of time and we can help you get set up.
