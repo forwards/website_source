@@ -5,12 +5,14 @@ foRwards is pleased to announce upcoming [R](https://www.r-project.org) workshop
 ## Girls workshops 
 
 - Melbourne, Oct 28 Kathleen Symes Library 10-4, lunch provided. This is aimed for Year 11 girls who are interested in STEM, coding and data analysis. Girls will learn to code a web app providing an interface for plotting and summarising data, using R. Participation is limited to 18. Girls will be awarded a certificate of completion at the end of the workshop. [Apply to attend](https://visnut.wufoo.com/build/forwards-girls-workshop-registration-for-melbourne/)
-- Auckland, Dec 8, Auckland University 
+- Auckland, Dec 8, Auckland University. This is aimed for Year 12 girls who are interested in STEM, coding and data analysis. Girls will learn to code a web app providing an interface for plotting and summarising data, using R. Participation is limited to XX. Girls will be awarded a certificate of completion at the end of the workshop. Participation is by high school teacher recommendation. [Apply to attend](https://visnut.wufoo.com/build/forwards-girls-workshop-registration-for-auckland/). 
 
 ## Women's workshops
 
+These workshops are organised for women who have been programming in R for some time, and have some methodology or work suitable to be packaged up and submitted to CRAN. Participants will learn how to build an R package. 
+
 - Melbourne: TBD
-- Auckland, Dec 7, Auckland University 
+- Auckland, Dec 8, Auckland University.  [Register](https://www.eventbrite.com.au/e/forwards-workshop-for-women-in-auckland-tickets-38425568911)
 
 ## Computing information
 
