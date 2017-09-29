@@ -1,6 +1,6 @@
 # Workshops for women and girls 
 
-foRwards is pleased to announce upcoming [R](https://www.r-project.org) workshops in Melbourne and Auckland. 
+foRwards is pleased to announce upcoming [R](https://www.r-project.org) workshops in Melbourne and Auckland. We thank the [R Consortium](https://www.r-consortium.org) for funding these workshops.
 
 ## Girls workshops 
 
@@ -13,6 +13,10 @@ These workshops are organised for women who have been programming in R for some 
 
 - Melbourne: TBD
 - Auckland, Dec 8, Auckland University.  [Register](https://www.eventbrite.com.au/e/forwards-workshop-for-women-in-auckland-tickets-38425568911)
+
+## Code of conduct
+
+Workshop instructors and participants agree to adhere to the [R Consortium and R Community Code of Conduct](https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct).
 
 ## Computing information
 
