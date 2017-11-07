@@ -12,7 +12,7 @@ foRwards is pleased to announce upcoming [R](https://www.r-project.org) workshop
 Learn how to make your code into an R package, do collaborative coding with github, submit your package to CRAN, write a vignette or article for the R Journal, and build a web page for your package. This workshop is for women who have done some R coding and are ready to take the next step in providing it to others to use. Bring your own code, or work with our example. 
 
 - Melbourne: TBD
-- Auckland, Dec 7, Auckland University.  [Register](https://www.eventbrite.com.au/e/forwards-workshop-for-women-in-auckland-tickets-38425568911) Instructors are Hadley Wickham, Jenny Bryan and Di Cook.
+- Auckland, Dec 7, Auckland University.  Instructors are Hadley Wickham, Jenny Bryan and Di Cook. [Register](https://www.eventbrite.com.au/e/forwards-workshop-for-women-in-auckland-tickets-38425568911)
 
 ## Code of conduct
 
