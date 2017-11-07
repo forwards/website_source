@@ -22,6 +22,8 @@ Overview of blog post - focus on new initiatives this year
 
 ## eR-Biostat
 
+## Software/Data Carpentry
+
 ## Other activities
 
 Links to RUGS in Africa, possibly other R community/training events
