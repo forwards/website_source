@@ -12,7 +12,7 @@ foRwards is pleased to announce upcoming [R](https://www.r-project.org) workshop
 These workshops are organised for women who have been programming in R for some time, and have some methodology or work suitable to be packaged up and submitted to CRAN. Participants will learn how to build an R package. 
 
 - Melbourne: TBD
-- Auckland, Dec 8, Auckland University.  [Register](https://www.eventbrite.com.au/e/forwards-workshop-for-women-in-auckland-tickets-38425568911)
+- Auckland, Dec 7, Auckland University.  [Register](https://www.eventbrite.com.au/e/forwards-workshop-for-women-in-auckland-tickets-38425568911)
 
 ## Code of conduct
 
