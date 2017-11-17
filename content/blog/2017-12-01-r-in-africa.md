@@ -30,7 +30,7 @@ Next year's conference will be held at a bigger venue on campus of the Universit
 
 ## Software/Data Carpentry
 
-Since 2015 [Software Carpentry](https://software-carpentry.org/) and Data Carpentry (http://www.datacarpentry.org/) have been enabling R capacity development in Africa. Software and Data Carpentry host two-day workshops teaching researchers and postgraduate students foundational skills to assist with better research software development and data analysis respectively. The Carpentries are global non-profit volunteer organisations that not only teach tools like R, Python, SQL, and git/Github, but also run a two-day [instructor training workshop](https://carpentries.github.io/instructor-training/) to help technical experts teach more effectively.
+Since 2015 [Software Carpentry](https://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/) have been enabling R capacity development in Africa. Software and Data Carpentry host two-day workshops teaching researchers and postgraduate students foundational skills to assist with better research software development and data analysis respectively. The Carpentries are global non-profit volunteer organisations that not only teach tools like R, Python, SQL, and git/Github, but also run a two-day [instructor training workshop](https://carpentries.github.io/instructor-training/) to help technical experts teach more effectively.
 
 ![Highlights from Carpentry workshops](/images/blog/r-in-africa/carpentries.jpg)
 
