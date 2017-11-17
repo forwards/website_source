@@ -30,6 +30,19 @@ Next year's conference will be held at a bigger venue on campus of the Universit
 
 ## Software/Data Carpentry
 
+Since 2015 [Software Carpentry](https://software-carpentry.org/) and Data Carpentry (http://www.datacarpentry.org/) have been enabling R capacity development in Africa. Software and Data Carpentry host two-day workshops teaching researchers and postgraduate students foundational skills to assist with better research software development and data analysis respectively. The Carpentries are global non-profit volunteer organisations that not only teach tools like R, Python, SQL, and git/Github, but also run a two-day [instructor training workshop](https://carpentries.github.io/instructor-training/) to help technical experts teach more effectively.
+
+![Highlights from Carpentry workshops](/images/blog/r-in-africa/carpentries.jpg)
+
+Over the past three years more than 30 workshops were run in countries like [South Africa](https://software-carpentry.org/blog/2017/05/instructor-training-south-africa.html), [Mauritius](https://software-carpentry.org/blog/2017/09/mauritius.html), Ghana, [Gabon](https://software-carpentry.org/blog/2017/09/mauritius.html), [Namibia](https://software-carpentry.org/blog/2017/09/namibia.html), Botswana, [Kenya](http://www.datacarpentry.org/blog/tdwg/), and [Ethiopia](https://software-carpentry.org/blog/2017/09/ethiopia.html). These workshops have reached hundreds of researchers and students who mostly had limited or no prior exposure to programming. 
+
+More information about the lessons we teach is available at the websites: [Software Carpentry](https://software-carpentry.org/lessons/) and [Data Carpentry](http://www.datacarpentry.org/lessons/).
+
+Another outcome of several of the Carpentry workshops, has been the establishment of study groups or other R meetups to continue learning after workshops had concluded. The [Ethiopian R-ladies](https://r-ladies-addis.github.io/studyGroup/) group is an example of a meetup that came about after the first Ethiopian Data Carpentry was run in Addis Ababa in August 2017. 
+
+If you'd like to get involved in Carpentries in Africa, please [join our Google Group](https://groups.google.com/forum/#!forum/swc-za) or request a workshop by completing the [form](https://software-carpentry.org/workshops/request/).
+
+
 ## Other activities
 
 Links to RUGS in Africa, possibly other R community/training events
