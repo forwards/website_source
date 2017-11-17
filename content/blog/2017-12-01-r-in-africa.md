@@ -1,6 +1,6 @@
 ---
 author: ""
-banner: "/images/blog/emily-robinson-from-social-scientist-to-data-scientist/portrait.png"
+banner: "/images/blog/r-in-africa/globe.jpg"
 categories: ["news"]
 date: 2017-12-01
 description: "Round-up of initiatives in the R community across Africa."
