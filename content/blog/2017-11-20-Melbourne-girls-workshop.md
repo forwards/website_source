@@ -4,7 +4,7 @@ banner: "/images/blog/cupcakes.jpg"
 categories: ["education","software"]
 date: 2017-11-20
 description: "Girls Coding Workshop, Melbourne"
-tags: ["software", "teaching", "education, "community","training"]
+tags: ["software", "teaching", "education", "community","training"]
 title: "Girls Coding Workshop, Melbourne"
 tocify: true
 #output: github_document
