@@ -13,3 +13,4 @@ print(config[baseurl_linenum])
 
 blogdown::install_hugo(version = "0.21", force = TRUE)
 blogdown::build_site()
+file.create('public/done.mark')
