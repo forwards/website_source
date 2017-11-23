@@ -1,6 +1,6 @@
 ---
 author: "Di Cook"
-banner: "/images/blog/cupcakes.jpg"
+banner: "/images/cupcakes.jpg"
 categories: ["education","software"]
 date: 2017-11-20
 description: "Girls Coding Workshop, Melbourne"
