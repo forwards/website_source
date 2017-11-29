@@ -147,10 +147,15 @@ If you wish to add a caption, you can simply put add emphasized text immediately
 below the image markup - in this case the alternative text is unnecessary:
 
     ![](/blog/images/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
-    *<br>Emily's R-Dog Abby*
+    *<br/>Emily's R-Dog Abby*
     
 The CSS will centre the caption - start the caption with a line break so that 
-the caption is shown under the image in RSS feeds.
+the caption is shown under the image in RSS feeds. The line break must have a 
+closing tag, i.e. use `<br/>` vs `<br>`.
+
+Other things to be careful of so that the post can be included in the RSS feed:
+do not include comments (`<!--- like this --->`); use `&amp;amp;` to include 
+an ampersand.
 
 Links to external websites should include http: or https: e.g.
 

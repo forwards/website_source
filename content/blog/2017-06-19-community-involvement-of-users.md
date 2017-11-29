@@ -98,8 +98,6 @@ The majority of useRs are split across four media: website (24%, 110 of 458), ma
 
 ### Local Groups
 
-<!--- add 4 from "Other" corresponding to general user group; move one from attend to not attend (used to attend) --->
-
 The last set of directed questions related to useR's involvement in local R user groups. Among the 458 respondents, 152 (33%) said they attended a local group, whereas 279 (59%) did not and 27 (6%) did not respond. Of those that attended RUGs, 124 (82%) attended a general user group, while 12 (8%) attended a university-based group and 7 (5%) attended a company-based group. Other types of groups mentioned were a user group for women in R (R-Ladies), a combined general user and R-Ladies group, a group based in a government organization and an informal user group for government and academia.
 
 The respondents that did not attend a user group were asked why not, giving the following responses:

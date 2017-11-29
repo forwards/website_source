@@ -19,6 +19,7 @@ preserveTaxonomyNames = true
 canonifyURLs = false
 # maximum number of items in the RSS feed
 rssLimit = 12
+ignoreFiles = ["\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     blog = "blog/:year/:month/:day/:slug/"
