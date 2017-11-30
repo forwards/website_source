@@ -116,7 +116,7 @@ addisababa@rladies.org .
 ![](/images/blog/r-in-africa/r-ladies-addis-ababa.png)
 *<br/>1st Meeting of R Ladies Addis on Nov. 14, 2017*
 
-## eR-Biostat: making R based education materials accessible for all
+## >eR-Biostat: making R based education materials accessible for all
 
 One of the main problems in education at both undergraduate and master's 
 levels in developing countries is the lack of high quality materials 
