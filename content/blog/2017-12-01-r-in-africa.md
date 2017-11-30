@@ -12,7 +12,7 @@ slug: r-in-africa
 
 R is used around the world and yet, in English-speaking media at least, we tend 
 to hear most about what is happening in North America, Europe, and Australasia.
-So on the blog we would like to highlight some recent initiatives in the R 
+So we would like to highlight some recent initiatives in the R 
 community from other regions of the world, with this first post in the series 
 focusing on R in Africa.
 
@@ -39,14 +39,13 @@ These were also very well attended.
 *<br/>satRday was an excellent networking opportunity!*
 
 A second [satRday in Cape Town](http://capetown2018.satrdays.org/) is now
-planned for 17 March 2018. It is a pleasure to have 
-[Maëlle Salmon](https://twitter.com/maelle) and 
-[Stephanie Kovalchik](https://twitter.com/StatsOnTheT) as keynote speakers. 
+planned for 17 March 2018, with two exciting keynote speakers: [Maëlle Salmon](https://twitter.com/maelle) and 
+[Stephanie Kovalchik](https://twitter.com/StatsOnTheT). 
 They will be presenting workshops on R package development and sports analytics
 with R on the day prior to the conference.
 
 Next year's conference will be held at a bigger venue on the campus of the 
-University of Cape Town. So we will be able to accommodate even more 
+University of Cape Town, which will be able to accommodate even more 
 enthusiastic R users. Tickets are on sale and the 
 [Call for Papers](https://www.papercall.io/satrday-cape-town-2018) is open.
 
