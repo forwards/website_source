@@ -62,7 +62,7 @@ teach tools like R, Python, SQL, and git/Github, but also run a two-day
 [instructor training workshop](https://carpentries.github.io/instructor-training/) 
 to help technical experts teach more effectively.
 
-![Highlights from Carpentry workshops](/images/blog/r-in-africa/carpentries.jpg)
+![](/images/blog/r-in-africa/carpentries.jpg)
 *<br/>Highlights from Carpentry workshops*
 
 Over the past three years more than 30 workshops were run in countries like 
@@ -85,8 +85,8 @@ request a workshop by completing the [form](https://software-carpentry.org/works
 
 ## R-Ladies in Africa
 
-Theoni Photopoulou was inspired to set up a Cape Town chapter of R-Ladies after
-attending the first satRdays conference in Cape Town. All three plenary speakers
+The set-up of a Cape Town chapter of R-Ladies was inspired by the first satRday
+conference in Cape Town. All three plenary speakers at that conference
 were part of the R-Ladies community and it was extremely refreshing to go to a
 conference largely about science and technology where women took the centre 
 stage. Cape Town is a multicultural, multilingual and multiracial city, but this
@@ -99,7 +99,9 @@ confident they will grow in time. One might expect that there would be
 many more people using R in a big city, but issues with congestion and public
 transport may form a barrier to people attending. The answer might be to form
 even more R-Ladies chapters around different parts of the city so that people
-don’t have to travel far!
+don’t have to travel far! R-Ladies Cape Town can be reached at 
+capetown@rladies.org and on 
+[Twitter @RLadiesCapeTown](https://twitter.com/rladiescapetown).
 
 R Ladies Addis was founded on October 30, 2017 in the course of the 2nd Data 
 Carpentry Workshop in Addis Ababa, with 7 founding members and 2 honorary 
@@ -117,7 +119,7 @@ addisababa@rladies.org .
 ![](/images/blog/r-in-africa/r-ladies-addis-ababa.png)
 *<br/>1st Meeting of R Ladies Addis on Nov. 14, 2017*
 
-## eR-Biostat: making R based education materials accessible for all
+## >eR-Biostat: making R based education materials accessible for all
 
 One of the main problems in education at both undergraduate and master's 
 levels in developing countries is the lack of high quality materials 
@@ -140,6 +142,9 @@ undergraduate programs in biostatistics/statistics. The
 **Statistical modelling (I)** and **Statistical modelling (II)** clusters
 consist of basic and advanced courses, respectively, at master's level in 
 biostatistics/statistics.
+
+![](/images/blog/r-in-africa/er-biostat-ethiopia.png)
+*<br/>The first >eR-Biostat workshop in Gondar University, Ethiopia*
 
 Course materials and updated information about our activities are available 
 online (See [>eR-BioStat](https://er-biostat.github.io/Courses/)).
