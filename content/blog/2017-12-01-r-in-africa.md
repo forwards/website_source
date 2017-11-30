@@ -99,7 +99,7 @@ many more people using R in a big city, but issues with congestion and public
 transport may form a barrier to people attending. The answer might be to form
 even more R-Ladies chapters around different parts of the city so that people
 don’t have to travel far! R-Ladies Cape Town can be reached at 
-capetown@rladies.org and on 
+<capetown@rladies.org> and on 
 [Twitter @RLadiesCapeTown](https://twitter.com/rladiescapetown).
 
 R Ladies Addis was founded on October 30, 2017 in the course of the 2nd Data 
@@ -113,7 +113,7 @@ with women students and women researchers by offering R training and R
 competitions. R Ladies Addis has been invited to reach out to the different 
 corners of Ethiopia. For the time being R Ladies is present at 
 https://r-ladies-addis.github.io/studyGroup and can be reached by e-mail
-addisababa@rladies.org .
+<addisababa@rladies.org>.
 
 ![](/images/blog/r-in-africa/r-ladies-addis-ababa.png)
 *<br/>1st Meeting of R Ladies Addis on Nov. 14, 2017*
@@ -151,7 +151,7 @@ online (See [>eR-BioStat](https://er-biostat.github.io/Courses/)).
 Follow us on [Facebook](https://www.facebook.com/ER-BioStat-1463845487001786/) 
 and [Twitter (@erbiostat)](https://twitter.com/erbiostat). Interested to 
 contribute a course and/or an >eR-Biostat event? Send an email to 
-erbiostat@gmail.com or ziv.shkedy@uhasselt.be.
+<erbiostat@gmail.com> or <ziv.shkedy@uhasselt.be>.
 
 ## Other activities
 
