@@ -43,7 +43,7 @@ I think this transition from being an R user to R programmer was also helped by 
 Metis is a [Data Science Bootcamp](http://www.thisismetis.com/data-science-bootcamps) that helps people transition into careers as a Data Scientist/Analyst. I heard about it from my brother, who had spoken at Metis and gone to their career day, where students present their final projects to recruiters and data scientists. He had been really impressed by the quality of the students and their work, and so I looked into the program more. I found that it fit perfectly my background, as what I was missing was Python skills and Machine Learning knowledge. Metis is not meant to take you from 0 to 60; everyone who enters the program has some knowledge of statistics and programming, although their backgrounds still vary widely. In my cohort, we had people a few years out of college, one person with twenty years of marketing experience, and a few with PhDs in quantitative fields.
 
 ![](/images/blog/emily-robinson-from-social-scientist-to-data-scientist/metis.jpg)
-*<br>Emily’s Metis cohort plus the two instructors (two people on the right)*
+*<br/>Emily’s Metis cohort plus the two instructors (two people on the right)*
 
 
 In terms of what you can learn in 12 weeks, Metis is not meant to make you an expert in everything they cover. Rather, by giving you exposure to many topics and having you do projects around them, you get a good enough grounding so that you can continue learning on your own. It also gives you a portfolio of projects that you can host on your GitHub and talk about during interviews. The other big benefit is the career support from the Metis career team and from the extensive alumni network. You receive help in making a resume and prepping for interviews, but also in connecting you to people at the companies you're interested in. For me it was 100% worth it. It was also a lot of fun and I met some great people!
@@ -79,7 +79,7 @@ P.S. DataCamp has a few free courses, but if anyone wants to try unlimited acces
 ***Last but not least, we were thrilled to learn you are a RCatLady although you don't have a cat! Also you have a dog! Is she a good R-Dog?***
 
 ![](/images/blog/emily-robinson-from-social-scientist-to-data-scientist/dog2.JPG)
-*<br>Emily's R-Dog Abby*
+*<br/>Emily's R-Dog Abby*
 
 She is the best R-Dog. I'm very excited that Etsy is a dog-friendly office, and I plan to take her into the office sometime soon. I'm sure she'll be very well-behaved; she spends most days sleeping on her bed or sitting under my mom's desk at home right by her feet.
 
