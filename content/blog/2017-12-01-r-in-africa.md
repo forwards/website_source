@@ -84,7 +84,8 @@ request a workshop by completing the [form](https://software-carpentry.org/works
 
 ## R-Ladies in Africa
 
-The set-up of a Cape Town chapter of R-Ladies was inspired by the first satRday
+The set-up of a Cape Town chapter of [R-Ladies](https://rladies.org/) 
+was inspired by the first satRday
 conference in Cape Town. All three plenary speakers at that conference
 were part of the R-Ladies community and it was extremely refreshing to go to a
 conference largely about science and technology where women took the centre 
@@ -117,6 +118,15 @@ https://r-ladies-addis.github.io/studyGroup and can be reached by e-mail
 
 ![](/images/blog/r-in-africa/r-ladies-addis-ababa.png)
 *<br/>1st Meeting of R Ladies Addis on Nov. 14, 2017*
+
+A new chapter of R-Ladies will soon be starting in Cotonou, Benin. The 
+organizers plan to have their first meeting in January to conincide with the 
+start of the new academic year. Follow the group on 
+[Twitter, @RLadiesCtn](https://twitter.com/RLadiesCtn) or email 
+<cotonou@rladies.org> to find out more! Local R-Ladies also hope to
+establish groups in Fez, Morocco and Johannesburg, South Africa; if you are 
+interested in these groups, or interested in starting a chapter in your own area
+(in Africa or beyond!) you can contact <info@rladies.org>.
 
 ## >eR-Biostat: making R based education materials accessible for all
 
