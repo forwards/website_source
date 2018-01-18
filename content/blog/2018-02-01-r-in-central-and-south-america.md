@@ -25,6 +25,16 @@ America.
 
 ### ConectaR 2019
 
+Recently, a number of R conferences have come to Latin America for the first time. In 2019, it is Costa Rica's turn: [ConectaR 2019][ConectaR] will take place in San José. The event has the endorsement of R Foundation and will be hosted at the [University of Costa Rica][UCR]. ConectaR has an organizing committee composed by academia ([School of Statistics][EdE], [Pure and Applied Mathematics Research Center][CIMPA]), public research centers ([The Development Observatory][OdD], [Bioversity International (CGIAR)][CGIAR]) and industry ([ixpantia][ixp]). ConectaR will have two keynote speakers (yet to be confirmed) and will be receiving proposals for oral presentations and posters starting April 2018.  In addition to that, there will be tutorials, invited talks, and a job fair. An attendance of over 150 people is expected, with the goal of building a community of R users in the Central American Region.
+
+[ConectaR]:(www.conectar2019.org)
+[UCR]:(www.ucr.ac.cr)
+[EdE]:(www.estadistica.ucr.ac.cr)
+[CIMPA]:(www.cimpa.ucr.ac.cr)
+[ixp]:(www.ixpantia.com)
+[OdD]: (www.odd.ucr.ac.cr)
+[CGIAR]:(https://www.bioversityinternational.org/)
+
 ## Workshops
 
 ### Bioconductor workshop, Cuernavaca, Mexico, July/Aug 2018
