@@ -4,7 +4,7 @@ title: "About"
 
 ## Background
 
-The task force was set up by the [R Foundation](https://www.r-project.org/foundation/) in December 2015 to address the underrepresentation of women and rebranded in Janurary 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
+The task force was set up by the [R Foundation](https://www.r-project.org/foundation/) in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
 
 The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.g. CRAN and Bioconductor). The task force is organised as a core team plus a number of sub-teams that focus on particular tasks as outlined below:
 
