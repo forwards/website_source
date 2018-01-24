@@ -29,7 +29,37 @@ Recently, a number of R conferences have come to Latin America for the first tim
 
 ## Workshops
 
-### Bioconductor workshop, Cuernavaca, Mexico, July/Aug 2018
+### R/Bioconductor Latin American Developers' Workshop (Cuernavaca, Mexico, July 30 - Aug 3, 2018).
+
+In recent years, biology has seen a rise in the use of technologies that enable high-throughput, quantitative, data-rich profiling of cellular states. As a result, the field faces computational challenges to analyse such data. The [R/Bioconductor](http://bioconductor.org/) project is an open source, open development software platform that provides tools to translate complex datasets into biological knowledge.
+
+The workshop is aimed at students and researchers interested in the analysis of biological data. We encourage applications from diverse disciplines, including but not limited to biologists, bioinformaticians, data scientists, software engineers and programmers. The main goals of the workshop are:
+
+1. Teaching participants the principles of reproducible data science through the development of R/Bioconductor packages. 
+2. Turning bioinformatic software users into bioinformatic software developers.
+3. Fostering the exchange of expertise and establishing multidisciplinary collaborations.
+4. Creating a community of Latin American scientists committed to the development of software and computational pipelines for biological data analysis. 
+5. Helping to train bioinformatics instructors that can continue to grow in their local communities.
+
+This workshop is part of a long-term project to create a community of developers from Latin America. We hope to hold regular meetings in the future (similar to [BioC](https://bioconductor.org/help/course-materials/2017/BioC2017/), [EuroBioc](https://bioconductor.github.io/EuroBioc2017/) and [BioCAsia](https://www.abacbs.org/biocasia2016)) where attendees present their own software contributions.  
+
+Instructors:
+
+- [Martin Morgan](https://www.roswellpark.org/martin-morgan) (Roswell Park Comprehensive Cancer Center, Buffalo, USA)
+- [Heather Turner](http://www.heatherturner.net/) (Freelance statistician and R programmer, Warwick, UK)
+- [Benilton Carvalho](https://scholar.google.com/citations?hl=en&user=44vQTS4AAAAJ) (University of Campinas, Campinas, Brazil)
+- [Selene Fernandez](http://www.langebio.cinvestav.mx/?pag=850) (National Laboratory of Genomics for Biodiversity, Irapuato, Mexico)
+
+Organizing committee:
+
+- [Heladia Salgado](http://www.ccg.unam.mx/es/personalInfo?idPersona=183) (Center for Genomic Sciences, Cuernavaca, Mexico)
+- [Leonardo Collado-Torres](http://lcolladotor.github.io/) (Lieber Institute for Brain Development, Baltimore, USA)
+- [Alejandra Medina-Rivera](http://liigh.unam.mx/profile/dra-alejandra-medina-rivera/) (International Laboratory for Human Genome Research, Juriquilla, Mexico)
+- [Alejandro Reyes](http://www.alejandroreyes.org/) (Dana-Farber Cancer Institute, Boston, USA)
+* Daniela Ledezma-Tejeida (Center for Genomic Sciences, Cuernavaca, Mexico)
+* Laura Gómez (Center for Genomic Sciences, Cuernavaca, Mexico)
+
+
 
 ### Other
 
