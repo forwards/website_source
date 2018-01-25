@@ -43,23 +43,7 @@ The workshop is aimed at students and researchers interested in the analysis of 
 
 This workshop is part of a long-term project to create a community of developers from Latin America. We hope to hold regular meetings in the future (similar to [BioC](https://bioconductor.org/help/course-materials/2017/BioC2017/), [EuroBioc](https://bioconductor.github.io/EuroBioc2017/) and [BioCAsia](https://www.abacbs.org/biocasia2016)) where attendees present their own software contributions.  
 
-Instructors:
-
-- [Martin Morgan](https://www.roswellpark.org/martin-morgan) (Roswell Park Comprehensive Cancer Center, Buffalo, USA)
-- [Heather Turner](http://www.heatherturner.net/) (Freelance statistician and R programmer, Warwick, UK)
-- [Benilton Carvalho](https://scholar.google.com/citations?hl=en&user=44vQTS4AAAAJ) (University of Campinas, Campinas, Brazil)
-- [Selene Fernandez](http://www.langebio.cinvestav.mx/?pag=850) (National Laboratory of Genomics for Biodiversity, Irapuato, Mexico)
-
-Organizing committee:
-
-- [Heladia Salgado](http://www.ccg.unam.mx/es/personalInfo?idPersona=183) (Center for Genomic Sciences, Cuernavaca, Mexico)
-- [Leonardo Collado-Torres](http://lcolladotor.github.io/) (Lieber Institute for Brain Development, Baltimore, USA)
-- [Alejandra Medina-Rivera](http://liigh.unam.mx/profile/dra-alejandra-medina-rivera/) (International Laboratory for Human Genome Research, Juriquilla, Mexico)
-- [Alejandro Reyes](http://www.alejandroreyes.org/) (Dana-Farber Cancer Institute, Boston, USA)
-* Daniela Ledezma-Tejeida (Center for Genomic Sciences, Cuernavaca, Mexico)
-* Laura Gómez (Center for Genomic Sciences, Cuernavaca, Mexico)
-
-
+A website containing more details will be available soon. 
 
 ### Other
 
