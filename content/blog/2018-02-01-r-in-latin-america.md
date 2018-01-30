@@ -1,15 +1,15 @@
 ---
 author: "Ariel Levy, Fernando Mayer, Laura Acion, Marcela Alfaro, Alejandro Reyes and Heather Turner"
-banner: ""
+banner: "/images/blog/r-in-latin-america/posters1_SERI_cropped.jpg"
 categories: ["news"]
 date: 2018-02-01
-description: "Round-up of initiatives in the R community across Central and South America."
+description: "Round-up of initiatives in the R community across Latin America."
 tags: ["community"]
-title: R in Central and South America
-slug: r-in-africa
+title: R in Latin America
+slug: r-in-latin-america
 ---
 
-Following on from our post on [R in Africa](https://rforwards-auto.github.io/blog/2017/12/01/r-in-africa/) this 
+Following on from our post on [R in Africa](http://forwards.github.io/blog/2017/12/01/r-in-africa/) this 
 next post in the series looks at the R community across Central and South 
 America.
 
@@ -18,6 +18,23 @@ America.
 ## Conferences
 
 ### International Seminar on Statistics with R
+
+This is the third edition of an ongoing and pioneering initiative. It
+is a follow-up of the highly successful previous editions. Each one
+had in its attendance about 250 participants evenly spread from
+academia and industry. In the first day of III SER, 8 mini courses will
+be aimed at both practitioners and students. This year most of the
+international guests come from USA and England. They include
+Jesse Mostipak, Becky Pattinson, Garreth Maccray, Gabriela de Queiroz,
+among other domestic and usual event speakers. There
+will also be thirty selected contributed talks and a poster session with
+awards for the best three of each. It’s a huge opportunity to get your research 
+known. In the last conference day, we will close
+with a tribute session to Prof. Djalma Pessoa who was a pioneer R user
+in Brazil.
+
+![](/blog/images/r-in-latin-america/Sean_online_SERI_scaled.jpg)
+    *<br/>Sean Kross presents remotely at the first SER*
 
 ### Brazil R Day
 
@@ -58,3 +75,5 @@ A website containing more details will be available soon.
 ## Other Initiatives
 
  - RUGS, R-Ladies
+ 
+<small>Banner image shows the poster sesssion at I SER.</small>
