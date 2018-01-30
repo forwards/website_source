@@ -10,31 +10,50 @@ slug: r-in-latin-america
 ---
 
 Following on from our post on [R in Africa](http://forwards.github.io/blog/2017/12/01/r-in-africa/) this 
-next post in the series looks at the R community across Central and South 
-America.
+next post in the series looks at the R community across Latin America.
 
 <!--more--> 
 
 ## Conferences
 
+As the use of R has grown in Latin America, there has been an increasing demand 
+for local R conferences. The community has responded and a number of conferences
+are planned for the coming months.
+
 ### International Seminar on Statistics with R
 
-This is the third edition of an ongoing and pioneering initiative. It
-is a follow-up of the highly successful previous editions. Each one
-had in its attendance about 250 participants evenly spread from
-academia and industry. In the first day of III SER, 8 mini courses will
-be aimed at both practitioners and students. This year most of the
-international guests come from USA and England. They include
-Jesse Mostipak, Becky Pattinson, Garreth Maccray, Gabriela de Queiroz,
-among other domestic and usual event speakers. There
+One of the first to spot the demand was Luciane Alcoforado, a professor at the
+Fluminense Federal University (UFF) in Rio de Janeiro, Brazil. Realizing there was 
+no large R event in Brazil, she set about coordinating the first International
+Seminar on Statistics with R ([SER: Seminário Internacional de Estatística com 
+R](http://serrio2016.weebly.com/)), which was held in Niterói in May 2016. 
+
+![](/images/r-in-latin-america/Alcoforado2_ISER.png)
+*<br/>Luciane Alcoforado, Coordinator of first SER*
+
+More than 250 people attended this pioneering event, with attendance balanced 
+across academia and industry. Encouraged by this success, the I SER organizers 
+ran the event again in 2017, with an expanded program and similar numbers 
+attending.
+
+![](/images/r-in-latin-america/Sean_online_SERI_scaled.jpg)
+*<br/>Sean Kross presents remotely at the first SER*
+
+A third edition, [III SER](http://www.ser.uff.br/), is now planned for 
+May 22-24, 2018, to be hosted again by UFF in Niterói, Brazil. 
+On the first day of III SER, 8 mini courses will
+be run, aimed at both practitioners and students. This year most of the
+international guests come from the USA and England. They include
+Jesse Mostipak, Becky Pattinson, Garreth Maccray, and Gabriela de Queiroz.
+These guests will present alongside invited speakers from the local region. There
 will also be thirty selected contributed talks and a poster session with
 awards for the best three of each. It’s a huge opportunity to get your research 
-known. In the last conference day, we will close
+known. The last conference day will close
 with a tribute session to Prof. Djalma Pessoa who was a pioneer R user
 in Brazil.
 
-![](/blog/images/r-in-latin-america/Sean_online_SERI_scaled.jpg)
-    *<br/>Sean Kross presents remotely at the first SER*
+Registration to III SER and the minicourses is open now and the call for papers 
+is open until March 23 2018.
 
 ### Brazil R Day
 
