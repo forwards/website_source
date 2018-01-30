@@ -21,7 +21,13 @@ America.
 
 ### Brazil R Day
 
-### Latin R
+### LatinR
+
+On October 25, 2017, an announcement was made by Heather Turner on the RUG Organizers Slack: the R Foundation Conference Committee would like to see academic-focused R events in regions not currently covered by useR! In less than a week, a group of Latam R-Ladies were organizing their first conference-call to start thinking about how this challenge could be achieved. This quick response was not the result of mere chance, but the consequence of a year in which the R community — both RUG and R-Ladies groups — grew stronger in South America. By mid November everything was set-up: a name, a place, a date, and a motivated international organizing committee. 
+
+LatinR 2018 will be held in Buenos Aires on September 4-5 within the 47th Argentinian Meeting of Informatics and Operational Research (JAIIO), which is organized by The Argentinian Informatics Society (SADIO). With a diverse and renowned Scientific Committee, this two-day event aims to bring together researchers, students, and R-enthusiasts from different backgrounds in order to strengthen the R community and make the impact that R is having in the region more visible, in both academic and non academic contexts. 
+
+For more information about oral presentations & poster submission, keynotes, and workshops, you can check out the [LatinR website](http://latin-r.com/en) or follow us on Twitter and Facebook: @LatinR2018.
 
 ### ConectaR 2019
 
