@@ -10,50 +10,31 @@ slug: r-in-latin-america
 ---
 
 Following on from our post on [R in Africa](http://forwards.github.io/blog/2017/12/01/r-in-africa/) this 
-next post in the series looks at the R community across Latin America.
+next post in the series looks at the R community across Central and South 
+America.
 
 <!--more--> 
 
 ## Conferences
 
-As the use of R has grown in Latin America, there has been an increasing demand 
-for local R conferences. The community has responded and a number of conferences
-are planned for the coming months.
-
 ### International Seminar on Statistics with R
 
-One of the first to spot the demand was Luciane Alcoforado, a professor at the
-Fluminense Federal University (UFF) in Rio de Janeiro, Brazil. Realizing there was 
-no large R event in Brazil, she set about coordinating the first International
-Seminar on Statistics with R ([SER: Seminário Internacional de Estatística com 
-R](http://serrio2016.weebly.com/)), which was held in Niterói in May 2016. 
-
-![](/images/r-in-latin-america/Alcoforado2_ISER.png)
-*<br/>Luciane Alcoforado, Coordinator of first SER*
-
-More than 250 people attended this pioneering event, with attendance balanced 
-across academia and industry. Encouraged by this success, the I SER organizers 
-ran the event again in 2017, with an expanded program and similar numbers 
-attending.
-
-![](/images/r-in-latin-america/Sean_online_SERI_scaled.jpg)
-*<br/>Sean Kross presents remotely at the first SER*
-
-A third edition, [III SER](http://www.ser.uff.br/), is now planned for 
-May 22-24, 2018, to be hosted again by UFF in Niterói, Brazil. 
-On the first day of III SER, 8 mini courses will
-be run, aimed at both practitioners and students. This year most of the
-international guests come from the USA and England. They include
-Jesse Mostipak, Becky Pattinson, Garreth Maccray, and Gabriela de Queiroz.
-These guests will present alongside invited speakers from the local region. There
+This is the third edition of an ongoing and pioneering initiative. It
+is a follow-up of the highly successful previous editions. Each one
+had in its attendance about 250 participants evenly spread from
+academia and industry. In the first day of III SER, 8 mini courses will
+be aimed at both practitioners and students. This year most of the
+international guests come from USA and England. They include
+Jesse Mostipak, Becky Pattinson, Garreth Maccray, Gabriela de Queiroz,
+among other domestic and usual event speakers. There
 will also be thirty selected contributed talks and a poster session with
 awards for the best three of each. It’s a huge opportunity to get your research 
-known. The last conference day will close
+known. In the last conference day, we will close
 with a tribute session to Prof. Djalma Pessoa who was a pioneer R user
 in Brazil.
 
-Registration to III SER and the minicourses is open now and the call for papers 
-is open until March 23 2018.
+![](/blog/images/r-in-latin-america/Sean_online_SERI_scaled.jpg)
+    *<br/>Sean Kross presents remotely at the first SER*
 
 ### Brazil R Day
 
@@ -87,12 +68,32 @@ This workshop is part of a long-term project to create a community of developers
 
 A website containing more details will be available soon. 
 
+### SatRdays Bogota
+
+The first Latin American chapter of the one day conference SatRDays will take place in Bogota, Colombia in August 2018. The focus of the conference will be about tidy concepts applied to data visualization. It is organized by [Datasketch](http://datasketch.co) a Data Journalism Portal for Latin America. 
+
+The main goal of the conference is to create a commons space for interaction among newbies and experts in R. Special interest will be given to works created by or for underrepresented communities and to showcase different solutions developed using R for the different elections that are happening in 2018 in different Latin American countries.
+
+The organizers may include a workshop session the day before with hands on tutorials about:
+- Data visualization and common mistakes.
+- Data structuring and preparation: PDFs, Databases and API's.
+
+A website containing more details will be available soon. 
+
 ### Other
 
  - Data/Software carpentry, other?
 
 ## Other Initiatives
 
- - RUGS, R-Ladies
+There are many other initiatives around R in Latin America.
+Take for instance R User Groups and R Ladies which took of at the end of last year.
+
+You can check [here](https://jumpingrivers.github.io/meetingsR/r-user-groups.html#south-america) a neat collection of the different meetup groups in different parts of the world.
+
+RLadiesBog recently developed an interesting intervention about feminicides in Colombia using #rstats and data in physical space. Check out their initiative [here](https://www.datasketch.co/en/p/how-we-used-r-to-raise-alarms-about-feminicides-in-colombia).
+
+
+
  
 <small>Banner image shows the poster sesssion at I SER.</small>
