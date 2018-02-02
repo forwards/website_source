@@ -120,12 +120,29 @@ This workshop is part of a long-term project to create a community of developers
 
 A website containing more details will be available soon.
 
+### SatRdays Bogota
+
+The first Latin American chapter of the one day conference SatRDays will take place in Bogota, Colombia in August 2018. The focus of the conference will be about tidy concepts applied to data visualization. It is organized by [Datasketch](http://datasketch.co) a Data Journalism Portal for Latin America. 
+
+The main goal of the conference is to create a commons space for interaction among newbies and experts in R. Special interest will be given to works created by or for underrepresented communities and to showcase different solutions developed using R for the different elections that are happening in 2018 in different Latin American countries.
+
+The organizers may include a workshop session the day before with hands on tutorials about:
+- Data visualization and common mistakes.
+- Data structuring and preparation: PDFs, Databases and API's.
+
+A website containing more details will be available soon. 
+
 ### Other
 
  - Data/Software carpentry, other?
 
 ## Other Initiatives
 
- - RUGS, R-Ladies
+There are many other initiatives around R in Latin America.
+Take for instance R User Groups and R Ladies which took of at the end of last year.
+
+You can check [here](https://jumpingrivers.github.io/meetingsR/r-user-groups.html#south-america) a neat collection of the different meetup groups in different parts of the world.
+
+RLadiesBog recently developed an interesting intervention about feminicides in Colombia using #rstats and data in physical space. Check out their initiative [here](https://www.datasketch.co/en/p/how-we-used-r-to-raise-alarms-about-feminicides-in-colombia).
 
 <small>Banner image shows the poster sesssion at I SER.</small>
