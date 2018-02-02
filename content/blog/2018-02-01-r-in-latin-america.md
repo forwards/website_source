@@ -1,5 +1,5 @@
 ---
-author: "Ariel Levy, Fernando Mayer, Laura Acion, Marcela Alfaro, Alejandro Reyes and Heather Turner"
+author: "Ariel Levy, Fernando Mayer, Laura Acion, Marcela Alfaro, Alejandro Reyes, Juan Pablo Marín Díaz and Heather Turner"
 banner: "/images/blog/r-in-latin-america/posters1_SERI_cropped.jpg"
 categories: ["news"]
 date: 2018-02-01
@@ -28,7 +28,7 @@ no large R event in Brazil, she set about coordinating the first International
 Seminar on Statistics with R ([SER: Seminário Internacional de Estatística com
 R](http://serrio2016.weebly.com/)), which was held in Niterói in May 2016.
 
-![](/images/r-in-latin-america/Alcoforado2_ISER.png)
+![](/images/blog/r-in-latin-america/Alcoforado2_ISER.png)
 *<br/>Luciane Alcoforado, Coordinator of first SER*
 
 More than 250 people attended this pioneering event, with attendance balanced
@@ -36,7 +36,7 @@ across academia and industry. Encouraged by this success, the I SER organizers
 ran the event again in 2017, with an expanded program and similar numbers
 attending.
 
-![](/images/r-in-latin-america/Sean_online_SERI_scaled.jpg)
+![](/images/blog/r-in-latin-america/Sean_online_SERI_scaled.jpg)
 *<br/>Sean Kross presents remotely at the first SER*
 
 A third edition, [III SER](http://www.ser.uff.br/), is now planned for
