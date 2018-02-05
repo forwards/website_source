@@ -1,8 +1,8 @@
 ---
-author: "Ariel Levy, Fernando Mayer, Laura Acion, Marcela Alfaro, Alejandro Reyes, Juan Pablo Marín Díaz and Heather Turner"
+author: "Ariel Levy, Fernando Mayer, Juan Pablo Marín Díaz, Riva Quiroga, Marcela Alfaro, Alejandro Reyes, and Heather Turner"
 banner: "/images/blog/r-in-latin-america/posters1_SERI_cropped.jpg"
 categories: ["news"]
-date: 2018-02-01
+date: 2018-02-05
 description: "Round-up of initiatives in the R community across Latin America."
 tags: ["community"]
 title: R in Latin America
