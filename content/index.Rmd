@@ -3,6 +3,8 @@ title: Home
 type: index
 ---
 
+<meta name="twitter:dnt" content="on">
+
 ## Mission
 
 Leading the R community forwards in widening the participation of women and other under-represented groups.
@@ -33,7 +35,7 @@ Find out more [about](about) the task force.
 <!-- data-tweet-limit="3" -->
 <div style = "width:50%">
 ## Latest Tweets
-<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader" href="https://twitter.com/R_Forwards"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader" href="https://twitter.com/R_Forwards" data-dnt="true"></a> <script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </div>
 
