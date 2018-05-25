@@ -3,6 +3,8 @@ title: Home
 type: index
 ---
 
+<meta name="twitter:dnt" content="on">
+
 ## Mission
 
 Leading the R community forwards in widening the participation of women and other under-represented groups.
@@ -33,15 +35,17 @@ Find out more [about](about) the task force.
 <!-- data-tweet-limit="3" -->
 <div style = "width:50%">
 ## Latest Tweets
-<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader" href="https://twitter.com/R_Forwards"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader" href="https://twitter.com/R_Forwards" data-dnt="true"></a> <script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </div>
 
 ## Events
 
-R-ladies meet-ups and other relevant events. 
-      
-<br>     
-<iframe src="https://calendar.google.com/calendar/embed?title=FORWARDS%20calendar&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=98i553ll9id8l35qmj5u05ui7o%40group.calendar.google.com&amp;&amp;src=3ahe2f1q4a3upfu8096g5odu0n5h8icp%40import.calendar.google.com&amp;color=%232952A3&amp;ctz=Australia%2FSydney" style="border-width: 0; display: block; margin: 0 auto;" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+R-ladies meet-ups: https://rladies.org/events/
+
+Other relevant events:
+
+ - [useR! 2018](https://user2018.r-project.org/) July 10-13, 2018, Brisbane, Austrailia
+ - [Julia](http://juliacon.org/2018/) August 7-11, 2018, London, UK
 
  
