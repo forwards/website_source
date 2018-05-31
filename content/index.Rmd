@@ -45,7 +45,7 @@ R-ladies meet-ups: https://rladies.org/events/
 
 Other relevant events:
 
- - [Women in Network Science event](https://www.eiseverywhere.com/ehome/288996/703272/) June 28, 2018 Sunbelt 2018 Utrecht [source](https://twitter.com/IsabellaGollini/status/999264048888807424)
+ - [Women in Network Science event](https://www.eiseverywhere.com/ehome/288996/703272/) June 28, 2018 Sunbelt 2018 Utrecht [(tip)](https://twitter.com/IsabellaGollini/status/999264048888807424)
  - [useR! 2018](https://user2018.r-project.org/) July 10-13, 2018, Brisbane, Austrailia
  - [Julia](http://juliacon.org/2018/) August 7-11, 2018, London, UK
 
