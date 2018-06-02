@@ -16,6 +16,8 @@ Find out more [about](about) the task force.
 
 ## News
 
+*2017/10/28* Di Cook holds Girls Coding Workshop in Melbourne [blog](https://forwards.github.io/blog/2017/11/20/girls-coding-workshop-melbourne/)
+
 *2017/07/12* Julie Josse presents the results of the Forwards useR! 2016 survey at [useR! 2017](https://user2017.brussels/) [[Video](https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Diversity-of-the-R-Community?term=useR!%20diversity)] [[Slides](http://schd.ws/hosted_files/user2017/7d/useR%212017.pdf)].
 
 *2017/01/13* Open call to join the taskforce, [further details](/blog/2017/01/13/call-to-join-forwards/).
