@@ -82,7 +82,7 @@ The following graphic summarizes relationships between the answers to the "uses 
 
 
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
 Proximities between categories Q11.NA and Q14.NA indicate that people who did not answer Q11 (How long have you been using R for?) often did not answer Q14 (Do you use R as a recreational activity, primarily as part of a job or both?). However, it only concerns 16 individuals. 
 
@@ -98,7 +98,7 @@ The graph of the individuals allows identification of the individuals located at
 
 ## Analysis of the perception of the R programming language
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
 The analysis of questions related to the perception of the R language (Q15, Q16, Q17) shows again that attendees who did not answer one question often did not answer others (1st dimension). More interestingly, the second dimension of the graph highlights that people thinking very strongly that R is monotonous also think that it is not fun, not cool, or even think R is poor. It highlights that among respondents there is a sub-population of people who do not appreciate R. However, it concerns around 10 individuals. 
 
@@ -111,19 +111,19 @@ Interestingly, these respondents tend to recommend R to a friend as a programmin
 Does the perception of the R language differ according to the experience of the user? To answer this question,
 the perception variables are projected as supplementary variables on the graph obtained with the "uses of R" variables. Supplementary variables are not used to build the dimensions of variability, they are projected _a posteriori_ and help for the interpretation. 
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
+<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
 We note that experienced users particularly appreciate R. They find that R is fun, not monotonous and they recommend to use it.
 
 ##  Relationship with demographic
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
+<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
 
 Demographic variables are also projected as supplementary variables. We excluded the ethnic group variable (Q4) and the country of residence variable (Q5) because of the large number of infrequent categories. The graph above shows that the demographic characteristics are significantly related to the user profiles. An analysis of variance with demographic variables as covariates, and the coordinates of the individuals on the dimensions as explanatory variables, has been performed[^fn2]. The graph shows that people with a doctorate are more highly represented among advanced users.  This also shows that men are more highly represented than women among the most advanced users. As stated in the post [useRs Relationship with R](http://forwards.github.io/blog/2017/03/11/users-relationship-with-r/), it could be explained by the fact that women tend to be younger, but here we note that the variable Age does not significantly explain the coordinates of the individuals on the graph. 
 To get more insight into this possible confounding effect, we created a variable sex-age and represent it. The plot confirms that men are over-represented amongst the advanced users.
 
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-9-1.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" /><img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-9-2.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" />
+<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-9-1.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" /><img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-9-2.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" />
 
 
 
@@ -139,14 +139,14 @@ Several rules can be used to select the number of components used for the cluste
 
 
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-12-1.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" style="display: block; margin: auto;" />
+<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-12-1.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" style="display: block; margin: auto;" />
 
 The number of clusters is chosen according to the barplot of the inertia gains[^fn1] which suggests 3 clusters. 
 
 However, since a cluster with non-respondents is expected, we consider 4 clusters to have a more interpretable clustering.
 
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-13-1.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" style="display: block; margin: auto;" />
+<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-13-1.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" style="display: block; margin: auto;" />
 
 The first cluster located on the left represent the experienced users while the second cluster gathers the intermediate users and the third one the beginners. The fourth cluster is constituted with people who did not  answer.
 
@@ -230,9 +230,9 @@ Cluster 2 can be described as a cluster of **intermediate users** who use R sinc
 |Q1_new=Q1_new_Industry                                |   67.20|   48.85|  41.54| 0.00026|
 |Q15=fun_Agree                                         |   67.20|   48.08|  40.88| 0.00031|
 |Q7=Masters degree                                     |   66.31|   47.69|  41.10| 0.00096|
-|Q2Q3=29-33_Women                                      |   74.58|   16.92|  12.97| 0.00334|
-|Q2Q3=20-28_Women                                      |   75.51|   14.23|  10.77| 0.00538|
+|Q2Q3=20-28_Women                                      |   79.07|   13.08|   9.45| 0.00185|
 |Q16=rcmd_Yes                                          |   59.09|   95.00|  91.87| 0.00558|
+|Q2Q3=29-33_Women                                      |   75.56|   13.08|   9.89| 0.00786|
 |Q5=United States                                      |   61.08|   74.23|  69.45| 0.01118|
 |Q13=use_func_yes                                      |   58.63|   95.38|  92.97| 0.02258|
 |Q7=Undergraduate degree                               |   71.15|   14.23|  11.43| 0.02953|
