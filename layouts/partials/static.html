@@ -7,7 +7,9 @@
                         {{ .Title }}
                     </h1>
                     <p class = "article-author">{{ .Params.Author }}</p>
+                    {{ if ne .Type "other" }}
                     <time class = "article-date" datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
+                    {{ end }}
                 </header>
             {{ end }}
             <div class="article-entry" itemprop="articleBody">

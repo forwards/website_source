@@ -1,7 +1,7 @@
 ---
 title: Recommendations to increase the Participation of Women at useR! Conferences
 date: "2016-04-09"
-type: other
+type: recommendations
 ---
 
 ## Recommendations

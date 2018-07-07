@@ -2,7 +2,7 @@
 title: 'useR! 2016 participants and R programming: a multivariate analysis'
 author: "Julie Josse and Heather Turner"
 date: "2017-06-17"
-type: report
+type: survey_report
 knit: (function(inputFile, encoding) {
     outputFile <- 
         knitr::knit(inputFile, 
