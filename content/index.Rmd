@@ -16,6 +16,7 @@ Find out more [about](about) the task force.
 <div style = "width:50%">
 
 ## News
+*2018/07/30 Di Cook serves as panelist on late breaking session at JSM2018, [*Addressing Sexual Misconduct in the Statistics Community*](http://ww2.amstat.org/meetings/jsm/2018/onlineprogram/AbstractDetails.cfm?abstractid=329833) [blog post by organizer](http://statisticalrecipes.blogspot.com/2018/06/addressing-sexual-misconduct-in.html) 
 
 *2017/12/8* Girls coding workshop held at Auckland University
 
@@ -31,11 +32,6 @@ Find out more [about](about) the task force.
 
 *2016/11/04* Jenny Bryan, Di Cook and Julie Josse are elected as ordinary members of the R Foundation, bringing the total number of women to 5 out of 37.
 
-*2016/10/20* Di Cook presents the work of the task force at [Women in Statistics and Data Science 2016](https://ww2.amstat.org/meetings/wsds/2016/onlineprogram/AbstractDetails.cfm?AbstractID=303353).
-
-*2016/08/22* R Consortium approves funding for a [joint proposal](https://www.r-consortium.org/blog/2016/08/22/the-r-consortium-funds-three-projects-in-july) from the San Francisco and London R-ladies groups for alignment and global expansion.
-
-*2016/06/27* Proportion of women at useR! 2016 rises to 28% from 19% at useR! 2015.
 
 </div>
 <!--https://dev.twitter.com/web/embedded-timelines/parameters -->
