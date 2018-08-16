@@ -87,7 +87,7 @@ Stella Bollman - **'Surveys' team member**.
 
 [David Meza](https://www.linkedin.com/in/davidmeza1/) - **'Surveys' team member**. [More about David](https://knowledger.rbind.io/).
 
-[Carolin Strobl](http://www.psychology.uzh.ch/en/areas/nec/methoden/team/carolinstrobl.html) - **'Survey' team member**. Carolin is a Professor in the Department of Psychology at the University of Zurich, established the [Zurich R Courses](http://www.zhrcourses.uzh.ch/en.html) and co-founded the [Psychoco](https://eeecon.uibk.ac.at/psychoco/courses.html) workshops on psychometric computing.
+[Carolin Strobl](http://www.psychology.uzh.ch/en/areas/nec/methoden/team/carolinstrobl.html) - **'Survey' team member**. [More about Carolin](http://www.zhrcourses.uzh.ch/en.html).
 
 Andrea Foulkes - **'Teaching' team member**.
 
