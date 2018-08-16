@@ -34,7 +34,7 @@ Gina Griffin - **'Community' team leader**. Gina is a Social Worker and a trauma
 
 [Kevin O'Brien](https://ie.linkedin.com/in/kobriendublin) - **'Community' team leader**. Kevin is a freelance statistical consultant and university teacher as well as the main organizer of Dublin R User Group with strong links to other data science user groups in Ireland and beyond.[More about Kevin](https://www.codinggrace.com/).
 
-Julie Josse - **'Conference' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. [More about Julie](http://juliejosse.com/).
+[Julie Josse](https://www.linkedin.com/in/julie-josse-4886a2140/) - **'Conference' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. [More about Julie](http://juliejosse.com/).
 
 [Jenny Bryan](https://twitter.com/JennyBryan) - **'On-ramps' team Leader**. Jenny works as a developer for RStudio(https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci.[More about Jenny ](https://www.stat.ubc.ca/~jenny/).
 
@@ -42,7 +42,7 @@ Julie Josse - **'Conference' team leader**. Julie is a professor of statistics a
 
 [Tracy Shen](https://www.linkedin.com/in/jiatracyshen/) - **'Social Media' team leader**. Tracy is a Data Analyst at AccuWeather, Inc and holds the Data Science Specialization Certificate in R by Johns Hopkins University. [More about Tracy](https://github.com/tbs08).
 
-[David Smith](https://www.linkedin.com/in/dmsmith/) - **'Social Media' team leader**. David is the R Community Lead at Microsoft and editor of the Revolutions blog. 
+[David Smith](https://www.linkedin.com/in/dmsmith/) - **'Social Media' team leader**. David is a Cloud Developer Advocate at Microsoft, director of the R Consortium, and editor of the [Revolutions blog](http://blog.revolutionanalytics.com/). [More about David](https://developer.microsoft.com/en-us/advocates/david-smith).
 
 [Jasmine Dumas](https://www.linkedin.com/in/jasminedumas/) - **'Surveys' team leader**. Jasmine is a Data Scientist at Simple and author of the `shinyGEO`, `ttbbeer`, `shinyLP`, and `gramr` packages. [More about Jasmine](https://jasdumas.github.io/).
 
@@ -54,7 +54,7 @@ Julie Josse - **'Conference' team leader**. Julie is a professor of statistics a
 
 [Isabella Gollini](https://www.linkedin.com/in/isabellagollini/) - **'Teaching' team leader**. Isabella is Assistant Professor in Statistics at University College Dublin and an RLadies mentor. [More about Isabella](https://sites.google.com/site/isabellagollini/).
 
-Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). [More about Jonanthan](https://R-Resources.massey.ac.nz/BrailleR)
+Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). [More about Jonathan](https://R-Resources.massey.ac.nz/BrailleR)
 
 
 ## Sub Team Members
