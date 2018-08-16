@@ -30,34 +30,34 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Emily Dodwell](https://www.linkedin.com/in/emilymdodwell/) - **Administrator**. Emily is a Data Scientist and R enthusiast in the Big Data Research Statistics Department at AT&T Labs, as well as an active member of the New York City R community.
 
-Gina Griffin - **'Community' team leader**. Gina is a Social Worker and a trauma therapist. She now works with data related to research and program evaluation in R. [More about Gina](https://github.com/Allyris).
+[Tania Allard](https://www.linkedin.com/in/taniasanchezmonroy/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. [More about Tania](https://bitsandchips.me/).
 
 [Kevin O'Brien](https://ie.linkedin.com/in/kobriendublin) - **'Community' team leader**. Kevin is a freelance statistical consultant and university teacher as well as the main organizer of Dublin R User Group with strong links to other data science user groups in Ireland and beyond.[More about Kevin](https://www.codinggrace.com/).
 
 [Julie Josse](https://www.linkedin.com/in/julie-josse-4886a2140/) - **'Conference' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. [More about Julie](http://juliejosse.com/).
 
-[Jenny Bryan](https://twitter.com/JennyBryan) - **'On-ramps' team Leader**. Jenny works as a developer for RStudio(https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci.[More about Jenny ](https://www.stat.ubc.ca/~jenny/).
+[Jenny Bryan](https://twitter.com/JennyBryan) - **'On-ramps' team Leader**. Jenny works as a developer for RStudio(https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci. [More about Jenny](https://www.stat.ubc.ca/~jenny/).
 
 [Michael Lawrence](https://www.linkedin.com/in/michael-lawrence-74a9b482/) - **'On-ramps' team leader**. Michael is a Computational Biologist at Genentech and a member of R Foundation, R Core and Bioconductor Core. 
 
-[Tracy Shen](https://www.linkedin.com/in/jiatracyshen/) - **'Social Media' team leader**. Tracy is a Data Analyst at AccuWeather, Inc and holds the Data Science Specialization Certificate in R by Johns Hopkins University. [More about Tracy](https://github.com/tbs08).
+[Augustina Ragwitz] - **'Social Media' team leader**.
 
 [David Smith](https://www.linkedin.com/in/dmsmith/) - **'Social Media' team leader**. David is a Cloud Developer Advocate at Microsoft, director of the R Consortium, and editor of the [Revolutions blog](http://blog.revolutionanalytics.com/). [More about David](https://developer.microsoft.com/en-us/advocates/david-smith).
 
 [Jasmine Dumas](https://www.linkedin.com/in/jasminedumas/) - **'Surveys' team leader**. Jasmine is a Data Scientist at Simple and author of the `shinyGEO`, `ttbbeer`, `shinyLP`, and `gramr` packages. [More about Jasmine](https://jasdumas.github.io/).
 
-[Madlene Hamilton](https://www.linkedin.com/in/madlenehamilton/) - **'Surveys' team leader**. Madlene is a research scientist and has been working on data projects in the social science and innovation arena for over 20 years. [More about Madlene](https://twitter.com/madlenehamilton).
-
-[Carolin Strobl](http://www.psychologie.uzh.ch/en/fachrichtungen/methoden/team/carolinstrobl.html) - **'Survey' team leader**. Carolin is a Professor in the Department of Psychology at the University of Zurich, established the [Zurich R Courses](http://www.zhrcourses.uzh.ch/en.html) and co-founded the [Psychoco](https://eeecon.uibk.ac.at/psychoco/courses.html) workshops on psychometric computing. 
+[Tatjana Kecojevic](https://www.linkedin.com/in/tatjana-kecojevic-803704143/) - **'Surveys' team leader**. Tatjana is a statistician, instructor and consultant, of which roles she is responsible for in her company DataTeka. She is a founder and co-organiser of R-Ladies Manchester and Belgrade chapters. [More about Tatjana](https://tanjakec.github.io/).
 
 [Di Cook](http://dicook.github.io/) - **'Teaching' team leader**. Di is a Professor in the Department of Econometrics & Business Statistics at Monash University, a regular mentor on [R Google Summer of Code projects](https://github.com/rstats-gsoc) and was elected to the R Foundation in 2016.
 
 [Isabella Gollini](https://www.linkedin.com/in/isabellagollini/) - **'Teaching' team leader**. Isabella is Assistant Professor in Statistics at University College Dublin and an RLadies mentor. [More about Isabella](https://sites.google.com/site/isabellagollini/).
 
-Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). [More about Jonathan](https://R-Resources.massey.ac.nz/BrailleR)
+Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). [More about Jonathan](https://R-Resources.massey.ac.nz/BrailleR).
 
 
 ## Sub Team Members
+
+Gina Griffin - **'Community' team member**. [More about Gina](https://github.com/Allyris).
 
 [Joslynn Lee](https://www.linkedin.com/in/joslynnlee/) - **'Community' team member**.
 
@@ -65,22 +65,32 @@ Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind 
 
 [Noa Tamir](https://www.linkedin.com/in/noatamir) - **'Community' team member**. [More about Noa](noatamir.com).
 
+Yizhe Xu - **'Community' team member**.
+
 Gina Merchant - **'Conferences', 'Social Media' team member**. [More about Gina](http://gmerchant.ucsd.edu).
 
 [Charlotte Wickham](https://www.linkedin.com/in/charlotte-wickham-793a011a) - **'On-ramps' team member**. [More about Charlotte](http://cwick.co.nz).
 
+Liz Kellogg - **'Social Media' team member**.
+
 Wenfeng Qin - **'Social Media' team member**. [More about Wenfeng](https://github.com/qinwf).
+
+Maëlle Salmon - **'Social Media' team member**. [More about Maëlle](http://www.masalmon.eu/)
+
+[Tracy Shen](https://www.linkedin.com/in/jiatracyshen/) - **'Social Media' team member**. [More about Tracy](https://github.com/tbs08).
 
 Stella Bollman - **'Surveys' team member**.
 
 [Rudolf Debelak](https://www.linkedin.com/in/rudolf-debelak-5214a85b/) - **'Surveys' team member**. [More about Rudolf](https://www.psychologie.uzh.ch/en/fachrichtungen/methoden/team/rudolfdebelak.html).
 
-John Fox - **'Surveys' team member**. [More about John](http://socserv.mcmaster.ca/jfox/).
+[Madlene Hamilton](https://www.linkedin.com/in/madlenehamilton/) - **'Surveys' team member**. [More about Madlene](https://twitter.com/madlenehamilton).
 
-Maëlle Salmon - **'Surveys' team member**. [More about Maëlle](http://www.masalmon.eu/)
- 
-[Joyce Robbins](https://www.linkedin.com/in/joycerobbins/) - **'Teaching' team member**. [More about Joyce](http://www.joyce-robbins.com/about/).
+[David Meza](https://www.linkedin.com/in/davidmeza1/) - **'Surveys' team member**. [More about David](https://knowledger.rbind.io/).
+
+[Carolin Strobl](http://www.psychology.uzh.ch/en/areas/nec/methoden/team/carolinstrobl.html) - **'Survey' team member**. Carolin is a Professor in the Department of Psychology at the University of Zurich, established the [Zurich R Courses](http://www.zhrcourses.uzh.ch/en.html) and co-founded the [Psychoco](https://eeecon.uibk.ac.at/psychoco/courses.html) workshops on psychometric computing.
 
 Andrea Foulkes - **'Teaching' team member**.
+
+[Joyce Robbins](https://www.linkedin.com/in/joycerobbins/) - **'Teaching' team member**. [More about Joyce](http://www.joyce-robbins.com/about/).
 
 Hadley Wickham - **'Teaching' team member**. 
