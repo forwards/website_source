@@ -28,11 +28,11 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Heather Turner](https://uk.linkedin.com/in/heathrturnr) - **Chair, 'Conferences' team leader**. Heather works as a freelance statistical programmer and is on the board of the R Foundation. [More about Heather](http://heatherturner.net/).
 
-[Emily Dodwell](https://www.linkedin.com/in/emilymdodwell/) - **Administrator**. Emily is a Data Scientist and R enthusiast in the Big Data Research Statistics Department at AT&T Labs, as well as an active member of the New York City R community.
+[Emily Dodwell](https://www.linkedin.com/in/emilymdodwell/) - **Administrator**. Emily is a Senior Inventive Scientist in the Data Science and AI Research Organization at AT&T Labs, as well as an active member of the New York City R community.
 
 [Tania Allard](https://www.linkedin.com/in/taniasanchezmonroy/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. [More about Tania](https://bitsandchips.me/).
 
-[Kevin O'Brien](https://ie.linkedin.com/in/kobriendublin) - **'Community' team leader**. Kevin is a freelance statistical consultant and university teacher as well as the main organizer of Dublin R User Group with strong links to other data science user groups in Ireland and beyond.[More about Kevin](https://www.codinggrace.com/).
+[Kevin O'Brien](https://ie.linkedin.com/in/kobriendublin) - **'Community' team leader**. Kevin is a data scientist working for a forestry company, modelling forestry resources, as well as one of the main organizers of Dublin R. [More about Kevin](www.twitter.com/DragonflyStats).
 
 [Julie Josse](https://www.linkedin.com/in/julie-josse-4886a2140/) - **'Conference' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. [More about Julie](http://juliejosse.com/).
 
@@ -67,7 +67,7 @@ Gina Griffin - **'Community' team member**. [More about Gina](https://github.com
 
 Yizhe Xu - **'Community' team member**.
 
-Gina Merchant - **'Conferences', 'Social Media' team member**. [More about Gina](http://gmerchant.ucsd.edu).
+[Gina Merchant](https://www.linkedin.com/in/gina-merchant-phd-2279b6140/) - **'Conferences', 'Social Media' team member**. [More about Gina](http://gmerchant.ucsd.edu).
 
 [Charlotte Wickham](https://www.linkedin.com/in/charlotte-wickham-793a011a) - **'On-ramps' team member**. [More about Charlotte](http://cwick.co.nz).
 
@@ -75,7 +75,7 @@ Liz Kellogg - **'Social Media' team member**.
 
 Wenfeng Qin - **'Social Media' team member**. [More about Wenfeng](https://github.com/qinwf).
 
-Maëlle Salmon - **'Social Media' team member**. [More about Maëlle](http://www.masalmon.eu/)
+Maëlle Salmon - **'Social Media' team member**. [More about Maëlle](https://masalmon.eu/)
 
 [Tracy Shen](https://www.linkedin.com/in/jiatracyshen/) - **'Social Media' team member**. [More about Tracy](https://github.com/tbs08).
 
