@@ -1,5 +1,7 @@
 ## Workshops for women and girls 
 
+Test link [NYC event](nyc/)
+
 foRwards is pleased to announce upcoming [R](https://www.r-project.org) workshops in Melbourne and Auckland. We thank the [R Consortium](https://www.r-consortium.org) for funding these workshops.
 
 ### Girls workshops 
