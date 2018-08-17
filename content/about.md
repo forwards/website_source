@@ -40,7 +40,7 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Michael Lawrence](https://www.linkedin.com/in/michael-lawrence-74a9b482/) - **'On-ramps' team leader**. Michael is a Computational Biologist at Genentech and a member of R Foundation, R Core and Bioconductor Core. 
 
-[Augustina Ragwitz] - **'Social Media' team leader**.
+Augustina Ragwitz - **'Social Media' team leader**.
 
 [David Smith](https://www.linkedin.com/in/dmsmith/) - **'Social Media' team leader**. David is a Cloud Developer Advocate at Microsoft, director of the R Consortium, and editor of the [Revolutions blog](http://blog.revolutionanalytics.com/). [More about David](https://developer.microsoft.com/en-us/advocates/david-smith).
 
