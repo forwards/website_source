@@ -35,7 +35,7 @@ Lunch will be provided.  Participants will receive a certificate of completion a
 
 ### Lead instructors:
 
-['Emily Dodwell](https://www.linkedin.com/in/emdodwell) and [Joyce Robbins](http://www.joyce-robbins.com/about/)
+[Emily Dodwell](https://www.linkedin.com/in/emdodwell) and [Joyce Robbins](http://www.joyce-robbins.com/about/)
 
 ### Application Deadline: Monday, September 24th <apply here> 
 
