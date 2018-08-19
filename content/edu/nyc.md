@@ -6,18 +6,18 @@ Title: NYC Event
 
 ### NYC HIGH SCHOOL JUNIORS AND SENIORS: APPLY NOW FOR A FREE DATA SCIENCE AND CODING WORKSHOP
 
-<table>
+<table align = "left">
   <tr>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/airport.jpeg?raw=true" align = "left"><br>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/airport.jpeg?raw=true"><br>
       <a href = "http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/">source</a>
     </td>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/manhattan_vs_outer_boroughs.png?raw=true" align = "left"><br>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/manhattan_vs_outer_boroughs.png?raw=true"><br>
       <a href = "http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/">source</a>
     </td>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/model_results_scatterplot.png?raw=true"  align = "left"><br>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/model_results_scatterplot.png?raw=true"><br>
       <a href = "http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/">source</a>
     </td>
   </tr>
