@@ -6,6 +6,11 @@ Title: NYC Event
 
 ### NYC HIGH SCHOOL JUNIORS AND SENIORS: APPLY NOW FOR A FREE DATA SCIENCE AND CODING WORKSHOP
 
+
+### Workshop Description
+
+Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for NYC high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of NYC transportation data: [Citibike](https://www.citibikenyc.com/system-data), [Taxi](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml), and [Flights](https://cran.r-project.org/web/packages/nycflights13/nycflights13.pdf).
+
 <table align = "left">
   <tr>
     <td>
@@ -22,10 +27,6 @@ Title: NYC Event
     </td>
   </tr>
 </table>  
-
-### Workshop Description
-
-Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for NYC high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of NYC transportation data: [Citibike](https://www.citibikenyc.com/system-data), [Taxi](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml), and [Flights](https://cran.r-project.org/web/packages/nycflights13/nycflights13.pdf).
 
 Lunch will be provided.  Participants will receive a certificate of completion at the end of the workshop.
 
