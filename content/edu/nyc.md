@@ -38,7 +38,7 @@ This workshop is open to high school girls in grades 11 and 12 who are intereste
 ### Cost and Travel Support
 Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>, this workshop is free for participants.  Students are responsible for their own transportation to and from the workshop, however each participant will be provided with a 2-trip MetroCard to reimburse the cost of travel.  Lunch will be provided.  
 
-### Lead instructors
+### Lead Instructors
 
 <a href="https://www.linkedin.com/in/emdodwell" target="_blank">Emily Dodwell</a>: Emily Dodwell is a Senior Inventive Scientist in the Statistics Research Department at AT&T Labs and a member of the R Forwards teaching team.  Prior to joining AT&T Labs in 2015, Emily taught high school math for three years at Choate Rosemary Hall. She received her M.A. in statistics from Yale University and B.A. in mathematics from Smith College.
 
