@@ -2,7 +2,7 @@
 Title: NYC Event
 ---
 
-## Data Science in R: NYC Coding Workshop for High School Girls (11th and 12th grades)
+## Data Science in [R](https://www.r-project.org/): NYC Coding Workshop for High School Girls (11th and 12th grades)
 
 ### Date and Time: 
 Saturday, October 27th from 9:30 am – 3 pm
