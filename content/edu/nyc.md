@@ -34,7 +34,7 @@ Have you ever wondered how data scientists formulate questions, analyze and visu
 </table>  
 
 ### Application Deadline: Monday, September 24th
-This workshop is open to high school girls in grades 11 and 12. Previous coding experience is not necessary. [Apply now!](https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link)
+This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding and data analysis.  [Apply now!](https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link)
 
 ### Cost and Travel Support
 Thanks to funding from the [R Consortium](https://www.r-consortium.org/), this workshop is free for participants.  Students are responsible for their own transportation to and from the workshop, however each participant will be provided with a 2-trip MetroCard to reimburse the cost of travel.  Lunch will be provided.  
