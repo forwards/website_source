@@ -1,30 +1,52 @@
-## Workshops for women and girls 
+Workshops for Women and Girls
+------
 
-Test link [NYC event](nyc/)
+### Overview
 
 foRwards is pleased to announce upcoming [R](https://www.r-project.org) workshops in Melbourne and Auckland. We thank the [R Consortium](https://www.r-consortium.org) for funding these workshops.
 
-### Girls workshops 
 
-- Melbourne, Oct 28 Kathleen Symes Library 10-4, lunch provided. This is aimed for Year 11 girls who are interested in STEM, coding and data analysis. Girls will learn to code a web app providing an interface for plotting and summarising data, using R. Participation is limited to 18. Girls will be awarded a certificate of completion at the end of the workshop. [Apply to attend](https://visnut.wufoo.com/build/forwards-girls-workshop-registration-for-melbourne/)
-- Auckland, Dec 8, Auckland University. This is aimed for Year 12 girls who are interested in STEM, coding and data analysis. Girls will learn to code a web app providing an interface for plotting and summarising data, using R. Participation is limited to 20. Girls will be awarded a certificate of completion at the end of the workshop. Participation is by high school teacher recommendation. [Apply to attend](http://bit.ly/Auckland_girls_coding). 
+### Upcoming Workshops
+- **Data Science in R: Coding Workshop for 11th and 12th Grade Girls** at AT&T NYC Data Science Research Center  
+*2018-10-27 New York City, USA*  
+Instructors: Emily Dodwell and Joyce Robbins  
+[Apply now!](nyc/)
 
-### Women's workshops
+### Past Workshops
+- **Upgrade Your Workflow with a Custom Package** at [Cardiff satRday](https://cardiff2018.satrdays.org/)  
+*2018-06-23 Cardiff, Whales, United Kingdom*  
+Instructor: Heather Turner  
 
-Learn how to make your code into an R package, do collaborative coding with github, submit your package to CRAN, write a vignette or article for the R Journal, and build a web page for your package. This workshop is for women who have done some R coding and are ready to take the next step in providing it to others to use. Bring your own code, or work with our example. 
+- **Package Development Workshop for Women** at [eRum 2018](https://2018.erum.io/#talk-2-307)  
+*2018-05-14 Budapest, Hungary*  
+Instructors: Heather Turner and Isabella Gollini
+- **Coding Workshop for 12th Grade Girls** at The University of Auckland  
+*2017-12-08 Auckland, New Zealand*  
+Instructor: Di Cook
+- [**Women’s Coding Workshop**](https://www.eventbrite.com.au/e/forwards-workshop-for-women-in-auckland-tickets-38425568911#) at The University of Auckland  
+*2017-12-07 Auckland, New Zealand*  
+Instructors: Jenny Bryan, Di Cook, and Hadley Wickham
+- **Coding Workshop for 11th Grade Girls** at Kathleen Syme Library  
+*2017-10-28 Melbourne, Australia*  
+Instructor: Di Cook
 
-- Melbourne: TBD
-- Auckland, Dec 7, Auckland University.  Instructors are Hadley Wickham, Jenny Bryan and Di Cook. [Register](https://www.eventbrite.com.au/e/forwards-workshop-for-women-in-auckland-tickets-38425568911)
-
-### Code of conduct
+### Code of Conduct
 
 Workshop instructors and participants agree to adhere to the [R Consortium and R Community Code of Conduct](https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct).
 
-### Computing information
+### Computing Information
 
-Install the most recent versions of:
+If possible, please install the most recent versions of the following software on your laptop prior to the workshop:
 
-- R (Friday 2017-06-30, Single Candle) R-3.4.1, install on your computer from https://cran.r-project.org
-- RStudio Desktop 1.0.143, install on your computer from https://www.rstudio.com/products/rstudio/download/
+- [R 3.5.1 “Feather Spray”](https://cran.r-project.org/) (release date 2018-07-05)
+- [RStudio Desktop 1.1.456](https://www.rstudio.com/products/rstudio/download/#download) (release date 2018-07-09) 
 
-on your laptop before the workshop if you can. If you have trouble come 30 mins ahead of time and we can help you get set up.
+If you have trouble, there will be technical support prior to the start of the workshop (arrive 30 minutes early).
+
+### Workshop Materials
+Workshop materials are available on [GitHub](https://github.com/forwards/workshops) under a CC-BY-NC 3.0 license.
+
+Teaching Examples Project
+------
+The Teaching team is developing a resource that collects more diverse and inclusive examples for use in the teaching of R.  For more information and to get involved, see the [Forwards Teaching Examples repo](https://github.com/forwards/teaching_examples).
+
