@@ -41,7 +41,7 @@ Workshop instructors and participants agree to adhere to the [R Consortium and R
 
 If possible, please install the most recent versions of the following software on your laptop prior to the workshop:
 
-- [R 3.5.1 “Feather Spray”](https://cran.r-project.org/) (release date 2018-07-05)
+- [R 3.5.1 “Feather Spray”](https://cran.r-project.org/) (release date 2018-07-02)
 - [RStudio Desktop 1.1.456](https://www.rstudio.com/products/rstudio/download/#download) (release date 2018-07-19) 
 
 If you have trouble, there will be technical support prior to the start of the workshop (arrive 30 minutes early).
