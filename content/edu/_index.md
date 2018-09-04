@@ -51,5 +51,5 @@ Workshop materials are available on [GitHub](https://github.com/forwards/worksho
 
 Teaching Examples Project
 ------
-The Teaching team is developing a resource that collects more diverse and inclusive examples for use in the teaching of R.  For more information and to get involved, see the [Forwards Teaching Examples repo](https://github.com/forwards/teaching_examples).
+The Teaching team is developing a resource that collects more diverse and inclusive examples for use in the teaching of R.  For more information and to get involved, see [Teaching Examples on GibHub](https://github.com/forwards/teaching_examples).
 
