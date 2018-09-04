@@ -11,6 +11,9 @@ AT&T NYC Data Science Research Center
 33 Thomas Street, 1st Floor  
 New York, NY  1007
 
+### Application Deadline: Monday, September 24th
+This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding and data analysis.  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
+
 ### Workshop Description
 
 Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for NYC high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of NYC transportation data: <a href="https://www.citibikenyc.com/system-data" target="_blank">Citibike</a>, <a href="http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml" target="_blank">Taxi</a>, and <a href="https://cran.r-project.org/web/packages/nycflights13/nycflights13.pdf" target="_blank">Flights</a>.  Participants will receive a certificate of completion at the end of the workshop.
@@ -31,9 +34,6 @@ Have you ever wondered how data scientists formulate questions, analyze and visu
     </td>
   </tr>
 </table>  
-
-### Application Deadline: Monday, September 24th
-This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding and data analysis.  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
 
 ### Cost and Travel Support
 Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>, this workshop is free for participants.  Students are responsible for their own transportation to and from the workshop, however each participant will be provided with a 2-trip MetroCard to reimburse the cost of travel.  Lunch will be provided.  
