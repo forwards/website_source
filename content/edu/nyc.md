@@ -11,6 +11,8 @@ AT&T NYC Data Science Research Center
 33 Thomas Street, 1st Floor  
 New York, NY  1007
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.0646634830014!2d-74.00823868468859!3d40.71659297933149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a202da93785%3A0x647d236777581d1c!2s33+Thomas+Street%2C+33+Thomas+St%2C+New+York%2C+NY+10007!5e0!3m2!1sen!2sus!4v1536180489482" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 ### Application Deadline: Monday, September 24th
 This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding and data analysis.  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
 
@@ -21,15 +23,15 @@ Have you ever wondered how data scientists formulate questions, analyze and visu
 <table align = "left">
   <tr>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/airport.jpeg?raw=true"><br>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/monthly_taxi_pickups.png?raw=true"><br>
       <a href = "http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/">source</a>
     </td>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/manhattan_vs_outer_boroughs.png?raw=true"><br>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/manhattan_vs_outer_boroughs_v2.png?raw=true"><br>
       <a href = "http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/">source</a>
     </td>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/model_results_scatterplot.png?raw=true"><br>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/model_results_scatterplot_v2.png?raw=true"><br>
       <a href = "http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/">source</a>
     </td>
   </tr>
