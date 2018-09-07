@@ -16,25 +16,26 @@ New York, NY  1007
  
 
 ### Application Deadline: Friday, September 28th
-This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding and data analysis.  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
+This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding, and data analysis.  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
 
 ### Workshop Description
 
 Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for NYC high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of NYC transportation data: <a href="https://www.citibikenyc.com/system-data" target="_blank">Citibike</a>, <a href="http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml" target="_blank">Taxi</a>, and <a href="https://cran.r-project.org/web/packages/nycflights13/nycflights13.pdf" target="_blank">Flights</a>.  Participants will receive a certificate of completion at the end of the workshop.
 
 <table align = "left">
+<caption>Transportation data is rich with potential for insights into how people move around NYC. See Todd W. Schneider's website for examples of analyses that can be performed.</caption>
   <tr>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/monthly_taxi_pickups.png?raw=true"><br>
-      <a href = "http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/">source</a>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/monthly_taxi_pickups_v2.png?raw=true"><br>
+      <a href = "http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/" target="_blank">Source</a>
     </td>
     <td>
       <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/manhattan_vs_outer_boroughs_v2.png?raw=true"><br>
-      <a href = "http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/">source</a>
+      <a href = "http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/" target="_blank">Source</a>
     </td>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/model_results_scatterplot_v2.png?raw=true"><br>
-      <a href = "http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/">source</a>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/trips_by_hour_v2.png?raw=true"><br>
+      <a href = "http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/" target="_blank">Source</a>
     </td>
   </tr>
 </table>  
