@@ -22,8 +22,8 @@ This workshop is open to high school girls in grades 11 and 12 who are intereste
 
 Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for NYC high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of NYC transportation data: <a href="https://www.citibikenyc.com/system-data" target="_blank">Citibike</a>, <a href="http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml" target="_blank">Taxi</a>, and <a href="https://cran.r-project.org/web/packages/nycflights13/nycflights13.pdf" target="_blank">Flights</a>.  Participants will receive a certificate of completion at the end of the workshop.
 
-<table align = "left">
-<caption>Transportation data is rich with potential for insights into how people move around NYC. See Todd W. Schneider's website for examples of analyses that can be performed.</caption>
+<table CELLSPACING=10 align = "left">
+<caption>Transportation data is rich with potential for insights into how people move around NYC. See Todd W. Schneider's website for example analyses:</caption>
   <tr>
     <td>
       <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/monthly_taxi_pickups_v2.png?raw=true"><br>
