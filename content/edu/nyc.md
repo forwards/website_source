@@ -16,7 +16,9 @@ New York, NY  1007
  
 
 ### Application Deadline: Friday, September 28th
-This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding, and data analysis.  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
+This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding, and data analysis.  
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
 
 ### Workshop Description
 
@@ -55,4 +57,7 @@ Workshop instructors and participants agree to adhere to the <a href="https://w
 
 ### Questions
 
-Please email rowforwards@gmail.com with any questions, and see <a href="http://forwards.github.io/edu/" target="_blank">here</a> for more information about this workshop series.
+Please email rowforwards@gmail.com with any questions, and see <a href="http://forwards.github.io/edu/" target="_blank">here</a> for more information about this workshop series.  
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
+
