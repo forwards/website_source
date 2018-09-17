@@ -61,3 +61,5 @@ Please email rowforwards@gmail.com with any questions, and see <a href="http://f
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
 
+[Workshop flyer PDF](https://github.com/forwards/website_source/blob/master/content/edu/Forwards%20NYC%20Workshop%20Flyer.pdf)
+
