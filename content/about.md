@@ -48,7 +48,7 @@ Augustina Ragwitz - **'Social Media' team leader**.
 
 [Tatjana Kecojevic](https://www.linkedin.com/in/tatjana-kecojevic-803704143/) - **'Surveys' team leader**. Tatjana is a statistician, instructor and consultant, of which roles she is responsible for in her company DataTeka. She is a founder and co-organiser of R-Ladies Manchester and Belgrade chapters. [More about Tatjana](https://tanjakec.github.io/).
 
-[Di Cook](http://dicook.github.io/) - **'Teaching' team leader**. Di is a Professor in the Department of Econometrics & Business Statistics at Monash University, a regular mentor on [R Google Summer of Code projects](https://github.com/rstats-gsoc) and was elected to the R Foundation in 2016.
+[Di Cook](http://dicook.org) - **'Teaching' team leader**. Di is a Professor in the Department of Econometrics & Business Statistics at Monash University, a regular mentor on [R Google Summer of Code projects](https://github.com/rstats-gsoc) and was elected to the R Foundation in 2016.
 
 [Isabella Gollini](https://www.linkedin.com/in/isabellagollini/) - **'Teaching' team leader**. Isabella is Assistant Professor in Statistics at University College Dublin and an RLadies mentor. [More about Isabella](https://sites.google.com/site/isabellagollini/).
 

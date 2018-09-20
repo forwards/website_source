@@ -14,6 +14,10 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 *2018-10-27 New York City, USA*  
 Instructors: Emily Dodwell and Joyce Robbins  
 [Apply now!](nyc/)
+- **ACEMS and foRwards R Coding Workshop for Year 11 Girls** at Microsoft Innovation Centre  
+*2018-11-12 Brisbane, Australia*  
+Instructors: Di Cook and a brilliant student team  
+[Apply now!](brisbane/)
 
 ### Past Workshops
 - **Upgrade Your Workflow with a Custom Package** at [Cardiff satRday](https://cardiff2018.satrdays.org/)  
