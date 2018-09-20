@@ -31,7 +31,7 @@ Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blan
 
 ### Lead Instructor
 
-<a href="http://www.dicook.org" target="_blank">Di Cook</a>: Di Cook is a professor of business analytics at Monash University. She has a B.Sc/Di.Ed in Mathematics and Statistics from University of New England, and MSc/PhD in Statistics from Rutgers University in the USA. Prior to joining Monash in 2015, she spent 20 years teaching at Iowa State University. Di is a member of the R foRwards taskforce, a member of the R Foundation, elected Fellow of the American Statistical Association, past editor for the Journal of Computational and Graphical Statistics, and current chair of the American Statistical Association section on Statistical Graphics. 
+<a href="http://www.dicook.org" target="_blank">Di Cook</a>: Di Cook is a professor of business analytics at Monash University. She has a B.Sc/Di.Ed in Mathematics and Statistics from University of New England, and MSc/PhD in Statistics from Rutgers University in the USA. Prior to joining Monash in 2015, she spent 20 years teaching data science at Iowa State University. Di is a member of the R foRwards taskforce, a member of the R Foundation, elected Fellow of the American Statistical Association, past editor for the Journal of Computational and Graphical Statistics, and current chair of the American Statistical Association section on Statistical Graphics. 
 
 ### Code of Conduct
 
