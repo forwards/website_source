@@ -24,7 +24,7 @@ This workshop is open to high school girls in year 11 who are interested in STEM
 
 ### Workshop Description
 
-Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for Brisbane high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of data.  Participants will receive a certificate of completion at the end of the workshop.
+Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for Brisbane high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of <a href="https://www.ala.org.au", target="_blank">Atlas of Living Australia data</a>, looking at what wildlife lives around Brisbane.  Participants will receive a certificate of completion at the end of the workshop.
 
 <table CELLSPACING=10 align = "left">
   <tr>
