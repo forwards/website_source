@@ -40,7 +40,7 @@ Have you ever wondered how data scientists formulate questions, analyze and visu
       <a href = "https://www.ala.org.au" target="_blank">Data source</a>
     </td>
   </tr>
-</table>  
+</table>
 
 ### Cost and Travel Support
 Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>, this workshop is free for participants.  Students are responsible for their own transportation to and from the workshop.  Morning, afternoon tea and lunch will be provided.  
