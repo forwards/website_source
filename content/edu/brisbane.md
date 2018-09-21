@@ -14,8 +14,7 @@ Title: Brisbane Event
 
 Microsoft Innovation Centre - Level 28, 400 George St, Brisbane, QLD 4000
 
-<iframe src="https://www.google.com/maps/place/Microsoft+Innovation+Centre/@-27.4685878,153.0208987,15z/data=!4m5!3m4!1s0x0:0x134cdb2fe1c424b0!8m2!3d-27.4685878!4d153.0208987" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
- 
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14160.086284120202!2d153.0208987!3d-27.4685878!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x134cdb2fe1c424b0!2sMicrosoft+Innovation+Centre!5e0!3m2!1sen!2sau!4v1537569029551" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ### Application Deadline: Friday, October 26th
 This workshop is open to high school girls in year 11 who are interested in STEM, coding, and data analysis. No prior coding experience required. Applicants will be notified of acceptance status by November 2.
@@ -24,21 +23,21 @@ This workshop is open to high school girls in year 11 who are interested in STEM
 
 ### Workshop Description
 
-Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for Brisbane high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of <a href="https://www.ala.org.au", target="_blank">Atlas of Living Australia data</a>, looking at what wildlife lives around Brisbane.  Participants will receive a certificate of completion at the end of the workshop.
+Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for Brisbane high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of <a href="https://www.ala.org.au" target="_blank">Atlas of Living Australia data</a>, looking at what wildlife lives around Brisbane.  Participants will receive a certificate of completion at the end of the workshop.
 
 <table CELLSPACING=10 align = "left">
   <tr>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/pisa_mathgap.png?raw=true"><br>
-      <a href = "http://www.oecd.org/pisa/data/" target="_blank">Source</a>
+      <img src = "https://github.com/forwards/website_source/blob/master/content/edu/images/pisa_mathgap.png?raw=true" width="100"><br>
+      <a href = "http://www.oecd.org/pisa/data/" target="_blank">Data source</a>
     </td>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/brush_turkey.png?raw=true"><br>
-      <a href = "https://www.ala.org.au" target="_blank">Source</a>
+      <img src = "https://github.com/forwards/website_source/blob/master/content/edu/images/brush_turkey.png?raw=true"  width="100"><br>
+      <a href = "https://www.ala.org.au" target="_blank">Data source</a>
     </td>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/brush_turkey_time.png?raw=true"><br>
-      <a href = "https://www.ala.org.au" target="_blank">Source</a>
+      <img src = "https://github.com/forwards/website_source/blob/master/content/edu/images/brush_turkey_time.png?raw=true"  width="100"><br>
+      <a href = "https://www.ala.org.au" target="_blank">Data source</a>
     </td>
   </tr>
 </table>  
