@@ -6,7 +6,7 @@ Title: Brisbane Event
 
 ### Date and Time: Monday, November 12 from 10:00 am–4:30 pm
 
-### Sponsor: [FORWARDS](https://forwards.github.io/about/)
+### Sponsor: [FORWARDS](https://forwards.github.io/about/) and [ACEMS](https://acems.org.au/home)
 
 *R Foundation taskforce on women and other under-represented groups*
 
