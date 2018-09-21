@@ -26,6 +26,23 @@ This workshop is open to high school girls in year 11 who are interested in STEM
 
 Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for Brisbane high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of data.  Participants will receive a certificate of completion at the end of the workshop.
 
+<table CELLSPACING=10 align = "left">
+  <tr>
+    <td>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/pisa_mathgap.png?raw=true"><br>
+      <a href = "http://www.oecd.org/pisa/data/" target="_blank">Source</a>
+    </td>
+    <td>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/brush_turkey.png?raw=true"><br>
+      <a href = "https://www.ala.org.au" target="_blank">Source</a>
+    </td>
+    <td>
+      <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/brush_turkey_time.png?raw=true"><br>
+      <a href = "https://www.ala.org.au" target="_blank">Source</a>
+    </td>
+  </tr>
+</table>  
+
 ### Cost and Travel Support
 Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>, this workshop is free for participants.  Students are responsible for their own transportation to and from the workshop.  Morning, afternoon tea and lunch will be provided.  
 
