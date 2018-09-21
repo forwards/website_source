@@ -28,15 +28,15 @@ Have you ever wondered how data scientists formulate questions, analyze and visu
 <table CELLSPACING=10 align = "left">
   <tr>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/master/content/edu/images/pisa_mathgap.png?raw=true" width="100"><br>
+      <img src = "https://github.com/forwards/website_source/blob/master/content/edu/images/pisa_mathgap.png?raw=true" width="300"><br>
       <a href = "http://www.oecd.org/pisa/data/" target="_blank">Data source</a>
     </td>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/master/content/edu/images/brush_turkey.png?raw=true"  width="100"><br>
+      <img src = "https://github.com/forwards/website_source/blob/master/content/edu/images/brush_turkey.png?raw=true"  width="300"><br>
       <a href = "https://www.ala.org.au" target="_blank">Data source</a>
     </td>
     <td>
-      <img src = "https://github.com/forwards/website_source/blob/master/content/edu/images/brush_turkey_time.png?raw=true"  width="100"><br>
+      <img src = "https://github.com/forwards/website_source/blob/master/content/edu/images/brush_turkey_time.png?raw=true"  width="300"><br>
       <a href = "https://www.ala.org.au" target="_blank">Data source</a>
     </td>
   </tr>
