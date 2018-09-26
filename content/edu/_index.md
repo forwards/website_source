@@ -23,7 +23,7 @@ Instructors: Di Cook and a brilliant student team
 - **Upgrade Your Workflow with a Custom Package** at [Cardiff satRday](https://cardiff2018.satrdays.org/)  
 *2018-06-23 Cardiff, Wales, United Kingdom*  
 Instructor: Heather Turner  
-- **Package Development Workshop for Women: Everything you need to know to create your own R package**  at [R Ladies Melbourne](https://www.meetup.com/en-AU/R-Ladies-Melbourne/events/250196006/) by [Earo Wang](https://earo.me) [slides]( http://slides.earo.me/rladies-pkg/#1) [code](https://github.com/earowang/rladies-pkg)
+- **Package Development Workshop for Women: Everything you need to know to create your own R package**  at [R Ladies Melbourne](https://www.meetup.com/en-AU/R-Ladies-Melbourne/events/250196006/) by [Earo Wang](https://earo.me), [slides]( http://slides.earo.me/rladies-pkg/#1), [code](https://github.com/earowang/rladies-pkg)
 *2018-05-24 Melbourne, Australia*
 - **Package Development Workshop for Women** at [eRum 2018](https://2018.erum.io/#talk-2-307)  
 *2018-05-14 Budapest, Hungary*  
