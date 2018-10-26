@@ -1,5 +1,6 @@
 ---
 Title: NYC Event
+description: NYC Coding Workshop for High School Girls (11th and 12th grades)
 ---
 
 ## Data Science in <a href="https://www.r-project.org/" target="_blank">R</a>: NYC Coding Workshop for High School Girls (11th and 12th grades)

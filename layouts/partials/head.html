@@ -44,6 +44,15 @@
     {{ with .Description }}
       <meta name="description" content="{{ . }}">
       <meta name="og:description" content="{{ . }}">
+    {{ else if or (eq .URL “/blog/”) (in .URL "/categories/") (in .URL "/tags/")}}
+      <meta name="description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
+      <meta name="og:description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
+    {{ else if eq .URL “/docs/”}}
+      <meta name="description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
+      <meta name="og:description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
+    {{ else if eq .URL “/edu/”}}
+      <meta name="description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
+      <meta name="og:description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
     {{ else }}
       <meta name="description" content="{{ .Site.Params.site_description }}">
       <meta name="og:description" content="{{ .Site.Params.site_description }}">

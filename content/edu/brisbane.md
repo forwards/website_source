@@ -1,5 +1,6 @@
 ---
 Title: Brisbane Event
+description: ACEMS and Forwards R Coding Workshop for High School Girls
 ---
 
 ## ACEMS and foRwards <a href="https://www.r-project.org/" target="_blank">R</a> Coding Workshop for High School Girls

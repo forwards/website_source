@@ -1,5 +1,7 @@
 ---
 title: Data
+description: Data collected on demographics and the experience of the R 
+community.
 tocify: true
 ---
 

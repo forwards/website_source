@@ -1,5 +1,7 @@
 ---
 title: "About"
+description: Background and structure of the R Foundation taskforce on women and other under-represented groups
+
 ---
 
 ## Background
