@@ -4,8 +4,8 @@
     {{ .Hugo.Generator }}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" >
+    <meta property="og:url" content="{{ .Permalink }}" >
     <!-- On homepage -->
     {{ if eq .URL "/" }}
       <!-- use site title --> 
@@ -15,7 +15,7 @@
       <!-- use small twitter card and logo for all cards --> 
       <meta name="twitter:card" content="summary">
       <meta name="og:image" content="http://forwards.github.io/apple-touch-icon.png" >
-      <meta property="og:image:alt" content="Forwards logo" />
+      <meta property="og:image:alt" content="Forwards logo" >
     <!-- On all other pages -->
     {{ else }}  
        <!-- use page title + site title --> 
@@ -26,12 +26,12 @@
       {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
         <meta name="twitter:card" content="summary_large_image">
         <meta name="og:image" content="{{ .Params.banner | absURL }}" >
-        <meta property="og:image:alt" content="{{ $.Title }}" />
+        <meta property="og:image:alt" content="{{ $.Title }}" >
       <!-- else use Forwards logo -->
       {{else}}
         <meta name="twitter:card" content="summary">
         <meta name="og:image" content="http://forwards.github.io/apple-touch-icon.png" >
-        <meta property="og:image:alt" content="Forwards logo" />
+        <meta property="og:image:alt" content="Forwards logo" >
       {{ end }}
     {{ end }}  
     
@@ -39,18 +39,18 @@
     {{ with .Author }}
       <meta name="author" content="{{ . }}">
     {{ else }}
-      <meta name="author" content="{{ Site.Params.author }}">
+      <meta name="author" content="{{ .Site.Params.author }}">
     {{ end }}
-    {{ with .Description }}
+    {{ if .Description }}
       <meta name="description" content="{{ . }}">
       <meta name="og:description" content="{{ . }}">
-    {{ else if or (eq .URL “/blog/”) (in .URL "/categories/") (in .URL "/tags/")}}
+    {{ else if or (eq .URL "/blog/") (in .URL "/categories/") (in .URL "/tags/")}}
       <meta name="description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
       <meta name="og:description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
-    {{ else if eq .URL “/docs/”}}
+    {{ else if eq .URL "/docs/"}}
       <meta name="description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
       <meta name="og:description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
-    {{ else if eq .URL “/edu/”}}
+    {{ else if eq .URL "/edu/"}}
       <meta name="description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
       <meta name="og:description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
     {{ else }}
