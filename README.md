@@ -168,11 +168,12 @@ you want to split the article (see e.g. `content/blog/2017-02-07-emily-robinson-
 ### Top-level pages
 
 For example [About](http://forwards.github.io/about/), [Data](http://forwards.github.io/data/). The markdown files for these pages are added in the 
-top-level of the `content` directory. The only parameter needed in the YAML 
-header is the title:
+top-level of the `content` directory. The YAML header should contain a title
+and a description:
 ```r
 ---
 title: "About"
+description: Background and structure of the R Foundation taskforce on women and other under-represented groups
 ---
 ```
 The option `tocify: yes` can be used to specify that a table of contents 
@@ -190,6 +191,11 @@ or `.Rmd` to create the desired filetype.
 The title is not displayed in the body of the rendered `.html`, but is used as 
 the page title (e.g. the name shown on the browser tab). Within the page, use 
 level 2 and level 3 headers (i.e. ## and ###) to mark up sections.
+
+The title and description are used e.g. by Twitter and Facebook to show the 
+summary content when a link to the page is shared. You can also specify a 
+`banner` field, to give an image that should be used in a large Twitter
+or Facebook card.
     
 To add a link to the new page in the navigation bar, you need to edit the  
 `config.toml` file, e.g. adding

@@ -1,5 +1,6 @@
 ---
 Title: NYC Event
+description: NYC Coding Workshop for High School Girls (11th and 12th grades)
 ---
 
 ## Data Science in <a href="https://www.r-project.org/" target="_blank">R</a>: NYC Coding Workshop for High School Girls (11th and 12th grades)
@@ -61,7 +62,7 @@ Workshop instructors and participants agree to adhere to the <a href="https://w
 
 ### Questions
 
-Please email rowforwards@gmail.com with any questions, and see <a href="http://forwards.github.io/edu/" target="_blank">here</a> for more information about this workshop series.  
+Please email rowforwards@gmail.com with any questions, and see <a href="https://forwards.github.io/edu/" target="_blank">here</a> for more information about this workshop series.  
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
 
