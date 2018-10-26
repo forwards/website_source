@@ -56,7 +56,7 @@ Workshop instructors and participants agree to adhere to the <a href="https://wi
 
 ### Questions
 
-Please email rowforwards@gmail.com with any questions, and see <a href="http://forwards.github.io/edu/" target="_blank">here</a> for more information about this workshop series.  
+Please email rowforwards@gmail.com with any questions, and see <a href="https://forwards.github.io/edu/" target="_blank">here</a> for more information about this workshop series.  
 
 <a href="https://www.eventbrite.com/e/brisbane-girls-r-coding-workshop-tickets-49159853445" target="_blank">APPLY NOW!</a>
 
