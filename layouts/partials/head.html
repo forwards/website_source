@@ -14,48 +14,44 @@
       
       <!-- use small twitter card and logo for all cards --> 
       <meta name="twitter:card" content="summary">
-      <meta name="og:image" content="http://forwards.github.io/apple-touch-icon.png" >
+      <meta property="og:image" content="{{ "apple-touch-icon.png" | absURL }}" >
       <meta property="og:image:alt" content="Forwards logo" >
     <!-- On all other pages -->
     {{ else }}  
        <!-- use page title + site title --> 
        <title>{{ .Title }} - {{ .Site.Title }}</title>
-       <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+       <meta property="og:title" content="{{ .Title }}">
        <!-- if banner parameter is set in YAML, e.g. in blog post, use 
     banner image in large twitter card -->
       {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="og:image" content="{{ .Params.banner | absURL }}" >
+        <meta property="og:image" content="{{ .Params.banner | absURL }}" >
         <meta property="og:image:alt" content="{{ $.Title }}" >
       <!-- else use Forwards logo -->
       {{else}}
         <meta name="twitter:card" content="summary">
-        <meta name="og:image" content="http://forwards.github.io/apple-touch-icon.png" >
+        <meta property="og:image" content="{{ "apple-touch-icon.png" | absURL }}" >
         <meta property="og:image:alt" content="Forwards logo" >
       {{ end }}
     {{ end }}  
     
     <!-- use author and description if given, else default to site level !-->
-    {{ with .Author }}
-      <meta name="author" content="{{ . }}">
-    {{ else }}
-      <meta name="author" content="{{ .Site.Params.author }}">
-    {{ end }}
+    <meta property="author" content="{{if .Params.author}}{{.Params.author}}{{else}}{{ .Site.Params.author }}{{end}}" />
     {{ if .Description }}
-      <meta name="description" content="{{ . }}">
-      <meta name="og:description" content="{{ . }}">
+      <meta property="description" content="{{ .Description }}">
+      <meta property="og:description" content="{{ .Description }}">
     {{ else if or (eq .URL "/blog/") (in .URL "/categories/") (in .URL "/tags/")}}
-      <meta name="description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
-      <meta name="og:description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
+      <meta property="description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
+      <meta property="og:description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
     {{ else if eq .URL "/docs/"}}
-      <meta name="description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
-      <meta name="og:description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
+      <meta property="description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
+      <meta property="og:description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
     {{ else if eq .URL "/edu/"}}
-      <meta name="description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
-      <meta name="og:description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
+      <meta property="description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
+      <meta property="og:description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
     {{ else }}
-      <meta name="description" content="{{ .Site.Params.site_description }}">
-      <meta name="og:description" content="{{ .Site.Params.site_description }}">
+      <meta property="description" content="{{ .Site.Params.site_description }}">
+      <meta property="og:description" content="{{ .Site.Params.site_description }}">
     {{ end }}
     {{ with .RSSLink }}
     <!-- remainder as in original template !-->
@@ -74,11 +70,8 @@
     {{ end }}
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/google_news.html" . }}
     {{ template "_internal/schema.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
-    
 
     {{ if .Params.disable_profile | and .Params.disable_widgets }}
     <style>
