@@ -193,7 +193,9 @@ the page title (e.g. the name shown on the browser tab). Within the page, use
 level 2 and level 3 headers (i.e. ## and ###) to mark up sections.
 
 The title and description are used e.g. by Twitter and Facebook to show the 
-summary content when a link to the page is shared.
+summary content when a link to the page is shared. You can also specify a 
+`banner` field, to give an image that should be used in a large Twitter
+or Facebook card.
     
 To add a link to the new page in the navigation bar, you need to edit the  
 `config.toml` file, e.g. adding
