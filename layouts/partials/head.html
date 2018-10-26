@@ -5,6 +5,7 @@
     {{ .Hugo.Generator }}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="twitter:image" content="http://forwards.github.io/apple-touch-icon.png" >
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     {{ with .Description }}
       <meta name="description" content="{{ . }}">
@@ -15,6 +16,13 @@
       <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
       <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
     {{ end }}
+    {{ if .Params.twitterImg }}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://forwards.github.io/{{ .Params.twitterImg }}" >
+  {{ else }}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="http://forwards.github.io/apple-touch-icon.png" >
+{{ end }}
     <link rel="canonical" href="{{ .Permalink }}"/>
     <link rel="icon" href="{{ "favicon.ico" | absURL }}">
     <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}"/>
