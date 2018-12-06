@@ -16,7 +16,7 @@ Chicago, Illinois 60637
  
 ### Applications
 
-Applications for this event will be opened in **late December 2018**. Please [join our Meetup](https://www.meetup.com/rladies-chicago/) for updates, and stay tuned for more!
+Applications for this event will be opened in **late December 2018**. Please [join the R-Ladies Chicago Meetup](https://www.meetup.com/rladies-chicago/) for updates, and stay tuned for more!
 
 ### Workshop Description
 
