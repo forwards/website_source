@@ -45,4 +45,4 @@ Workshop instructors and participants agree to adhere to the <a href="https://w
 
 ### Questions
 
-Please email angela [at] rladies.org with any questions, and see <a href="http://forwards.github.io/edu/" target="_blank">here</a> for more information.
+Please email angela [at] rladies.org with any questions, and see <a href="http://forwards.github.io/edu/" target="_blank">the main Education page</a> for more information about Forwards teaching initiatives.
