@@ -35,6 +35,8 @@ Bring your own code that you want to make into a package, or work with our examp
 ### Cost and Travel Support
 Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>, this workshop is free for participants.  Lunch will be provided.  
 
+We may be able to provided limited travel grants. Please check back here or follow Forwards or R-Ladies Chicago on Twitter for news.
+
 ### Lead Instructors
 
 We are currently in the process of finalizing our instructors and helpers, but Angela Li of the [Center for Spatial Data Science](https://spatial.uchicago.edu) (and R-Ladies Chicago) is organizing this event. If you would like to teach or help out, please let her know!
