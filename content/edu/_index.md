@@ -10,12 +10,18 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 - *Workshops for high school girls* serve as an introduction to coding in R and are designed for students interested in STEM, coding, and data analysis.  Participants learn about plotting data, web scraping, and the development of Shiny apps.  A selection of topics related to contemporary current affairs are used, and where possible, incorporate data specific to the workshop’s geographic location.
 
 ### Upcoming Workshops
-- **Data Science in R: Coding Workshop for 11th and 12th Grade Girls** at AT&T NYC Data Science Research Center  
-*2018-10-27 New York City, USA*  
-Instructors: Emily Dodwell and Joyce Robbins  
-[Apply now!](nyc/)
+
+- **Women's Package Development Workshop** jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)
+*2019-02-23 Chicago, USA*
+Instructor: Angela Li 
+Free to attend! [Further details](chicago/)
 
 ### Past Workshops
+
+- [**Data Science in R: Coding Workshop for 11th and 12th Grade Girls**](nyc/) at AT&T NYC Data Science Research Center  
+*2018-10-27 New York City, USA*  
+Instructors: Emily Dodwell and Joyce Robbins
+
 - **Upgrade Your Workflow with a Custom Package** at [Cardiff satRday](https://cardiff2018.satrdays.org/)  
 *2018-06-23 Cardiff, Wales, United Kingdom*  
 Instructor: Heather Turner  
@@ -23,12 +29,15 @@ Instructor: Heather Turner
 - **Package Development Workshop for Women** at [eRum 2018](https://2018.erum.io/#talk-2-307)  
 *2018-05-14 Budapest, Hungary*  
 Instructors: Heather Turner and Isabella Gollini
+
 - **Coding Workshop for 12th Grade Girls** at The University of Auckland  
 *2017-12-08 Auckland, New Zealand*  
 Instructor: Di Cook
+
 - [**Women’s Coding Workshop**](https://www.eventbrite.com.au/e/forwards-workshop-for-women-in-auckland-tickets-38425568911#) at The University of Auckland  
 *2017-12-07 Auckland, New Zealand*  
 Instructors: Jenny Bryan, Di Cook, and Hadley Wickham
+
 - **Coding Workshop for 11th Grade Girls** at Kathleen Syme Library  
 *2017-10-28 Melbourne, Australia*  
 Instructor: Di Cook

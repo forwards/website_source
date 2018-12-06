@@ -4,7 +4,7 @@ Title: R-Ladies Chicago Package Development Workshop
 
 ## Women's Package Development Workshop by [R-Ladies Chicago](https://rladieschicago.org) and [Forwards](https://forwards.github.io)
 
-### Date: Saturday, February 23, 2018, 9:30am-4pm
+### Date: Saturday, February 23, 2019, 9:30am-4pm
 
 ### Location
 
