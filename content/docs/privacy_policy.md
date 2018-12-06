@@ -92,7 +92,7 @@ Since survey data is of interest to the community at large, we do publish the
 results, but only in forms that minimise risk of personal identification and 
 disclosure of sensitive information. This can mean presenting aggregate 
 summaries (as for example in this 
-[Mapping useRs](http://forwards.github.io/blog/2017/01/13/mapping-users/) blog post), excluding certain variables, or modifying the data to achieve at least 3-anonymity over implicit identifiers (as for the 
+[Mapping useRs](https://forwards.github.io/blog/2017/01/13/mapping-users/) blog post), excluding certain variables, or modifying the data to achieve at least 3-anonymity over implicit identifiers (as for the 
 `useR2016` data published in the [**forwards**](https://CRAN.R-project.org/package=forwards) package).
 
 #### Other forms

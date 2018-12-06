@@ -1,6 +1,5 @@
 ---
 draft: no
-title: Home
 type: index
 ---
 
@@ -22,7 +21,7 @@ Find out more [about](about) the task force.
 
 *2017/12/7* Women's package writing workshop held at Auckland University, with instructors Hadley Wickham, Jenny Bryan, and Di Cook
 
-*2017/10/28* [Girls R coding workshop](http://forwards.github.io/blog/2017/11/20/girls-coding-workshop-melbourne/) held at the Kathleen Symes library in Melbourne.
+*2017/10/28* [Girls R coding workshop](https://forwards.github.io/blog/2017/11/20/girls-coding-workshop-melbourne/) held at the Kathleen Symes library in Melbourne.
 
 *2017/07/12* Julie Josse presents the results of the Forwards useR! 2016 survey at [useR! 2017](https://user2017.brussels/) [[Video](https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Diversity-of-the-R-Community?term=useR!%20diversity)] [[Slides](http://schd.ws/hosted_files/user2017/7d/useR%212017.pdf)].
 

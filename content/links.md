@@ -1,6 +1,7 @@
 ---
 date: 2017-01-14T16:52:32Z
 title: Links
+description: Links to sites related to Forwards activities.
 tocify: false
 ---
 
