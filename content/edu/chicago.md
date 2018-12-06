@@ -12,7 +12,7 @@ Center for Spatial Data Science
 5735 S Ellis Ave, 2nd Floor  
 Chicago, Illinois 60637 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.7548639089937!2d-87.60317058411151!3d41.79049637886998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e293e7bd41241%3A0x5966b3036fc25171!2sSearle+Chemical+Laboratory%2C+5735+S+Ellis+Ave%2C+Chicago%2C+IL+60637!5e0!3m2!1sen!2sus!4v1544044603496" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.7548639089937!2d-87.60317058411151!3d41.79049637886998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e293e7bd41241%3A0x5966b3036fc25171!2sSearle+Chemical+Laboratory%2C+5735+S+Ellis+Ave%2C+Chicago%2C+IL+60637!5e0!3m2!1sen!2sus!4v1544044603496" title="Google map of location" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
  
 ### Applications
 
