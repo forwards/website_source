@@ -20,7 +20,7 @@ Applications for this event will be opened in **late December 2018**. Please [jo
 
 ### Workshop Description
 
-Curious about package development, but not sure where to start? This workshop is for you! Run by R-Ladies Chicago, the goal of this workshop is to empower you to start contributing back to the R ecosystem with package development. We'll be using materials developed by Hadley Wickham, Jenny Bryan, and Di Cook for the [FoRwards organization](https://forwards.github.io/about/).
+Curious about package development, but not sure where to start? This workshop is for you! Run by R-Ladies Chicago, the goal of this workshop is to empower you to start contributing back to the R ecosystem with package development. We'll be using materials developed by Hadley Wickham, Jenny Bryan, and Di Cook for the [Forwards teaching team](https://forwards.github.io/edu/).
 
 By the end of this day-long workshop, you should know how to:
 
