@@ -5,7 +5,7 @@ baseurl_linenum = grep("baseurl = ", config)
 print(config[baseurl_linenum])
 
 if(Sys.getenv("TRAVIS_PULL_REQUEST") != "false" || Sys.getenv("TRAVIS_BRANCH") != "master"){
-    config[baseurl_linenum] = 'baseurl = "//rforwards-auto.github.io/"'
+    config[baseurl_linenum] = 'baseurl = "https://rforwards-auto.github.io/"'
     writeLines(config, "config.toml")
 }
 

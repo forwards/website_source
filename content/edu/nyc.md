@@ -1,29 +1,36 @@
 ---
 Title: NYC Event
+description: NYC Coding Workshop for High School Girls (11th and 12th grades)
 ---
 
 ## Data Science in <a href="https://www.r-project.org/" target="_blank">R</a>: NYC Coding Workshop for High School Girls (11th and 12th grades)
 
 ### Date and Time: Saturday, October 27th from 9:30 am–3 pm
 
+### Sponsor: [FORWARDS](https://forwards.github.io/about/)
+
+*R Foundation taskforce on women and other under-represented groups*
+
 ### Location
 
 AT&T NYC Data Science Research Center  
 33 Thomas Street, 1st Floor  
-New York, NY  1007  
+New York, NY  10007  
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.0646634830014!2d-74.00823868468859!3d40.71659297933149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a202da93785%3A0x647d236777581d1c!2s33+Thomas+Street%2C+33+Thomas+St%2C+New+York%2C+NY+10007!5e0!3m2!1sen!2sus!4v1536180489482" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
  
 
 ### Application Deadline: Friday, September 28th
-This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding, and data analysis.  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
+This workshop is open to high school girls in grades 11 and 12 who are interested in STEM, coding, and data analysis. No prior coding experience required. Applicants will be notified of acceptance status by early/mid October.
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
 
 ### Workshop Description
 
 Have you ever wondered how data scientists formulate questions, analyze and visualize data, and draw conclusions?  In this workshop for NYC high school girls interested in STEM, coding, and data analysis, students will be introduced to coding in R through an investigation of NYC transportation data: <a href="https://www.citibikenyc.com/system-data" target="_blank">Citibike</a>, <a href="http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml" target="_blank">Taxi</a>, and <a href="https://cran.r-project.org/web/packages/nycflights13/nycflights13.pdf" target="_blank">Flights</a>.  Participants will receive a certificate of completion at the end of the workshop.
 
 <table CELLSPACING=10 align = "left">
-<caption align = "bottom">Transportation data is rich with potential insights into how people move around NYC. See Todd W. Schneider's website for example analyses.</caption>
+<caption align = "bottom">Transportation data is rich with potential insights into how people move around NYC.</caption>
   <tr>
     <td>
       <img src = "https://github.com/forwards/website_source/blob/update-edu/content/edu/images/monthly_taxi_pickups_v2.png?raw=true"><br>
@@ -55,4 +62,9 @@ Workshop instructors and participants agree to adhere to the <a href="https://w
 
 ### Questions
 
-Please email rowforwards@gmail.com with any questions, and see <a href="http://forwards.github.io/edu/" target="_blank">here</a> for more information about this workshop series.
+Please email rowforwards@gmail.com with any questions, and see <a href="https://forwards.github.io/edu/" target="_blank">here</a> for more information about this workshop series.  
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSf5ECXBTvmV2YU5Z6tnfn6LzZzqCEJ2Sg6SiylER9HlXAHJpw/viewform?usp=sf_link" target="_blank">APPLY NOW!</a>
+
+[Workshop flyer PDF](https://github.com/forwards/website_source/blob/master/content/edu/Forwards%20NYC%20Workshop%20Flyer.pdf)
+

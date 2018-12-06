@@ -5,7 +5,7 @@ Workshops for Women and Girls
 
 Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/), Forwards is pleased to offer the following workshops to support the development of coding skills and increase the participation of women in the [R](https://www.r-project.org/) community:
 
-- *Workshops for women* are designed for women with some R coding experience who wish to learn more about package development, thereby addressing the skills gap that exists within the R community.  As of 2016, an [analysis of CRAN package maintainers](http://forwards.github.io/data/) estimated that fewer than 15% were women, and a [useR! participant survey]( http://forwards.github.io/blog/2017/03/11/users-relationship-with-r/) found that women were less likely than men to have experience contributing to or writing packages.  Workshop participants learn to make code into an R package, do collaborative coding with GitHub, write a vignette or an article, build a package web page, and submit a package to CRAN.  Participants can bring their own code that they wish to develop into a package or work with a Forwards example.
+- *Workshops for women* are designed for women with some R coding experience who wish to learn more about package development, thereby addressing the skills gap that exists within the R community.  As of 2016, an [analysis of CRAN package maintainers](https://forwards.github.io/data/) estimated that fewer than 15% were women, and a [useR! participant survey]( https://forwards.github.io/blog/2017/03/11/users-relationship-with-r/) found that women were less likely than men to have experience contributing to or writing packages.  Workshop participants learn to make code into an R package, do collaborative coding with GitHub, write a vignette or an article, build a package web page, and submit a package to CRAN.  Participants can bring their own code that they wish to develop into a package or work with a Forwards example.
 
 - *Workshops for high school girls* serve as an introduction to coding in R and are designed for students interested in STEM, coding, and data analysis.  Participants learn about plotting data, web scraping, and the development of Shiny apps.  A selection of topics related to contemporary current affairs are used, and where possible, incorporate data specific to the workshop’s geographic location.
 
@@ -14,12 +14,17 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 *2018-10-27 New York City, USA*  
 Instructors: Emily Dodwell and Joyce Robbins  
 [Apply now!](nyc/)
+- **ACEMS and foRwards R Coding Workshop for Year 11 Girls** at Microsoft Innovation Centre  
+*2018-11-12 Brisbane, Australia*  
+Instructors: Di Cook and a brilliant student team  
+[Apply now!](brisbane/)
 
 ### Past Workshops
 - **Upgrade Your Workflow with a Custom Package** at [Cardiff satRday](https://cardiff2018.satrdays.org/)  
 *2018-06-23 Cardiff, Wales, United Kingdom*  
 Instructor: Heather Turner  
-
+- **Package Development Workshop for Women: Everything you need to know to create your own R package**  at [R Ladies Melbourne](https://www.meetup.com/en-AU/R-Ladies-Melbourne/events/250196006/) by [Earo Wang](https://earo.me), [slides]( http://slides.earo.me/rladies-pkg/#1), [code](https://github.com/earowang/rladies-pkg)
+*2018-05-24 Melbourne, Australia*
 - **Package Development Workshop for Women** at [eRum 2018](https://2018.erum.io/#talk-2-307)  
 *2018-05-14 Budapest, Hungary*  
 Instructors: Heather Turner and Isabella Gollini
