@@ -11,9 +11,9 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 
 ### Upcoming Workshops
 
-- **Women's Package Development Workshop** jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)
-*2019-02-23 Chicago, USA*
-Instructor: Angela Li
+- **Women's Package Development Workshop** jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)  
+*2019-02-23 Chicago, USA*  
+Instructor: Angela Li  
 Free to attend! [Further details](chicago/)
 
 - **ACEMS and Forwards R Coding Workshop for Year 11 Girls** at Microsoft Innovation Centre  
