@@ -16,7 +16,9 @@ Chicago, Illinois 60637
  
 ### Applications
 
-Applications for this event will be opened in **late December 2018**. Please [join the R-Ladies Chicago Meetup](https://www.meetup.com/rladies-chicago/) for updates, and stay tuned for more!
+Applications are available at [this Google Form](https://docs.google.com/forms/d/1lcmkrKNjLAIGlm0Eeyc3nDGv7FsY6upJYSYWVawX28I). We encourage you to apply, especially if you've never developed a package before. We'll walk you through the basics, and you'll leave having put together your first R package. Applications for out-of-town attendees will close on **January 15, 2019**, while applications for attendees based in Chicago will close on **February 2, 2019**.
+
+[**Apply now!**](https://docs.google.com/forms/d/1lcmkrKNjLAIGlm0Eeyc3nDGv7FsY6upJYSYWVawX28I)
 
 ### Workshop Description
 
@@ -32,14 +34,16 @@ By the end of this day-long workshop, you should know how to:
 
 Bring your own code that you want to make into a package, or work with our example. 
 
-### Cost and Travel Support
-Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>, this workshop is free for participants.  Lunch will be provided.  
+### Cost, Accomodations, and Travel Support
+Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>, this workshop is free for participants.  Breakfast and lunch will be provided.  
 
-We may be able to provided limited travel grants. Please check back here or follow Forwards or R-Ladies Chicago on Twitter for news.
+We may be able to provided limited travel grants to out-of-town attendees, so please indicate on the application if you need support. Additionally, please let us know on the application if you will need childcare.
 
 ### Lead Instructors
 
-We are currently in the process of finalizing our instructors and helpers, but Angela Li of the [Center for Spatial Data Science](https://spatial.uchicago.edu) (and R-Ladies Chicago) is organizing this event. If you would like to teach or help out, please let her know!
+Stephanie Kirmer and Angela Li of R-Ladies Chicago will be co-teaching the workshop. [Stephanie](https://skirmer.github.io/) is a Senior Data Scientist at [Uptake](https://www.uptake.com/) and [Angela](https://angela-li.github.io/) is the R Spatial Advocate at the [Center for Spatial Data Science](https://spatial.uchicago.edu). 
+
+If you would like to be a helper for the workshop, please let us know!
 
 ### Code of Conduct
 
