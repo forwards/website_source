@@ -34,7 +34,7 @@ By the end of this day-long workshop, you should know how to:
 
 Bring your own code that you want to make into a package, or work with our example. 
 
-### Cost, Accomodations, and Travel Support
+### Cost, Accommodations, and Travel Support
 Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>, this workshop is free for participants.  Breakfast and lunch will be provided.  
 
 We may be able to provided limited travel grants to out-of-town attendees, so please indicate on the application if you need support. Additionally, please let us know on the application if you will need childcare.
