@@ -43,7 +43,7 @@ We may be able to provided limited travel grants to out-of-town attendees, so pl
 
 Stephanie Kirmer and Angela Li of R-Ladies Chicago will be co-teaching the workshop. [Stephanie](https://skirmer.github.io/) is a Senior Data Scientist at [Uptake](https://www.uptake.com/) and [Angela](https://angela-li.github.io/) is the R Spatial Advocate at the [Center for Spatial Data Science](https://spatial.uchicago.edu). 
 
-If you would like to be a helper for the workshop, please let us know!
+Our helpers are Katherine Simeon, Ola Giwa, and Nicole Burke from R-Ladies Chicago - thank you for your time!
 
 ### Code of Conduct
 
