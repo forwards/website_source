@@ -11,16 +11,16 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 
 ### Upcoming Workshops
 
+- **Forwards and ACEMS R Coding Workshop for Year 11 Girls** at River City Labs  
+*2019-03-30, 2019 Brisbane, Australia*  
+Instructors: Di Cook and a team of brilliant young women
+
+### Past Workshops
+
 - **Women's Package Development Workshop** jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)  
 *2019-02-23 Chicago, USA*  
 Instructor: Stephanie Kirmer and Angela Li  
 Free to attend! [Further details](chicago/)
-
-- **ACEMS and Forwards R Coding Workshop for Year 11 Girls** at Microsoft Innovation Centre  
-*TBA Brisbane, Australia*  
-Instructors: Di Cook and a brilliant student team
-
-### Past Workshops
 
 - [**Data Science in R: Coding Workshop for 11th and 12th Grade Girls**](nyc/) at AT&T NYC Data Science Research Center  
 *2018-10-27 New York City, USA*  
