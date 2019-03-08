@@ -11,7 +11,7 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 
 ### Upcoming Workshops
 
-- **Forwards and ACEMS R Coding Workshop for Year 11 Girls** at River City Labs  
+- [**Forwards and ACEMS R Coding Workshop for Year 11 Girls**](brisbane/) at River City Labs  
 *2019-03-30, 2019 Brisbane, Australia*  Free to attend,  [More details](http://bit.ly/Brissy_girls_coding) 
 Instructors: Di Cook and a team of brilliant young women 
 
