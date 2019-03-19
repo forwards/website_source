@@ -6,6 +6,10 @@ Title: R-Ladies Chicago Package Development Workshop
 
 ### Date: Saturday, February 23, 2019, 9:30am-4pm
 
+### Workshop Materials
+
+**Materials for this workshop, including slides and sample code, can be found at [this Github repository](https://github.com/forwards/workshops/tree/master/Chicago2019).**
+
 ### Location
 
 Center for Spatial Data Science  
@@ -41,9 +45,9 @@ We may be able to provided limited travel grants to out-of-town attendees, so pl
 
 ### Lead Instructors
 
-Stephanie Kirmer and Angela Li of R-Ladies Chicago will be co-teaching the workshop. [Stephanie](https://skirmer.github.io/) is a Senior Data Scientist at [Uptake](https://www.uptake.com/) and [Angela](https://angela-li.github.io/) is the R Spatial Advocate at the [Center for Spatial Data Science](https://spatial.uchicago.edu). 
+Stephanie Kirmer and Angela Li of R-Ladies Chicago co-taught the workshop. [Stephanie](https://skirmer.github.io/) is a Senior Data Scientist at [Uptake](https://www.uptake.com/) and [Angela](https://angela-li.github.io/) is the R Spatial Advocate at the [Center for Spatial Data Science](https://spatial.uchicago.edu). 
 
-Our helpers are Katherine Simeon, Ola Giwa, and Nicole Burke from R-Ladies Chicago - thank you for your time!
+Our helpers were Katherine Simeon, Ola Giwa, and Nicole Burke from R-Ladies Chicago - thank you for your time!
 
 ### Code of Conduct
 
