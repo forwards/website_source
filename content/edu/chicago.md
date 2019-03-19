@@ -38,7 +38,7 @@ By the end of this day-long workshop, you should know how to:
 
 Bring your own code that you want to make into a package, or work with our example. 
 
-### Cost, Accomodations, and Travel Support
+### Cost, Accommodations, and Travel Support
 Thanks to funding from the <a href="https://www.r-consortium.org/" target="_blank">R Consortium</a>, this workshop is free for participants.  Breakfast and lunch will be provided.  
 
 We may be able to provided limited travel grants to out-of-town attendees, so please indicate on the application if you need support. Additionally, please let us know on the application if you will need childcare.
@@ -47,7 +47,7 @@ We may be able to provided limited travel grants to out-of-town attendees, so pl
 
 Stephanie Kirmer and Angela Li of R-Ladies Chicago co-taught the workshop. [Stephanie](https://skirmer.github.io/) is a Senior Data Scientist at [Uptake](https://www.uptake.com/) and [Angela](https://angela-li.github.io/) is the R Spatial Advocate at the [Center for Spatial Data Science](https://spatial.uchicago.edu). 
 
-Our helpers were Katherine Simeon, Ola Giwa, and Nicole Burke from R-Ladies Chicago - thank you for your time!
+Our helpers were [Katherine Simeon](https://katherinesimeon.github.io/), [Ola Giwa](http://amazingspecialist.coolcatscoding.com/), and [Nicole Burke](https://nicoleburke.github.io/) from R-Ladies Chicago - thank you for your time!
 
 ### Code of Conduct
 
