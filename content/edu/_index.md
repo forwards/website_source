@@ -12,12 +12,12 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 ### Upcoming Workshops
 
 - [**Forwards and ACEMS R Coding Workshop for Year 11 Girls**](brisbane/) at River City Labs  
-*2019-03-30, 2019 Brisbane, Australia*.  Free to attend,  [More details](http://bit.ly/Brissy_girls_coding) 
+*2019-03-30, 2019 Brisbane, Australia*.  Free to attend,  [More details](http://bit.ly/Brissy_girls_coding)  
 Instructors: Di Cook and a team of brilliant young women 
 
-- [**Develop Packages in R**](https://www.eventbrite.ie/e/develop-packages-in-r-workshop-for-r-users-who-identify-as-female-tickets-59353553075) at UCD O'Brien Centre for Science 
-*2019-04-06, Dublin, Ireland*. 
-There is a small charge of EUR 5.85 to cover training materials, however tea/coffee and lunch are provided. [Book your ticket](https://www.eventbrite.ie/e/develop-packages-in-r-workshop-for-r-users-who-identify-as-female-tickets-59353553075) 
+- [**Develop Packages in R**](https://www.eventbrite.ie/e/develop-packages-in-r-workshop-for-r-users-who-identify-as-female-tickets-59353553075) at UCD O'Brien Centre for Science  
+*2019-04-06, Dublin, Ireland*.  
+There is a small charge of EUR 5.85 to cover training materials, however tea/coffee and lunch are provided. [Book your ticket](https://www.eventbrite.ie/e/develop-packages-in-r-workshop-for-r-users-who-identify-as-female-tickets-59353553075)  
 Instructors: Isabella Gollini, assisted by Bruna Wundervald, Chiara Cotroneo, and Jo Niec.
 
 ### Past Workshops
