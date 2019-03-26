@@ -12,15 +12,21 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 ### Upcoming Workshops
 
 - [**Forwards and ACEMS R Coding Workshop for Year 11 Girls**](brisbane/) at River City Labs  
-*2019-03-30, 2019 Brisbane, Australia*  Free to attend,  [More details](http://bit.ly/Brissy_girls_coding) 
+*2019-03-30, 2019 Brisbane, Australia*  
+Free to attend,  [More details](http://bit.ly/Brissy_girls_coding)  
 Instructors: Di Cook and a team of brilliant young women 
+
+- [**Develop Packages in R**](https://www.eventbrite.ie/e/develop-packages-in-r-workshop-for-r-users-who-identify-as-female-tickets-59353553075) at UCD O'Brien Centre for Science  
+*2019-04-06, Dublin, Ireland*  
+There is a small charge of EUR 5.85 to cover training materials, however tea/coffee and lunch are provided.  
+[Book your ticket](https://www.eventbrite.ie/e/develop-packages-in-r-workshop-for-r-users-who-identify-as-female-tickets-59353553075)  
+Instructors: Isabella Gollini, assisted by Bruna Wundervald, Chiara Cotroneo, and Jo Niec.
 
 ### Past Workshops
 
-- **Women's Package Development Workshop** jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)  
+- [**Women's Package Development Workshop**](chicago/) jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)  
 *2019-02-23 Chicago, USA*  
-Instructor: Stephanie Kirmer and Angela Li  
-Free to attend! [Further details](chicago/)
+Instructor: Stephanie Kirmer and Angela Li
 
 - [**Data Science in R: Coding Workshop for 11th and 12th Grade Girls**](nyc/) at AT&T NYC Data Science Research Center  
 *2018-10-27 New York City, USA*  
