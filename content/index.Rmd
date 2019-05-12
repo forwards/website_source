@@ -14,22 +14,16 @@ Find out more [about](about) the task force.
 <div style = "display: flex; align-items: flexstart;">
 <div style = "width:50%">
 
+## Upcoming Events
+
+*2019/05/25* [First ever R conference in East Africa: SatRdays Kampala 2019](https://kampala2019.satrdays.org/)
+
+*Please support SatRdays Kampala by contributing to this [Indiegogo campaign](https://www.indiegogo.com/projects/satrdays-kampala-2019-fundraiser#/)
+
 ## News
 *2018/07/30* Di Cook serves as panelist on late breaking session at JSM2018, [*Addressing Sexual Misconduct in the Statistics Community*](http://ww2.amstat.org/meetings/jsm/2018/onlineprogram/AbstractDetails.cfm?abstractid=329833) Organizer [blog post](http://statisticalrecipes.blogspot.com/2018/06/addressing-sexual-misconduct-in.html) 
 
-*2017/12/8* Girls coding workshop held at Auckland University
-
-*2017/12/7* Women's package writing workshop held at Auckland University, with instructors Hadley Wickham, Jenny Bryan, and Di Cook
-
-*2017/10/28* [Girls R coding workshop](https://forwards.github.io/blog/2017/11/20/girls-coding-workshop-melbourne/) held at the Kathleen Symes library in Melbourne.
-
-*2017/07/12* Julie Josse presents the results of the Forwards useR! 2016 survey at [useR! 2017](https://user2017.brussels/) [[Video](https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Diversity-of-the-R-Community?term=useR!%20diversity)] [[Slides](http://schd.ws/hosted_files/user2017/7d/useR%212017.pdf)].
-
-*2017/01/13* Open call to join the taskforce, [further details](/blog/2017/01/13/call-to-join-forwards/).
-
-*2016/11/13* Heather Turner's presentation from [eRum 2016](http://erum.ue.poznan.pl/), "Addressing the Gender Gap in the R Project", now on [YouTube](https://www.youtube.com/watch?v=fp6JY7cirww&list=PLCsJUtCRSFbejqCqAURNVOFFpoDCMeuO5) [[slides](http://rpubs.com/hturner/eRum2016)].
-
-*2016/11/04* Jenny Bryan, Di Cook and Julie Josse are elected as ordinary members of the R Foundation, bringing the total number of women to 5 out of 37.
+[older news items](oldnews.md) 
 
 
 </div>
@@ -41,14 +35,3 @@ Find out more [about](about) the task force.
 </div>
 </div>
 
-## Events
-
-R-ladies meet-ups: https://rladies.org/events/
-
-Other relevant events:
-
- - [Women in Network Science event](https://www.eiseverywhere.com/ehome/288996/703272/) June 28, 2018 Sunbelt 2018 Utrecht [(tweet)](https://twitter.com/IsabellaGollini/status/999264048888807424)
- - [useR! 2018](https://user2018.r-project.org/) July 10-13, 2018, Brisbane, Austrailia
- - [Julia](http://juliacon.org/2018/) August 7-11, 2018, London, UK
-
- 
