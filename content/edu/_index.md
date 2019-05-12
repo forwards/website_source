@@ -9,7 +9,7 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 
 - *Workshops for high school girls* serve as an introduction to coding in R and are designed for students interested in STEM, coding, and data analysis.  Participants learn about plotting data, web scraping, and the development of Shiny apps.  A selection of topics related to contemporary current affairs are used, and where possible, incorporate data specific to the workshop’s geographic location.
 
-### Upcoming Workshops
+### Past Workshops
 
 - [**Forwards and ACEMS R Coding Workshop for Year 11 Girls**](brisbane/) at River City Labs  
 *2019-03-30, 2019 Brisbane, Australia*  
@@ -21,8 +21,6 @@ Instructors: Di Cook and a team of brilliant young women
 There is a small charge of EUR 5.85 to cover training materials, however tea/coffee and lunch are provided.  
 [Book your ticket](https://www.eventbrite.ie/e/develop-packages-in-r-workshop-for-r-users-who-identify-as-female-tickets-59353553075)  
 Instructors: Isabella Gollini, assisted by Bruna Wundervald, Chiara Cotroneo, and Jo Niec.
-
-### Past Workshops
 
 - [**Women's Package Development Workshop**](chicago/) jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)  
 *2019-02-23 Chicago, USA*  
