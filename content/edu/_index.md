@@ -9,18 +9,22 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 
 - *Workshops for high school girls* serve as an introduction to coding in R and are designed for students interested in STEM, coding, and data analysis.  Participants learn about plotting data, web scraping, and the development of Shiny apps.  A selection of topics related to contemporary current affairs are used, and where possible, incorporate data specific to the workshop’s geographic location.
 
-### Upcoming Workshops
-
-- [**Forwards and ACEMS R Coding Workshop for Year 11 Girls**](brisbane/) at River City Labs  
-*2019-03-30, 2019 Brisbane, Australia*  Free to attend,  [More details](http://bit.ly/Brissy_girls_coding) 
-Instructors: Di Cook and a team of brilliant young women 
-
 ### Past Workshops
 
-- **Women's Package Development Workshop** jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)  
+- [**Forwards and ACEMS R Coding Workshop for Year 11 Girls**](brisbane/) at River City Labs  
+*2019-03-30, 2019 Brisbane, Australia*  
+Free to attend,  [More details](http://bit.ly/Brissy_girls_coding)  
+Instructors: Di Cook and a team of brilliant young women 
+
+- [**Develop Packages in R**](https://www.eventbrite.ie/e/develop-packages-in-r-workshop-for-r-users-who-identify-as-female-tickets-59353553075) at UCD O'Brien Centre for Science  
+*2019-04-06, Dublin, Ireland*  
+There is a small charge of EUR 5.85 to cover training materials, however tea/coffee and lunch are provided.  
+[Book your ticket](https://www.eventbrite.ie/e/develop-packages-in-r-workshop-for-r-users-who-identify-as-female-tickets-59353553075)  
+Instructors: Isabella Gollini, assisted by Bruna Wundervald, Chiara Cotroneo, and Jo Niec.
+
+- [**Women's Package Development Workshop**](chicago/) jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)  
 *2019-02-23 Chicago, USA*  
-Instructor: Stephanie Kirmer and Angela Li  
-Free to attend! [Further details](chicago/)
+Instructor: Stephanie Kirmer and Angela Li
 
 - [**Data Science in R: Coding Workshop for 11th and 12th Grade Girls**](nyc/) at AT&T NYC Data Science Research Center  
 *2018-10-27 New York City, USA*  
