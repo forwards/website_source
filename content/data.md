@@ -1,9 +1,16 @@
 ---
 title: Data
+description: Data collected on demographics and the experience of the R community.
 tocify: true
 ---
 
 ## Overview
+
+### Current Efforts
+
+The survey sub-team is focused on monitoring diversity and exploring obstacles, motivations, and involvement of useRs in the community.  Diversity will be monitored via basic demographic summaries from specifically designed surveys or other community surveys (e.g. useR! feedback survey).
+
+### Former Efforts
 
 The taskforce collates data on the gender breakdown and other demographics of
 contributors to the R project, particularly R Foundation supported activities. 
@@ -88,9 +95,9 @@ something useR! plans to address in any future panels.
 The last plot shows invited organisational roles. Data on session chairs is 
 only available for a few years, but recently the proportion of women has been 
 similar that of attendees. The proportion of female committee members has been 
-slowly rising to parity over the history of useR! (with an unusal high in 2007 
+slowly rising to parity over the history of useR! (with an unusual high in 2007 
 when Di Cook, a taskforce member was a key organiser). The make-up of the local
 organising committee is much more variable, partly because the size of the 
 committee changes a lot according to local needs. In recent years the proportion
-of women on the comittee has been similar to or greater than that of attendees.
+of women on the committee has been similar to or greater than that of attendees.
       

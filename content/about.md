@@ -1,10 +1,12 @@
 ---
 title: "About"
+description: Background and structure of the R Foundation taskforce on women and other under-represented groups
+
 ---
 
 ## Background
 
-The task force was set up by the [R Foundation](https://www.r-project.org/foundation/) in December 2015 to address the underrepresentation of women and rebranded in Janurary 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
+The task force was set up by the [R Foundation](https://www.r-project.org/foundation/) in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
 
 The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.g. CRAN and Bioconductor). The task force is organised as a core team plus a number of sub-teams that focus on particular tasks as outlined below:
 
@@ -48,7 +50,7 @@ Augustina Ragwitz - **'Social Media' team leader**.
 
 [Tatjana Kecojevic](https://www.linkedin.com/in/tatjana-kecojevic-803704143/) - **'Surveys' team leader**. Tatjana is a statistician, instructor and consultant, of which roles she is responsible for in her company DataTeka. She is a founder and co-organiser of R-Ladies Manchester and Belgrade chapters. [More about Tatjana](https://tanjakec.github.io/).
 
-[Di Cook](http://dicook.github.io/) - **'Teaching' team leader**. Di is a Professor in the Department of Econometrics & Business Statistics at Monash University, a regular mentor on [R Google Summer of Code projects](https://github.com/rstats-gsoc) and was elected to the R Foundation in 2016.
+[Di Cook](http://dicook.org) - **'Teaching' team leader**. Di is a Professor in the Department of Econometrics & Business Statistics at Monash University, a regular mentor on [R Google Summer of Code projects](https://github.com/rstats-gsoc) and was elected to the R Foundation in 2016.
 
 [Isabella Gollini](https://www.linkedin.com/in/isabellagollini/) - **'Teaching' team leader**. Isabella is Assistant Professor in Statistics at University College Dublin and an RLadies mentor. [More about Isabella](https://sites.google.com/site/isabellagollini/).
 

@@ -9,6 +9,8 @@ googleAnalytics = ""
 paginate = 10
 footnotereturnlinkcontents = "↩"
 theme = "hugo-icarus-theme"
+# Comment the themesDir option if you use this theme in production
+themesDir = "../.."
 
 
 [permalinks]
@@ -23,7 +25,14 @@ theme = "hugo-icarus-theme"
     site_description = ""
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
     avatar = "css/images/avatar.png"
+    # Enter your email address to display your Gravatar icon in the profile. If not set the theme
+    # will fallback to the avatar.
+    gravatar = "you@example.com"
     logo = "css/images/logo.png"
+    disable_mathjax = false # set to true to disable MathJax
+
+    # define which types of pages should be shown. By default the type with the most regular pages
+    mainSections = ["post"]
 
     # Format dates with Go's time formatting
     date_format = "2006-01-02"

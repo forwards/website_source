@@ -1,6 +1,9 @@
 ---
+draft: no
 type: index
 ---
+
+<meta name="twitter:dnt" content="on">
 
 ## Mission
 
@@ -10,36 +13,44 @@ Find out more [about](about) the task force.
 
 <div style = "display: flex; align-items: flexstart;">
 <div style = "width:50%">
-<!-- need to use <a></a> here as markdown href don't seem to work in div -->
+
+## Upcoming Events
+
+*2019/05/25* [First ever R conference in East Africa: SatRdays Kampala 2019](https://kampala2019.satrdays.org/) **Lend your support to this pathbreaking conference by contributing to SatRdays Kampala's [Indiegogo campaign](https://www.indiegogo.com/projects/satrdays-kampala-2019-fundraiser#/)**
+
+![AfricaR logo](images/AfricaR.png)
+
+
 ## News
 
-*2017/01/13* Open call to join the taskforce, [further details](/blog/2017/01/13/call-to-join-forwards/).
+*For more details on past workshops, see the [Edu](edu) section.*
 
-*2016/11/13* Heather Turner's presentation from <a href="http://erum.ue.poznan.pl/">eRum 2016</a>, "Addressing the Gender Gap in the R Project", now on [YouTube](https://www.youtube.com/watch?v=fp6JY7cirww&list=PLCsJUtCRSFbejqCqAURNVOFFpoDCMeuO5) [[slides](http://rpubs.com/hturner/eRum2016)].
+*2019-04-06, Dublin* Isabella Gollini, with Bruna Wundervald, Chiara Cotroneo, and Jo Niec, teach "Develop Packages in R"
 
-*2016/11/04* Jenny Bryan, Di Cook and Julie Josse are elected as ordinary members of the R Foundation, bringing the total number of women to 5 out of 37.
+*2019-03-30, Brisbane* Di Cook and a team of brilliant women teach "R Coding Workshop for Year 11 Girls"
+ 
+*2019-02-23, Chicago* Stephanie Kirmer and Angela Li teach "Women's Package Development Workshop", jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)
 
-*2016/10/20* Di Cook presents the work of the task force at <a href="https://ww2.amstat.org/meetings/wsds/2016/onlineprogram/AbstractDetails.cfm?AbstractID=303353)">Women in Statistics and Data Science 2016</a>.
+*2018-10-27, New York City* Emily Dodwell and Joyce Robbins lead "Data Science in R: Coding Workshop for 11th and 12th Grade Girls"
 
-*2016/08/22* R Consortium approves funding for a <a href="https://www.r-consortium.org/blog/2016/08/22/the-r-consortium-funds-three-projects-in-july">joint proposal</a> from the San Francisco and London R-ladies groups for alignment and global expansion.
+*2018-07-30, Vancouver* Di Cook serves as panelist on late breaking session at JSM2018, [*Addressing Sexual Misconduct in the Statistics Community*](http://ww2.amstat.org/meetings/jsm/2018/onlineprogram/AbstractDetails.cfm?abstractid=329833) Organizer [blog post](http://statisticalrecipes.blogspot.com/2018/06/addressing-sexual-misconduct-in.html) 
 
-*2016/06/27* Proportion of women at useR! 2016 rises to 28% from 19% at useR! 2015.
+*2018-06-23, Cardiff, Wales* Heather Turner teaches "Upgrade Your Workflow with a Custom Package" at [Cardiff satRday](https://cardiff2018.satrdays.org/)
 
-*2016/06/23* Heather Turner presents the work of the task force at <a href="https://r2016-toulouse.sciencesconf.org/">Rencontres R 2016</a> [<a href="http://rpubs.com/hturner/RencontresR2016">slides</a>].
+*2018-05-24, Melbourne* [Earo Wang](https://earo.me) leads "Package Development Workshop for Women: Everything you need to know to create your own R package" at [R Ladies Melbourne](https://www.meetup.com/en-AU/R-Ladies-Melbourne/events/250196006/) [slides]( http://slides.earo.me/rladies-pkg/#1), [code](https://github.com/earowang/rladies-pkg)
+
+*2018-05-14, Budapest* Package Development Workshop for Women at [eRum 2018](https://2018.erum.io/#talk-2-307)
+
+
+[older news items](oldnews) 
+
+
 </div>
 <!--https://dev.twitter.com/web/embedded-timelines/parameters -->
 <!-- data-tweet-limit="3" -->
 <div style = "width:50%">
 ## Latest Tweets
-<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader" href="https://twitter.com/R_Forwards"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-height = "500" data-theme="light" data-chrome="noheader" href="https://twitter.com/R_Forwards" data-dnt="true"></a> <script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </div>
 
-## Events
-
-R-ladies meet-ups and other relevant events. 
-      
-<br>     
-<iframe src="https://calendar.google.com/calendar/embed?title=FORWARDS%20calendar&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=98i553ll9id8l35qmj5u05ui7o%40group.calendar.google.com&amp;&amp;src=3ahe2f1q4a3upfu8096g5odu0n5h8icp%40import.calendar.google.com&amp;color=%232952A3&amp;ctz=Australia%2FSydney" style="border-width: 0; display: block; margin: 0 auto;" width="600" height="400" frameborder="0" scrolling="no"></iframe>
-
- 

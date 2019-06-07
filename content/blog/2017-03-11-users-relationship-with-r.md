@@ -117,7 +117,7 @@ As the R community seeks to be more inclusive of under-represented groups we nee
 
 ### Taskforce initiatives
 
-Following our recent [call to join Forwards](http://forwards.github.io/blog/2017/01/13/call-to-join-forwards/) we have set up a number of sub-teams to support women and other under-represented groups in the R community. In particular the teaching team will focus on more inclusive pedagogy, such as [using examples to engage a wider demographic](https://github.com/forwards/teaching_examples), and running workshops for women and girls. We have also set up a community team, to look at ways to reach out to under-represented groups and an on-ramps team to look at ways to help useRs transition to developeRs. These are all new initiatives, but we hope to get some projects off the ground in all these areas in the coming year. Anyone wishing to get involved can contact us at [rowforwards@gmail.com](mailto:rowforwards@gmail.com).
+Following our recent [call to join Forwards](https://forwards.github.io/blog/2017/01/13/call-to-join-forwards/) we have set up a number of sub-teams to support women and other under-represented groups in the R community. In particular the teaching team will focus on more inclusive pedagogy, such as [using examples to engage a wider demographic](https://github.com/forwards/teaching_examples), and running workshops for women and girls. We have also set up a community team, to look at ways to reach out to under-represented groups and an on-ramps team to look at ways to help useRs transition to developeRs. These are all new initiatives, but we hope to get some projects off the ground in all these areas in the coming year. Anyone wishing to get involved can contact us at [rowforwards@gmail.com](mailto:rowforwards@gmail.com).
 
 ### Further research
 
@@ -138,9 +138,9 @@ The analysis presented here used the following packages:
  
 The code is available in the [Rmarkdown file](https://github.com/forwards/surveys-public/blog-posts/useR-2016/users-relationship-with-r/users-relationship-with-r.Rmd).
 
-The banner image was based on the [`plotHeart`](https://twitter.com/MorphoFun/status/831668445032873985) function written by Sandy Kawano for Valentine's Day, based on this [answer to a Stackoverflow post](http://stackoverflow.com/a/6546778/173755).
+The banner image was based on the [`plotHeart`](https://twitter.com/MorphoFun/status/831668445032873985) function written by Sandy Kawano for Valentine's Day, based on this [answer to a Stackoverflow post](https://stackoverflow.com/a/6546778/173755).
 
-[^1]: http://www.familiesandwork.org/downloads/modern-families.pdf
-[^2]: http://forwards.github.io/data/#maintainer_gender_2016
+[^1]: https://www.familiesandwork.org/downloads/modern-families.pdf
+[^2]: https://forwards.github.io/data/#maintainer_gender_2016
 [^3]: For example, average earnings in the US are lower for many ethnic minorities in general and in science and engineering occupations in particular, including computer and information science specifically (https://www.nsf.gov/statistics/2017/nsf17310/static/data/tab9-17.pdf). The  American Association of University Women report that gay and bisexual men tend to be paid less than similarly qualified heterosexual men; while trans women (who have transitioned from male to female) experience a drop in pay. They also report that transgender people frequently face harassment and discrimination; this may affect their motivation for voluntary contribution (http://www.aauw.org/resource/the-simple-truth-about-the-gender-pay-gap/).
 

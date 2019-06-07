@@ -2,6 +2,15 @@
 
 set -e
 
+rm -rf public/done.mark
+
+Rscript build.R
+
+if [ ! -f ./public/done.mark ]; then
+    echo "build failed."
+    exit 1
+fi
+
 git config --global user.email "rforwards-auto@protonmail.com"
 git config --global user.name "rforwards-auto"
 

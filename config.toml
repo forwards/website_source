@@ -1,5 +1,4 @@
-# don't hard code http: or https: - will be added to links according to how page is served
-baseurl = "//forwards.github.io/"
+baseurl = "https://forwards.github.io/"
 # publishdir = "../forwards.github.io"
 languageCode = "en-us"
 title = "FORWARDS"
@@ -17,7 +16,9 @@ pluralizelisttitles = false
 preserveTaxonomyNames = true
 # don't canonify URLs so can use http://forwards.github.io/ or https://forwards.github.io/
 canonifyURLs = false
-rssLimit = 30
+# maximum number of items in the RSS feed
+rssLimit = 3
+ignoreFiles = ["\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     blog = "blog/:year/:month/:day/:slug/"
@@ -28,10 +29,9 @@ rssLimit = 30
     bio = ""
     location = ""
     site_description = "R Foundation taskforce on women and other under-represented groups."
-    copyright  = "Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice)."
+    copyright  = "Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](https://github.com/ppoffice)."
     avatar = "images/forwards.svg"
     logo = ""
-    fullURL = "//forwards.github.io"
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
 
@@ -61,22 +61,27 @@ rssLimit = 30
 [[params.menu]]
     before = true
     label  = "Data"
-    link   = "data/"
+    link   = "/data/"
 
 [[params.menu]]
     before = true
     label  = "Blog"
-    link   = "blog/"
+    link   = "/blog/"
     
 [[params.menu]]
     before = true
+    label  = "Edu"
+    link   = "/edu/"  
+
+[[params.menu]]
+    before = true
     label  = "Docs"
-    link   = "docs/"  
+    link   = "/docs/"  
     
 [[params.menu]]
     before = true
     label  = "Links"
-    link   = "links/"     
+    link   = "/links/"    
 
 # Enter a link for the follow button on the left
 [params.profile]

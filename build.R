@@ -5,11 +5,12 @@ baseurl_linenum = grep("baseurl = ", config)
 print(config[baseurl_linenum])
 
 if(Sys.getenv("TRAVIS_PULL_REQUEST") != "false" || Sys.getenv("TRAVIS_BRANCH") != "master"){
-    config[baseurl_linenum] = 'baseurl = "//rforwards-auto.github.io/"'
+    config[baseurl_linenum] = 'baseurl = "https://rforwards-auto.github.io/"'
     writeLines(config, "config.toml")
 }
 
 print(config[baseurl_linenum])
 
-blogdown::install_hugo(version = "0.18.1", force = TRUE)
+blogdown::install_hugo(version = "0.21", force = TRUE)
 blogdown::build_site()
+file.create('public/done.mark')
