@@ -24,7 +24,7 @@ The members of the task force were invited to participate based on their interes
 
 The activities of the taskforce are recorded in the [minutes of our bimonthly core team teleconferences and alternate monthly all team slackathons](https://github.com/forwards/meetings-public). We are open to new member joining one of our sub-teams. If interested, please contact <rowforwards@gmail.com>.
 
-The task force is happy to engage with other individuals and organisations (such as [R-ladies](http://r-ladies.org)) that are concerned about diversity and inclusion and actively seek outside collaboration on specific tasks. 
+The task force is happy to engage with other individuals and organisations (such as [R-Ladies](http://r-ladies.org)) that are concerned about diversity and inclusion and actively seek outside collaboration on specific tasks. 
 
 ## Core Team Members
 
@@ -38,7 +38,7 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Julie Josse](https://www.linkedin.com/in/julie-josse-4886a2140/) - **'Conferences' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. [More about Julie](http://juliejosse.com/).
 
-[Jenny Bryan](https://twitter.com/JennyBryan) - **'On-ramps' team leader**. Jenny works as a developer for RStudio(https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci. [More about Jenny](https://www.stat.ubc.ca/~jenny/).
+[Jenny Bryan](https://twitter.com/JennyBryan) - **'On-ramps' team leader**. Jenny works as a developer for [RStudio](https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci. [More about Jenny](https://www.stat.ubc.ca/~jenny/).
 
 [Michael Lawrence](https://www.linkedin.com/in/michael-lawrence-74a9b482/) - **'On-ramps' team leader**. Michael is a Computational Biologist at Genentech and a member of R Foundation, R Core and Bioconductor Core. 
 
@@ -69,7 +69,7 @@ Liz Kellogg - **'Social Media' team member**.
 
 Wenfeng Qin - **'Social Media' team member**. [More about Wenfeng](https://github.com/qinwf).
 
-[David Smith](https://www.linkedin.com/in/dmsmith/) - **'Social Media' team member*. [More about David](https://developer.microsoft.com/en-us/advocates/david-smith).
+[David Smith](https://www.linkedin.com/in/dmsmith/) - **'Social Media' team member**. [More about David](https://developer.microsoft.com/en-us/advocates/david-smith).
 
 [Madlene Hamilton](https://www.linkedin.com/in/madlenehamilton/) - **'Surveys' team member**. [More about Madlene](https://twitter.com/madlenehamilton).
 
