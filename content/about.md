@@ -48,7 +48,7 @@ Augustina Ragwitz - **'Social Media' team leader**.
 
 [Isabella Gollini](https://www.linkedin.com/in/isabellagollini/) - **'Teaching' team leader**. Isabella is Assistant Professor in Statistics at University College Dublin and an RLadies mentor. [More about Isabella](https://sites.google.com/site/isabellagollini/).
 
-[Angela Li](https://www.linkedin.com/in/civicangela/) - **'Teaching' team leader**. [More about Angela](https://angela-li.github.io/).
+[Angela Li](https://www.linkedin.com/in/civicangela/) - **'Teaching' team leader**. Angela is the R Spatial Advocate at the Center for Spatial Data Science at the University of Chicago and founder/co-organizer of R-Ladies Chicago. [More about Angela](https://angela-li.github.io/).
 
 Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). [More about Jonathan](https://R-Resources.massey.ac.nz/BrailleR).
 
@@ -73,15 +73,15 @@ Wenfeng Qin - **'Social Media' team member**. [More about Wenfeng](https://githu
 
 [Madlene Hamilton](https://www.linkedin.com/in/madlenehamilton/) - **'Surveys' team member**. [More about Madlene](https://twitter.com/madlenehamilton).
 
+[Nujcharee Haswell](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/) - **'Surveys' team member**. [More about Nujcharee](https://pedzilla.netlify.com/).
+
 [David Meza](https://www.linkedin.com/in/davidmeza1/) - **'Surveys' team member**. [More about David](https://knowledger.rbind.io/).
 
-[Di Cook](http://dicook.org) - **'Teaching' team member**. [More about Di](https://github.com/rstats-gsoc).
+[Di Cook](http://dicook.org) - **'Teaching' team member**. [More about Di](https://github.com/dicook).
 
 [Ritwik Mitra](www.linkedin.com/in/riikmitra) - **'Teaching' team member**. [More about Ritwik](https://twitter.com/riikmitra).
 
 [Joyce Robbins](https://www.linkedin.com/in/joycerobbins/) - **'Teaching' team member**. [More about Joyce](http://www.joyce-robbins.com/about/).
-
-Hadley Wickham - **'Teaching' team member**.
 
 ## Previous Members
 
@@ -96,3 +96,4 @@ Gina Merchant
 Maëlle Salmon  
 Tracy Shen  
 Carolin Strobl
+Hadley Wickham
