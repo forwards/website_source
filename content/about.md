@@ -28,7 +28,7 @@ The task force is happy to engage with other individuals and organisations (such
 
 ## Core Team Members
 
-[Heather Turner](https://uk.linkedin.com/in/heathrturnr) - **Chair, 'Conferences' team leader**. Heather works as a freelance statistical programmer and is on the board of the R Foundation. [More about Heather](http://heatherturner.net/).
+[Heather Turner](https://uk.linkedin.com/in/heathrturnr) - **Chair**. Heather works as a freelance statistical programmer and is on the board of the R Foundation. [More about Heather](http://heatherturner.net/).
 
 [Emily Dodwell](https://www.linkedin.com/in/emdodwell/) - **Administrator**. Emily is a Senior Inventive Scientist in the Data Science and AI Research Organization at AT&T Labs, and the lead organizer of the R-Ladies NYC chapter. [More about Emily](https://twitter.com/emdodwell)
 
@@ -37,6 +37,8 @@ The task force is happy to engage with other individuals and organisations (such
 [Kevin O'Brien](https://ie.linkedin.com/in/kobriendublin) - **'Community' team leader**. Kevin is a data scientist working for a forestry company, modelling forestry resources, as well as one of the main organizers of Dublin R. [More about Kevin](www.twitter.com/DragonflyStats).
 
 [Julie Josse](https://www.linkedin.com/in/julie-josse-4886a2140/) - **'Conferences' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. [More about Julie](http://juliejosse.com/).
+
+[Noa Tamir](https://www.linkedin.com/in/noatamir) - **'Conferences' team leader**. [More about Noa](noatamir.com).
 
 [Jenny Bryan](https://twitter.com/JennyBryan) - **'On-ramps' team leader**. Jenny works as a developer for [RStudio](https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci. [More about Jenny](https://www.stat.ubc.ca/~jenny/).
 
@@ -58,8 +60,6 @@ Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind 
 [Joslynn Lee](https://www.linkedin.com/in/joslynnlee/) - **'Community' team member**.
 
 [Ileena Mitra](https://www.linkedin.com/in/ileena-mitra-86a5955a/) - **'Community' team member**. [More about Ileena](https://ileenamitra.github.io/).
-
-[Noa Tamir](https://www.linkedin.com/in/noatamir) - **'Community' team member**. [More about Noa](noatamir.com).
 
 Yizhe Xu - **'Community' team member**.
 
@@ -95,5 +95,5 @@ Os Keyes
 Gina Merchant  
 Maëlle Salmon  
 Tracy Shen  
-Carolin Strobl
+Carolin Strobl  
 Hadley Wickham
