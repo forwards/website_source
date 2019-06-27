@@ -30,7 +30,7 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Heather Turner](https://uk.linkedin.com/in/heathrturnr) - **Chair**. Heather works as a freelance statistical programmer and is on the board of the R Foundation. [More about Heather](http://heatherturner.net/).
 
-[Emily Dodwell](https://www.linkedin.com/in/emdodwell/) - **Administrator**. Emily is a Senior Inventive Scientist in the Data Science and AI Research Organization at AT&T Labs, and the lead organizer of the R-Ladies NYC chapter. [More about Emily](https://twitter.com/emdodwell)
+[Emily Dodwell](https://www.linkedin.com/in/emdodwell/) - **Administrator**. Emily is a Senior Inventive Scientist in the Data Science and AI Research Organization at AT&T Labs, and the lead organizer of the R-Ladies NYC chapter. [More about Emily](https://twitter.com/emdodwell).
 
 [Tania Allard](https://www.linkedin.com/in/taniasanchezmonroy/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. [More about Tania](https://bitsandchips.me/).
 
@@ -73,7 +73,7 @@ Wenfeng Qin - **'Social Media' team member**. [More about Wenfeng](https://githu
 
 [Madlene Hamilton](https://www.linkedin.com/in/madlenehamilton/) - **'Surveys' team member**. [More about Madlene](https://twitter.com/madlenehamilton).
 
-[Nujcharee Haswell](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/) - **'Surveys' team member**. [More about Nujcharee](https://pedzilla.netlify.com/).
+[Nujcharee Haswell](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/) - **'Surveys' team member**. [More about Nujcharee](https://twitter.com/nujcharee).
 
 [David Meza](https://www.linkedin.com/in/davidmeza1/) - **'Surveys' team member**. [More about David](https://knowledger.rbind.io/).
 
