@@ -38,7 +38,7 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Julie Josse](https://www.linkedin.com/in/julie-josse-4886a2140/) - **'Conferences' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. [More about Julie](http://juliejosse.com/).
 
-[Noa Tamir](https://www.linkedin.com/in/noatamir) - **'Conferences' team leader**. [More about Noa](noatamir.com).
+[Noa Tamir](https://www.linkedin.com/in/noatamir) - **'Conferences' team leader**. Noa is a Data Science Manager, an organizer of the R-Ladies Berlin and Women in Machine Learning and Data Science Berlin Meetups, and has recently organized the satRday Berlin 2019 conference. [More about Noa](noatamir.com).
 
 [Jenny Bryan](https://twitter.com/JennyBryan) - **'On-ramps' team leader**. Jenny works as a developer for [RStudio](https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci. [More about Jenny](https://www.stat.ubc.ca/~jenny/).
 
