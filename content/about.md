@@ -44,6 +44,8 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Michael Lawrence](https://www.linkedin.com/in/michael-lawrence-74a9b482/) - **'On-ramps' team leader**. Michael is a Computational Biologist at Genentech and a member of R Foundation, R Core and Bioconductor Core. 
 
+Shakyrah Nakalungi - **'Social Media' team leader**.
+
 Augustina Ragwitz - **'Social Media' team leader**.
 
 [Tatjana Kecojevic](https://www.linkedin.com/in/tatjana-kecojevic-803704143/) - **'Surveys' team leader**. Tatjana is a statistician, instructor and consultant, of which roles she is responsible for in her company DataTeka. She is a founder and co-organiser of R-Ladies Manchester and Belgrade chapters. [More about Tatjana](https://tanjakec.github.io/).
@@ -57,13 +59,27 @@ Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind 
 
 ## Sub Team Members
 
+Damiano Cerasuolo - **'Community' team member**.
+
+Nic Crane - **'Community' team member**.
+
 [Joslynn Lee](https://www.linkedin.com/in/joslynnlee/) - **'Community' team member**.
 
 [Ileena Mitra](https://www.linkedin.com/in/ileena-mitra-86a5955a/) - **'Community' team member**. [More about Ileena](https://ileenamitra.github.io/).
 
+Richard Ngamita - **'Community' team member**.
+
 Yizhe Xu - **'Community' team member**.
 
+Liz Kane - **'Conferences' team member**.
+
+Jesse Mostipak - **'Conferences' team member**.
+
+Zhian N. Kamvar - **'On-ramps' team member**.
+
 [Charlotte Wickham](https://www.linkedin.com/in/charlotte-wickham-793a011a) - **'On-ramps' team member**. [More about Charlotte](http://cwick.co.nz).
+
+Lorna Maria Aine - **'Social Media' team member**.
 
 Liz Kellogg - **'Social Media' team member**.
 
@@ -81,7 +97,11 @@ Wenfeng Qin - **'Social Media' team member**. [More about Wenfeng](https://githu
 
 [Ritwik Mitra](www.linkedin.com/in/riikmitra) - **'Teaching' team member**. [More about Ritwik](https://twitter.com/riikmitra).
 
+Emma Rand - **'Teaching' team member**.
+
 [Joyce Robbins](https://www.linkedin.com/in/joycerobbins/) - **'Teaching' team member**. [More about Joyce](http://www.joyce-robbins.com/about/).
+
+Florencia Mangini
 
 ## Previous Members
 
