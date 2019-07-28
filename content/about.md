@@ -61,7 +61,7 @@ Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind 
 
 Damiano Cerasuolo - **'Community' team member**.
 
-Nic Crane - **'Community' team member**.
+[Nic Crane](https://www.linkedin.com/in/nicolacrane/) - **'Community' team member**. [More about Nic](https://github.com/thisisnic).
 
 [Joslynn Lee](https://www.linkedin.com/in/joslynnlee/) - **'Community' team member**.
 
@@ -73,9 +73,11 @@ Yizhe Xu - **'Community' team member**.
 
 Liz Kane - **'Conferences' team member**.
 
-Jesse Mostipak - **'Conferences' team member**.
+[Imke Mayer](https://www.linkedin.com/in/imke-mayer-426a36131) - **'Conferences' team member**. [More about Imke](https://www.imkemayer.com).
 
-Zhian N. Kamvar - **'On-ramps' team member**.
+[Jesse Mostipak](https://www.linkedin.com/in/jessemostipak/) - **'Conferences' team member**. [More about Jesse](https://www.jessemaegan.com/).
+
+Zhian N. Kamvar - **'On-ramps' team member**. [More about Zhian](zkamvar.github.io).
 
 [Charlotte Wickham](https://www.linkedin.com/in/charlotte-wickham-793a011a) - **'On-ramps' team member**. [More about Charlotte](http://cwick.co.nz).
 
