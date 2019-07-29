@@ -67,7 +67,7 @@ Damiano Cerasuolo - **'Community' team member**.
 
 [Ileena Mitra](https://www.linkedin.com/in/ileena-mitra-86a5955a/) - **'Community' team member**. [More about Ileena](https://ileenamitra.github.io/).
 
-Richard Ngamita - **'Community' team member**.
+[Richard Ngamita](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F) - **'Community' team member**. [More about Richard](https://twitter.com/ngamita).
 
 Yizhe Xu - **'Community' team member**.
 
@@ -77,11 +77,11 @@ Liz Kane - **'Conferences' team member**.
 
 [Jesse Mostipak](https://www.linkedin.com/in/jessemostipak/) - **'Conferences' team member**. [More about Jesse](https://www.jessemaegan.com/).
 
-Zhian N. Kamvar - **'On-ramps' team member**. [More about Zhian](zkamvar.github.io).
+[Zhian N. Kamvar](https://twitter.com/zkamvar) - **'On-ramps' team member**. [More about Zhian](zkamvar.github.io).
 
 [Charlotte Wickham](https://www.linkedin.com/in/charlotte-wickham-793a011a) - **'On-ramps' team member**. [More about Charlotte](http://cwick.co.nz).
 
-Lorna Maria Aine - **'Social Media' team member**.
+[Lorna Maria Aine](https://twitter.com/lornamariak) - **'Social Media' team member**. [More about Lorna](https://medium.com/@lornamariak).
 
 Liz Kellogg - **'Social Media' team member**.
 
@@ -99,7 +99,7 @@ Wenfeng Qin - **'Social Media' team member**. [More about Wenfeng](https://githu
 
 [Ritwik Mitra](www.linkedin.com/in/riikmitra) - **'Teaching' team member**. [More about Ritwik](https://twitter.com/riikmitra).
 
-Emma Rand - **'Teaching' team member**.
+[Emma Rand](https://www.linkedin.com/in/emma-rand-6b0a61a/) - **'Teaching' team member**. [More about Emma](https://www.york.ac.uk/biology/our-staff/emma-rand/).
 
 [Joyce Robbins](https://www.linkedin.com/in/joycerobbins/) - **'Teaching' team member**. [More about Joyce](http://www.joyce-robbins.com/about/).
 
