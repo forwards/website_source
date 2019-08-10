@@ -43,7 +43,7 @@ Many thanks to the volunteers from AT&T Labs Research, Cheryl Flynn and Ritwik M
 
 Angela Li and Stephanie Kirmer, both of R-Ladies Chicago, organized a women’s package workshop in February 2019 for 30 women at the Center for Spatial Data Science in Chicago. This marked the first time an R-Ladies group had run the full package development workshop. The workshop brought women from 11 states in the US to freezing-cold Chicago to learn how to develop their first package. The workshop was preceded by an R-Ladies get-together with an R-Ladies purple cake, where workshop participants from out-of-town were able to get to know each other.
 
-![Group photo of women at the R-Ladies get-together behind a table with a large iced purple cake ](/images/blog/workshops-for-women-and-girls/chicago-package-workshop.jpg)
+![Group photo of women at the R-Ladies get-together behind a table with a large iced purple cake ](/images/blog/workshops-for-women-and-girls/chicago-rladies-purple-cake.jpg)
 
 [Pre and post-survey results](https://skirmer.github.io/ChiEval) from the workshop can be found online (thank you, Stephanie, for putting this together!). For a more in-depth look at the event, [Josephine Lukito](https://www.jlukito.com/blog/2019/2/24/attending-the-r-forwards-package-workshop-hosted-by-r-ladies-chicago) and [Florencia Mangini](https://rladieschicago.org/post/2019-02-28-rworkshop_recap/) both wrote fantastic recaps of the workshop. You can also find tweets from the event under the hashtag [#RForwardsChi](https://twitter.com/search?q=%23RForwardsChi) on Twitter. 
 
