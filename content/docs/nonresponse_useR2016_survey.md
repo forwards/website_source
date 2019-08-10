@@ -3,7 +3,7 @@ title: "Non-response in useR! 2016 Survey"
 author: "Heather Turner and Julie Josse"
 date: "2016-10-07"
 output: html_document
-type: report
+type: survey_report
 knit: (function(inputFile, encoding) {
     outputFile <- paste0("../../website_source/content/docs/",
                          gsub(".*/(.*).Rmd", "\\1", inputFile), ".md");

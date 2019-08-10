@@ -9,7 +9,7 @@ title: R in Latin America
 slug: r-in-latin-america
 ---
 
-Following on from our post on [R in Africa](http://forwards.github.io/blog/2017/12/01/r-in-africa/) this
+Following on from our post on [R in Africa](https://forwards.github.io/blog/2017/12/01/r-in-africa/) this
 next post in the series looks at the R community across Latin America.
 
 <!--more-->

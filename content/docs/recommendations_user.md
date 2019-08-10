@@ -1,7 +1,7 @@
 ---
 title: Recommendations to increase the Participation of Women at useR! Conferences
 date: "2016-04-09"
-type: other
+type: recommendations
 ---
 
 ## Recommendations
@@ -28,7 +28,7 @@ Not all useR! conferences have panel discussions, but with the exception of the 
 
 To demonstrate the commitment of the R community to promoting the inclusion of women, we recommend publishing recent statistics of gender balance on the conference website. A good example is set here
 http://www.lorneproteins.org/policies/.
-We plan to collate such statistics on the Task Force webpage (http://forwards.github.io/), so that such tables could easily be produced for future useR!s. 
+We plan to collate such statistics on the Task Force webpage (https://forwards.github.io/), so that such tables could easily be produced for future useR!s. 
 
 ## Other Issues to Consider
 

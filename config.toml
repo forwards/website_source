@@ -1,5 +1,4 @@
-# don't hard code http: or https: - will be added to links according to how page is served
-baseurl = "//forwards.github.io/"
+baseurl = "https://forwards.github.io/"
 # publishdir = "../forwards.github.io"
 languageCode = "en-us"
 title = "FORWARDS"
@@ -18,7 +17,7 @@ preserveTaxonomyNames = true
 # don't canonify URLs so can use http://forwards.github.io/ or https://forwards.github.io/
 canonifyURLs = false
 # maximum number of items in the RSS feed
-rssLimit = 12
+rssLimit = 3
 ignoreFiles = ["\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
@@ -30,10 +29,9 @@ ignoreFiles = ["\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     bio = ""
     location = ""
     site_description = "R Foundation taskforce on women and other under-represented groups."
-    copyright  = "Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](http://github.com/ppoffice)."
-    avatar = "//forwards.github.io/images/forwards.svg"
+    copyright  = "Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](https://github.com/ppoffice)."
+    avatar = "images/forwards.svg"
     logo = ""
-    fullURL = "//forwards.github.io"
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
 
