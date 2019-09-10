@@ -77,9 +77,9 @@ Florencia Mangini - **'Conferences' team member**. ([Twitter](https://twitter.co
 
 [Jesse Mostipak](https://www.jessemaegan.com/) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/jessemostipak/)/[Twitter](https://twitter.com/kierisi)/[GitHub](https://github.com/kierisi))
 
-[Zhian N. Kamvar](zkamvar.github.io) - **'On-ramps' team member**. ([Twitter](https://twitter.com/zkamvar)/[GitHub](https://github.com/zkamvar))
+[Zhian N. Kamvar](https://zkamvar.github.io) - **'On-ramps' team member**. ([Twitter](https://twitter.com/zkamvar)/[GitHub](https://github.com/zkamvar))
 
-[Charlotte Wickham](http://cwick.co.nz) - **'On-ramps' team member**. [More about Charlotte](http://cwick.co.nz). ([LinkedIn](https://www.linkedin.com/in/charlotte-wickham-793a011a)/[Twitter](https://twitter.com/CVWickham)/[GitHub](https://github.com/cwickham))
+[Charlotte Wickham](http://cwick.co.nz) - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/charlotte-wickham-793a011a)/[Twitter](https://twitter.com/CVWickham)/[GitHub](https://github.com/cwickham))
 
 [Lorna Maria Aine](https://medium.com/@lornamariak) - **'Social Media' team member**. ([Twitter](https://twitter.com/lornamariak)/[GitHub](https://github.com/lornamariak))
 
@@ -89,7 +89,7 @@ Wenfeng Qin - **'Social Media' team member**. ([GitHub](https://github.com/qinwf
 
 [David Smith](https://developer.microsoft.com/en-us/advocates/david-smith) - **'Social Media' team member**. ([LinkedIn](https://www.linkedin.com/in/dmsmith/)/[Twitter](https://twitter.com/revodavid)/[GitHub](https://github.com/revodavid))
 
-[Nujcharee Haswell](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/)/[Twitter](https://twitter.com/nujcharee)/[GitHub](https://github.com/nujcharee))
+[Nujcharee Haswell](https://pedzilla.netlify.com/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/)/[Twitter](https://twitter.com/nujcharee)/[GitHub](https://github.com/nujcharee))
 
 [David Meza](https://knowledger.rbind.io/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/davidmeza1/)/[Twitter](https://twitter.com/davidmeza1)/[GitHub](https://github.com/davidmeza1))
 
