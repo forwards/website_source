@@ -1,15 +1,14 @@
 ---
 author: "Forwards Teaching Team"
-banner: "/images/blog/havanar/universidad_de_la_habana_fachada.jpg"
+banner: "/images/blog/workshops-for-women-and-girls/girls-workshop-nyc.jpg"
 categories: ["education","software"]
-date: 2019-08-10
+date: 2019-09-19
 description: "Round up of Forwards workshops supported by a grant from the R Consortium, to develop R package development skills among women and R coding skills among high school girls."
 tags: ["software", "education", "community"]
 title: "Workshops for Women and Girls"
 tocify: true
 slug: workshops-for-women-and-girls
 ---
-
 
 # Workshops around the globe
 
@@ -37,6 +36,8 @@ The six-hour workshop culminated in an afternoon hackathon, the theme of which w
  
 Many thanks to the volunteers from AT&T Labs Research, Cheryl Flynn and Ritwik Mitra, and from R-Ladies NYC, Soumya Kalra and Angeline Protacio.
 
+![Working photo at the New York City Forwards girls' workshop](/images/blog/workshops-for-women-and-girls/girls-workshop-nyc-working.jpg)
+
 ## Chicago
 
 ![Group photo of women at the Chicago package development workshop](/images/blog/workshops-for-women-and-girls/chicago-package-workshop.jpg)
@@ -61,3 +62,7 @@ Forwards teamed up with [ACEMS](https://acems.org.au/home) to organise the Brisb
 Materials for Forwards workshops can be found in our [workshops](https://github.com/forwards/workshops) repository. Additional materials can be found in the [teaching_examples](https://github.com/forwards/teaching_examples) repository or linked from our [Education](https://forwards.github.io/edu/) page. All Forwards workshop materials are licensed with a Creative Commons license to encourage reuse by the community - please check the exact license on the material, in some cases, there is a restriction to non-commercial use.
 
 If you are interested in organizing a workshop of your own, please take a look at the [Template Forwards Workshop Google Drive](https://drive.google.com/drive/folders/1aRSg1uf1xQnvfhDEmmcLcoONZYtxigo5?usp=sharing) for materials you can use to coordinate logistics for your workshop! This was put together by the Chicago workshop organizers and is something the teaching team plan to build on to support workshop organizers.
+
+
+
+
