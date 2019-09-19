@@ -62,7 +62,3 @@ Forwards teamed up with [ACEMS](https://acems.org.au/home) to organise the Brisb
 Materials for Forwards workshops can be found in our [workshops](https://github.com/forwards/workshops) repository. Additional materials can be found in the [teaching_examples](https://github.com/forwards/teaching_examples) repository or linked from our [Education](https://forwards.github.io/edu/) page. All Forwards workshop materials are licensed with a Creative Commons license to encourage reuse by the community - please check the exact license on the material, in some cases, there is a restriction to non-commercial use.
 
 If you are interested in organizing a workshop of your own, please take a look at the [Template Forwards Workshop Google Drive](https://drive.google.com/drive/folders/1aRSg1uf1xQnvfhDEmmcLcoONZYtxigo5?usp=sharing) for materials you can use to coordinate logistics for your workshop! This was put together by the Chicago workshop organizers and is something the teaching team plan to build on to support workshop organizers.
-
-
-
-
