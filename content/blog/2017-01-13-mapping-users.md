@@ -169,7 +169,7 @@ The analysis presented here used the following packages:
  
 The code is available in the [Rmarkdown file](https://github.com/forwards/surveys-public/blog-posts/useR-2016/mapping-users/mapping-users.Rmd).
 
-[^1]: See our supplementary report *[Non-Responses in the UseR! 2016 Survey](https://forwards.github.io/docs/nonresponse_useR2016_survey/)*
+[^1]: See our supplementary report *[Non-Responses in the UseR! 2016 Survey](https://forwards.github.io/docs/nonresponse_user2016_survey/)*
 [^2]: Landivar (2013) *[Disparities in STEM Employment by Sex, Race, and Hispanic Origin](https://census.gov/content/census/en/library/publications/2013/acs/acs-24.html)*
 [^3]: *[United States Census](https://www.census.gov/quickfacts/table/PST045215/00)*
 [^4]: National Science Foundation (2013) *[Women, Minorities, and Persons with Disabilities in Science and Engineering](https://www.nsf.gov/statistics/wmpd/2013/digest/theme2_1.cfm)*

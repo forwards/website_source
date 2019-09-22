@@ -1,6 +1,6 @@
 # Source files for forwards.github.io
     
-The Forwards website is maintained using [blogdown](https://github.com/rstudio/blogdown),
+The [Forwards website](http://forwards.github.io/) is maintained using [blogdown](https://github.com/rstudio/blogdown),
 which generates static websites based on [R Markdown](http://rmarkdown.rstudio.com) and [Hugo](https://gohugo.io).
 
 This README documents how to add content and update the published website.
@@ -108,7 +108,11 @@ tocify: no
 ---
 ```
 
-Note the date is automatically set to the date when you generate the template, 
+You can add the field `draft: true` to mark the blog post as a draft. Draft 
+posts will be rendered in the local preview mode (with `serve_site()`) but will 
+not be included when the site is built.
+
+The date is automatically set to the date when you generate the template, 
 so this may need to be updated upon publication (changing the date in the 
 filename is nice for consistency, but it is the date in the YAML that is used to
 generate the website links). If you specify the date manually (because you are 
@@ -119,10 +123,18 @@ The author field is optional, for more formal posts such as analysis reports.
 
 The banner image is set using `banner`. Images for blog posts should be put in
 a subdirectory of `content/images/blog`, following the convention from previous
-post. When the website is built the images folder gets put in the site root, so 
-you can link to the images as e.g. "images/blog/subdir/banner.png". If you 
-provide a banner image (please do!), a thumbnail image is automatically created 
-for the "Recent posts" sidebar. 
+posts. When the website is built the images folder gets put in the site root, so 
+you can link to the images as e.g. "images/blog/subdir/banner.png". A thumbnail 
+image is automatically created from the banner image for the "Recent posts" 
+sidebar - check this thumbnail image still looks good (it will be the middle 
+part of the banner cropped square).
+
+Please ensure image files are less than 100 KB. Images can be optimized using 
+the **magick** package - example code is provided in 
+`website_source/R/optimize_photo.R`. Consider cropping the photos (easiest 
+with photo-viewing software) to remove "empty" space, short and wide photos 
+work well, so people don't have to scroll a long way to get to the next text 
+block.
 
 Add categories, e.g. `["analysis"]` and tags 
 `["useR!", "survey", "demographics"]` reusing tags/categories from previous 
