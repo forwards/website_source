@@ -10,9 +10,7 @@ tocify: true
 slug: workshops-for-women-and-girls
 ---
 
-# Workshops around the globe
-
-Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/projects/awarded-projects), Forwards has offered a series of workshops around the world to support the development of coding skills and increase the participation of women in the R community.  In the last year and a half, more than 10 workshops have engaged more than 100 high school students and women in Australia, New Zealand, Europe and the USA. Information about our series of workshops for women and girls can be found on the [Edu](https://forwards.github.io/edu/) section of the Forwards website.
+Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/projects/awarded-projects), Forwards has offered a series of workshops around the world to support the development of coding skills and to increase the participation of women in the R community.  In the last year and a half, more than 10 workshops have engaged more than 100 high school students and women in Australia, New Zealand, Europe and the USA. Information about our series of workshops for women and girls can be found on the [Edu](https://forwards.github.io/edu/) section of the Forwards website.
  
 Here we round up some of the highlights.
 
@@ -53,7 +51,7 @@ Thanks to the R Consortium, funding was provided for 9 women from California, Te
 
 ## Brisbane
 
-Forwards teamed up with [ACEMS](https://acems.org.au/home) to organise the Brisbane Coding Workshop for Girls held at River City Labs (https://www.rivercitylabs.net) in March 2019. There were approximately 10 girls and 5 helpers. The girls worked on instructional material to get up and running with R and the tidyverse (https://ebsmonash.shinyapps.io/sunny_tutorial/) in the morning. We broke for a pizza lunch, and in the afternoon the girls experimented with developing their own shiny app. A theme for the afternoon was “break it, fix it, break it, fix it, ...” to encourage experimenting and trying new things. The girls used data from the [Atlas of Living Australia](https://www.ala.org.au), on wildlife sightings around Brisbane, as the basis for the app. There is an [R package](https://cran.r-project.org/web/packages/ALA4R/index.html) to interface with this extraordinary data resource. For examples of the apps developed see [Claudia’s App](https://ebsmonash.shinyapps.io/Claudia_brissy_wildlife/) and [Rachel’s App](https://ebsmonash.shinyapps.io/Rachel_brissy_wildlife/).
+Forwards teamed up with [ACEMS](https://acems.org.au/home) to organise the Brisbane Coding Workshop for Girls held at River City Labs (https://www.rivercitylabs.net) in March 2019. There were approximately 10 girls and 5 helpers. The girls worked on instructional material to get up and running with R and the tidyverse (https://ebsmonash.shinyapps.io/sunny_tutorial/) in the morning. After a pizza lunch, the girls experimented with developing their own shiny app. A theme for the afternoon was “break it, fix it, break it, fix it, ...” to encourage experimenting and trying new things. The girls used data from the [Atlas of Living Australia](https://www.ala.org.au), on wildlife sightings around Brisbane, as the basis for the app. There is an [R package](https://cran.r-project.org/web/packages/ALA4R/index.html) to interface with this extraordinary data resource. For examples of the apps developed see [Claudia’s App](https://ebsmonash.shinyapps.io/Claudia_brissy_wildlife/) and [Rachel’s App](https://ebsmonash.shinyapps.io/Rachel_brissy_wildlife/).
 
 ![The view into River City Labs where the Brisbane girls coding workshop was held, with the girls and leaders chatting at the pizza lunch](/images/blog/workshops-for-women-and-girls/brisbane-girls-workshop.jpg)
 
