@@ -55,7 +55,7 @@ Forwards teamed up with [ACEMS](https://acems.org.au/home) to organise the Brisb
 
 ![The view into River City Labs where the Brisbane girls coding workshop was held, with the girls and leaders chatting at the pizza lunch](/images/blog/workshops-for-women-and-girls/brisbane-girls-workshop.jpg)
 
-# Resources
+## Resources
 
 Materials for Forwards workshops can be found in our [workshops](https://github.com/forwards/workshops) repository. Additional materials can be found in the [teaching_examples](https://github.com/forwards/teaching_examples) repository or linked from our [Education](https://forwards.github.io/edu/) page. All Forwards workshop materials are licensed with a Creative Commons license to encourage reuse by the community - please check the exact license on the material, in some cases, there is a restriction to non-commercial use.
 
