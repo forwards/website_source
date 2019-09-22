@@ -108,7 +108,11 @@ tocify: no
 ---
 ```
 
-Note the date is automatically set to the date when you generate the template, 
+You can add the field `draft: true` to mark the blog post as a draft. Draft 
+posts will be rendered in the local preview mode (with `serve_site()`) but will 
+not be included when the site is built.
+
+The date is automatically set to the date when you generate the template, 
 so this may need to be updated upon publication (changing the date in the 
 filename is nice for consistency, but it is the date in the YAML that is used to
 generate the website links). If you specify the date manually (because you are 
@@ -119,10 +123,18 @@ The author field is optional, for more formal posts such as analysis reports.
 
 The banner image is set using `banner`. Images for blog posts should be put in
 a subdirectory of `content/images/blog`, following the convention from previous
-post. When the website is built the images folder gets put in the site root, so 
-you can link to the images as e.g. "images/blog/subdir/banner.png". If you 
-provide a banner image (please do!), a thumbnail image is automatically created 
-for the "Recent posts" sidebar. 
+posts. When the website is built the images folder gets put in the site root, so 
+you can link to the images as e.g. "images/blog/subdir/banner.png". A thumbnail 
+image is automatically created from the banner image for the "Recent posts" 
+sidebar - check this thumbnail image still looks good (it will be the middle 
+part of the banner cropped square).
+
+Please ensure image files are less than 100 KB. Images can be optimized using 
+the **magick** package - example code is provided in 
+`website_source/R/optimize_photo.R`. Consider cropping the photos (easiest 
+with photo-viewing software) to remove "empty" space, short and wide photos 
+work well, so people don't have to scroll a long way to get to the next text 
+block.
 
 Add categories, e.g. `["analysis"]` and tags 
 `["useR!", "survey", "demographics"]` reusing tags/categories from previous 
@@ -168,11 +180,12 @@ you want to split the article (see e.g. `content/blog/2017-02-07-emily-robinson-
 ### Top-level pages
 
 For example [About](http://forwards.github.io/about/), [Data](http://forwards.github.io/data/). The markdown files for these pages are added in the 
-top-level of the `content` directory. The only parameter needed in the YAML 
-header is the title:
+top-level of the `content` directory. The YAML header should contain a title
+and a description:
 ```r
 ---
 title: "About"
+description: Background and structure of the R Foundation taskforce on women and other under-represented groups
 ---
 ```
 The option `tocify: yes` can be used to specify that a table of contents 
@@ -190,6 +203,11 @@ or `.Rmd` to create the desired filetype.
 The title is not displayed in the body of the rendered `.html`, but is used as 
 the page title (e.g. the name shown on the browser tab). Within the page, use 
 level 2 and level 3 headers (i.e. ## and ###) to mark up sections.
+
+The title and description are used e.g. by Twitter and Facebook to show the 
+summary content when a link to the page is shared. You can also specify a 
+`banner` field, to give an image that should be used in a large Twitter
+or Facebook card.
     
 To add a link to the new page in the navigation bar, you need to edit the  
 `config.toml` file, e.g. adding

@@ -25,7 +25,7 @@ The first girls R coding workshop was held at the Kathleen Symes library in Melb
 
 And we had lamingtons, upside down R cupcakes (R downunder) for morning tea, and pizzas for lunch.
 
-![](/images/blog/Melb_HS.jpg)
-![](/images/blog/Melb_HS2.jpg)
+![](/images/Melb_HS.jpg)
+![](/images/Melb_HS2.jpg)
 
-Keep an eye on [http://forwards.github.io/edu/](http://forwards.github.io/edu/) for announcements about more workshops. 
+Keep an eye on [https://forwards.github.io/edu/](https://forwards.github.io/edu/) for announcements about more workshops. 
