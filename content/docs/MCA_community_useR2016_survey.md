@@ -21,7 +21,7 @@ knit: (function(inputFile, encoding) {
 
 ### Background
 
-The useR! survey gathers responses to questions on different themes for 455 attendees: demographic characteristics, R programming and involvement in the R community. The separate analyses of each question in each theme are detailed in the posts [Mapping useRs](https://forwards.github.io/blog/2017/01/13/mapping-users/),  [useRs Relationship with R](https://forwards.github.io/blog/2017/03/11/users-relationship-with-r/) and [Community Involvement of useRs](https://forwards.github.io/blog/2017/06/19/community-involvement-of-users/). A multivariate analysis of the R programming questions is detailed in [a companion report](https://forwards.github.io/docs/MCA_programming_useR2016_survey/). Here, we perform MCA on the R community questions.
+The useR! survey gathers responses to questions on different themes for 455 attendees: demographic characteristics, R programming and involvement in the R community. The separate analyses of each question in each theme are detailed in the posts [Mapping useRs](https://forwards.github.io/blog/2017/01/13/mapping-users/),  [useRs Relationship with R](https://forwards.github.io/blog/2017/03/11/users-relationship-with-r/) and [Community Involvement of useRs](https://forwards.github.io/blog/2017/06/19/community-involvement-of-users/). A multivariate analysis of the R programming questions is detailed in [a companion report](https://forwards.github.io/docs/mca_programming_user2016_survey/). Here, we perform MCA on the R community questions.
 
 ### R community questions
 
