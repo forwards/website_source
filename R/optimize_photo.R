@@ -10,7 +10,7 @@ image_dir <- file.path("content", "images", "blog",
 files <- dir(image_dir, pattern = "jpg|png")
 
 ## create in optimized sub-directory to start with - don't over-write originals
-out_dir <- file.path("content", "images", "blog", image_dir, "optimized")
+out_dir <- file.path(image_dir, "optimized")
 dir.create(out_dir)
 
 for (i in seq_along(files)){
