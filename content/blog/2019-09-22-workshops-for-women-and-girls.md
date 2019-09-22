@@ -2,7 +2,7 @@
 author: "Forwards Teaching Team"
 banner: "/images/blog/workshops-for-women-and-girls/girls-workshop-nyc.jpg"
 categories: ["education","software"]
-date: 2019-09-19
+date: 2019-09-22
 description: "Round up of Forwards workshops supported by a grant from the R Consortium, to develop R package development skills among women and R coding skills among high school girls."
 tags: ["software", "education", "community"]
 title: "Workshops for Women and Girls"
