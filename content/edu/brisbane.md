@@ -60,5 +60,5 @@ Please email rowforwards@gmail.com with any questions, and see <a href="https://
 
 <a href="http://bit.ly/Brissy_girls_coding" target="_blank">APPLY NOW!</a>
 
-[Workshop flyer PDF](https://github.com/forwards/website_source/blob/master/content/edu/flyer%20Brisbane.pdf)
+[Workshop flyer PDF](../flyer%20Brisbane.pdf)
 
