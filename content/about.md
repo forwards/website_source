@@ -24,75 +24,98 @@ The members of the task force were invited to participate based on their interes
 
 The activities of the taskforce are recorded in the [minutes of our bimonthly core team teleconferences and alternate monthly all team slackathons](https://github.com/forwards/meetings-public). We are open to new member joining one of our sub-teams. If interested, please contact <rowforwards@gmail.com>.
 
-The task force is happy to engage with other individuals and organisations (such as [R-ladies](http://r-ladies.org)) that are concerned about diversity and inclusion and actively seek outside collaboration on specific tasks. 
+The task force is happy to engage with other individuals and organisations (such as [R-Ladies](http://r-ladies.org)) that are concerned about diversity and inclusion and actively seek outside collaboration on specific tasks. 
 
 ## Core Team Members
 
-[Heather Turner](https://uk.linkedin.com/in/heathrturnr) - **Chair, 'Conferences' team leader**. Heather works as a freelance statistical programmer and is on the board of the R Foundation. [More about Heather](http://heatherturner.net/).
+[Heather Turner](http://heatherturner.net/) - **Chair**. Heather works as a freelance statistical programmer and is on the board of the R Foundation. ([LinkedIn](https://uk.linkedin.com/in/heathrturnr)/[Twitter](https://twitter.com/HeathrTurnr)/ [GitHub](https://github.com/hturner))
 
-[Emily Dodwell](https://www.linkedin.com/in/emilymdodwell/) - **Administrator**. Emily is a Senior Inventive Scientist in the Data Science and AI Research Organization at AT&T Labs, as well as an active member of the New York City R community.
+Emily Dodwell - **Administrator and 'Teaching' team member**. Emily is a Principal Inventive Scientist in the Data Science and AI Research Organization at AT&T Labs, and the lead organizer of R-Ladies New York. ([LinkedIn](https://www.linkedin.com/in/emdodwell/)/[Twitter](https://twitter.com/emdodwell)/[GitHub](https://github.com/emdodwell))
 
-[Tania Allard](https://www.linkedin.com/in/taniasanchezmonroy/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. [More about Tania](https://bitsandchips.me/).
+[Tania Allard](https://bitsandchips.me/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. ([LinkedIn](https://www.linkedin.com/in/taniasanchezmonroy/)/[GitHub](https://github.com/trallard))
 
-[Kevin O'Brien](https://ie.linkedin.com/in/kobriendublin) - **'Community' team leader**. Kevin is a data scientist working for a forestry company, modelling forestry resources, as well as one of the main organizers of Dublin R. [More about Kevin](www.twitter.com/DragonflyStats).
+Kevin O'Brien - **'Community' team leader**. Kevin is a data scientist working for a forestry company, modelling forestry resources, as well as one of the main organizers of Dublin R. ([LinkedIn](https://ie.linkedin.com/in/kobriendublin)/[Twitter](www.twitter.com/DragonflyStats)/[GitHub](https://github.com/DragonflyStats))
 
-[Julie Josse](https://www.linkedin.com/in/julie-josse-4886a2140/) - **'Conference' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. [More about Julie](http://juliejosse.com/).
+[Julie Josse](http://juliejosse.com/) - **'Conferences' team leader**. Julie is a professor of statistics at École Polytechnique in France and promotes her passion of R through R classes and statistical teaching. ([LinkedIn](https://www.linkedin.com/in/julie-josse-4886a2140/)/[Twitter](https://twitter.com/JulieJosseStat)/[GitHub](https://github.com/julierennes))
 
-[Jenny Bryan](https://twitter.com/JennyBryan) - **'On-ramps' team leader**. Jenny works as a developer for RStudio(https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci. [More about Jenny](https://www.stat.ubc.ca/~jenny/).
+[Noa Tamir](noatamir.com) - **'Conferences' team leader**. Noa is a Data Science Manager, an organizer of the R-Ladies Berlin and Women in Machine Learning and Data Science Berlin Meetups, and has recently organized the satRday Berlin 2019 conference. ([LinkedIn](https://www.linkedin.com/in/noatamir)/[Twitter](https://twitter.com/noatamir)/[GitHub](https://github.com/noatamir))
 
-[Michael Lawrence](https://www.linkedin.com/in/michael-lawrence-74a9b482/) - **'On-ramps' team leader**. Michael is a Computational Biologist at Genentech and a member of R Foundation, R Core and Bioconductor Core. 
+[Jenny Bryan](https://www.stat.ubc.ca/~jenny/) - **'On-ramps' team leader**. Jenny works as a developer for [RStudio](https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci. ([Twitter](https://twitter.com/JennyBryan)/[GitHub](https://github.com/jennybc))
 
-Augustina Ragwitz - **'Social Media' team leader**.
+Michael Lawrence - **'On-ramps' team leader**. Michael is a Computational Biologist at Genentech and a member of R Foundation, R Core and Bioconductor Core. ([LinkedIn](https://www.linkedin.com/in/michael-lawrence-74a9b482/)/[Twitter](https://twitter.com/lawremi)/[GitHub](https://github.com/lawremi))
 
-[David Smith](https://www.linkedin.com/in/dmsmith/) - **'Social Media' team leader**. David is a Cloud Developer Advocate at Microsoft, director of the R Consortium, and editor of the [Revolutions blog](http://blog.revolutionanalytics.com/). [More about David](https://developer.microsoft.com/en-us/advocates/david-smith).
+Shakirah Nakalungi - **'Social Media' team leader**. Shakirah is a data analyst working with a non-profit that deals with mental health, specifically depression in Africa. She is co-lead of the Kampala R User Group and the lead organizer of R-Ladies Kampala. ([LinkedIn](linkedin.com/in/shakyrah/)/[Twitter](https://twitter.com/cynthia_kyra)/[GitHub](github.com/Shakyrah))
 
-[Jasmine Dumas](https://www.linkedin.com/in/jasminedumas/) - **'Surveys' team leader**. Jasmine is a Data Scientist at Simple and author of the `shinyGEO`, `ttbbeer`, `shinyLP`, and `gramr` packages. [More about Jasmine](https://jasdumas.github.io/).
+[Tatjana Kecojevic](https://tanjakec.github.io/) - **'Surveys' team leader**. Tatjana is a statistician, instructor and consultant, of which roles she is responsible for in her company DataTeka. She is a founder and co-organiser of R-Ladies Manchester and Belgrade chapters. ([LinkedIn](https://www.linkedin.com/in/tatjana-kecojevic-803704143/)/[Twitter](https://twitter.com/Tatjana_Kec)/[GitHub](https://github.com/TanjaKec))
 
-[Tatjana Kecojevic](https://www.linkedin.com/in/tatjana-kecojevic-803704143/) - **'Surveys' team leader**. Tatjana is a statistician, instructor and consultant, of which roles she is responsible for in her company DataTeka. She is a founder and co-organiser of R-Ladies Manchester and Belgrade chapters. [More about Tatjana](https://tanjakec.github.io/).
+[Isabella Gollini](https://sites.google.com/site/isabellagollini/) - **'Teaching' team leader**. Isabella is Assistant Professor in Statistics at University College Dublin and an RLadies mentor. ([LinkedIn](https://www.linkedin.com/in/isabellagollini/)/[Twitter](https://twitter.com/IsabellaGollini)/[GitHub](https://github.com/igollini))
 
-[Di Cook](http://dicook.org) - **'Teaching' team leader**. Di is a Professor in the Department of Econometrics & Business Statistics at Monash University, a regular mentor on [R Google Summer of Code projects](https://github.com/rstats-gsoc) and was elected to the R Foundation in 2016.
+[Angela Li](https://angela-li.github.io/) - **'Teaching' team leader**. Angela is the R Spatial Advocate at the Center for Spatial Data Science at the University of Chicago and founder/co-organizer of R-Ladies Chicago. ([LinkedIn](https://www.linkedin.com/in/civicangela/)/[Twitter](https://twitter.com/CivicAngela)/[GitHub](https://github.com/angela-li))
 
-[Isabella Gollini](https://www.linkedin.com/in/isabellagollini/) - **'Teaching' team leader**. Isabella is Assistant Professor in Statistics at University College Dublin and an RLadies mentor. [More about Isabella](https://sites.google.com/site/isabellagollini/).
-
-Jonathan Godfrey - **Disability advisor**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). [More about Jonathan](https://R-Resources.massey.ac.nz/BrailleR).
+[Jonathan Godfrey](https://R-Resources.massey.ac.nz/BrailleR) - **Disability advisor**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). ([Twitter](https://twitter.com/ajrgodfrey)/[GitHub](https://github.com/ajrgodfrey))
 
 
 ## Sub Team Members
 
-Gina Griffin - **'Community' team member**. [More about Gina](https://github.com/Allyris).
+[Damiano Cerasuolo](https://www.iamdamiano.com/) - **'Community' team member**. ([LinkedIn](http://www.linkedin.com/in/damianocerasuolo)/[Twitter](https://twitter.com/damiacer)/[GitHub](https://github.com/damiacer))
 
-[Joslynn Lee](https://www.linkedin.com/in/joslynnlee/) - **'Community' team member**.
+Nic Crane - **'Community' team member**. ([Linkedin](https://www.linkedin.com/in/nicolacrane/)/[Twitter](https://twitter.com/nic_crane)/[GitHub](https://github.com/thisisnic))
 
-[Ileena Mitra](https://www.linkedin.com/in/ileena-mitra-86a5955a/) - **'Community' team member**. [More about Ileena](https://ileenamitra.github.io/).
+Madlene Hamilton - **'Community' team member**. [LinkedIn](https://www.linkedin.com/in/madlenehamilton/)/[Twitter](https://twitter.com/madlenehamilton)/[GitHub](https://github.com/madlene)
 
-[Noa Tamir](https://www.linkedin.com/in/noatamir) - **'Community' team member**. [More about Noa](noatamir.com).
+Joslynn Lee - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/joslynnlee/)/[Twitter](https://twitter.com/theoreticalfun)/[GitHub](https://github.com/joslynnlee))
 
-Yizhe Xu - **'Community' team member**.
+[Ileena Mitra](https://ileenamitra.github.io/) - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/ileena-mitra-86a5955a/)/[Twitter](https://twitter.com/ileena_mitra)/[GitHub](https://github.com/ileenamitra))
 
-[Gina Merchant](https://www.linkedin.com/in/gina-merchant-phd-2279b6140/) - **'Conferences', 'Social Media' team member**. [More about Gina](http://gmerchant.ucsd.edu).
+Richard Ngamita - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F)/[Twitter](https://twitter.com/ngamita))
 
-[Charlotte Wickham](https://www.linkedin.com/in/charlotte-wickham-793a011a) - **'On-ramps' team member**. [More about Charlotte](http://cwick.co.nz).
+[Liz Hare](http://doggenetics.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/liz-hare-1a50925/)/[Twitter](https://twitter.com/DogGeneticsLLC)/[GitHub](https://github.com/LizHareDogs))
+
+Florencia Mangini - **'Conferences' team member**. ([Twitter](https://twitter.com/manginiflor)/[GitHub](https://github.com/frm1789))
+
+[Imke Mayer](https://www.imkemayer.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/imke-mayer-426a36131)/[Twitter](https://twitter.com/imkemay)/[GitHub](https://github.com/imkemayer))
+
+[Jesse Mostipak](https://www.jessemaegan.com/) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/jessemostipak/)/[Twitter](https://twitter.com/kierisi)/[GitHub](https://github.com/kierisi))
+
+[Zhian N. Kamvar](https://zkamvar.github.io) - **'On-ramps' team member**. ([Twitter](https://twitter.com/zkamvar)/[GitHub](https://github.com/zkamvar))
+
+[Charlotte Wickham](http://cwick.co.nz) - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/charlotte-wickham-793a011a)/[Twitter](https://twitter.com/CVWickham)/[GitHub](https://github.com/cwickham))
+
+[Lorna Maria Aine](https://medium.com/@lornamariak) - **'Social Media' team member**. ([Twitter](https://twitter.com/lornamariak)/[GitHub](https://github.com/lornamariak))
 
 Liz Kellogg - **'Social Media' team member**.
 
-Wenfeng Qin - **'Social Media' team member**. [More about Wenfeng](https://github.com/qinwf).
+Wenfeng Qin - **'Social Media' team member**. ([GitHub](https://github.com/qinwf))
 
-Maëlle Salmon - **'Social Media' team member**. [More about Maëlle](https://masalmon.eu/)
+[David Smith](https://developer.microsoft.com/en-us/advocates/david-smith) - **'Social Media' team member**. ([LinkedIn](https://www.linkedin.com/in/dmsmith/)/[Twitter](https://twitter.com/revodavid)/[GitHub](https://github.com/revodavid))
 
-[Tracy Shen](https://www.linkedin.com/in/jiatracyshen/) - **'Social Media' team member**. [More about Tracy](https://github.com/tbs08).
+[Nujcharee Haswell](https://pedzilla.netlify.com/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/)/[Twitter](https://twitter.com/nujcharee)/[GitHub](https://github.com/nujcharee))
 
-Stella Bollman - **'Surveys' team member**.
+[David Meza](https://knowledger.rbind.io/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/davidmeza1/)/[Twitter](https://twitter.com/davidmeza1)/[GitHub](https://github.com/davidmeza1))
 
-[Rudolf Debelak](https://www.linkedin.com/in/rudolf-debelak-5214a85b/) - **'Surveys' team member**. [More about Rudolf](https://www.psychologie.uzh.ch/en/fachrichtungen/methoden/team/rudolfdebelak.html).
+[Di Cook](http://dicook.org) - **'Teaching' team member**. ([LinkedIn](https://au.linkedin.com/in/dianne-cook-a4877a104)/[Twitter](https://twitter.com/visnut)/[GitHub](https://github.com/dicook))
 
-[Madlene Hamilton](https://www.linkedin.com/in/madlenehamilton/) - **'Surveys' team member**. [More about Madlene](https://twitter.com/madlenehamilton).
+Ritwik Mitra - **'Teaching' team member**. ([LinkedIn](www.linkedin.com/in/riikmitra)/[Twitter](https://twitter.com/riikmitra)/[GitHub](https://github.com/kiwtir))
 
-[David Meza](https://www.linkedin.com/in/davidmeza1/) - **'Surveys' team member**. [More about David](https://knowledger.rbind.io/).
+[Emma Rand](https://www.york.ac.uk/biology/our-staff/emma-rand/) - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/emma-rand-6b0a61a/)/[Twitter](https://twitter.com/er13_r)/[GitHub](https://github.com/3mmaRand))
 
-[Carolin Strobl](http://www.psychology.uzh.ch/en/areas/nec/methoden/team/carolinstrobl.html) - **'Survey' team member**. [More about Carolin](http://www.zhrcourses.uzh.ch/en.html).
+[Joyce Robbins](http://www.joyce-robbins.com/about/) - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/joycerobbins/)/[Twitter](https://twitter.com/jtrnyc)/[GitHub](https://github.com/jtr13))
 
-Andrea Foulkes - **'Teaching' team member**.
+Yizhe Xu - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/yizhexu/)/[GitHub](https://github.com/yizhexu))
 
-[Joyce Robbins](https://www.linkedin.com/in/joycerobbins/) - **'Teaching' team member**. [More about Joyce](http://www.joyce-robbins.com/about/).
 
-Hadley Wickham - **'Teaching' team member**. 
+## Previous Members
+
+Stella Bollman  
+Rudolf Debelak  
+John Fox  
+Jasmine Dumas  
+Andrea Foulkes  
+Gina Griffin  
+Os Keyes  
+Gina Merchant  
+Augustina Ragwitz  
+Maëlle Salmon  
+Tracy Shen  
+Carolin Strobl  
+Hadley Wickham
