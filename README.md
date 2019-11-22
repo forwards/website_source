@@ -1,6 +1,6 @@
 # Source files for forwards.github.io
     
-The Forwards website is maintained using [blogdown](https://github.com/rstudio/blogdown),
+The [Forwards website](http://forwards.github.io/) is maintained using [blogdown](https://github.com/rstudio/blogdown),
 which generates static websites based on [R Markdown](http://rmarkdown.rstudio.com) and [Hugo](https://gohugo.io).
 
 This README documents how to add content and update the published website.
