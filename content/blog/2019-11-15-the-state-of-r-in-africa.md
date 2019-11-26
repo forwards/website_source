@@ -1,6 +1,6 @@
 ---
 title: The-state-of-R-in-Africa
-banner:"/images/blog/The-state-of-R-in-Africa/banner.jpg"
+banner: "/images/blog/The-state-of-R-in-Africa/banner.jpg"
 author: Lorna Maria
 date: '2019-11-15'
 description: "2019 Round-up of initiatives in the R community across Africa."
