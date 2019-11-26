@@ -30,4 +30,4 @@ SatRday: The R community in Johanessburg and Kampala have both hosted satRday ev
 
 ##The Future
 R as a statistical programming language has a great value to the data science community on the continent and useRs to showing this value through their work, research and education. Most useR groups in Africa currently focus on developing material that shows the amazing facets of R and renders it as an option on the table for potential clients and the community.We are starting to see R cross paths with other programming languages thus raising a need to create room for it in learning and early career choices through building communities, mentoring talent and eventually powering businesses.
-Follow the [AfricaR](https://mobile.twitter.com/AfricaRUsers)  and individual chapters on their social media to view the most recent updates on events.
+Follow [AfricaR](https://mobile.twitter.com/AfricaRUsers)  and individual chapters on their social media to view the most recent updates on events.
