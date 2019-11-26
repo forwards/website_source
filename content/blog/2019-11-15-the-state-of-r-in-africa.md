@@ -21,7 +21,7 @@ There is a unique representation in the Africa R community that shows how the us
 
 Some of the chapters include [Kampala](https://mobile.twitter.com/Rladieskampala),[Lagos](https://mobile.twitter.com/LagosRUsers),[Dar es salaam](https://mobile.twitter.com/daR_users), [Abidjan](https://mobile.twitter.com/AbidjanRusers), [Johannesburg](https://mobile.twitter.com/RLadiesJozi),[DRC] (https://mobile.twitter.com/DrcUsers),[Cotonou](https://mobile.twitter.com/RLadiesCtn) among others. 
 
-##Events
+## Events
 
 Monthly Meetups: These are the most popular events in the community. Groups of 10-50 useRs meet every month to learn and help each other with R related issues. They are usually supported by the local useR group in the area and are at the forefront of the growing popularity of data science in the local communities.
 
