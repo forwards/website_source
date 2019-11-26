@@ -25,7 +25,7 @@ Some of the chapters include [Kampala](https://mobile.twitter.com/Rladieskampala
 
 Monthly Meetups: These are the most popular events in the community. Groups of 10-50 useRs meet every month to learn and help each other with R related issues. They are usually supported by the local useR group in the area and are at the forefront of the growing popularity of data science in the local communities.
 
-SatRday: The R community in Johanessburg and Kampala have both hosted satRday events in April 2019 and May 2019 respectively. These events featured light talks and hands-on workshops for R users and were free. These have been the biggest R focused events on the continent for the year and hope they will spread to other regional hosts in the coming year. 
+SatRday: The R community in Johanessburg and Kampala have both hosted satRday events in April 2019 and May 2019 respectively. These events featured lightning talks and hands-on workshops for R users and were free. These have been the biggest R focused events on the continent for the year and the hope is they will spread to other regional hosts in the coming year. 
 ![A useR meetup in Dar es salaam](/images/blog/The-state-of-R-in-Africa/events.jpg)
 
 ##The Future
