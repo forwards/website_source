@@ -1,5 +1,5 @@
 ---
-title: The-state-of-R-in-Africa
+title: The state of R in Africa
 banner: "/images/blog/The-state-of-R-in-Africa/banner.jpg"
 author: Lorna Maria
 date: '2019-11-15'
