@@ -12,7 +12,7 @@ tocify: no
 ##Growth of the R ecosystem in Africa 
 
 Over the past 2 years, we have seen R transform from just an academic and health care research language to one of the major languages in the budding data science community in Africa. For a long time, data scientists and related disciplines have relied on R and many other packages to analyse data, however, the broader developer community didn’t fully understand its power in the tech industry.
-An effective model to enter the Africa developer ecosystem relies on a small group of enthusiasts creating a safe learning environment, documenting and sharing their learning experiences and slowly attracting interest learners. Africa R users group are using this model to introduce R as a language for data science by organising communities across different cities in Africa.
+An effective model to enter the Africa developer ecosystem relies on a small group of enthusiasts creating a safe learning environment, documenting and sharing their learning experiences and slowly attracting interested learners. Africa R users group are using this model to introduce R as a language for data science by organising communities across different cities in Africa.
 
 ##Evolution of chapters and representation
 The growth of technical talent in Africa positively correlates with the growth of communities around certain technologies/tools/languages. These communities are creating a long table to share opportunities on the continent. When we shift the spotlight to R in the Africa tech community we see an evolution useRs groups of not only academic researchers completing their PhD or master’s degrees but also people using R at their workplaces or for their freelance projects. 
