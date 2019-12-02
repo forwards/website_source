@@ -103,6 +103,8 @@ Ritwik Mitra - **'Teaching' team member**. ([LinkedIn](www.linkedin.com/in/riikm
 
 [Joyce Robbins](http://www.joyce-robbins.com/about/) - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/joycerobbins/)/[Twitter](https://twitter.com/jtrnyc)/[GitHub](https://github.com/jtr13))
 
+[Dorris Scott](https://dscott.netlify.com/) - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/dorris-scott-87186b133)/[Twitter](https://twitter.com/dorris_scott))
+
 Yizhe Xu - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/yizhexu/)/[GitHub](https://github.com/yizhexu))
 
 
