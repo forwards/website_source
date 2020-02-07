@@ -59,8 +59,6 @@ Shakirah Nakalungi - **'Social Media' team leader**. Shakirah is a data analyst 
 
 [Damiano Cerasuolo](https://www.iamdamiano.com/) - **'Community' team member**. ([LinkedIn](http://www.linkedin.com/in/damianocerasuolo)/[Twitter](https://twitter.com/damiacer)/[GitHub](https://github.com/damiacer))
 
-Nic Crane - **'Community' team member**. ([Linkedin](https://www.linkedin.com/in/nicolacrane/)/[Twitter](https://twitter.com/nic_crane)/[GitHub](https://github.com/thisisnic))
-
 Madlene Hamilton - **'Community' team member**. [LinkedIn](https://www.linkedin.com/in/madlenehamilton/)/[Twitter](https://twitter.com/madlenehamilton)/[GitHub](https://github.com/madlene)
 
 Joslynn Lee - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/joslynnlee/)/[Twitter](https://twitter.com/theoreticalfun)/[GitHub](https://github.com/joslynnlee))
@@ -110,6 +108,8 @@ Yizhe Xu - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/y
 
 ## Previous Members
 
+Stella Bollman 
+Nic Crane   
 Stella Bollman  
 Rudolf Debelak  
 John Fox  
