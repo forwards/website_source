@@ -108,9 +108,8 @@ Yizhe Xu - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/y
 
 ## Previous Members
 
-Stella Bollman 
-Nic Crane   
 Stella Bollman  
+Nic Crane   
 Rudolf Debelak  
 John Fox  
 Jasmine Dumas  
