@@ -5,7 +5,7 @@ library(tools)
 
 ## e.g. get all photos for a blog post
 image_dir <- file.path("content", "images", "blog", 
-                       "recap-of-r-ladies-charlottesville-forwards-workshop")
+                       "workshops-for-women-and-girls")
 
 files <- dir(image_dir, pattern = "jpg|png")
 
