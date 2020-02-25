@@ -59,8 +59,6 @@ Shakirah Nakalungi - **'Social Media' team leader**. Shakirah is a data analyst 
 
 [Damiano Cerasuolo](https://www.iamdamiano.com/) - **'Community' team member**. ([LinkedIn](http://www.linkedin.com/in/damianocerasuolo)/[Twitter](https://twitter.com/damiacer)/[GitHub](https://github.com/damiacer))
 
-Nic Crane - **'Community' team member**. ([Linkedin](https://www.linkedin.com/in/nicolacrane/)/[Twitter](https://twitter.com/nic_crane)/[GitHub](https://github.com/thisisnic))
-
 Madlene Hamilton - **'Community' team member**. [LinkedIn](https://www.linkedin.com/in/madlenehamilton/)/[Twitter](https://twitter.com/madlenehamilton)/[GitHub](https://github.com/madlene)
 
 Joslynn Lee - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/joslynnlee/)/[Twitter](https://twitter.com/theoreticalfun)/[GitHub](https://github.com/joslynnlee))
@@ -103,12 +101,15 @@ Ritwik Mitra - **'Teaching' team member**. ([LinkedIn](www.linkedin.com/in/riikm
 
 [Joyce Robbins](http://www.joyce-robbins.com/about/) - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/joycerobbins/)/[Twitter](https://twitter.com/jtrnyc)/[GitHub](https://github.com/jtr13))
 
+[Dorris Scott](https://dscott.netlify.com/) - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/dorris-scott-87186b133)/[Twitter](https://twitter.com/dorris_scott))
+
 Yizhe Xu - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/yizhexu/)/[GitHub](https://github.com/yizhexu))
 
 
 ## Previous Members
 
 Stella Bollman  
+Nic Crane   
 Rudolf Debelak  
 John Fox  
 Jasmine Dumas  
