@@ -7,7 +7,7 @@ categories: ["education","software"]
 tags: ["software", "education", "community"]
 banner: '/images/blog/recap-of-r-ladies-charlottesville-forwards-workshop/optimized/group_photo.jpg'
 description: 'Lessons from R-Ladies Charlottesville Forwards Workshop '
-tocify: no
+tocify: yes
 ---
 On September 8, 2019, [Samantha Toet](https://twitter.com/Samantha_Toet?lang=en) and [Angela Li](https://twitter.com/CivicAngela?lang=en) co-taught a 3-hour Forwards Package Development Workshop at a weekend [R-Ladies Charlottesville](https://www.meetup.com/rladies-charlottesville/) Meetup. 
 
