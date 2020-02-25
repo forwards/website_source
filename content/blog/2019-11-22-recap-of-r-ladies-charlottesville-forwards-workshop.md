@@ -1,6 +1,6 @@
 ---
 title: Recap of R-Ladies Charlottesville Forwards Workshop
-author: "Angela Li,Forwards Teaching Team"
+author: "Angela Li & Samantha Toet, Forwards Teaching Team"
 date: '2019-11-22'
 slug: recap-of-r-ladies-charlottesville-forwards-workshop
 categories: ["education","software"]
