@@ -4,10 +4,10 @@
     <title>Package development</title>
     <meta charset="utf-8" />
     <meta name="author" content="Emma Rand and Susannah Cowtan" />
-    <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link href="libs/remark-css/ninjutsu.css" rel="stylesheet" />
-    <link rel="stylesheet" href="emma.css" type="text/css" />
-    <link rel="stylesheet" href="emma-fonts.css" type="text/css" />
+    <link href="../libs/remark-css/default.css" rel="stylesheet" />
+    <link href="../libs/remark-css/ninjutsu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../emma.css" type="text/css" />
+    <link rel="stylesheet" href="../emma-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -19,7 +19,7 @@
 
 
 
-background-image: url(pics/forwards.svg)
+background-image: url(../pics/forwards.svg)
 background-position: 50% 65%
 background-size: 250px
 
@@ -67,7 +67,7 @@ class: inverse center middle
 
 ---
 
-background-image: url(pics/usethis_hexie.png)
+background-image: url(../pics/usethis_hexie.png)
 background-position: 90% 20%
 background-size: 150px
 
@@ -83,17 +83,17 @@ This requires:
 
 This is a pain to set up! So use `usethis::use_test()`:
 
-&lt;img src="pics/use_testthat.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/use_testthat.png" width="100%" style="display: block; margin: auto;" /&gt;
 ]
 ---
 # Existing workflow
 
-&lt;img src="pics/workflow_pre_testing.png" width="95%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/workflow_pre_testing.png" width="95%" style="display: block; margin: auto;" /&gt;
 
 ---
 # Now add unit testing
 
-&lt;img src="pics/workflow_testing.png" width="95%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/workflow_testing.png" width="95%" style="display: block; margin: auto;" /&gt;
 ---
 # Testing a function
 
@@ -132,7 +132,7 @@ What if the input was non-numeric?
 
 ---
 
-background-image: url(pics/testthat_hexie.png)
+background-image: url(../pics/testthat_hexie.png)
 background-position: 90% 3.5%
 background-size: 150px
 
@@ -226,7 +226,7 @@ Think about what we could do to our function so that `expect_error` could be use
 ]
 --
 
-&lt;img src="pics/devtools_test.png" width="95%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/devtools_test.png" width="95%" style="display: block; margin: auto;" /&gt;
 
 --
 
@@ -238,7 +238,7 @@ happens when a test fails.
 ---
 # When a test fails
 
-&lt;img src="pics/fail_test.png" width="95%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/fail_test.png" width="95%" style="display: block; margin: auto;" /&gt;
 
 ---
 # Organising tests
@@ -256,7 +256,7 @@ happens when a test fails.
 ---
 class:clear
 
-&lt;img src="pics/bored_tests.png" width="1820" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/bored_tests.png" width="1820" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -274,7 +274,7 @@ We have a failing test, so comment it out for now.
 ]
 --
 
-&lt;img src="pics/coverage.png" width="857" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/coverage.png" width="857" style="display: block; margin: auto;" /&gt;
 
 --
 .font110[
@@ -309,7 +309,7 @@ class: inverse center middle
 
 class: clear
 
-&lt;img src="pics/frustration.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/frustration.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
 # Types of problem
@@ -342,7 +342,7 @@ Fix if submitting to CRAN&lt;br&gt;
 
 ---
 
-background-image: url(pics/devtools_hexie.jpeg)
+background-image: url(../pics/devtools_hexie.jpeg)
 background-position: 90% 12.5%
 background-size: 150px
 
@@ -424,7 +424,7 @@ class: inverse center middle
 .font140[
 .pull-left[
 
-&lt;img src="pics/RStudio-community.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/RStudio-community.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 &lt;a href = "https://community.rstudio.com/"&gt;https://community.rstudio.com&lt;/a&gt;
 ]
@@ -433,7 +433,7 @@ class: inverse center middle
 
 R-package-devel mailing list
 
-&lt;img src="pics/R-devel.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/R-devel.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ]]
 
@@ -441,21 +441,21 @@ R-package-devel mailing list
 class: clear, split-three
 
 .column[
-&lt;img src="pics/wickham_adv_R.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/wickham_adv_R.jpg" width="100%" style="display: block; margin: auto;" /&gt;
 .font130[&lt;a href="https://adv-r.hadley.nz/"&gt;https://adv-r.hadley.nz/&lt;/a&gt;
 ]]
 .column[
-&lt;img src="pics/wickham_R_pkgs.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/wickham_R_pkgs.png" width="100%" style="display: block; margin: auto;" /&gt;
 .font130[&lt;a href="http://r-pkgs.had.co.nz/"&gt;http://r-pkgs.had.co.nz/&lt;/a&gt;
 ]]
 .column[
-&lt;img src="pics/wickham_grolemund_r4ds.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/wickham_grolemund_r4ds.png" width="100%" style="display: block; margin: auto;" /&gt;
 .font130[&lt;a href="https://r4ds.had.co.nz/"&gt;https://r4ds.had.co.nz/&lt;/a&gt;
 ]]]
 
 ---
 
-&lt;img src="pics/web_resources.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="../pics/web_resources.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 
 

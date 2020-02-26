@@ -4,9 +4,9 @@
     <title>Package development.</title>
     <meta charset="utf-8" />
     <meta name="author" content="Emma Rand and Susannah Cowtan." />
-    <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="emma.css" type="text/css" />
-    <link rel="stylesheet" href="emma-fonts.css" type="text/css" />
+    <link href="../libs/remark-css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../emma.css" type="text/css" />
+    <link rel="stylesheet" href="../emma-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -18,7 +18,7 @@
 
 
 
-background-image: url(pics/forwards.svg)
+background-image: url(../../pics/forwards.svg)
 background-position: 50% 65%
 background-size: 250px
 
@@ -39,7 +39,7 @@ Made with xaringan (Xie, 2019)
 
 ]
 ---
-background-image: url(pics/forwards.svg)
+background-image: url(../../pics/forwards.svg)
 background-position: 50% 55%
 background-size: 250px
 
@@ -85,7 +85,7 @@ Using `usethis::create_package()` will:
 
 ## What is in this skeleton?
 
-&lt;img src="pics/createpkg1.png" width="500px" /&gt;
+&lt;img src="../../pics/createpkg1.png" width="500px" /&gt;
 
 
 ---
@@ -132,7 +132,7 @@ Using `usethis::create_package()` will:
 
 ## Build pane appears.
 
-&lt;img src="pics/createpkg2.png" width="500px" /&gt;
+&lt;img src="../../pics/createpkg2.png" width="500px" /&gt;
 
 ---
 # Create your first package.
@@ -201,7 +201,7 @@ Is it OK to commit them?
 
 Choose the option which indicates your agreement.
 
-&lt;img src="pics/git_agree.png" width="600px" /&gt;
+&lt;img src="../../pics/git_agree.png" width="600px" /&gt;
 
 
 ---
@@ -215,7 +215,7 @@ A restart of R is required to activate the Git pane. Restart now?
 
 Choose the option which indicates yes. 
 
-&lt;img src="pics/git_yup.png" width="600px" /&gt;
+&lt;img src="../../pics/git_yup.png" width="600px" /&gt;
 
 --
 
@@ -228,7 +228,7 @@ reload `devtools`
 
 ### The RStudio Git pane.
 .pull-left[
-&lt;img src="pics/git_pane.png" width="350px" /&gt;
+&lt;img src="../../pics/git_pane.png" width="350px" /&gt;
 ]
 .pull-right[
 If the Git pane does not open, try closing the project and reopening by navigating to it without using the windows shortcuts.
@@ -473,7 +473,7 @@ You should now find that `check_all()` proceeds normally.
 
 On running `check_all()` you will get lots of output. It will end with:
 
-&lt;img src="pics/check.png" width="500px" /&gt;
+&lt;img src="../pics/check.png" width="500px" /&gt;
 
 Which tells you that your package is unlicensed and undocumented. We will fix these issues later.
 
@@ -484,7 +484,7 @@ Which tells you that your package is unlicensed and undocumented. We will fix th
 
 Go to the Git pane and check the box to "Stage" the changes you want to commit. All of them in this case.
 
-&lt;img src="pics/git_stage.png" width="500px" /&gt;
+&lt;img src="../pics/git_stage.png" width="500px" /&gt;
 
 ---
 # Create your first package.
@@ -493,7 +493,7 @@ Go to the Git pane and check the box to "Stage" the changes you want to commit. 
 
 This will open a "Review Changes" window:
 
-&lt;img src="pics/git_commit_review.png" width="500px" /&gt;
+&lt;img src="../pics/git_commit_review.png" width="500px" /&gt;
 
 This allows you to see what has changed since your last commit. Green means added; pink means deleted.
 
@@ -504,7 +504,7 @@ This allows you to see what has changed since your last commit. Green means adde
 
 You need to add a Commit message. Something like "Added sum_squares function."
 
-&lt;img src="pics/git_commit_message.png" width="500px" /&gt;
+&lt;img src="../pics/git_commit_message.png" width="500px" /&gt;
 
 Now hit Commit!
 ---
@@ -514,7 +514,7 @@ Now hit Commit!
 
 A window will appear showing the process occuring.
 
-&lt;img src="pics/git_commit_window.png" width="500px" /&gt;
+&lt;img src="../pics/git_commit_window.png" width="500px" /&gt;
 
 Choose close when it is finished.
 
