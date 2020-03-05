@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Share</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Forwards Teaching Team" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\..\libs\remark-css\default.css" type="text/css" />
+    <link rel="stylesheet" href="..\..\libs\forwards.css" type="text/css" />
+    <link rel="stylesheet" href="..\..\libs\forwards-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Share
+### Forwards Teaching Team<br><br><img src='../../pics/forwards_296x296.png' alt='Forwards logo' width='100'>
+### <br><i class="fab  fa-twitter "></i> <a href="https://twitter.com/R_Forwards">@R_Forwards</a><br><a href="https://forwards.github.io/" class="uri">https://forwards.github.io/</a>
+### <br> updated: 2020-03-05
+
+---
+
+
+
+
+class: clear font200
+
+1. License
+2. Dependencies
+3. Namespace: imports
+4. Namespace: exports
+5. R CMD check
+6. CRAN
+
+---
+
+class: inverse center middle
+
+# License
+
+---
+
+class: clear font200
+
+## There are three main open source licenses
+
+1. CC0: “public domain”, best for data packages
+
+2. MIT: Free for anyone to do anything with
+
+3. GPL: Changes and bundles must also be GPL
+
+---
+
+class: clear font200
+
+## Use helper to set up
+
+
+```
+usethis::use_cc0_license()
+usethis::use_mit_license()
+usethis::use_gpl_license()
+```
+
+---
+
+class: clear font200
+
+You can also make clear that your package isn’t open source
+
+DESCRIPTION:
+License: file LICENSE
+
+LICENSE:
+Proprietary: do not distribute outside of Widgets Incorporated.
+
+---
+
+class: inverse center middle
+
+# Dependencies
+
+---
+
+class: clear center
+
+&lt;img src="../../pics/no_library_or_require.png" width="800px" /&gt;
+
+---
+
+class: clear font200
+
+```
+Depends: 
+  R (&gt;= 3.0.2) # optional version spec
+Imports:
+  stringr (&gt;= 1.0.0),
+  lubridate
+Suggests:
+```
+
+**Depends**: I need you!
+**Suggests**: I like having you around!
+
+---
+
+class: clear font200
+
+There are three types of dependency
+
+**Imports**: required, installed automatically.
+
+**Suggests**: optional, e.g. only needed for development; only used in
+vignette or example. *Not* installed automatically.
+
+**Depends**: basically deprecated for packages.
+(Correct uses exist, but beyond the scope of this class)
+
+---
+
+class: clear font200
+
+## Imported packages
+
+In DESCRIPTION
+&lt;pre&gt;
+Imports: pkgname
+&lt;/pre&gt;
+
+Use `::` to access functions
+```r
+new_function &lt;- function(x, y, z) {
+  pkgname::imported_function(x, y) + z
+}
+```
+
+---
+
+class: clear font200
+
+## Suggested packages
+
+In DESCRIPTION
+&lt;pre&gt;
+Suggests: pkgname
+&lt;/pre&gt;
+
+In package functions, handle the case where **pkgname** is not available
+```r
+if (!requireNamespace("pkgname", quietly = TRUE)){
+  warning("pkgname must be installed to perform this function", 
+          "returning NULL")
+  return(NULL)
+} 
+```
+
+---
+
+class: clear font200
+
+## Reasons to use depends instead of imports
+
+.center[&lt;br&gt;&lt;br&gt;&lt;br&gt;This page has been intentionally left blank]
+
+---
+
+class: clear font200
+
+## `use_package()`
+
+`use_package()` will modify the DESCRIPTION and remind you how to use the
+function.
+
+```r
+usethis::use_package("assertthat")
+usethis::use_package("glue", "suggests")
+```
+
+---
+
+class: inverse center middle
+
+# Namespace: imports
+
+---
+
+class: clear font200
+
+## You might get tired of using :: all the time
+
+Or you might want to use an infix function
+```r
+`%&gt;%` &lt;- magittr::`%&gt;%`
+
+col_summary &lt;- function(df, fun) {
+  stopifnot(is.data.frame(df))
+  
+  df %&gt;% 
+    purrr::keep(is.numeric) %&gt;% 
+    purrr::modify(fun)
+}
+
+```
+
+---
+
+class: clear font200
+
+## You can **import** functions into the package
+
+```r
+#' @importFrom purrr keep modify
+#' @importFrom magrittr %&gt;%
+col_summary &lt;- function(df, fun) {
+  stopifnot(is.data.frame(df))
+  
+  df %&gt;% 
+    keep(is.numeric) %&gt;% 
+    modify(fun)
+}
+```
+
+---
+
+class: clear font200
+
+## Alternatively, create R/imports.R
+
+Imports belong to the package, not to individual functions, so you might want 
+to recognise this by storing in a central location
+
+```r
+#' @importFrom purrr keep map
+#' @importFrom magrittr %&gt;%
+NULL
+```
+
+---
+
+class: clear font200
+
+##  Importing everything from a package seems easy
+
+```r
+#' @import purrr
+col_summary &lt;- function(df, fun) {
+  stopifnot(is.data.frame(df))
+  
+  df %&gt;% 
+    keep(is.numeric) %&gt;% 
+    map_dfc(fun)
+}
+
+```
+
+---
+
+class: clear font200
+
+## But is dangerous...
+
+```r
+#' @import pkg1
+#' @import pkg2
+fun &lt;- function(x) {
+  fun1(x) + fun2(x)
+}
+
+```
+
+Works today...
+
+... But next year, **pkg2** adds a `fun1` function
+
+
+---
+
+class: clear font200
+
+&lt;br&gt;
+
+Description                 | NAMESPACE
+--------------------------- | -------------
+Makes **package** available | Makes function available
+Mandatory                   | Optional (can use :: instead)
+`use_package()`             | `#' @importFrom`
+
+---
+
+class: inverse center middle
+
+# Namespace: exports
+
+---
+
+class: clear font200
+
+## A namespace splits functions into two classes
+
+&lt;br&gt;
+
+Internal                    | External
+--------------------------- | -------------
+Only for use within package | For use by others
+Documentation optional      | Must be documented
+Easily changed              | Changing will break other people’s code
+
+---
+
+class: clear font200
+
+## The default NAMESPACE exports everything
+
+```
+# Generated by roxygen2: fake comment so 
+# roxygen2 overwrites silently.
+exportPattern("^[^\\.]")
+```
+
+---
+
+class: clear font200
+
+## Better to export functions explicitly
+
+```r
+#' @export
+fun1 &lt;- function(...) {}
+
+#' @export
+fun2 &lt;- function(...) {}
+```
+
+Most important if you’re planning on sharing with others
+
+---
+
+class: clear font200
+
+## Export functions that people should use
+
+Don't export internal helpers
+
+```r
+# Defaults for NULL values
+`%||%` &lt;- function(a, b) if (is.null(a)) b else a
+
+# Remove NULLs from a list
+compact &lt;- function(x) {
+  x[!vapply(x, is.null, logical(1))]
+}
+```
+
+---
+
+class: inverse center middle
+
+# R CMD check
+
+---
+
+class: clear font200
+
+## Automated checking
+
+
+Runs automated checks for common problems in R packages.
+
+Useful for local packages, even with some false positives.
+
+If you want to submit to CRAN, you must pass R CMD check cleanly.
+
+http://r-pkgs.had.co.nz/check.html
+
+---
+
+class: clear center
+
+&lt;img src="../../pics/frustration.png" width="900px" /&gt;
+
+---
+
+class: clear font200
+
+## Types of problem
+
+**ERROR** Must fix!
+
+**WARNING** Fix if submitting to CRAN
+
+**NOTE** Fix if submitting to CRAN
+
+It is possible to submit with a NOTE, but it’s best avoided
+
+---
+
+class: clear font200
+
+## Run the checks
+
+```
+# Cmd/Ctrl + Shift + E
+devtools::check()
+```
+
+
+If you don't understand an error, google it!
+
+---
+
+class: inverse center middle
+
+# CRAN
+
+---
+
+class: clear font200
+
+## First submission to CRAN
+
+Read the [Checklist for CRAN Submissions](https://cran.r-project.org/web/packages/submission_checklist.html) 
+to check requirements beyond the automated checks.
+
+Useful functions for additional checks:
+- `goodpractice::gp`
+- `spelling::spell_check_package`
+
+---
+
+class: clear font200
+
+## Run automated check on multiple platforms
+
+First check locally
+```r
+devtools::check()
+```
+
+Then on R-hub
+```r
+devtools::check_rhub()
+```
+
+Then with CRAN's win-builder
+```r
+devtools::check_win()
+```
+
+---
+
+class: clear font200
+
+## Prepare submission
+
+Write submission notes
+```r
+usethis::use_cran_comments()
+```
+
+Then submit to CRAN
+```r
+devtools::release()
+```
+
+This asks you questions which you should carefully read and answer.
+
+`usethis::use_release_issue()` creates a GitHub issue with a checklist.
+
+---
+
+class: clear font200
+
+## cran-comments.md
+
+&lt;pre&gt;
+## Test environments
+* local OS X install (R-release)
+* win-builder (R-release, R-devel)
+
+## R CMD check results
+
+0 errors | 0 warnings | 1 note
+
+* This is a new release.
+&lt;/pre&gt;
+
+There’s always one note for a new submission
+
+---
+
+class: clear font200
+
+## If your submission fails
+
+Do not despair! It happens to everyone, even R-core members.
+
+If it’s from the CRAN robot, just fix the problem &amp; resubmit.
+
+If it’s from a human, do not respond to the email and do not
+argue. Instead update cran-comments.md &amp; resubmit.
+
+---
+
+class: clear font200
+
+## For resubmission
+
+&lt;pre&gt;
+This is a resubmission. Compared to the last submission, I
+have:
+
+* First change.
+* Second change.
+* Third change.
+
+--
+
+## Test environments
+* local OS X install, R 3.2.2
+* win-builder (devel and release)
+
+## R CMD check results
+...
+&lt;/pre&gt;
+
+---
+
+class: clear font200
+ 
+## Subsequent submissions to CRAN
+
+Proceed as before. If you have reverse dependencies you need to also run 
+R CMD check on them, and  notify CRAN if you have deliberately broken them.
+
+Fortunately the revdepcheck package makes this fairly easy
+
+```r
+install_github("r-lib/revdepcheck")
+use_revdep_check()
+library(revdepcheck)
+revdep_check()
+revdep_report_cran()
+```
+
+---
+
+class: center middle font200
+
+# Learning more
+
+.pull-left[
+
+&lt;img src="../../pics/RStudio-community.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;a href = "https://community.rstudio.com/"&gt;https://community.rstudio.com&lt;/a&gt;
+]
+
+.pull-right[
+
+R-package-devel mailing list
+
+&lt;img src="../../pics/R-package-devel.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+class: clear split-three font130
+
+# More details on many topics in books
+
+&lt;img src="../../pics/wickham_adv_R.jpg" width="30%" /&gt;&lt;img src="../../pics/wickham_R_pkgs.png" width="30%" /&gt;&lt;img src="../../pics/wickham_grolemund_r4ds.png" width="30%" /&gt;
+
+---
+
+class: clear font200 
+
+## License
+
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;&lt;img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"&gt;Package Development Workshop&lt;/span&gt; by &lt;span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"&gt;Forwards&lt;/span&gt; is licensed under a &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="../../libs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": false,
+"countIncrementalSlides": true,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
