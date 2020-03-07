@@ -9,9 +9,9 @@ Full Day Package Development Workshop
 
 [2. Package creation ](2_package_creation/index.html)
 
-[3. Git and GitHub](3_git_and_gitHub/index.html)
+[3. Git and GitHub](3_git_and_github/index.html)
 
-[4. Unit testing](4_unit_testing/index.html)
+[4. Unit testing](4_testing/index.html)
 
 [5. Package documentation](5_package_documentation/index.html)
 
@@ -20,3 +20,5 @@ Full Day Package Development Workshop
 ### Workshop Materials
 
 Demo package: [sortnum](sortnum.zip)
+
+https://rforwards-auto.github.io/edu/workshops/full_day_pkg_dev/0_preliminaries/index.html#13
