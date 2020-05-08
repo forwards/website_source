@@ -5,13 +5,13 @@ library(tools)
 
 ## e.g. get all photos for a blog post
 image_dir <- file.path("content", "images", "blog", 
-                       "recap-of-r-ladies-charlottesville-forwards-workshop")
+                       "southern-africa-project-2020")
 
 files <- dir(image_dir, pattern = "jpg|png")
 
 ## create in optimized sub-directory to start with - don't over-write originals
 out_dir <- file.path(image_dir, "optimized")
-dir.create(out_dir)
+dir.create(out_dir, showWarnings = FALSE)
 
 for (i in seq_along(files)){
     img <- image_read(file.path(image_dir, files[i]))
