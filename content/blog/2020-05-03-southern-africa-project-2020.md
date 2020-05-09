@@ -5,7 +5,7 @@ date: '2020-05-03'
 slug: southern-africa-project-2020
 categories: [community, education, software]
 tags: [community, training, programming, software]
-banner: '/images/blog/southern-africa-project-2020/optimized/R_workshop_participants_gaborone.jpg'
+banner: '/images/blog/southern-africa-project-2020/optimized/r_workshop_participants_gaborone.jpg'
 description: 'Review of the R training and community events organized as part of the Forwards Southern Africa Project 2020, in South Africa, Eswatini and Botswana.'
 tocify: no
 ---
@@ -150,3 +150,6 @@ them to continue with it, supported by the local groups and wider community.
 
 # Photo credits
 
+Photos from Gaborone by ??, used with permission.
+Photo of R-Ladies Johannesburg by Kirsty Lee Garson, used with permission.
+Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n, used with permission.
