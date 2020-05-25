@@ -20,5 +20,3 @@ Full Day Package Development Workshop
 ### Workshop Materials
 
 Demo package: [sortnum](sortnum.zip)
-
-https://rforwards-auto.github.io/edu/workshops/full_day_pkg_dev/0_preliminaries/index.html#13
