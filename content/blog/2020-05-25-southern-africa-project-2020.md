@@ -1,7 +1,7 @@
 ---
 title: Southern Africa Project 2020
 author: Heather Turner
-date: '2020-05-03'
+date: '2020-05-25'
 slug: southern-africa-project-2020
 categories: [community, education, software]
 tags: [community, training, programming, software]
