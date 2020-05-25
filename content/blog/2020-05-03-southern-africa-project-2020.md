@@ -23,19 +23,21 @@ among R users in Southern Africa.
 
 # South Africa
 
-The events began with Heather Turner assisting Bianca Peterson in running her 2-day hosted by PwC, Midrand.
+The events began with Heather Turner assisting Bianca Peterson in running her 2-day 
+[Introduction to R Workshop](https://joburg2020.satrdays.org/introductory-r-workshop.html) hosted by PwC, Midrand.
 
 ![](/images/blog/southern-africa-project-2020/optimized/intro_to_r_joburg.jpg)
 *<br/>Bianca Peterson with participants at the Introduction to R workshop, Johannesburg*
 
 This event was attended by over 20 participants, mostly from local businesses 
-and organizations. Although both Bianca and Heather were in town because of the 
-satRday, most of the participants were R newbies that only came for the course, 
-showing the potential of conferences to grow the community. Due to fantastic 
-support of the crowd-funding campaign, Forwards was able to award a scholarship 
-to Ofentse Phuti-Rice, a Computer Science MSc student from from Botswana, 
-enabling her to attend this workshop, the Web Scraping with R satRday workshop 
-led by Megan Beckett and Andrew Collier, and the satRday itself.
+and organizations. Although Bianca and Heather were there because of the 
+satRday, most of the participants were new to R and only came to the workshop. 
+This demonstrates the potential for conferences to facilitate outreach events 
+that grow the community. Due to fantastic support of the crowd-funding campaign, Forwards 
+was able to award a scholarship to Ofentse Phuti-Rice, a Computer Science MSc 
+student from Botswana. The scholarship enabled her to attend this workshop, 
+the Web Scraping with R pre-satRday workshop led by Megan Beckett and 
+Andrew Collier, and the satRday itself.
 
 After the Introduction to R workshop, Heather joined fellow satRday keynote 
 Colin Fay to speak at R-Ladies Johannesburg. Colin spoke on [how to contribute to the R ecosystem](https://speakerdeck.com/colinfay/contributing-to-the-r-ecosystem-0611f5a1-2d6e-4d19-951d-3181906ad61e) everything from sharing what you're learning to writing a package - while Heather spoke about [publishing and promoting your packages](https://www.heatherturner.net/talks/publishing-and-promoting-r-packages). 
@@ -49,12 +51,12 @@ The satRday workshops were the following day. Heather led a workshop using the
 latest iteration of the [Forwards package development slides](https://forwards.github.io/edu/workshops/full_day_pkg_dev/), with 
 Bianca assisting. The workshop was open to all, however funding from the R 
 Consortium supported scholarships for four women to attend: Astrid Radermacher, 
-a postdoc at the University of Cape Town; Lillian Pazvakawambwa, a lecturer at the University of Namibia, Fransina Amutenya, a statistician at 
+a postdoc at the University of Cape Town; Lillian Pazvakawambwa, a lecturer at the University of Namibia; Fransina Amutenya, a statistician at 
 Namibia Statistics Agency and Caroline Akoth, Advocacy and Operations Lead, Women in GIS, Kenya. The scholarship enabled the recipients to attend the satRday conference 
 as well as the workshop.
 
 ![](/images/blog/southern-africa-project-2020/optimized/package_dev_joburg.jpg)
-*<br/>Heather Turner leading the R Package Development workshop, Johannesburg. The four scholarship recipients are sitting in the first two rows in front of the screen.*
+*<br/>Heather Turner leading the R Package Development workshop, Johannesburg.*
 
 The satRday itself was attended by over 100 people, with many folk travelling 
 from across South Africa and beyond to attend. 
@@ -92,7 +94,7 @@ of the workshop, Heather gave a talk on the
 [R Community and Free Resources](https://www.heatherturner.net/talks/r-community) so that 
 participants would know how to get support and materials for further learning.
 
-![](/images/blog/southern-africa-project-2020/optimized/mbongeni_dubi.jpg)
+![](/images/blog/southern-africa-project-2020/optimized/mbongeni_dube.jpg)
 *<br/>Mbongeni Dube, co-organizer of Eswatini UseR group, outside the workshop venue.*
 
 # Gaborone
@@ -103,19 +105,19 @@ to visit Gaborone as planned. However the  organizers from the new
 co-organizers from [WiMLDS Gaborone](https://twitter.com/WiMLDS_Gaborone) and 
 [PyData Botswana](https://twitter.com/PydataBW) helped facilitate an 
 Introduction to R tutorial, with Heather teaching remotely over Zoom. The 
-tutorial gave a basic orientation of R/Rstudio, before focusing on 
+tutorial gave a basic orientation of R/RStudio, before focusing on 
 visualization with base R and ggplot2 
 ([slides here](https://www.heatherturner.net/teaching/intro-to-r/), 
 we skipped data wrangling).
 
-The organizers took some great photos, including our banner image and the one 
+The participants took some great photos, including our banner image and the one 
 of women attendees below.
 
 ![](/images/blog/southern-africa-project-2020/optimized/women_botswana.jpg)
-*<br/>Women that attended the Introduction To R workshop, Botswana. Ofentse Phuti-Rice, recipient of the Forwards scholarship to Johannesburg, is second from left.*
+*<br/>Women that attended the Introduction To R workshop, Botswana.*
 
 After the workshop, the Botswana R User group was officially launched. Heather 
-gave her talk on the R Community anf Free Resources, while Edson Kambeu gave 
+gave her talk on the R Community and Free Resources, while Edson Kambeu gave 
 an overview of the vision for the R User Group. Attendees took turns to 
 introduce themselves: there were a number of students and people working as 
 statisticians or data scientists; most people currently used SPSS or 
@@ -127,7 +129,7 @@ Those are all the events that have taken place so far. The original aim was
 also to run a tutorial and launch a R User Group in Namibia. This proved to 
 be too difficult to arrange to coincide with Heather's visit to the area, but 
 useful connections were made and organizers at the University of Namibia have 
-received a grant from The R Consortium to help launch a user group. There is 
+applied for a grant from The R Consortium to help launch a user group. There is 
 also some funding left over from the crowdfunder, which we hope to use to 
 support a tutor from South Africa to lead a tutorial in Windhoek, when 
 circumstances allow it. We have also made connections to people interested in 
@@ -144,6 +146,6 @@ them to continue with it, supported by the local groups and wider community.
 
 # Photo credits
 
-Photos from Gaborone by meetup attendees, used with permission.
-Photo of R-Ladies Johannesburg by Kirsty Lee Garson, used with permission.
-Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n, used with permission.
+Photos from Gaborone by meetup attendees.
+Photo of R-Ladies Johannesburg by Kirsty Lee Garson.
+Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n.
