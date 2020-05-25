@@ -40,7 +40,7 @@ the Web Scraping with R pre-satRday workshop led by Megan Beckett and
 Andrew Collier, and the satRday itself.
 
 After the Introduction to R workshop, Heather joined fellow satRday keynote 
-Colin Fay to speak at R-Ladies Johannesburg. Colin spoke on [how to contribute to the R ecosystem](https://speakerdeck.com/colinfay/contributing-to-the-r-ecosystem-0611f5a1-2d6e-4d19-951d-3181906ad61e) everything from sharing what you're learning to writing a package - while Heather spoke about [publishing and promoting your packages](https://www.heatherturner.net/talks/publishing-and-promoting-r-packages). 
+Colin Fay to speak at R-Ladies Johannesburg. Colin spoke on [how to contribute to the R ecosystem](https://speakerdeck.com/colinfay/contributing-to-the-r-ecosystem-0611f5a1-2d6e-4d19-951d-3181906ad61e) - everything from sharing what you're learning to writing a package - while Heather spoke about [publishing and promoting your packages](https://www.heatherturner.net/talks/publishing-and-promoting-r-packages). 
 This time the dozen or so attendees were R enthusiasts, most of whom would be 
 at the satRday workshops and/or conference.
 
@@ -146,6 +146,6 @@ them to continue with it, supported by the local groups and wider community.
 
 # Photo credits
 
-Photos from Gaborone by meetup attendees.
-Photo of R-Ladies Johannesburg by Kirsty Lee Garson.
+Photos from Gaborone by meetup attendees.  
+Photo of R-Ladies Johannesburg by Kirsty Lee Garson.  
 Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n.
