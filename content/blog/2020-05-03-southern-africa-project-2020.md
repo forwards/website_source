@@ -23,9 +23,7 @@ among R users in Southern Africa.
 
 # South Africa
 
-The events began with Heather Turner assisting Bianca Peterson in running her 2-day 
-[Introduction to R Workshop](https://joburg2020.satrdays.org/introductory-r-workshop.html) 
-hosted by PwC, Midrand.
+The events began with Heather Turner assisting Bianca Peterson in running her 2-day hosted by PwC, Midrand.
 
 ![](/images/blog/southern-africa-project-2020/optimized/intro_to_r_joburg.jpg)
 *<br/>Bianca Peterson with participants at the Introduction to R workshop, Johannesburg*
@@ -40,9 +38,7 @@ enabling her to attend this workshop, the Web Scraping with R satRday workshop
 led by Megan Beckett and Andrew Collier, and the satRday itself.
 
 After the Introduction to R workshop, Heather joined fellow satRday keynote 
-Colin Fay to speak at R-Ladies Johannesburg. Colin spoke on how to contribute 
-to the R ecosystem - everything from sharing what you're learning to writing a 
-package - while Heather spoke about publishing and promoting your R packages. 
+Colin Fay to speak at R-Ladies Johannesburg. Colin spoke on [how to contribute to the R ecosystem](https://speakerdeck.com/colinfay/contributing-to-the-r-ecosystem-0611f5a1-2d6e-4d19-951d-3181906ad61e) everything from sharing what you're learning to writing a package - while Heather spoke about publishing and promoting your R packages. 
 This time the dozen or so attendees were R enthusiasts, most of whom would be 
 at the satRday workshops and/or conference.
 
@@ -53,10 +49,8 @@ The satRday workshops were the following day. Heather led a workshop using the
 latest iteration of the [Forwards package development slides](https://forwards.github.io/edu/workshops/full_day_pkg_dev/), with 
 Bianca assisting. The workshop was open to all, however funding from the R 
 Consortium supported scholarships for four women to attend: Astrid Radermacher, 
-a postdoc at the University of Cape Town; Lillian Pazvakawambwa, 
-a lecturer at the University of Namibia, Fransina Amutenya, a statistician at 
-Namibia Statistics Agency and Caroline Akoth Otiwa, a spatial data analyst from 
-Kenya. The scholarship enabled the recipients to attend the satRday conference 
+a postdoc at the University of Cape Town; Lillian Pazvakawambwa, a lecturer at the University of Namibia, Fransina Amutenya, a statistician at 
+Namibia Statistics Agency and Caroline Akoth, Advocacy and Operations Lead, Women in GIS, Kenya. The scholarship enabled the recipients to attend the satRday conference 
 as well as the workshop.
 
 ![](/images/blog/southern-africa-project-2020/optimized/package_dev_joburg.jpg)
@@ -85,7 +79,7 @@ cities/countries.
 After the satRday, Heather travelled to Eswatini to give a two-day workshop at 
 the University of Eswatini, hosted by the [Eswatini UseR group](https://twitter.com/EswatiniUseR). Participants were mostly 
 students/staff at the university, but a few came from outside organizations 
-such as the tax office and a local non-profit. The workshop covered data 
+such as the revenue authority and a local non-profit. The workshop covered data 
 import, data wrangling, data visualisation and linear modelling, and the 
 participants created an R markdown report based on a case study.
 
@@ -99,7 +93,7 @@ of the workshop, Heather gave a talk on the
 participants would know how to get support and materials for further learning.
 
 ![](/images/blog/southern-africa-project-2020/optimized/mbongeni_dubi.jpg)
-*<br/>Mbongeni Dubi, co-organizer of Eswatini UseR group, outside the workshop venue.*
+*<br/>Mbongeni Dube, co-organizer of Eswatini UseR group, outside the workshop venue.*
 
 # Gaborone
 
@@ -150,6 +144,6 @@ them to continue with it, supported by the local groups and wider community.
 
 # Photo credits
 
-Photos from Gaborone by ??, used with permission.
+Photos from Gaborone by meetup attendees, used with permission.
 Photo of R-Ladies Johannesburg by Kirsty Lee Garson, used with permission.
 Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n, used with permission.
