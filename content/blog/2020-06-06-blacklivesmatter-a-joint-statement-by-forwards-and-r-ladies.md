@@ -1,6 +1,6 @@
 ---
 title: '#BlackLivesMatter: A joint statement by Forwards and R-Ladies'
-date: '2020-06-05'
+date: '2020-06-06'
 slug: blacklivesmatter-a-joint-statement-by-forwards-and-r-ladies
 categories: [community, news]
 tags: [community, action]
