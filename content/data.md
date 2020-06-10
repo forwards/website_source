@@ -37,29 +37,27 @@ by email and asked to complete an online questionnaire, with a response rate of 
 
 <br>
 
-<div>
+<div style="display: flex; justify-content: center>
 <img src="../images/pinto_et_al_2018_gender_plot.png" 
-    alt="In 2017, of the package author surveyed, 10.9% of respondents 
-    self-identify as female, about 88.2% identify as male, 0.1% of respondents 
-    self-identify as non-binary."
-    width = "450"/>
+    alt="In 2017, of the package author surveyed, 10.9% of respondents self-identify as female, about 88.2% identify as male, 0.1% of respondents self-identify as non-binary."
+    width = "425"/>
 <img src="../images/pinto_et_al_2018_age_cats_plot.png" 
     alt="44.6% of respondents identify between 30 and 40 years of age at the 
     time of the survey. 23.1% identify being younger than 30 and 31.7% as being 
     older than 40 years of age. The remainder did not provide an answer. "
-    width = "450"/>
+    width = "425"/>
 </div>   
 
 <br>
 
-<div>
+<div style="display: flex; justify-content: center>
 <img src="../images/pinto_et_al_2018_educ_plot.png" 
     alt="80.0% of respondents identify as either having completed or are in 
     progress of completing a doctorate degree. 15.7% as either having completed 
     or are in progress of completing a master’s degree and 3.8% as either having 
     completed or are in progress of completing a bachelor’s degree. The remainder 
     did not provide an answer."
-    width = "450"/>
+    width = "425"/>
 <img src="../images/pinto_et_al_2018_loc_plot.png" 
     alt="Almost half (48.9%) of the respondents self-identify their location in 
     Europe and another 34.1% self-identify their location in North America. The 
@@ -67,7 +65,7 @@ by email and asked to complete an online questionnaire, with a response rate of 
     the globe, including Asia (5.8%), South America (5.6%), Oceania (4.1%), 
     Africa (0.5%), and Central America (0.3%). The remainder did not provide 
     an answer. "
-    width = "450"/>
+    width = "425"/>
 </div>  
 
 ### Maintainer Gender 2016
