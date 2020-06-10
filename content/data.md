@@ -37,7 +37,7 @@ by email and asked to complete an online questionnaire, with a response rate of 
 
 <br>
 
-<div style="display: flex; justify-content: center>
+<div style="display: flex; justify-content: center">
 <img src="../images/pinto_et_al_2018_gender_plot.png" 
     alt="In 2017, of the package author surveyed, 10.9% of respondents self-identify as female, about 88.2% identify as male, 0.1% of respondents self-identify as non-binary."
     width = "425"/>
@@ -50,7 +50,7 @@ by email and asked to complete an online questionnaire, with a response rate of 
 
 <br>
 
-<div style="display: flex; justify-content: center>
+<div style="display: flex; justify-content: center">
 <img src="../images/pinto_et_al_2018_educ_plot.png" 
     alt="80.0% of respondents identify as either having completed or are in 
     progress of completing a doctorate degree. 15.7% as either having completed 
