@@ -8,7 +8,9 @@ tocify: true
 
 ### Current Efforts
 
-The survey sub-team is focused on monitoring diversity and exploring obstacles, motivations, and involvement of useRs in the community.  Diversity will be monitored via basic demographic summaries from specifically designed surveys or other community surveys (e.g. useR! feedback survey).
+The survey sub-team is focused on monitoring diversity and exploring obstacles, motivations, and involvement of useRs in the community.  
+Diversity will be monitored via basic demographic summaries from specifically designed surveys or other community surveys (e.g. useR! 
+feedback survey).
 
 ### Former Efforts
 
@@ -18,6 +20,55 @@ For many of the gender summaries the gender is predicted based on first name,
 giving a rough approximation that assumes binary gender categories.
 
 ## Packages
+
+### Maintainer Gender 2017
+
+In [Pinto, Wiese & Dias (2018). How Do Scientists Develop Scientific Software? An External Replication](http://gustavopinto.org/lost+found/saner-rene2018.pdf), the authors surveyed CRAN maintainers that self-identified as a 
+scientist. The survey was conducted starting in late November 2017 and ending in early January 2018. The respondents were contacted 
+by email and asked to complete an online questionnaire, with a response rate of 24% (a total of 1,553 responses). 
+
+<div class="commentbox"> In 2017, 10.9% of package maintainers who identified as scientists were women. </div>
+
+- 44.6% of respondents identify between 30 and 40 years of age at the time of the survey.
+
+- Overwhelmingly, 80.0% of respondents identified as either having completed or are in progress of completing a doctorate degree. 
+
+- Almost half (48.9%) of the respondents identify as being located in Europe and another 34.1% as being located in North America.
+
+<br>
+
+<div>
+<img src="images/pinto_et_al_2018_gender_plot.png" 
+    alt="In 2017, of the package author surveyed, 10.9% of respondents 
+    self-identify as female, about 88.2% identify as male, 0.1% of respondents 
+    self-identify as non-binary."
+    width = "450"/>
+<img src="images/pinto_et_al_2018_age_cats_plot.png" 
+    alt="44.6% of respondents identify between 30 and 40 years of age at the 
+    time of the survey. 23.1% identify being younger than 30 and 31.7% as being 
+    older than 40 years of age. The remainder did not provide an answer. "
+    width = "450"/>
+</div>   
+
+<br>
+
+<div>
+<img src="images/pinto_et_al_2018_educ_plot.png" 
+    alt="80.0% of respondents identify as either having completed or are in 
+    progress of completing a doctorate degree. 15.7% as either having completed 
+    or are in progress of completing a master’s degree and 3.8% as either having 
+    completed or are in progress of completing a bachelor’s degree. The remainder 
+    did not provide an answer."
+    width = "450"/>
+<img src="images/pinto_et_al_2018_loc_plot.png" 
+    alt="Almost half (48.9%) of the respondents self-identify their location in 
+    Europe and another 34.1% self-identify their location in North America. The 
+    remaining package authors who responded to the survey are distributed across 
+    the globe, including Asia (5.8%), South America (5.6%), Oceania (4.1%), 
+    Africa (0.5%), and Central America (0.3%). The remainder did not provide 
+    an answer. "
+    width = "450"/>
+</div>  
 
 ### Maintainer Gender 2016
 
@@ -43,7 +94,7 @@ probability at least 0.8, giving an estimate of 11.4%.
 <div class="commentbox">
 In 2016, 11.4% of package maintainers were women. </div>
 
-<img src="../images/genderizer_authors.svg" 
+<img src="images/genderizer_authors.svg" 
     alt="histogram of male/female package authors"
     height = "450px"
     width = "310px"/>
@@ -59,12 +110,12 @@ In 2010, 9% of package authors were women. </div>
 - 32.5% of authors are from the USA, but they are distributed across the globe, including Indonesia, Kenya, Slovenia and Singapore.
 - The average package author was almost 39 years old, 50% of authors are between 30 and 45, and the youngest was 20.
 
-<img style = "width:600px" src="../images/map-authors.png">
+<img style = "width:600px" src="images/map-authors.png">
 
 <!-- probably flexbox better but okay for now -->
 <div style="display: flex; justify-content: center">
-<div><img style="height:250px" src="../images/gender-authors.svg"></div>
-<div><img style="height:250px" src="../images/age-authors.png"></div>
+<div><img style="height:250px" src="images/gender-authors.svg"></div>
+<div><img style="height:250px" src="images/age-authors.png"></div>
 </div>
 
 ## Conferences
@@ -72,7 +123,7 @@ In 2010, 9% of package authors were women. </div>
 Data is being collated on past useR! conferences, the plots below show the 
 data gathered so far.
 
-<img style="display: block; margin: 0 auto;" src="../images/user.svg" width="600">
+<img style="display: block; margin: 0 auto;" src="images/user.svg" width="600">
 
 <div class="commentbox">
 2016 saw a rise in the proportion of female attendees from 19% to 28%. </div>
