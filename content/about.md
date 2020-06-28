@@ -22,7 +22,7 @@ The members of the task force were invited to participate based on their interes
 
 * **Teaching**: Methodology, materials and workshops designed for under-represented groups. 
 
-The activities of the taskforce are recorded in the [minutes of our bimonthly core team teleconferences and alternate monthly all team slackathons](https://github.com/forwards/meetings-public). We are open to new member joining one of our sub-teams. If interested, please contact <rowforwards@gmail.com>.
+The activities of the taskforce are recorded in the [minutes of our bimonthly core team teleconferences and alternate monthly all team slackathons](https://github.com/forwards/meetings-public). We are open to new members joining one of our sub-teams. If interested, please contact <rowforwards@gmail.com>.
 
 The task force is happy to engage with other individuals and organisations (such as [R-Ladies](http://r-ladies.org)) that are concerned about diversity and inclusion and actively seek outside collaboration on specific tasks. 
 
@@ -105,7 +105,7 @@ John Fox
 Jasmine Dumas  
 Andrea Foulkes  
 Gina Griffin  
-Zhian N. Kamvar
+Zhian N. Kamvar  
 Os Keyes  
 Gina Merchant  
 Jesse Mostipak  
