@@ -42,6 +42,8 @@ Kevin O'Brien - **'Community' team leader**. Kevin is a data scientist working f
 
 Michael Lawrence - **'On-ramps' team leader**. Michael is a Computational Biologist at Genentech and a member of R Foundation, R Core and Bioconductor Core. ([LinkedIn](https://www.linkedin.com/in/michael-lawrence-74a9b482/)/[Twitter](https://twitter.com/lawremi)/[GitHub](https://github.com/lawremi))
 
+[Lorna Maria Aine](https://www.lornamariak.com/) - **'Social Media' team leader**. ([LinkedIn](https://www.linkedin.com/in/lornamaria/)/[Twitter](https://twitter.com/lornamariak)/[GitHub](https://github.com/lornamariak))
+
 Shakirah Nakalungi - **'Social Media' team leader**. Shakirah is a data analyst working with a non-profit that deals with mental health, specifically depression in Africa. She is co-lead of the Kampala R User Group and the lead organizer of R-Ladies Kampala. ([LinkedIn](linkedin.com/in/shakyrah/)/[Twitter](https://twitter.com/cynthia_kyra)/[GitHub](github.com/Shakyrah))
 
 [Tatjana Kecojevic](https://tanjakec.github.io/) - **'Surveys' team leader**. Tanja is a statistician, instructor and consultant. She is the founder of Sister Analyst, an NGO devoted to empowering women and other under-represented groups, in the field of data literacy and science. Tanja is also the founder and co-organiser of the R-Ladies Manchester and Belgrade chapters. Her enthusiasm for data science is matched by her commitment to inclusivity. Data skills should be accessible to anyone with a desire to discover. ([LinkedIn](https://www.linkedin.com/in/tatjana-kecojevic-803704143/)/[Twitter](https://twitter.com/Tatjana_Kec)/[GitHub](https://github.com/TanjaKec))
@@ -55,7 +57,7 @@ Shakirah Nakalungi - **'Social Media' team leader**. Shakirah is a data analyst 
 
 ## Sub Team Members
 
-[Damiano Cerasuolo](damiacer.github.io) - **'Community' team member**. ([LinkedIn](http://www.linkedin.com/in/damianocerasuolo)/[Twitter](https://twitter.com/damiacer)/[GitHub](https://github.com/damiacer))
+[Damiano Cerasuolo](https://damiacer.github.io/) - **'Community' team member**. ([LinkedIn](http://www.linkedin.com/in/damianocerasuolo)/[Twitter](https://twitter.com/damiacer)/[GitHub](https://github.com/damiacer))
 
 Madlene Hamilton - **'Community' team member**. [LinkedIn](https://www.linkedin.com/in/madlenehamilton/)/[Twitter](https://twitter.com/madlenehamilton)/[GitHub](https://github.com/madlene)
 
@@ -67,15 +69,13 @@ Richard Ngamita - **'Community' team member**. ([LinkedIn](https://www.linkedin.
 
 [Samantha Toet](https://samtoet.cool/) - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/samanthatoet/)/[Twitter](https://twitter.com/Samantha_Toet)/[GitHub](https://github.com/SamanthaToet))
 
-[Liz Hare](www.doggenetics.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/liz-hare-1a50925/)/[Twitter](https://twitter.com/DogGeneticsLLC)/[GitHub](https://github.com/LizHareDogs))
+[Liz Hare](http://www.doggenetics.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/liz-hare-1a50925/)/[Twitter](https://twitter.com/DogGeneticsLLC)/[GitHub](https://github.com/LizHareDogs))
 
 [Julie Josse](http://juliejosse.com/) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/julie-josse-4886a2140/)/[Twitter](https://twitter.com/JulieJosseStat)/[GitHub](https://github.com/julierennes))
 
 Florencia Mangini - **'Conferences' team member**. ([Twitter](https://twitter.com/manginiflor)/[GitHub](https://github.com/frm1789))
 
 [Imke Mayer](https://www.imkemayer.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/imke-mayer-426a36131)/[Twitter](https://twitter.com/imkemay)/[GitHub](https://github.com/imkemayer))
-
-[Lorna Maria Aine](lornamariak.com) - **'Social Media' team member**. ([LinkedIn](https://www.linkedin.com/in/lornamaria/)/[Twitter](https://twitter.com/lornamariak)/[GitHub](https://github.com/lornamariak))
 
 Liz Kellogg - **'Social Media' team member**.
 
