@@ -35,7 +35,7 @@ by email and asked to complete an online questionnaire, with a response rate of 
 
 - Overwhelmingly, 80.0% of respondents self-identified as either having a completed or in-progress doctorate degree.
 
-- 16.5% of the respondents self-identified as being located outside of Europe or North America.
+- 16.5% of the respondents self-identified as being located outside of Europe and North America.
 
 <br>
 
