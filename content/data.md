@@ -8,42 +8,44 @@ tocify: true
 
 ### Current Efforts
 
-The survey sub-team is focused on monitoring diversity and exploring obstacles, motivations, and involvement of useRs in the community.  
-Diversity will be monitored via basic demographic summaries from specifically designed surveys or other community surveys (e.g. useR! 
-feedback survey).
+The survey sub-team is focused on monitoring diversity and exploring obstacles, 
+motivations, and involvement of useRs in the community. Diversity will be 
+monitored via basic demographic summaries from specifically designed surveys 
+or other community surveys (e.g. useR! feedback survey).
 
 ### Former Efforts
 
 The taskforce collates data on the gender breakdown and other demographics of
 contributors to the R project, particularly R Foundation supported activities. 
-For many of the gender summaries the gender is predicted based on first name,
+For many of the gender summaries the gender was predicted based on first name,
 giving a rough approximation that assumes binary gender categories.
+
 
 ## Packages
 
-### Maintainer Gender 2017
+### Maintainer Demographics 2017
 
 In [Pinto, Wiese & Dias (2018). How Do Scientists Develop Scientific Software? An External Replication](http://gustavopinto.org/lost+found/saner-rene2018.pdf), the authors surveyed CRAN maintainers that self-identified as a 
 scientist. The survey was conducted starting in late November 2017 and ending in early January 2018. The respondents were contacted 
 by email and asked to complete an online questionnaire, with a response rate of 24% (a total of 1,553 responses). 
 
-<div class="commentbox"> In 2017, 10.9% of package maintainers who identified as scientists were women. </div>
+<div class="commentbox"> In 2017, 11.0% of package maintainers who self-identified as scientists were women or non-binary. </div>
 
-- 44.6% of respondents identify between 30 and 40 years of age at the time of the survey.
+- 44.6% of respondents self-identified between 30 and 40 years of age at the time of the survey.
 
-- Overwhelmingly, 80.0% of respondents identified as either having completed or are in progress of completing a doctorate degree. 
+- Overwhelmingly, 80.0% of respondents self-identified as either having a completed or in-progress doctorate degree.
 
-- Almost half (48.9%) of the respondents identify as being located in Europe and another 34.1% as being located in North America.
+- 16.5% of the respondents self-identified as being located outside of Europe or North America.
 
 <br>
 
 <div style="display: flex; justify-content: center">
 <img src="../images/pinto_et_al_2018_gender_plot.png" 
-    alt="In 2017, of the package author surveyed, 10.9% of respondents self-identify as female, about 88.2% identify as male, 0.1% of respondents self-identify as non-binary."
+    alt="In 2017, of the package authors surveyed, 10.9% of respondents self-identified as female, about 88.2% self-identified as male, 0.1% of respondents self-identified as non-binary."
     width = "425"/>
 <img src="../images/pinto_et_al_2018_age_cats_plot.png" 
-    alt="44.6% of respondents identify between 30 and 40 years of age at the 
-    time of the survey. 23.1% identify being younger than 30 and 31.7% as being 
+    alt="44.6% of respondents self-identified between 30 and 40 years of age at the 
+    time of the survey. 23.2% self-identified being younger than 30 and 32.0% as being 
     older than 40 years of age. The remainder did not provide an answer. "
     width = "425"/>
 </div>   
@@ -52,50 +54,21 @@ by email and asked to complete an online questionnaire, with a response rate of 
 
 <div style="display: flex; justify-content: center">
 <img src="../images/pinto_et_al_2018_educ_plot.png" 
-    alt="80.0% of respondents identify as either having completed or are in 
-    progress of completing a doctorate degree. 15.7% as either having completed 
-    or are in progress of completing a master’s degree and 3.8% as either having 
-    completed or are in progress of completing a bachelor’s degree. The remainder 
-    did not provide an answer."
+    alt="80.0% of respondents self-identified as either having a completed or in-progress 
+    doctorate degree. 15.8% as either having completed or are in progress of 
+    completing a master’s degree and 3.9% as either having completed or are in 
+    progress of completing a bachelor’s degree. The remainder did not provide 
+    an answer."
     width = "425"/>
 <img src="../images/pinto_et_al_2018_loc_plot.png" 
-    alt="Almost half (48.9%) of the respondents self-identify their location in 
-    Europe and another 34.1% self-identify their location in North America. The 
+    alt="Almost half (48.9%) of the respondents self-identified their location in 
+    Europe and another 34.2% self-identified their location in North America. The 
     remaining package authors who responded to the survey are distributed across 
-    the globe, including Asia (5.8%), South America (5.6%), Oceania (4.1%), 
-    Africa (0.5%), and Central America (0.3%). The remainder did not provide 
+    the globe, including Asia (5.9%), South America (5.6%), Oceania (4.1%), 
+    Africa (0.5%), and Central America (0.4%). The remainder did not provide 
     an answer. "
     width = "425"/>
-</div>  
-
-### Maintainer Gender 2016
-
-CRAN maintainers as of March 2016 were processed with the **genderizer** 
-package, which utilizes the https://genderize.io/ API to predict gender from 
-first names, with an associated probability that the prediction is correct. In 
-some cases genderize.io fails to make a prediction, particularly
-for Asian names, so the results were supplemented by manual predictions based on
-personal knowledge (with help from Chinese colleagues).
-
-Using assignments as given, i.e. treating predictions with probability > 0.5
-as correct, 14.8% of the 7854 maintainers were predicted as female. Clearly this
-is a rough estimate as not all maintainers with the same name will share the 
-same gender. The frequencies could be adjusted by the probabilities, but this 
-would over-estimate the proportion of female maintainers as the probabilities 
-are based on a general population rather than the population of programmers, 
-which is known to be male-dominated. For example genderize.io assigns the name 
-"Robin" as female with probability 0.59, however the proportion of females among
-CRAN maintainers with the name Robin is around 10%. So a better estimate is 
-obtained by focusing on names that are strongly predictive of gender, i.e. with
-probability at least 0.8, giving an estimate of 11.4%.
-
-<div class="commentbox">
-In 2016, 11.4% of package maintainers were women. </div>
-
-<img src="../images/genderizer_authors.svg" 
-    alt="histogram of male/female package authors"
-    height = "450px"
-    width = "310px"/>
+</div>
 
 ### Author Demographics 2010
 
