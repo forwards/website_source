@@ -36,7 +36,7 @@ Emily Dodwell - **Administrator and 'Teaching' team member**. Emily is a Princip
 
 Kevin O'Brien - **'Community' team leader**. Kevin is a data scientist working for a forestry company, modelling forestry resources, as well as one of the main organizers of Dublin R. ([LinkedIn](https://ie.linkedin.com/in/kobriendublin)/[Twitter](www.twitter.com/DragonflyStats)/[GitHub](https://github.com/DragonflyStats))
 
-[Noa Tamir](noatamir.com) - **'Conferences' team leader**. Noa is a Data Science Manager, an organizer of the R-Ladies Berlin and Women in Machine Learning and Data Science Berlin Meetups, and has recently organized the satRday Berlin 2019 conference. ([LinkedIn](https://www.linkedin.com/in/noatamir)/[Twitter](https://twitter.com/noatamir)/[GitHub](https://github.com/noatamir))
+[Noa Tamir](noatamir.com) - **'Conferences' team leader (on leave)**. Noa is a Data Science Manager, an organizer of the R-Ladies Berlin and Women in Machine Learning and Data Science Berlin Meetups, and has recently organized the satRday Berlin 2019 conference. ([LinkedIn](https://www.linkedin.com/in/noatamir)/[Twitter](https://twitter.com/noatamir)/[GitHub](https://github.com/noatamir))
 
 [Jenny Bryan](https://www.stat.ubc.ca/~jenny/) - **'On-ramps' team leader**. Jenny works as a developer for [RStudio](https://www.rstudio.com) and is Assoc Professor (on leave) at the University of British Columbia. She's member of the R Foundation and rOpenSci. ([Twitter](https://twitter.com/JennyBryan)/[GitHub](https://github.com/jennybc))
 
@@ -47,6 +47,10 @@ Michael Lawrence - **'On-ramps' team leader**. Michael is a Computational Biolog
 Shakirah Nakalungi - **'Social Media' team leader**. Shakirah is a data analyst working with a non-profit that deals with mental health, specifically depression in Africa. She is co-lead of the Kampala R User Group and the lead organizer of R-Ladies Kampala. ([LinkedIn](linkedin.com/in/shakyrah/)/[Twitter](https://twitter.com/cynthia_kyra)/[GitHub](github.com/Shakyrah))
 
 [Tatjana Kecojevic](https://tanjakec.github.io/) - **'Surveys' team leader**. Tanja is a statistician, instructor and consultant. She is the founder of Sister Analyst, an NGO devoted to empowering women and other under-represented groups, in the field of data literacy and science. Tanja is also the founder and co-organiser of the R-Ladies Manchester and Belgrade chapters. Her enthusiasm for data science is matched by her commitment to inclusivity. Data skills should be accessible to anyone with a desire to discover. ([LinkedIn](https://www.linkedin.com/in/tatjana-kecojevic-803704143/)/[Twitter](https://twitter.com/Tatjana_Kec)/[GitHub](https://github.com/TanjaKec))
+
+Anna Vasylytsya - **'Surveys' team leader**. ([LinkedIn](https://www.linkedin.com/in/annavasylytsya)/[GitHub](https://github.com/annnvv))
+
+[Mine Çetinkaya-Rundel](http://mine-cr.com/) - **'Teaching' team leader**. Mine is a Senior Lecturer at University of Edinburgh, Associate Professor at Duke University, and Data Scientist & Professional Educator at RStudio. She is also a co-organiser for R-Ladies Edinburgh. ([LinkedIn](https://www.linkedin.com/in/minec/)/[Twitter](https://twitter.com/minebocek)/[GitHub](https://github.com/mine-cetinkaya-rundel))
 
 [Isabella Gollini](https://sites.google.com/site/isabellagollini/) - **'Teaching' team leader (on leave)**. Isabella is Assistant Professor in Statistics at University College Dublin and an RLadies mentor. ([LinkedIn](https://www.linkedin.com/in/isabellagollini/)/[Twitter](https://twitter.com/IsabellaGollini)/[GitHub](https://github.com/igollini))
 
@@ -67,6 +71,8 @@ Joslynn Lee - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/
 
 Richard Ngamita - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F)/[Twitter](https://twitter.com/ngamita))
 
+[s gwynn sturdevant](http://www.nzgwynn.com) - **'Community' team member**. ([Twitter](https://twitter.com/nzgwynn)/[GitHub](https://github.com/nzgwynn))
+
 [Samantha Toet](https://samtoet.cool/) - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/samanthatoet/)/[Twitter](https://twitter.com/Samantha_Toet)/[GitHub](https://github.com/SamanthaToet))
 
 [Liz Hare](http://www.doggenetics.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/liz-hare-1a50925/)/[Twitter](https://twitter.com/DogGeneticsLLC)/[GitHub](https://github.com/LizHareDogs))
@@ -77,9 +83,17 @@ Florencia Mangini - **'Conferences' team member**. ([Twitter](https://twitter.co
 
 [Imke Mayer](https://www.imkemayer.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/imke-mayer-426a36131)/[Twitter](https://twitter.com/imkemay)/[GitHub](https://github.com/imkemayer))
 
-Liz Kellogg - **'Social Media' team member**.
+[Jyoti Bhogal](https://jyotisdiary.home.blog/) - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/jyoti-bhogal-a20705163/)/[Twitter](https://twitter.com/JyotiBhogal7)/[GitHub](https://github.com/JyotiBhogal))
+
+Michael Chirico - **'On-ramps' team member**. ([Twitter](https://twitter.com/michael_chirico)/[GitHub](https://github.com/MichaelChirico))
+
+[Maya Gans](https://maya.rbind.io/) - **'On-ramps' team member**. ([Twitter](https://twitter.com/Mayacelium)/[GitHub](https://github.com/MayaGans))
+
+Saranjeet Kaur Bhogal - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/saranjeet-kaur-48ab769b/)/[GitHub](https://github.com/SaranjeetKaur))
 
 Wenfeng Qin - **'Social Media' team member**. ([GitHub](https://github.com/qinwf))
+
+Pavitra Chakravarty - **'Surveys' team member**. ([Twitter](https://twitter.com/genomixgmailcom)/[GitHub](https://github.com/CH-Pavitra))
 
 [Nujcharee Haswell](https://pedzilla.netlify.com/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/)/[Twitter](https://twitter.com/nujcharee)/[GitHub](https://github.com/nujcharee))
 
@@ -106,6 +120,7 @@ Jasmine Dumas
 Andrea Foulkes  
 Gina Griffin  
 Zhian N. Kamvar  
+Liz Kellogg  
 Os Keyes  
 Gina Merchant  
 Jesse Mostipak  
