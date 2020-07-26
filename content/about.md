@@ -83,7 +83,7 @@ Florencia Mangini - **'Conferences' team member**. ([Twitter](https://twitter.co
 
 [Imke Mayer](https://www.imkemayer.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/imke-mayer-426a36131)/[Twitter](https://twitter.com/imkemay)/[GitHub](https://github.com/imkemayer))
 
-[Jyoti Bhogal](https://jyotisdiary.home.blog/) - **'On-ramps' team member**. ([LinkedIn(https://www.linkedin.com/in/jyoti-bhogal-a20705163/)/[Twitter](https://twitter.com/JyotiBhogal7)/GitHub(https://github.com/JyotiBhogal))
+[Jyoti Bhogal](https://jyotisdiary.home.blog/) - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/jyoti-bhogal-a20705163/)/[Twitter](https://twitter.com/JyotiBhogal7)/GitHub(https://github.com/JyotiBhogal))
 
 Michael Chirico - **'On-ramps' team member**. ([Twitter](https://twitter.com/michael_chirico)/[GitHub](https://github.com/MichaelChirico))
 
