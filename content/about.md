@@ -83,6 +83,10 @@ Florencia Mangini - **'Conferences' team member**. ([Twitter](https://twitter.co
 
 [Imke Mayer](https://www.imkemayer.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/imke-mayer-426a36131)/[Twitter](https://twitter.com/imkemay)/[GitHub](https://github.com/imkemayer))
 
+Miljenka Vuko - **'Conferences' team member**. ([GitHub](https://github.com/mvuko))
+
+Becca Wilson - **'Conferences' team member**.
+
 [Jyoti Bhogal](https://jyotisdiary.home.blog/) - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/jyoti-bhogal-a20705163/)/[Twitter](https://twitter.com/JyotiBhogal7)/[GitHub](https://github.com/JyotiBhogal))
 
 Michael Chirico - **'On-ramps' team member**. ([Twitter](https://twitter.com/michael_chirico)/[GitHub](https://github.com/MichaelChirico))
@@ -91,11 +95,17 @@ Michael Chirico - **'On-ramps' team member**. ([Twitter](https://twitter.com/mic
 
 Saranjeet Kaur Bhogal - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/saranjeet-kaur-48ab769b/)/[GitHub](https://github.com/SaranjeetKaur))
 
+Maria Prokofieva - **'Social Media' team member**. ([GitHub](https://github.com/maria-pro))
+
 Wenfeng Qin - **'Social Media' team member**. ([GitHub](https://github.com/qinwf))
 
 Pavitra Chakravarty - **'Surveys' team member**. ([Twitter](https://twitter.com/genomixgmailcom)/[GitHub](https://github.com/CH-Pavitra))
 
+Paola Corrales - **'Surveys' team member**. ([GitHub](https://github.com/paocorrales))
+
 [Nujcharee Haswell](https://pedzilla.netlify.com/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/)/[Twitter](https://twitter.com/nujcharee)/[GitHub](https://github.com/nujcharee))
+
+Claudia Huaylla - **'Surveys' team member**. ([GitHub](https://github.com/claudiah85))
 
 [David Meza](https://knowledger.rbind.io/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/davidmeza1/)/[Twitter](https://twitter.com/davidmeza1)/[GitHub](https://github.com/davidmeza1))
 
