@@ -11,6 +11,7 @@ if(Sys.getenv("TRAVIS_PULL_REQUEST") != "false" || Sys.getenv("TRAVIS_BRANCH") !
 
 print(config[baseurl_linenum])
 
-blogdown::install_hugo(version = "0.21", force = TRUE)
-blogdown::build_site()
+blogdown::install_hugo(version = "0.79.0", force = TRUE)
+blogdown::build_site(run_hugo = FALSE)
+blogdown::hugo_cmd('--noTimes')
 file.create('public/done.mark')

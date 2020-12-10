@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
-    {{ .Hugo.Generator }}
+    <!-- Forwards: define page title along with other metadata 
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+    -->
+    {{ hugo.Generator }}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Forwards: define author and description w/ other metadata
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ with .Description }}
+      <meta name="description" content="{{ . }}">
+    {{ else }}
+      <meta name="description" content="{{ .Site.Params.site_description }}">
+    {{ end }}
+    -->
+    <!-- Forwards: set og properties ... -->
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" >
     <meta property="og:url" content="{{ .Permalink }}" >
-    <!-- On homepage -->
-    {{ if eq .URL "/" }}
-      <!-- use site title --> 
+    <!-- ... On homepage -->
+    {{ if eq .RelPermalink "/" }}
+      <!-- ... use site title --> 
       <title>{{ .Site.Title }}</title>
       <meta property="og:title" content="{{ .Site.Title }}">
-      
-      <!-- use small twitter card and logo for all cards --> 
+      <!-- ... use small twitter card and logo for all cards --> 
       <meta name="twitter:card" content="summary">
       <meta property="og:image" content="{{ "apple-touch-icon.png" | absURL }}" >
       <meta property="og:image:alt" content="Forwards logo" >
-    <!-- On all other pages -->
+    <!-- ... On all other pages -->
     {{ else }}  
-       <!-- use page title + site title --> 
-       <title>{{ .Title }} - {{ .Site.Title }}</title>
+       <!-- ... use page title + site title --> 
+       <title>{{ title .Title }} - {{ .Site.Title }}</title>
        <meta property="og:title" content="{{ .Title }}">
-       <!-- if banner parameter is set in YAML, e.g. in blog post, use 
-    banner image in large twitter card -->
+       <!-- ... if banner parameter is set in YAML, e.g. in blog post, use banner image in large twitter card -->
       {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
         <meta name="twitter:card" content="summary_large_image">
         <meta property="og:image" content="{{ .Params.banner | absURL }}" >
         <meta property="og:image:alt" content="{{ $.Title }}" >
-      <!-- else use Forwards logo -->
+      <!-- ... else use Forwards logo -->
       {{else}}
         <meta name="twitter:card" content="summary">
         <meta property="og:image" content="{{ "apple-touch-icon.png" | absURL }}" >
         <meta property="og:image:alt" content="Forwards logo" >
       {{ end }}
     {{ end }}  
-    
     <!-- use author and description if given, else default to site level !-->
     <meta property="author" content="{{if .Params.author}}{{.Params.author}}{{else}}{{ .Site.Params.author }}{{end}}" />
     {{ if .Description }}
       <meta property="description" content="{{ .Description }}">
       <meta property="og:description" content="{{ .Description }}">
-    {{ else if or (eq .URL "/blog/") (in .URL "/categories/") (in .URL "/tags/")}}
+    {{ else if or (eq .RelPermalink "/blog/") (in .RelPermalink "/categories/") (in .RelPermalink "/tags/")}}
       <meta property="description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
       <meta property="og:description" content="Index of blog by Forwards, the R Foundation taskforce on women and other under-represented groups">
-    {{ else if eq .URL "/docs/"}}
+    {{ else if eq .RelPermalink "/docs/"}}
       <meta property="description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
       <meta property="og:description" content="Documents produced by Forwards, the R Foundation taskforce on women and other under-represented groups">
-    {{ else if eq .URL "/edu/"}}
+    {{ else if eq .RelPermalink "/edu/"}}
       <meta property="description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
       <meta property="og:description" content="Educational activities of Forwards, the R Foundation taskforce on women and other under-represented groups">
     {{ else }}
       <meta property="description" content="{{ .Site.Params.site_description }}">
       <meta property="og:description" content="{{ .Site.Params.site_description }}">
     {{ end }}
-    {{ with .RSSLink }}
-    <!-- remainder as in original template !-->
-      <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
-      <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    <!-- remainder as in original template, but move head_custom after loading jquery -->
+    {{ with .OutputFormats.Get "RSS" }}
+      <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+      <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
     {{ end }}
     <link rel="canonical" href="{{ .Permalink }}"/>
     <link rel="icon" href="{{ "favicon.ico" | absURL }}">
@@ -64,14 +73,22 @@
     <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/font-awesome.min.css" | absURL }}">
     <link rel="stylesheet" href="{{ "css/monokai.css" | absURL }}">
-<!--   <link rel="stylesheet" href="{{ "fancybox/jquery.fancybox.css" | absURL }}"> -->
+    <!-- Forwards: no fancybox
+    <link rel="stylesheet" href="{{ "fancybox/jquery.fancybox.css" | absURL }}">
+    -->
     {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ . | absURL }}">
     {{ end }}
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <!-- Forwards: remove ignore this?
+    {{ template "_internal/opengraph.html" . }}
+    -->
     {{ template "_internal/google_news.html" . }}
     {{ template "_internal/schema.html" . }}
+    <!-- Forwards: remove ignore this?
+    {{ template "_internal/twitter_cards.html" . }}
+    -->
 
     {{ if .Params.disable_profile | and .Params.disable_widgets }}
     <style>
