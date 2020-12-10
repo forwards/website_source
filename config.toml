@@ -1,5 +1,4 @@
 baseurl = "https://forwards.github.io/"
-# publishdir = "../forwards.github.io"
 languageCode = "en-us"
 title = "FORWARDS"
 # Enable comments by entering your Disqus shortname
@@ -8,8 +7,10 @@ disqusShortname = "forwards"
 googleAnalytics = ""
 # Define the number of posts per page
 paginate = 5
-footnotereturnlinkcontents = "↩" 
-theme = "hugo-icarus-theme"
+footnotereturnlinkcontents = "↩"
+theme = "hugo-icarus"
+# Comment the themesDir option if you use this theme in production
+# themesDir = "../.."
 # Don't pluralize section titles (e.g. Blog -> Blogs)
 pluralizelisttitles = false
 # keep tag/category names (e.g. useR! not user)
@@ -18,10 +19,10 @@ preserveTaxonomyNames = true
 canonifyURLs = false
 # maximum number of items in the RSS feed
 rssLimit = 3
-ignoreFiles = ["\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.knit\\.md$", "\\.utf8\\.md$", "\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 [permalinks]
-    blog = "blog/:year/:month/:day/:slug/"
+    blog = "blog/:year/:month/:day/:slug"
 
 [params]
     # Tell me who you are
@@ -31,7 +32,15 @@ ignoreFiles = ["\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     site_description = "R Foundation taskforce on women and other under-represented groups."
     copyright  = "Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](https://github.com/ppoffice)."
     avatar = "images/forwards.svg"
+    # Enter your email address to display your Gravatar icon in the profile. If not set the theme
+    # will fallback to the avatar.
+    gravatar = ""
     logo = ""
+    disable_mathjax = false # set to true to disable MathJax
+
+    # define which types of pages should be shown. By default the type with the most regular pages
+    mainSections = ["blog"]
+
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
 
@@ -46,8 +55,6 @@ ignoreFiles = ["\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #
 # E.g.: "Home" appears before all linked posts in the menu
 # and "Tags" / "Categories" after them.
-
-    
 [[params.menu]]
     before = true
     label  = "Home"
@@ -81,7 +88,7 @@ ignoreFiles = ["\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[params.menu]]
     before = true
     label  = "Links"
-    link   = "/links/"    
+    link   = "/links/"
 
 # Enter a link for the follow button on the left
 [params.profile]
@@ -127,4 +134,3 @@ ignoreFiles = ["\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     categories = true
     tags = false
     tag_cloud = true
-

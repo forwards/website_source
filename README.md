@@ -21,15 +21,16 @@ Be careful, the master branch is the production environment. The build result wi
 
 ## Local Setup
 
- - Install [blogdown](https://github.com/rstudio/blogdown) (>= 0.5)
+ - Install [blogdown](https://github.com/rstudio/blogdown) (last tested with 
+ version 0.21).
  
     ```r
-    devtools::install_github('rstudio/blogdown')
+    install.packages('blogdown')
     ```
- - Install Hugo (== 0.21)
+ - Install Hugo (last tested with version 0.79.0)
     ```r
     library(blogdown)
-    install_hugo(version = "0.21", force = TRUE)
+    install_hugo()
     ```
  - Clone this repository
 
@@ -40,13 +41,10 @@ Be careful, the master branch is the production environment. The build result wi
  - Serve a local copy of the website
     ```r
     library(blogdown)
-    options(servr.daemon = TRUE, blogdown.subdir = "blog")
+    options(blogdown.subdir = "blog", blogdown.new_bundle = FALSE)
     serve_site()
     ```
-    The `sevr.daemon` option setting here means that the website is served in 
-    the background and you can continue working in the R session. When you make
-    changes to the content, the website is updated, so you can see the changes 
-    in the RStudio viewer or browser (the site is best previewed in a web browser).
+    When you make changes to the content, the website is updated, so you can see the changes in the RStudio viewer or browser (the site is best previewed in a web browser).
     
 `serve_site()` will ignore the default hostname, so it does not create RSS with
 valid links to images etc. For general previewing of content, this is not an 
@@ -54,8 +52,9 @@ issue, but if you want to build a local copy exactly as it will be built for
 production, use
     
     ```r
-    servr::daemon_stop() # stop any daemonized servers
-    build_site()
+    stop_server() # stop live reload started with server_site()
+    build_site(run_hugo = FALSE)
+    hugo_cmd('--noTimes')
     ```
 
 ## Adding new content
@@ -68,12 +67,12 @@ in the build.
 
 **For `.Rmd`, please make sure the files are small and reproducible to build on Travis CI.**
 
-**Replace large `.Rmd` files with rendered `.md` files will make the build faster.**
+**Replacing large `.Rmd` files with rendered `.md` files will make the build faster.**
 
 There are currently three  different types of content on the website, described 
 further below. 
 
-Use non-master branches for draft post. Preview the result on https://rforwards-auto.github.io/
+Use non-master branches for drafts. Preview the result on https://rforwards-auto.github.io/
 
 ### Blog Posts
 
@@ -85,10 +84,11 @@ A new post can be created using
 new_post("Title in Title Case", kind = "blog")
 ```
 
-The date will be automatically pre-prepended to the title to create the file 
-name. If you have set the `blogdown.subdir` option as described above, then the
-file will be created in the `content\blog` subdirectory (otherwise you can use 
-the `subdir` argument to `new_post`).
+If you have set the `blogdown.subdir` and `blogdown.new_bundle` options as 
+described above, then this will generate a file pre-pended by the date 
+in the `content\blog` subdirectory (otherwise you can use 
+the `subdir` argument to `new_post` to set the subdirectory and by default 
+blogdown will create a nested directory for the post).
 
 The Forwards blog has a custom template for blogs, with a couple of additions
 to the YAML header, so you should specify `kind = blog` to use this template.
@@ -117,7 +117,7 @@ so this may need to be updated upon publication (changing the date in the
 filename is nice for consistency, but it is the date in the YAML that is used to
 generate the website links). If you specify the date manually (because you are 
 adding the YAML to an existing markdown file), use ISO 8601 format, 
-i.e. "2017-01-12".
+i.e. "YYYY-MM-DD".
 
 The author field is optional, for more formal posts such as analysis reports.
 
@@ -264,10 +264,10 @@ profile card (logo, description, social media accounts) are defined here.
 
 ## Going Further
 
-The website design is based on the [Hugo Icarus theme](https://github.com/digitalcraftsman/hugo-icarus-theme), stored in 
-`hugo-icarus-theme`. Customised elements are put in the corresponding folder
+The website design is based on the [Hugo Icarus theme](https://gitlab.com/toryanderson/hugo-icarus/), stored in 
+`hugo-icarus`. Customised elements are put in the corresponding folder
 in the root directory. For example the layout of the pages is determined by 
-template files in `layouts` or `themes/hugo-icarus-theme/layouts`, with 
+template files in `layouts` or `themes/hugo-icarus/layouts`, with 
 `layouts` taking priority.
 
 To add custom `CSS`, you should edit `static/css/custom.css`.
