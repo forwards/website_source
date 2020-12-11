@@ -1,53 +1,45 @@
-baseurl = "https://forwards.github.io/"
+baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "FORWARDS"
+title = "Icarus"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "forwards"
+disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page
-paginate = 5
+paginate = 10
 footnotereturnlinkcontents = "↩"
-theme = "hugo-icarus-theme"
+theme = "hugo-icarus"
 # Comment the themesDir option if you use this theme in production
-# themesDir = "../.."
-# Don't pluralize section titles (e.g. Blog -> Blogs)
-pluralizelisttitles = false
-# keep tag/category names (e.g. useR! not user)
-preserveTaxonomyNames = true
-# don't canonify URLs so can use http://forwards.github.io/ or https://forwards.github.io/
-canonifyURLs = false
-# maximum number of items in the RSS feed
-rssLimit = 3
-ignoreFiles = ["\\.knit\\.md$", "\\.utf8\\.md$", "\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+themesDir = "../.."
+
 
 [permalinks]
-    blog = "blog/:year/:month/:day/:slug"
+    post = "/:year/:month/:day/:slug"
+
 
 [params]
     # Tell me who you are
-    author = "R Foundation taskforce on women and other under-represented groups"
-    bio = ""
-    location = ""
-    site_description = "R Foundation taskforce on women and other under-represented groups."
-    copyright  = "Forwards. Powered by [blogdown](https://github.com/rstudio/blogdown)/[Hugo](//gohugo.io). Theme based on Icarus by [PPOffice](https://github.com/ppoffice)."
-    avatar = "images/forwards.svg"
+    author = "John Doe"
+    bio = "Blogger - Programmer - Gopher"
+    location = "Earth"
+    site_description = ""
+    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](https://github.com/ppoffice)."
+    avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
     # will fallback to the avatar.
-    gravatar = ""
-    logo = ""
+    gravatar = "you@example.com"
+    logo = "css/images/logo.png"
     disable_mathjax = false # set to true to disable MathJax
 
     # define which types of pages should be shown. By default the type with the most regular pages
-    mainSections = ["blog"]
+    mainSections = ["post"]
 
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
 
     # Add custom assets with their paths relative to the static folder
-	custom_css = ["css/custom.css"]
-	custom_js  = ["js/jqueryui-1.11.4/jquery-ui.min.js", 
-	              "js/tocify-1.9.1/jquery.tocify.js"]
+	custom_css = []
+	custom_js  = []
 
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the
@@ -59,47 +51,27 @@ ignoreFiles = ["\\.knit\\.md$", "\\.utf8\\.md$", "\\.rmd$", "\\.Rmd$", "\\.Rmark
     before = true
     label  = "Home"
     link   = "/"
-    
-[[params.menu]]
-    before = true
-    label  = "About"
-    link   = "/about/"    
 
 [[params.menu]]
-    before = true
-    label  = "Data"
-    link   = "/data/"
+    before = false
+    label  = "Tags"
+    link   = "tags/"
 
 [[params.menu]]
-    before = true
-    label  = "Blog"
-    link   = "/blog/"
-    
-[[params.menu]]
-    before = true
-    label  = "Edu"
-    link   = "/edu/"  
-
-[[params.menu]]
-    before = true
-    label  = "Docs"
-    link   = "/docs/"  
-    
-[[params.menu]]
-    before = true
-    label  = "Links"
-    link   = "/links/"
+    before = false
+    label  = "Categories"
+    link   = "categories/"
 
 # Enter a link for the follow button on the left
 [params.profile]
-    follow_button = ""
+    follow_button = "https://github.com/gohugoio"
 
 
 [social]
 # Add your social network accounts to the profile section on the left
 # by entering your username. The links to your account will be
 # created automatically.
-    github          = "forwards"
+    github          = "gohugoio"
     gitlab          = ""
     bitbucket       = ""
     jsfiddle        = ""
@@ -126,11 +98,11 @@ ignoreFiles = ["\\.knit\\.md$", "\\.utf8\\.md$", "\\.rmd$", "\\.Rmd$", "\\.Rmark
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "R_Forwards"
+    twitter         = "gohugoio"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     recent_articles = true
     categories = true
-    tags = false
+    tags = true
     tag_cloud = true
