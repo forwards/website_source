@@ -1,0 +1,19 @@
+name = "Icarus"
+license = "MIT"
+licenselink = "https://gitlab.com/toryanderson/hugo-icarus/-/blob/master/LICENSE.md"
+description = "A responsive and customizable theme for bloggers. "
+homepage = "https://gitlab.com/toryanderson/hugo-icarus/-/tree/master"
+tags = ["syntax highlighting", "maxthjax", "rss", "gallery", "widgets", "google analytics"]
+features = ["syntax highlighting", "maxthjax", "rss", "gallery", "widgets", "google analytics"]
+min_version = "0.72.0"
+
+authors = [
+  {name = "Tory Anderson", homepage = "https://gitlab.com/toryanderson"},
+  {name = "Digitalcraftsman", homepage = "https://github.com/digitalcraftsman"}
+]
+
+# If porting an existing theme
+[original]
+  name = "Ruipeng Zhang"
+  homepage = "http://blog.zhangruipeng.me"
+  repo = "https://github.com/ppoffice/hexo-theme-icarus"
