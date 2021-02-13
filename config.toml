@@ -83,12 +83,7 @@ ignoreFiles = ["\\.knit\\.md$", "\\.utf8\\.md$", "\\.rmd$", "\\.Rmd$", "\\.Rmark
 [[params.menu]]
     before = true
     label  = "Docs"
-    link   = "/docs/"  
-    
-[[params.menu]]
-    before = true
-    label  = "Links"
-    link   = "/links/"
+    link   = "/docs/"
 
 # Enter a link for the follow button on the left
 [params.profile]
