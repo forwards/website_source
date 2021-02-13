@@ -98,9 +98,10 @@
     </style>
     {{ end }}
 
-    <!-- Forwards: add fontawesome capability -->
-    
-    <script src="https://use.fontawesome.com/0a171817d9.js"></script>
+    <!-- Forwards: use Bulma https://github.com/jgthms/bulma/edit/master/css/bulma.css-->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="{{ "css/bulma-navbar.css" | absURL }}"> 
+    <script async type="text/javascript" src="{{ "js/bulma.js" | absURL }}"></script>
 
     <!-- needs to be loaded first for following scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

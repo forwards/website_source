@@ -63,18 +63,22 @@ on top of each other instead of next to each other */
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-/* fix header */
-#header {
+/* fixed header behind bulma navbar to make it appear full width */
+.nav-background {
+  min-height: 3.25rem;
+  background-color: #ffffff;
+  left: 0;
   position: fixed;
-  width: 100%;
-  z-index:999;
+  right: 0;
 }
+
 /* drop profile/main/sidebar */
 #profile {
   position: fixed;
   margin-top: 48px;
-  z-index:1000;    
+  /*z-index:1000; - don't want this to appear over bulma navbar drop-down*/
 }
+
 @media screen and (min-width: 1320px) {
   #profile {
     width: 284px;
