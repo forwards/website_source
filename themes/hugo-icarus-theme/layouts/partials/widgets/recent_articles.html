@@ -4,8 +4,8 @@
         {{with .Site.Data.l10n.widgets.recent_articles.title}}{{.}}{{end}}
     </h3>
     <div class="widget">
-        <ul id="recent-post">
-            {{ range first 5 (where .Site.RegularPages "Type" "post") }}
+      <ul id="recent-post">
+            {{ range first 5 .Site.RegularPages.ByPublishDate.Reverse }}
             <li>
                 <div class="item-thumbnail">
                     <a href="{{ .Permalink }}" class="thumbnail">
