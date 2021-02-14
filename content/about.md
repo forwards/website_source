@@ -30,7 +30,7 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Heather Turner](http://heatherturner.net/) - **Chair**. Heather works as a freelance statistical programmer and is on the board of the R Foundation. ([LinkedIn](https://uk.linkedin.com/in/heathrturnr)/[Twitter](https://twitter.com/HeathrTurnr)/ [GitHub](https://github.com/hturner))
 
-Emily Dodwell - **Administrator and 'Teaching' team member**. Emily is a Principal Inventive Scientist in the Data Science and AI Research Organization at AT&T Labs, and the lead organizer of R-Ladies New York. ([LinkedIn](https://www.linkedin.com/in/emdodwell/)/[Twitter](https://twitter.com/emdodwell)/[GitHub](https://github.com/emdodwell))
+Emily Dodwell - **Administrator and 'Teaching' team member**. Emily works as a data scientist at a startup that translates climate change to financial risk, and she is the lead organizer of R-Ladies New York. ([LinkedIn](https://www.linkedin.com/in/emdodwell/)/[Twitter](https://twitter.com/emdodwell)/[GitHub](https://github.com/emdodwell))
 
 [Tania Allard](https://bitsandchips.me/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. ([LinkedIn](https://www.linkedin.com/in/taniasanchezmonroy/)/[GitHub](https://github.com/trallard))
 
@@ -85,7 +85,7 @@ Florencia Mangini - **'Conferences' team member**. ([Twitter](https://twitter.co
 
 Miljenka Vuko - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/miljenka-vuko-946101193/)/[Twitter](https://twitter.com/miljenka_vuko)/[GitHub](https://github.com/mvuko))
 
-[Becca Wilson](drbeccawilson.co.uk) - **'Conferences' team member**. ([Twitter](https://twitter.com/drbeccawilson?lang=en))
+[Becca Wilson](https://drbeccawilson.co.uk) - **'Conferences' team member**. ([Twitter](https://twitter.com/drbeccawilson?lang=en))
 
 [Jyoti Bhogal](https://jyotisdiary.home.blog/) - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/jyoti-bhogal-a20705163/)/[Twitter](https://twitter.com/JyotiBhogal7)/[GitHub](https://github.com/JyotiBhogal))
 
