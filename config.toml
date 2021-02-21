@@ -21,6 +21,10 @@ canonifyURLs = false
 rssLimit = 3
 ignoreFiles = ["\\.knit\\.md$", "\\.utf8\\.md$", "\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
+# allow raw HTML in markdown!
+[markup.goldmark.renderer]
+unsafe = true
+
 [permalinks]
     blog = "blog/:year/:month/:day/:slug"
 
@@ -55,21 +59,12 @@ ignoreFiles = ["\\.knit\\.md$", "\\.utf8\\.md$", "\\.rmd$", "\\.Rmd$", "\\.Rmark
 #
 # E.g.: "Home" appears before all linked posts in the menu
 # and "Tags" / "Categories" after them.
-[[params.menu]]
-    before = true
-    label  = "Home"
-    link   = "/"
     
 [[params.menu]]
     before = true
     label  = "About"
-    link   = "/about/"    
-
-[[params.menu]]
-    before = true
-    label  = "Data"
-    link   = "/data/"
-
+    link   = "/about/"   
+    
 [[params.menu]]
     before = true
     label  = "Blog"
@@ -77,18 +72,40 @@ ignoreFiles = ["\\.knit\\.md$", "\\.utf8\\.md$", "\\.rmd$", "\\.Rmd$", "\\.Rmark
     
 [[params.menu]]
     before = true
-    label  = "Edu"
-    link   = "/edu/"  
-
-[[params.menu]]
-    before = true
-    label  = "Docs"
-    link   = "/docs/"  
+    label  = "Community"
+    link   = "/community/"
     
 [[params.menu]]
     before = true
-    label  = "Links"
-    link   = "/links/"
+    label  = "Conferences"
+    link   = "/conferences/"
+    
+[[params.menu]]
+    before = true
+    label  = "Education"
+    link   = "/edu/" 
+    
+[[params.menu]]
+    before = true
+    label  = "Contribution"
+    link   = "/contribution/"  
+
+[[params.menu]]
+    before = true
+    label  = "Data"
+    link   = "/data/"
+    
+# items to appear in "other" menu
+
+[[params.menuother]]
+    before = true
+    label  = "Reports"
+    link   = "/docs/"
+
+[[params.menuother]]
+    before = true
+    label  = "Privacy Policy"
+    link   = "/privacy_policy/"
 
 # Enter a link for the follow button on the left
 [params.profile]

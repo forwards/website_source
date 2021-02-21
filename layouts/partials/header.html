@@ -1,0 +1,61 @@
+<div class = "nav-background"></div>
+      <!-- Bulma navbar https://bulma.io/documentation/components/navbar/ -->
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        
+      <!-- navbar-brand contains fixed left-hand side: brand name and 
+      navbar burger (shown only in narrow display) -->  
+      <div class="navbar-brand">
+        <!-- old profile drop-down for narrow displays, not quite right 
+        <div class="navbar-item">
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="{{ .Site.Params.avatar | absURL }}"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>  
+        </div>
+        -->
+      
+        <a class="navbar-item" href="{{ .Site.BaseURL }}" id="logo">
+          {{ if .Site.Params.logo }}
+          <i class="logo" style="background-image: url('{{ .Site.Params.logo | absURL }}')"></i>
+          {{end}}
+          <span class="site-title">{{ .Site.Title }}</span>
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <!-- navbar menu -->
+      <div id="navbarBasicExample" class="navbar-menu">
+      <!-- menu items to appear on the left (straight after navbar-brand) -->
+    <div class="navbar-start">
+      {{ range .Site.Params.menu }}
+          {{ if .before }}
+          <a class="navbar-item" href="{{ .link | absURL }}">{{ .label }}</a>
+          {{ end }}
+      {{ end }}
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Other
+        </a>
+
+        <div class="navbar-dropdown">
+          {{ range .Site.Params.menuother }}
+            {{ if .before }}
+            <a class="navbar-item" href="{{ .link | absURL }}">{{ .label }}</a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+   <!-- menu items to appear on the right (straight after navbar-brand) -->
+    <div class="navbar-end">
+    </div>
+  </div>
+</nav>
