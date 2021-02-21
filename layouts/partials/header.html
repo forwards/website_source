@@ -41,16 +41,15 @@
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          Team Pages
+          Other
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item">
-            On-ramps Team
-          </a>
-          <a class="navbar-item">
-            Teaching Team
-          </a>
+          {{ range .Site.Params.menuother }}
+            {{ if .before }}
+            <a class="navbar-item" href="{{ .link | absURL }}">{{ .label }}</a>
+            {{ end }}
+          {{ end }}
         </div>
       </div>
     </div>

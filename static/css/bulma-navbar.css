@@ -775,8 +775,10 @@ body.has-navbar-fixed-bottom {
 .navbar-link {
   color: #4a4a4a;
   display: block;
-  line-height: 1.5;
   padding: 0.5rem 0.75rem;
+  /* Forwards custom navbar item line height */
+  line-height: 40px;
+  /* end custom */
   position: relative;
 }
 
@@ -935,10 +937,11 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     align-items: stretch;
     display: flex;
   }
-  /* end custom */
   .navbar {
+    font-size: 16px; /* increase font size */
     min-height: 3.25rem;
   }
+  /* end custom */
   .navbar.is-spaced {
     padding: 1rem 2rem;
   }
@@ -972,6 +975,9 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar-item,
   .navbar-link {
+    /* Forwards custom navbar item padding - not in burger mode */
+    padding: 12px;
+    /* end custom */
     align-items: center;
     display: flex;
   }

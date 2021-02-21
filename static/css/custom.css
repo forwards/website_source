@@ -1,3 +1,7 @@
+#container {
+  font-size: 16px;
+}
+
 /* css for regular pages with no sidebar */
 @media screen and (min-width: 1200px) {
   .no-sidebar {
@@ -65,6 +69,7 @@ on top of each other instead of next to each other */
 }
 /* fixed header behind bulma navbar to make it appear full width */
 .nav-background {
+  padding: 6px;
   min-height: 3.25rem;
   background-color: #ffffff;
   left: 0;
