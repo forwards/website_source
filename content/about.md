@@ -30,7 +30,7 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Heather Turner](http://heatherturner.net/) - **Chair**. Heather works as a freelance statistical programmer and is on the board of the R Foundation. ([LinkedIn](https://uk.linkedin.com/in/heathrturnr)/[Twitter](https://twitter.com/HeathrTurnr)/ [GitHub](https://github.com/hturner))
 
-Emily Dodwell - **Administrator and 'Teaching' team member**. Emily is a Principal Inventive Scientist in the Data Science and AI Research Organization at AT&T Labs, and the lead organizer of R-Ladies New York. ([LinkedIn](https://www.linkedin.com/in/emdodwell/)/[Twitter](https://twitter.com/emdodwell)/[GitHub](https://github.com/emdodwell))
+Emily Dodwell - **Administrator and 'Teaching' team member**. Emily works as a data scientist at a startup that translates climate change to financial risk, and she is the lead organizer of R-Ladies New York. ([LinkedIn](https://www.linkedin.com/in/emdodwell/)/[Twitter](https://twitter.com/emdodwell)/[GitHub](https://github.com/emdodwell))
 
 [Tania Allard](https://bitsandchips.me/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. ([LinkedIn](https://www.linkedin.com/in/taniasanchezmonroy/)/[GitHub](https://github.com/trallard))
 
@@ -83,6 +83,10 @@ Florencia Mangini - **'Conferences' team member**. ([Twitter](https://twitter.co
 
 [Imke Mayer](https://www.imkemayer.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/imke-mayer-426a36131)/[Twitter](https://twitter.com/imkemay)/[GitHub](https://github.com/imkemayer))
 
+Miljenka Vuko - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/miljenka-vuko-946101193/)/[Twitter](https://twitter.com/miljenka_vuko)/[GitHub](https://github.com/mvuko))
+
+[Becca Wilson](https://drbeccawilson.co.uk) - **'Conferences' team member**. ([Twitter](https://twitter.com/drbeccawilson?lang=en))
+
 [Jyoti Bhogal](https://jyotisdiary.home.blog/) - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/jyoti-bhogal-a20705163/)/[Twitter](https://twitter.com/JyotiBhogal7)/[GitHub](https://github.com/JyotiBhogal))
 
 Michael Chirico - **'On-ramps' team member**. ([Twitter](https://twitter.com/michael_chirico)/[GitHub](https://github.com/MichaelChirico))
@@ -95,13 +99,17 @@ Wenfeng Qin - **'Social Media' team member**. ([GitHub](https://github.com/qinwf
 
 Pavitra Chakravarty - **'Surveys' team member**. ([Twitter](https://twitter.com/genomixgmailcom)/[GitHub](https://github.com/CH-Pavitra))
 
+[Paola Corrales](https://paocorrales.github.io/) - **'Surveys' team member**. ([Twitter](https://twitter.com/paobcorrales?lang=en)/[GitHub](https://github.com/paocorrales))
+
 [Nujcharee Haswell](https://pedzilla.netlify.com/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/nujcharee-haswell-นุชรี-แฮสเวล-55a86729/)/[Twitter](https://twitter.com/nujcharee)/[GitHub](https://github.com/nujcharee))
+
+Claudia Huaylla - **'Surveys' team member**. ([Twitter](https://twitter.com/clauwmath)/[GitHub](https://github.com/claudiah85))
 
 [David Meza](https://knowledger.rbind.io/) - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/davidmeza1/)/[Twitter](https://twitter.com/davidmeza1)/[GitHub](https://github.com/davidmeza1))
 
-[Di Cook](http://dicook.org) - **'Teaching' team member**. ([LinkedIn](https://au.linkedin.com/in/dianne-cook-a4877a104)/[Twitter](https://twitter.com/visnut)/[GitHub](https://github.com/dicook))
+Maria Prokofieva - **'Surveys' team member**. ([GitHub](https://github.com/maria-pro))
 
-[Angela Li](https://angela-li.github.io/) - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/civicangela/)/[Twitter](https://twitter.com/CivicAngela)/[GitHub](https://github.com/angela-li))
+[Di Cook](http://dicook.org) - **'Teaching' team member**. ([LinkedIn](https://au.linkedin.com/in/dianne-cook-a4877a104)/[Twitter](https://twitter.com/visnut)/[GitHub](https://github.com/dicook))
 
 Ritwik Mitra - **'Teaching' team member**. ([LinkedIn](www.linkedin.com/in/riikmitra)/[Twitter](https://twitter.com/riikmitra)/[GitHub](https://github.com/kiwtir))
 
@@ -122,6 +130,7 @@ Gina Griffin
 Zhian N. Kamvar  
 Liz Kellogg  
 Os Keyes  
+Angela Li  
 Gina Merchant  
 Jesse Mostipak  
 Augustina Ragwitz  
