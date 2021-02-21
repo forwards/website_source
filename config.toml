@@ -21,6 +21,10 @@ canonifyURLs = false
 rssLimit = 3
 ignoreFiles = ["\\.knit\\.md$", "\\.utf8\\.md$", "\\.rmd$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
+# allow raw HTML in markdown!
+[markup.goldmark.renderer]
+unsafe = true
+
 [permalinks]
     blog = "blog/:year/:month/:day/:slug"
 
