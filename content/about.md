@@ -28,9 +28,9 @@ The task force is happy to engage with other individuals and organisations (such
 
 ## Core Team Members
 
-[Heather Turner](https://warwick.ac.uk/statistics/staff/academic-research/turner) - **Chair**. Heather is a Research Software Engineering Fellow in the Statistics department at the University of Warwick and is on the board of the R Foundation. ([LinkedIn](https://uk.linkedin.com/in/heathrturnr)/[Twitter](https://twitter.com/HeathrTurnr)/ [GitHub](https://github.com/hturner))
+[Heather Turner](https://warwick.ac.uk/statistics/staff/academic-research/turner) - **Chair and 'On-ramps' team leader**. Heather is a Research Software Engineering Fellow in the Statistics department at the University of Warwick and is on the board of the R Foundation. ([LinkedIn](https://uk.linkedin.com/in/heathrturnr)/[Twitter](https://twitter.com/HeathrTurnr)/ [GitHub](https://github.com/hturner))
 
-Emily Dodwell - **Administrator and 'Teaching' team member**. Emily is a data scientist and the lead organizer of R-Ladies New York. ([LinkedIn](https://www.linkedin.com/in/emdodwell/)/[Twitter](https://twitter.com/emdodwell)/[GitHub](https://github.com/emdodwell))
+[s gwynn sturdevant](http://www.nzgwynn.com) - **Administrator 'Community' team member**. gwynn is a post-doc at Harvard Business School and former co-organizer of R-Ladies DC. ([Twitter](https://twitter.com/nzgwynn)/[GitHub](https://github.com/nzgwynn))
 
 [Tania Allard](https://bitsandchips.me/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. ([LinkedIn](https://www.linkedin.com/in/taniasanchezmonroy/)/[GitHub](https://github.com/trallard))
 
@@ -60,8 +60,6 @@ Anna Vasylytsya - **'Surveys' team leader**. ([LinkedIn](https://www.linkedin.co
 Joslynn Lee - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/joslynnlee/)/[Twitter](https://twitter.com/theoreticalfun)/[GitHub](https://github.com/joslynnlee))
 
 Richard Ngamita - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F)/[Twitter](https://twitter.com/ngamita))
-
-[s gwynn sturdevant](http://www.nzgwynn.com) - **'Community' team member**. ([Twitter](https://twitter.com/nzgwynn)/[GitHub](https://github.com/nzgwynn))
 
 [Samantha Toet](https://samtoet.cool/) - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/samanthatoet/)/[Twitter](https://twitter.com/Samantha_Toet)/[GitHub](https://github.com/SamanthaToet))
 
@@ -100,6 +98,8 @@ Claudia Huaylla - **'Surveys' team member**. ([Twitter](https://twitter.com/clau
 Maria Prokofieva - **'Surveys' team member**. ([LinkedIn](https://www.linkedin.com/in/mariapr/)/[Twitter](https://twitter.com/m45hap)/[GitHub](https://github.com/maria-pro))
 
 [Di Cook](http://dicook.org) - **'Teaching' team member**. ([LinkedIn](https://au.linkedin.com/in/dianne-cook-a4877a104)/[Twitter](https://twitter.com/visnut)/[GitHub](https://github.com/dicook))
+
+Emily Dodwell - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.com/in/emdodwell/)/[Twitter](https://twitter.com/emdodwell)/[GitHub](https://github.com/emdodwell))
 
 Ritwik Mitra - **'Teaching' team member**. ([LinkedIn](www.linkedin.com/in/riikmitra)/[Twitter](https://twitter.com/riikmitra)/[GitHub](https://github.com/kiwtir))
 
