@@ -10,6 +10,8 @@ The task force was set up by the [R Foundation](https://www.r-project.org/founda
 
 The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.g. CRAN and Bioconductor). The task force is organised as a core team plus a number of sub-teams that focus on particular tasks as outlined below:
 
+* **Accessibility**: Working to improve access to R materials for people with low vision, blindness, hard of hearing, deaf, and other disabilities.
+
 * **Community**: General outreach to help people from under-represented groups get into R and develop as useRs.
 
 * **Conferences**: Focusing on R Foundation conferences, liaising with organizers/program committee on policies and inclusion initiatives.
@@ -32,6 +34,8 @@ The task force is happy to engage with other individuals and organisations (such
 
 [s gwynn sturdevant](http://www.nzgwynn.com) - **Administrator and 'Accessibility' team leader**. gwynn is a post-doc at Harvard Business School and former co-organizer of R-Ladies DC. ([Twitter](https://twitter.com/nzgwynn)/[GitHub](https://github.com/nzgwynn))
 
+[Jonathan Godfrey](https://R-Resources.massey.ac.nz/BrailleR) - **'Accessibility' team leader**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). ([Twitter](https://twitter.com/ajrgodfrey)/[GitHub](https://github.com/ajrgodfrey))
+
 Kevin O'Brien - **'Community' team leader**.
 
 Richard Ngamita - **'Community' team leader**. ([LinkedIn](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F)/[Twitter](https://twitter.com/ngamita))
@@ -51,8 +55,6 @@ Anna Vasylytsya - **'Surveys' team leader**. ([LinkedIn](https://www.linkedin.co
 [Mine Çetinkaya-Rundel](http://mine-cr.com/) - **'Teaching' team leader**. Mine is a Professor at Duke University and Data Scientist & Professional Educator at RStudio. ([LinkedIn](https://www.linkedin.com/in/minec/)/[Twitter](https://twitter.com/minebocek)/[GitHub](https://github.com/mine-cetinkaya-rundel))
 
 [Emma Rand](https://www.york.ac.uk/biology/our-staff/emma-rand/) - **'Teaching' team leader**. Emma is a Senior Lecturer (Associate Professor) at the University of York, UK and teaches reproducible data analysis to bioscientists in her institution and with the Royal Society of Biology and the Biochemical Society. ([LinkedIn](https://www.linkedin.com/in/emma-rand-6b0a61a/)/[Twitter](https://twitter.com/er13_r)/[GitHub](https://github.com/3mmaRand))
-
-[Jonathan Godfrey](https://R-Resources.massey.ac.nz/BrailleR) - **'Accessibility' team leader**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). ([Twitter](https://twitter.com/ajrgodfrey)/[GitHub](https://github.com/ajrgodfrey))
 
 
 ## Sub Team Members
