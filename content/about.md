@@ -139,5 +139,5 @@ Tracy Shen
 David Smith  
 Carolin Strobl  
 Charlotte Wickham  
-Hadley Wickham
+Hadley Wickham  
 Yizhe Xu
