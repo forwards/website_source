@@ -10,6 +10,8 @@ The task force was set up by the [R Foundation](https://www.r-project.org/founda
 
 The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.g. CRAN and Bioconductor). The task force is organised as a core team plus a number of sub-teams that focus on particular tasks as outlined below:
 
+* **Accessibility**: Working to improve access to R materials for people with low vision, blindness, hard of hearing, deaf, and other disabilities.
+
 * **Community**: General outreach to help people from under-represented groups get into R and develop as useRs.
 
 * **Conferences**: Focusing on R Foundation conferences, liaising with organizers/program committee on policies and inclusion initiatives.
@@ -30,9 +32,13 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Heather Turner](https://warwick.ac.uk/statistics/staff/academic-research/turner) - **Chair and 'On-ramps' team leader**. Heather is a Research Software Engineering Fellow in the Statistics department at the University of Warwick and is on the board of the R Foundation. ([LinkedIn](https://uk.linkedin.com/in/heathrturnr)/[Twitter](https://twitter.com/HeathrTurnr)/ [GitHub](https://github.com/hturner))
 
-[s gwynn sturdevant](http://www.nzgwynn.com) - **Administrator 'Community' team member**. gwynn is a post-doc at Harvard Business School and former co-organizer of R-Ladies DC. ([Twitter](https://twitter.com/nzgwynn)/[GitHub](https://github.com/nzgwynn))
+[s gwynn sturdevant](http://www.nzgwynn.com) - **Administrator and 'Accessibility' team leader**. gwynn is a post-doc at Harvard Business School and former co-organizer of R-Ladies DC. ([Twitter](https://twitter.com/nzgwynn)/[GitHub](https://github.com/nzgwynn))
 
-[Tania Allard](https://bitsandchips.me/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. ([LinkedIn](https://www.linkedin.com/in/taniasanchezmonroy/)/[GitHub](https://github.com/trallard))
+[Jonathan Godfrey](https://R-Resources.massey.ac.nz/BrailleR) - **'Accessibility' team leader**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). ([Twitter](https://twitter.com/ajrgodfrey)/[GitHub](https://github.com/ajrgodfrey))
+
+Kevin O'Brien - **'Community' team leader**. Kevin is a data scientist working for a forestry company, modelling forestry resources, as well as one of the main organizers of Dublin R. ([LinkedIn](https://ie.linkedin.com/in/kobriendublin)/[Twitter](https://twitter.com/DragonflyStats)/[GitHub](https://github.com/DragonflyStats))
+
+Richard Ngamita - **'Community' team leader**. ([LinkedIn](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F)/[Twitter](https://twitter.com/ngamita))
 
 [Yanina Bellini Saibene](https://yabellini.netlify.app/) - **'Conferences' team leader**. Yanina is a professor at national universities in Argentina and Uruguay and a researcher who applies data science to the agricultural sector. She is co-founder of MetaDocencia, part of the R-Ladies Global Team, co-founder and chair of LatinR, chair of useR! 2021, chair of the 49 & 50 JAIIO, and chair of the AgroInformatics Congress. ([LinkedIn](https://www.linkedin.com/in/yabellini)/[Twitter](https://twitter.com/yabellini)/[GitHub](https://github.com/yabellini))
 
@@ -50,32 +56,30 @@ Anna Vasylytsya - **'Surveys' team leader**. ([LinkedIn](https://www.linkedin.co
 
 [Emma Rand](https://www.york.ac.uk/biology/our-staff/emma-rand/) - **'Teaching' team leader**. Emma is a Senior Lecturer (Associate Professor) at the University of York, UK and teaches reproducible data analysis to bioscientists in her institution and with the Royal Society of Biology and the Biochemical Society. ([LinkedIn](https://www.linkedin.com/in/emma-rand-6b0a61a/)/[Twitter](https://twitter.com/er13_r)/[GitHub](https://github.com/3mmaRand))
 
-[Jonathan Godfrey](https://R-Resources.massey.ac.nz/BrailleR) - **Disability advisor**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). ([Twitter](https://twitter.com/ajrgodfrey)/[GitHub](https://github.com/ajrgodfrey))
-
 
 ## Sub Team Members
+
+Zane Dax - **'Accessibility' team member**. ([Twitter](https://twitter.com/startrek_lt/)/[GitHub](https://github.com/PythonCoderUnicorn))
+
+[Liz Hare](http://www.doggenetics.com) - **'Accessibility' team member**. ([LinkedIn](https://www.linkedin.com/in/liz-hare-1a50925/)/[Twitter](https://twitter.com/DogGeneticsLLC)/[GitHub](https://github.com/LizHareDogs))
+
+Florencia Mangini - **'Accessibility' team member**. ([Twitter](https://twitter.com/manginiflor)/[GitHub](https://github.com/frm1789))
+
+[Becca Wilson](https://drbeccawilson.co.uk) - **'Accessibility' team member**. ([LinkedIn](https://www.linkedin.com/in/drbeccawilson/)/[Twitter](https://twitter.com/drbeccawilson?lang=en))
+
+[Tania Allard](https://bitsandchips.me/) - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/taniasanchezmonroy/)/[GitHub](https://github.com/trallard))
 
 [Damiano Cerasuolo](https://damiacer.github.io/) - **'Community' team member**. ([LinkedIn](http://www.linkedin.com/in/damianocerasuolo)/[Twitter](https://twitter.com/damiacer)/[GitHub](https://github.com/damiacer))
 
 Joslynn Lee - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/joslynnlee/)/[Twitter](https://twitter.com/theoreticalfun)/[GitHub](https://github.com/joslynnlee))
 
-Richard Ngamita - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F)/[Twitter](https://twitter.com/ngamita))
-
 [Samantha Toet](https://samtoet.cool/) - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/samanthatoet/)/[Twitter](https://twitter.com/Samantha_Toet)/[GitHub](https://github.com/SamanthaToet))
 
-Zane Dax - **'Conferences' team member**. ([Twitter](https://twitter.com/startrek_lt/)/[GitHub](https://github.com/PythonCoderUnicorn))
-
-[Liz Hare](http://www.doggenetics.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/liz-hare-1a50925/)/[Twitter](https://twitter.com/DogGeneticsLLC)/[GitHub](https://github.com/LizHareDogs))
-
 [Julie Josse](http://juliejosse.com/) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/julie-josse-4886a2140/)/[Twitter](https://twitter.com/JulieJosseStat)/[GitHub](https://github.com/julierennes))
-
-Florencia Mangini - **'Conferences' team member**. ([Twitter](https://twitter.com/manginiflor)/[GitHub](https://github.com/frm1789))
 
 [Imke Mayer](https://www.imkemayer.com) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/imke-mayer-426a36131)/[Twitter](https://twitter.com/imkemay)/[GitHub](https://github.com/imkemayer))
 
 Miljenka Vuko - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/miljenka-vuko-946101193/)/[Twitter](https://twitter.com/miljenka_vuko)/[GitHub](https://github.com/mvuko))
-
-[Becca Wilson](https://drbeccawilson.co.uk) - **'Conferences' team member**. ([LinkedIn](https://www.linkedin.com/in/drbeccawilson/)/[Twitter](https://twitter.com/drbeccawilson?lang=en))
 
 [Jyoti Bhogal](https://jyotisdiary.home.blog/) - **'On-ramps' team member**. ([LinkedIn](https://www.linkedin.com/in/jyoti-bhogal-a20705163/)/[Twitter](https://twitter.com/JyotiBhogal7)/[GitHub](https://github.com/JyotiBhogal))
 
@@ -127,7 +131,6 @@ David Meza
 Ileena Mitra  
 Jesse Mostipak  
 Shakirah Nakalungi  
-Kevin O'Brien  
 Wenfeng Qin  
 Augustina Ragwitz  
 Maëlle Salmon  
