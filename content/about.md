@@ -32,7 +32,9 @@ The task force is happy to engage with other individuals and organisations (such
 
 [s gwynn sturdevant](http://www.nzgwynn.com) - **Administrator and 'Accessibility' team leader**. gwynn is a post-doc at Harvard Business School and former co-organizer of R-Ladies DC. ([Twitter](https://twitter.com/nzgwynn)/[GitHub](https://github.com/nzgwynn))
 
-[Tania Allard](https://bitsandchips.me/) - **'Community' team leader**. Tania works as a Research Software Engineer and works on data and research software projects across a number of disciplines. She shares her passion for R through classes and R users groups. ([LinkedIn](https://www.linkedin.com/in/taniasanchezmonroy/)/[GitHub](https://github.com/trallard))
+Kevin O'Brien - **'Community' team leader**.
+
+Richard Ngamita - **'Community' team leader**. ([LinkedIn](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F)/[Twitter](https://twitter.com/ngamita))
 
 [Yanina Bellini Saibene](https://yabellini.netlify.app/) - **'Conferences' team leader**. Yanina is a professor at national universities in Argentina and Uruguay and a researcher who applies data science to the agricultural sector. She is co-founder of MetaDocencia, part of the R-Ladies Global Team, co-founder and chair of LatinR, chair of useR! 2021, chair of the 49 & 50 JAIIO, and chair of the AgroInformatics Congress. ([LinkedIn](https://www.linkedin.com/in/yabellini)/[Twitter](https://twitter.com/yabellini)/[GitHub](https://github.com/yabellini))
 
@@ -63,11 +65,11 @@ Florencia Mangini - **'Accessibility' team member**. ([Twitter](https://twitter.
 
 [Becca Wilson](https://drbeccawilson.co.uk) - **'Accessibility' team member**. ([LinkedIn](https://www.linkedin.com/in/drbeccawilson/)/[Twitter](https://twitter.com/drbeccawilson?lang=en))
 
+[Tania Allard](https://bitsandchips.me/) - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/taniasanchezmonroy/)/[GitHub](https://github.com/trallard))
+
 [Damiano Cerasuolo](https://damiacer.github.io/) - **'Community' team member**. ([LinkedIn](http://www.linkedin.com/in/damianocerasuolo)/[Twitter](https://twitter.com/damiacer)/[GitHub](https://github.com/damiacer))
 
 Joslynn Lee - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/joslynnlee/)/[Twitter](https://twitter.com/theoreticalfun)/[GitHub](https://github.com/joslynnlee))
-
-Richard Ngamita - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F)/[Twitter](https://twitter.com/ngamita))
 
 [Samantha Toet](https://samtoet.cool/) - **'Community' team member**. ([LinkedIn](https://www.linkedin.com/in/samanthatoet/)/[Twitter](https://twitter.com/Samantha_Toet)/[GitHub](https://github.com/SamanthaToet))
 
@@ -127,7 +129,6 @@ David Meza
 Ileena Mitra  
 Jesse Mostipak  
 Shakirah Nakalungi  
-Kevin O'Brien  
 Wenfeng Qin  
 Augustina Ragwitz  
 Maëlle Salmon  
