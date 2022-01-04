@@ -245,6 +245,16 @@ listed on the [index page](http://forwards.github.io/docs/).
 The title is formatted as a level one header (i.e. #) automatically. Therefore
 use level 2 and 3 headers (i.e. ## and ###) to markup sections.
 
+### Redirects
+
+Add a new redirect page with 
+
+```r
+new_content("filename.md", kind = "redirect")
+```
+
+Change `draft` to `false` to publish.
+
 ## Publishing the Website
 
 Commits on the master branch will be published to https://forwards.github.io
