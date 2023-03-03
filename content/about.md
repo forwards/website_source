@@ -32,13 +32,13 @@ The task force is happy to engage with other individuals and organisations (such
 
 [Heather Turner](https://warwick.ac.uk/statistics/staff/academic-research/turner) - **Chair and 'On-ramps' team leader**. Heather is a Research Software Engineering Fellow in the Statistics department at the University of Warwick and is on the board of the R Foundation. ([LinkedIn](https://uk.linkedin.com/in/heathrturnr)/[Twitter](https://twitter.com/HeathrTurnr)/ [GitHub](https://github.com/hturner))
 
-[s gwynn sturdevant](http://www.nzgwynn.com) - **Administrator and 'Accessibility' team leader**. gwynn is a post-doc at Harvard Business School and co-founder of the Harvard Data Science Initiative R User Group. ([Twitter](https://twitter.com/nzgwynn)/[GitHub](https://github.com/nzgwynn))
+[s gwynn sturdevant](http://www.nzgwynn.com) - **Administrator and 'Accessibility' team leader**. gwynn is a post-doc at Harvard Business School and co-founder of the Harvard Data Science Initiative R User Group. ([Mastodon](https://mstdn.social/@nzgwynn)/[GitHub](https://github.com/nzgwynn))
 
 [Jonathan Godfrey](https://R-Resources.massey.ac.nz/BrailleR) - **'Accessibility' team leader**. Jonathan was the first totally blind person in the world to gain employment as a Lecturer in Statistics (Massey University, NZ). ([Twitter](https://twitter.com/ajrgodfrey)/[GitHub](https://github.com/ajrgodfrey))
 
 Kevin O'Brien - **'Community' team leader**. Kevin is a data scientist working for a forestry company, modelling forestry resources, as well as one of the main organizers of Dublin R. ([LinkedIn](https://ie.linkedin.com/in/kobriendublin)/[Twitter](https://twitter.com/DragonflyStats)/[GitHub](https://github.com/DragonflyStats))
 
-Richard Ngamita - **'Community' team leader**. ([LinkedIn](https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEppCtQIHDr1gAAAWw-xazwr8nDqwxh0SucHiUeZW1D6vsQWLmkh3pc3YAdA2xFriPTpBPjigp5Sc-vBWE7k7chWXoyWBQsie84uF26JSbG0-5s-D4YCkVIh2mqRG2YY0M5G1A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fngamita%2F)/[Twitter](https://twitter.com/ngamita))
+[Ella Kaye](https://ellakaye.rbind.io) - **'Community' team leader**. Ella is a statistician and R enthusiast. She's a founding member of RainbowR and a previous co-organiser of the Oxford R User Group. ([LinkedIn](https://www.linkedin.com/in/ella-kaye-9b878248/)/[Mastodon](https://fosstodon.org/@ellakaye)/[GitHub](https://github.com/EllaKaye))
 
 [Yanina Bellini Saibene](https://yabellini.netlify.app/) - **'Conferences' team leader**. Yanina is a professor at national universities in Argentina and Uruguay and a researcher who applies data science to the agricultural sector. She is co-founder of MetaDocencia, part of the R-Ladies Global Team, co-founder and chair of LatinR, chair of useR! 2021, chair of the 49 & 50 JAIIO, and chair of the AgroInformatics Congress. ([LinkedIn](https://www.linkedin.com/in/yabellini)/[Twitter](https://twitter.com/yabellini)/[GitHub](https://github.com/yabellini))
 
@@ -61,7 +61,7 @@ Anna Vasylytsya - **'Surveys' team leader**. ([LinkedIn](https://www.linkedin.co
 
 Zane Dax - **'Accessibility' team member**. ([Twitter](https://twitter.com/startrek_lt/)/[GitHub](https://github.com/PythonCoderUnicorn))
 
-[Liz Hare](http://www.doggenetics.com) - **'Accessibility' team member**. ([LinkedIn](https://www.linkedin.com/in/liz-hare-1a50925/)/[Twitter](https://twitter.com/DogGeneticsLLC)/[GitHub](https://github.com/LizHareDogs))
+[Liz Hare](http://www.doggenetics.com) - **'Accessibility' team member**. ([LinkedIn](https://www.linkedin.com/in/liz-hare-1a50925/)/[Mastodon](https://mstdn.social/@lizhare@fosstodon.org)/[GitHub](https://github.com/LizHareDogs))
 
 Florencia Mangini - **'Accessibility' team member**. ([Twitter](https://twitter.com/manginiflor)/[GitHub](https://github.com/frm1789))
 
@@ -112,6 +112,7 @@ Maria Prokofieva - **'Teaching' team member**. ([LinkedIn](https://www.linkedin.
 
 ## Previous Members
 
+Richard Ngamita
 Lorna Maria Aine  
 Stella Bollman  
 Jenny Bryan  
