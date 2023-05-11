@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Forwards – data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="https://forwards.github.io/images/forwards.svg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Forwards</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./community.html">
+ <span class="menu-text">Community</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./conferences.html">
+ <span class="menu-text">Conferences</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contribution.html">
+ <span class="menu-text">Contribution</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./data.html" aria-current="page">
+ <span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Blog</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
+        <li>
+    <a class="dropdown-item" href="./blogs/blog1.html">
+ <span class="dropdown-text">Call to Join Forwards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog2.html">
+ <span class="dropdown-text">Mapping useRs</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog3.html">
+ <span class="dropdown-text">Emily Robinson, from Social Scientist to Data Scientist</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog4.html">
+ <span class="dropdown-text">useRs Relationship with R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog5.html">
+ <span class="dropdown-text">useRs Participation in the R Community</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog6.html">
+ <span class="dropdown-text">Girls Coding Workshop, Melbourne</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog7.html">
+ <span class="dropdown-text">R in Africa</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog8.html">
+ <span class="dropdown-text">R in Latin America</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog9.html">
+ <span class="dropdown-text">HavanaR Workshop 2018</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog10.html">
+ <span class="dropdown-text">Workshops for Women and Girls</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog11.html">
+ <span class="dropdown-text">The state of R in Africa</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog12.html">
+ <span class="dropdown-text">Recap of R-Ladies Charlottesville Forwards Workshop</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog13.html">
+ <span class="dropdown-text">Southern Africa Project 2020</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog14.html">
+ <span class="dropdown-text">BlackLivesMatter: A joint statement by Forwards and R-Ladies</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./blogs/blog15.html">
+ <span class="dropdown-text">Package Development Modules</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Other</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-other">    
+        <li>
+    <a class="dropdown-item" href="./workshops.html">
+ <span class="dropdown-text">Workshops</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./package-dev.html">
+ <span class="dropdown-text">Package Development Workshop for women and other underrepresented groups</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./privacy-policy.html">
+ <span class="dropdown-text">Forwards Privacy Policy</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://hachyderm.io/@R_Forwards"><i class="bi bi-mastodon" role="img" aria-label="mastodon">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item dropdown  compact">
+    <a class="nav-link dropdown-toggle" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/forwards/website_source">
+ <span class="dropdown-text">Source Code</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/forwards/website_source">
+ <span class="dropdown-text">Report a Bug</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data" id="toc-data" class="nav-link active" data-scroll-target="#data">Data</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#current-efforts" id="toc-current-efforts" class="nav-link" data-scroll-target="#current-efforts">Current Efforts</a></li>
+  <li><a href="#former-efforts" id="toc-former-efforts" class="nav-link" data-scroll-target="#former-efforts">Former Efforts</a></li>
+  </ul></li>
+  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages">Packages</a>
+  <ul class="collapse">
+  <li><a href="#maintainer-demographics-2017" id="toc-maintainer-demographics-2017" class="nav-link" data-scroll-target="#maintainer-demographics-2017">Maintainer Demographics 2017</a></li>
+  <li><a href="#author-demographics-2010" id="toc-author-demographics-2010" class="nav-link" data-scroll-target="#author-demographics-2010">Author Demographics 2010</a></li>
+  </ul></li>
+  <li><a href="#conferences" id="toc-conferences" class="nav-link" data-scroll-target="#conferences">Conferences</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="data" class="level1">
+<h1>Data</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<section id="current-efforts" class="level3">
+<h3 class="anchored" data-anchor-id="current-efforts">Current Efforts</h3>
+<p>The survey sub-team is focused on monitoring diversity and exploring obstacles, motivations, and involvement of useRs in the community. Diversity will be monitored via basic demographic summaries from specifically designed surveys or other community surveys (e.g.&nbsp;useR! feedback survey).</p>
+</section>
+<section id="former-efforts" class="level3">
+<h3 class="anchored" data-anchor-id="former-efforts">Former Efforts</h3>
+<p>The taskforce collates data on the gender breakdown and other demographics of contributors to the R project, particularly R Foundation supported activities. For many of the gender summaries the gender was predicted based on first name, giving a rough approximation that assumes binary gender categories.</p>
+</section>
+</section>
+<section id="packages" class="level2">
+<h2 class="anchored" data-anchor-id="packages">Packages</h2>
+<section id="maintainer-demographics-2017" class="level3">
+<h3 class="anchored" data-anchor-id="maintainer-demographics-2017">Maintainer Demographics 2017</h3>
+<p>In <a href="http://gustavopinto.org/lost+found/saner-rene2018.pdf">Pinto, Wiese &amp; Dias (2018). How Do Scientists Develop Scientific Software? An External Replication</a>, the authors surveyed CRAN maintainers that self-identified as a scientist. The survey was conducted starting in late November 2017 and ending in early January 2018. The respondents were contacted by email and asked to complete an online questionnaire, with a response rate of 24% (a total of 1,553 responses).</p>
+<div class="commentbox">
+In 2017, 11.0% of package maintainers who self-identified as scientists were women or non-binary.
+</div>
+<ul>
+<li><p>44.6% of respondents self-identified between 30 and 40 years of age at the time of the survey.</p></li>
+<li><p>Overwhelmingly, 80.0% of respondents self-identified as either having a completed or in-progress doctorate degree.</p></li>
+<li><p>16.5% of the respondents self-identified as being located outside of Europe and North America.</p></li>
+</ul>
+<p><br></p>
+<div style="display: flex; justify-content: center">
+<p><img src="./images/pinto_et_al_2018_gender_plot.png" alt="In 2017, of the package authors surveyed, 10.9% of respondents self-identified as female, about 88.2% self-identified as male, 0.1% of respondents self-identified as non-binary." width="425"></p>
+<p><img src="./images/pinto_et_al_2018_age_cats_plot.png" alt="44.6% of respondents self-identified between 30 and 40 years of age at the 
+    time of the survey. 23.2% self-identified being younger than 30 and 32.0% as being 
+    older than 40 years of age. The remainder did not provide an answer. " width="425"></p>
+</div>
+<p><br></p>
+<div style="display: flex; justify-content: center">
+<p><img src="./images/pinto_et_al_2018_educ_plot.png" alt="80.0% of respondents self-identified as either having a completed or in-progress 
+    doctorate degree. 15.8% as either having completed or are in progress of 
+    completing a master’s degree and 3.9% as either having completed or are in 
+    progress of completing a bachelor’s degree. The remainder did not provide 
+    an answer." width="425"></p>
+<p><img src="./images/pinto_et_al_2018_loc_plot.png" alt="Almost half (48.9%) of the respondents self-identified their location in 
+    Europe and another 34.2% self-identified their location in North America. The 
+    remaining package authors who responded to the survey are distributed across 
+    the globe, including Asia (5.9%), South America (5.6%), Oceania (4.1%), 
+    Africa (0.5%), and Central America (0.4%). The remainder did not provide 
+    an answer. " width="425"></p>
+</div>
+</section>
+<section id="author-demographics-2010" class="level3">
+<h3 class="anchored" data-anchor-id="author-demographics-2010">Author Demographics 2010</h3>
+<p><a href="http://www.pnas.org/content/112/48/14788.abstract">Mair, P., Hofmann, E., Gruber, K., Hatzinger, R., Zeleis, A. and Hornik, K. (2015) Motivation, values, and work design as drivers of participation in the R open source project for statistical computing, <em>PNAS</em></a> describes the feedback from 1087 R package authors. The survey was conducted in 2010. Package authors were contacted by email and asked to complete a web form, with a response rate of 27%.</p>
+<div class="commentbox">
+In 2010, 9% of package authors were women.
+</div>
+<ul>
+<li>The 95% confidence interval for the proportion of women package authors in 2010 is 7.1-11.0%.</li>
+<li>32.5% of authors are from the USA, but they are distributed across the globe, including Indonesia, Kenya, Slovenia and Singapore.</li>
+<li>The average package author was almost 39 years old, 50% of authors are between 30 and 45, and the youngest was 20.</li>
+</ul>
+<p><img style="width:600px" src="./images/map-authors.png"></p>
+<!-- probably flexbox better but okay for now -->
+<div style="display: flex; justify-content: center">
+<div>
+<img style="height:250px" src="./images/gender-authors.svg">
+</div>
+<div>
+<img style="height:250px" src="./images/age-authors.png">
+</div>
+</div>
+</section>
+</section>
+<section id="conferences" class="level2">
+<h2 class="anchored" data-anchor-id="conferences">Conferences</h2>
+<p>Data is being collated on past useR! conferences, the plots below show the data gathered so far.</p>
+<p><img style="display: block; margin: 0 auto;" src="./images/user.svg" width="600"></p>
+<div class="commentbox">
+2016 saw a rise in the proportion of female attendees from 19% to 28%.
+</div>
+<p>The proportion of contributed presentations is similar to the proportion of female attendees, showing that women are as likely to contribute and have their contributions accepted as their male counterparts. There was a greater increase in poster contributions from women than lightning or regular talks in 2016, which perhaps reflects a lower level of experience among the newcomers.</p>
+<p>Plot <strong>c</strong> shows groups that are more heavily selected. The numbers of female invited speakers has increased from zero in the early years (2004-2008) through one in later years (2009-2013) to two in recent years - this is the level that useR! is seeking to maintain for now. The number of tutorials with a female tutor was decreasing since 2007, but went up again to 1/3 in 2016. This is the target for 2017. useR! does not always have panel sessions, but apart from a panel in 2014 on women in the R community, women have been poorly represented. This is something useR! plans to address in any future panels.</p>
+<p>The last plot shows invited organisational roles. Data on session chairs is only available for a few years, but recently the proportion of women has been similar that of attendees. The proportion of female committee members has been slowly rising to parity over the history of useR! (with an unusual high in 2007 when Di Cook, a taskforce member was a key organiser). The make-up of the local organising committee is much more variable, partly because the size of the committee changes a lot according to local needs. In recent years the proportion of women on the committee has been similar to or greater than that of attendees.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">Copyright 2023, R Forwards</div>
+  </div>
+</footer>
+
+
+
+</body></html>

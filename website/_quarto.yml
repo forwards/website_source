@@ -1,0 +1,87 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "Forwards"
+  
+  page-navigation: true
+  reader-mode: true
+  page-footer: "Copyright 2023, R Forwards"
+  navbar:
+    logo:  https://forwards.github.io/images/forwards.svg
+    logo-href: index.qmd
+    left: 
+      # - menu: 
+      - text: "About"
+        file: about.qmd
+      - text: "Community"
+        file: community.qmd
+      - text: "Conferences"
+        file: conferences.qmd
+      - text: "Contribution"
+        file: contribution.qmd
+      - text: "Data"
+        file: data.qmd
+        
+
+      # - icon: file-earmark-text
+      - text: Blog
+        menu:
+          - ./blogs/blog1.qmd
+          - ./blogs/blog2.qmd
+          - ./blogs/blog3.qmd
+          - ./blogs/blog4.qmd
+          - ./blogs/blog5.qmd
+          - ./blogs/blog6.qmd
+          - ./blogs/blog7.qmd
+          - ./blogs/blog8.qmd
+          - ./blogs/blog9.qmd
+          - ./blogs/blog10.qmd
+          - ./blogs/blog11.qmd
+          - ./blogs/blog12.qmd
+          - ./blogs/blog13.qmd
+          - ./blogs/blog14.qmd
+          - ./blogs/blog15.qmd
+
+      - text: "Other"
+        menu:
+          - workshops.qmd
+          - package-dev.qmd
+          - privacy-policy.qmd
+
+
+
+    right: 
+      - icon: mastodon
+        aria-label: mastodon
+        href: https://hachyderm.io/@R_Forwards
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/forwards/website_source
+          - text: Report a Bug
+            url: https://github.com/forwards/website_source
+   
+    search: true
+
+
+
+
+
+
+
+
+
+
+
+
+format:
+  html:
+    theme:  
+      light: pulse 
+      dark: [darkly, theme-dark.scss] #cosmo
+    css: styles.css
+    toc: true  
