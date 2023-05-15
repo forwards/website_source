@@ -1,0 +1,55 @@
+---
+title: "Forwards"
+---
+
+
+## Mission
+
+Leading the R community forwards in widening the participation of women and other under-represented groups.
+
+Find out more [about]() the task force.
+
+<!-- responsive two column layout - likely to be one column in RStudio viewer! -->
+<div class = "twocolumn">
+<!-- <div class = "column"> -->
+
+## Upcoming Events
+
+*2019/05/25* [First ever R conference in East Africa: SatRdays Kampala 2019](https://kampala2019.satrdays.org/) **Lend your support to this pathbreaking conference by contributing to SatRdays Kampala's [Indiegogo campaign](https://www.indiegogo.com/projects/satrdays-kampala-2019-fundraiser#/)**
+
+![AfricaR logo](images/AfricaR.png)
+
+
+## News
+
+*For more details on past workshops, see the [Edu](edu) section.*
+
+*2019-04-06, Dublin* Isabella Gollini, with Bruna Wundervald, Chiara Cotroneo, and Jo Niec, teach "Develop Packages in R"
+
+*2019-03-30, Brisbane* Di Cook and a team of brilliant women teach "R Coding Workshop for Year 11 Girls"
+ 
+*2019-02-23, Chicago* Stephanie Kirmer and Angela Li teach "Women's Package Development Workshop", jointed hosted with [R-Ladies Chicago](https://rladieschicago.org)
+
+*2018-10-27, New York City* Emily Dodwell and Joyce Robbins lead "Data Science in R: Coding Workshop for 11th and 12th Grade Girls"
+
+*2018-07-30, Vancouver* Di Cook serves as panelist on late breaking session at JSM2018, [*Addressing Sexual Misconduct in the Statistics Community*](http://ww2.amstat.org/meetings/jsm/2018/onlineprogram/AbstractDetails.cfm?abstractid=329833) Organizer [blog post](http://statisticalrecipes.blogspot.com/2018/06/addressing-sexual-misconduct-in.html) 
+
+*2018-06-23, Cardiff, Wales* Heather Turner teaches "Upgrade Your Workflow with a Custom Package" at [Cardiff satRday](https://cardiff2018.satrdays.org/)
+
+*2018-05-24, Melbourne* [Earo Wang](https://earo.me) leads "Package Development Workshop for Women: Everything you need to know to create your own R package" at [R Ladies Melbourne](https://www.meetup.com/en-AU/R-Ladies-Melbourne/events/250196006/) [slides]( http://slides.earo.me/rladies-pkg/#1), [code](https://github.com/earowang/rladies-pkg)
+
+*2018-05-14, Budapest* Package Development Workshop for Women at [eRum 2018](https://2018.erum.io/#talk-2-307)
+
+
+<!-- [older news items](oldnews)  -->
+
+</div>
+
+<!-- https://dev.twitter.com/web/embedded-timelines/parameters -->
+<!-- data-tweet-limit="3" -->
+<div class = "column">
+## Latest Tweets
+<a class="twitter-timeline" data-height = "900" data-theme="light" data-chrome="noheader" href="https://twitter.com/R_Forwards" data-dnt="true"></a> <script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+</div>
