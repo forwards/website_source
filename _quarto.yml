@@ -1,0 +1,56 @@
+project:
+  type: website
+  
+execute:
+  freeze: auto
+
+website:
+  title: "Forwards"
+  
+  page-navigation: true
+  reader-mode: true
+  page-footer: "Copyright 2023, R Forwards"
+  navbar:
+    logo:  https://forwards.github.io/images/forwards.svg
+    logo-href: index.qmd
+    left: 
+      # - menu: 
+      - text: "About"
+        file: about.qmd
+      - text: "Community"
+        file: community.qmd
+      - text: "Conferences"
+        file: conferences.qmd
+      - text: "Contribution"
+        file: contribution.qmd
+      - text: "Data"
+        file: data.qmd
+      - text: Blog
+        file: blog.qmd
+      - text: "Other"
+        menu:
+          - workshops.qmd
+          - package-dev.qmd
+          - privacy-policy.qmd
+
+    right: 
+      - icon: mastodon
+        aria-label: mastodon
+        href: https://hachyderm.io/@R_Forwards
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/forwards/website_source
+          - text: Report a Bug
+            url: https://github.com/forwards/website_source
+   
+    search: true
+
+format:
+  html:
+    theme:  
+      light: pulse 
+      dark: [darkly, theme-dark.scss] #cosmo
+    css: styles.css
+    toc: true  
