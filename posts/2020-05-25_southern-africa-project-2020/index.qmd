@@ -4,13 +4,10 @@ author: Heather Turner
 date: '2020-05-25'
 slug: southern-africa-project-2020
 categories: [community, education, software]
-tags: [community, training, programming, software]
-banner: ''
 description: 'Review of the R training and community events organized as part of the Forwards Southern Africa Project 2020, in South Africa, Eswatini and Botswana.'
-tocify: no
 ---
 
-![](/images/blog/southern-africa-project-2020/optimized/r_workshop_participants_gaborone.jpg)
+![](../../images/blog/southern-africa-project-2020/optimized/r_workshop_participants_gaborone.jpg)
 
 Using the [satRday Johannesburg 2020](https://joburg2020.satrdays.org/) 
 conference as a springboard, Forwards set up a project to help build the 

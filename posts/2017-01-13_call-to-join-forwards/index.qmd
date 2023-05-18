@@ -1,15 +1,11 @@
-
 ---
-categories: ["news"]
-date: 2017-01-13T13:07:01Z
-description: "Inviting New Members to join Forwards"
-tags: ["action"]
 title: Call to Join Forwards
-tocify: false
-slug: call-to-join-forwards
+categories: ["news", "action"]
+date: 2017-01-13
+description: "Inviting New Members to join Forwards"
 ---
 
-![](../images/blog/call-to-join-forwards/wocintech_meeting.jpg)
+![](../../images/blog/call-to-join-forwards/wocintech_meeting.jpg)
 
 Forwards, the R Foundation taskforce on women and other under-represented 
 groups, is seeking to address issues affecting under-represented groups

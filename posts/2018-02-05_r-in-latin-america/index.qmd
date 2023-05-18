@@ -1,15 +1,19 @@
 ---
-author: "Ariel Levy, Fernando Mayer, Juan Pablo Marín Díaz, Riva Quiroga, Marcela Alfaro, Alejandro Reyes, and Heather Turner"
-
-categories: ["news"]
+title: R in Latin America
+author: 
+  - name: Ariel Levy
+  - name: Fernando Mayer
+  - name: Juan Pablo Marín Díaz
+  - name: Riva Quiroga
+  - name: Marcela Alfaro
+  - name: Alejandro Reyes
+  - name: Heather Turner
+categories: ["news", "community"]
 date: 2018-02-05
 description: "Round-up of initiatives in the R community across Latin America."
-tags: ["community"]
-title: R in Latin America
-slug: r-in-latin-america
 ---
 
-![](../images/blog/r-in-latin-america/posters1_SERI_cropped.jpg)
+![](../../images/blog/r-in-latin-america/posters1_SERI_cropped.jpg)
 
 Following on from our post on [R in Africa](https://forwards.github.io/blog/2017/12/01/r-in-africa/) this
 next post in the series looks at the R community across Latin America.
@@ -30,7 +34,7 @@ no large R event in Brazil, she set about coordinating the first International
 Seminar on Statistics with R ([SER: Seminário Internacional de Estatística com
 R](http://serrio2016.weebly.com/)), which was held in Niterói in May 2016.
 
-![](/images/blog/r-in-latin-america/Alcoforado2_ISER.png)
+![](../../images/blog/r-in-latin-america/Alcoforado2_ISER.png)
 *<br/>Luciane Alcoforado, Coordinator of the first SER*
 
 More than 250 people attended this pioneering event, with attendance balanced
@@ -38,7 +42,7 @@ across academia and industry. Encouraged by this success, the I SER organizers
 ran the event again in 2017, with an expanded program and similar numbers
 attending.
 
-![](/images/blog/r-in-latin-america/Sean_online_SERI_scaled.jpg)
+![](../../images/blog/r-in-latin-america/Sean_online_SERI_scaled.jpg)
 *<br/>Sean Kross presents remotely at the first SER*
 
 A third edition, [III SER](http://www.ser.uff.br/), is now planned for
@@ -88,7 +92,7 @@ checkout the [R Day website](http://rday.leg.ufpr.br), and follow us on
 [Facebook](https://www.facebook.com/leg.ufpr/) and
 [Twitter](https://twitter.com/LEG_UFPR).
 
-![](/images/blog/r-in-latin-america/r-day.png)
+![](../../images/blog/r-in-latin-america/r-day.png)
 *<br/>R Day logo (left), Curitiba Botanical Garden (top right), and UFPR
 historical building (bottom right)*
 

@@ -1,0 +1,20 @@
+# options specified here will apply to all posts in this folder
+
+# Enable banner style title blocks
+title-block-banner: true
+
+license: CC BY-SA
+
+open-graph: true
+twitter-card: true
+
+toc: true    
+toc-depth: 3
+toc-title: Contents
+
+code-fold: show
+code-summary: "Toggle the code"
+code-tools: true
+  
+#include-in-header: ../_includes/giscus.html
+#include-after-body: ../_includes/div-giscus.html

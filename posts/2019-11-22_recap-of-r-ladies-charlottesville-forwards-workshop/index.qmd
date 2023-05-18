@@ -1,21 +1,15 @@
 ---
 title: Recap of R-Ladies Charlottesville Forwards Workshop
-author: "Angela Li & Samantha Toet, Forwards Teaching Team"
+author: 
+  - name: Angela Li
+  - name: Samantha Toet
 date: '2019-11-22'
-slug: recap-of-r-ladies-charlottesville-forwards-workshop
-categories: ["education","software"]
-tags: ["software", "education", "community"]
-banner: ''
-description: 'Lessons from R-Ladies Charlottesville Forwards Workshop '
-tocify: yes
+image: ../../images/blog/recap-of-r-ladies-charlottesville-forwards-workshop/optimized/group_photo.jpg
+categories: ["education", "software", "community"]
+description: 'Lessons from R-Ladies Charlottesville Forwards Workshop'
 ---
 
-
-![](/images/blog/recap-of-r-ladies-charlottesville-forwards-workshop/optimized/group_photo.jpg)
-
-
-
-
+![](../../images/blog/recap-of-r-ladies-charlottesville-forwards-workshop/optimized/group_photo.jpg)
 
 On September 8, 2019, [Samantha Toet](https://twitter.com/Samantha_Toet?lang=en) and [Angela Li](https://twitter.com/CivicAngela?lang=en) co-taught a 3-hour Forwards Package Development Workshop at a weekend [R-Ladies Charlottesville](https://www.meetup.com/rladies-charlottesville/) Meetup. 
 

@@ -1,17 +1,16 @@
 ---
 title: Package Development Modules
-author: 'Emma Rand and Mine Çetinkaya-Rundel'
+author: 
+  - name: Emma Rand
+  - name: Mine Çetinkaya-Rundel
 date: '2021-05-06'
-slug: package-development-modules
+image: ../../images/blog/package-development-modules/pkg-dev.gif
 categories: [community, education, software]
-tags: [community, training, programming, software]
 description: 'About the project to turn the Forwards Package Development workshop into a set of more flexible and accessible modules'
-banner: ''
-tocify: no
 draft: true
 ---
 
-![](../images/blog/package-development-modules/pkg-dev.gif)
+![](../../images/blog/package-development-modules/pkg-dev.gif)
 
 ## Why create Package Development modules?
 

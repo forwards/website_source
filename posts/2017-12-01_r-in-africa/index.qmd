@@ -1,16 +1,18 @@
 ---
-author: "Andrew Collier, Anelda van der Walt, Ziv Shkedy, Theoni Photopoulou, Margareth Gfrerer and Heather Turner"
-
-categories: ["news"]
+title: R in Africa
+author: 
+  - name: Andrew Collier
+  - name: Anelda van der Walt
+  - name: Ziv Shkedy
+  - name: Theoni Photopoulou
+  - name: Margareth Gfrerer
+  - name: Heather Turner
 date: 2017-12-01
 description: "Round-up of initiatives in the R community across Africa."
-tags: ["community"]
-title: R in Africa
-tocify: false
-slug: r-in-africa
+categories: ["news", "community"]
 ---
 
-![](/images/blog/r-in-africa/globe.jpg)
+![](../../images/blog/r-in-africa/globe.jpg)
 
 R is used around the world and yet, in English-speaking media at least, we tend 
 to hear most about what is happening in North America, Europe, and Australasia.
@@ -37,7 +39,8 @@ tickets were issued for the event and the venue was literally packed. On two
 days prior to the conference there were workshops by the keynote speakers. 
 These were also very well attended.
 
-![](/images/blog/r-in-africa/D3S_6897.JPG)
+![](../../images/blog/r-in-africa/D3S_6897.JPG)
+
 *<br/>satRday was an excellent networking opportunity!*
 
 A second [satRday in Cape Town](http://capetown2018.satrdays.org/) is now
@@ -63,7 +66,7 @@ teach tools like R, Python, SQL, and git/Github, but also run a two-day
 [instructor training workshop](https://carpentries.github.io/instructor-training/) 
 to help technical experts teach more effectively.
 
-![](/images/blog/r-in-africa/carpentries.jpg)
+![](../../images/blog/r-in-africa/carpentries.jpg)
 *<br/>Highlights from Carpentry workshops*
 
 Over the past three years more than 30 workshops were run in countries like 
@@ -118,7 +121,7 @@ corners of Ethiopia. For the time being R Ladies is present at
 https://r-ladies-addis.github.io/studyGroup and can be reached by e-mail
 <addisababa@rladies.org>.
 
-![](/images/blog/r-in-africa/r-ladies-addis-ababa.png)
+![](../../images/blog/r-in-africa/r-ladies-addis-ababa.png)
 *<br/>1st Meeting of R Ladies Addis on Nov. 14, 2017*
 
 A new chapter of R-Ladies will soon be starting in Cotonou, Benin. The 
@@ -154,7 +157,7 @@ undergraduate programs in biostatistics/statistics. The
 consist of basic and advanced courses, respectively, at master's level in 
 biostatistics/statistics.
 
-![](/images/blog/r-in-africa/er-biostat-ethiopia.png)
+![](../../images/blog/r-in-africa/er-biostat-ethiopia.png)
 *<br/>The first >eR-Biostat workshop in Gondar University, Ethiopia*
 
 Course materials and updated information about our activities are available 

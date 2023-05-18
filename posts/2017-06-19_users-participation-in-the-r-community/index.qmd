@@ -1,15 +1,21 @@
 ---
-author: "Stella Bollmann, Dianne Cook, Rudolf Debelak, Jasmine Dumas, John Fox, Julie Josse, Oliver Keyes, Carolin Strobl, Heather Turner"
-banner: ""
-categories: ["analysis"]
+title: "useRs Participation in the R Community"
+author: 
+  - name: Stella Bollmann
+  - name: Dianne Cook
+  - name: Rudolf Debelak
+  - name: Jasmine Dumas
+  - name: John Fox
+  - name: Julie Josse
+  - name: Oliver Keyes
+  - name: Carolin Strobl
+  - name: Heather Turner"
 date: 2017-06-19
 description: "Community Involvement of useRs"
-tags: ["useR!", "survey", "community"]
-title: "useRs Participation in the R Community"
-tocify: true
+categories: ["analysis", "useR!", "survey", "community"]
 ---
 
-![](/images/blog/community-involvement-of-users/user2016-reception.jpg)
+![](../../images/blog/community-involvement-of-users/user2016-reception.jpg)
 
 
 In our [first](https://forwards.github.io/blog/2017/01/13/mapping-users/) and [second](https://forwards.github.io/blog/2017/03/11/users-relationship-with-r/) posts on the useR! 2016 survey we discussed the responses from the demographic and programming sections. The main findings were:
@@ -32,9 +38,6 @@ The respondents had many suggestions for improving the R community and these alo
 ## Survey results
 
 ### Belonging to the Community
-
-
-
 
 The first question asked useRs whether they considered themselves to be part of the R community: 361 (79%) said yes, 69 (15%) said no and 28 (6%) did not give an answer. There was no significant difference in responses from men and women.
  
@@ -78,7 +81,7 @@ Other resources are web search, blogs (particularly [R-bloggers](https://www.r-b
 
 Next we asked useRs what was their preferred medium for R community news (e.g. events, webinars, opportunities). Again there was no significant difference between the responses for men and women, so the results for all genders are presented below:
 
-<img src="/images/blog/community-involvement-of-users/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="../../images/blog/community-involvement-of-users/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
 The majority of useRs are split across four media: website (24%, 110 of 458), mailing list (21%, 96 of 458), blog (21%, 85 of 458) and Twitter (15%, 69 of 458). Therefore communication across a range of media is necessary to be confident in reaching a large proportion of R users and developers. In addition to the other media featured in the plot above (Facebook, RSS feed, podcast) useRs selected Google+ and their local R meetup group as sources of news. The remaining people in the "Other" category wanted to select multiple categories or had no preference. An exploratory multivariate analysis[^1] suggests that Facebook (not Twitter), podcasts and blogs are more more popular among newcomers, especially women, so these media may be important for outreach. A sizeable proportion (13.1%) did not select any option, so do not have a preference or are not interested in R community news. Nonetheless, as conference participants, they may receive some news in person.
 
@@ -88,14 +91,14 @@ The last set of directed questions related to useR's involvement in local R user
 
 The respondents that did not attend a user group were asked why not, giving the following responses:
 
-<img src="/images/blog/community-involvement-of-users/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="../../images/blog/community-involvement-of-users/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
 The most common responses were that there was no active group nearby (30%, 85 of 279) or they were too busy (30%, 84 of 279). The next most frequent responses correspond to people that feel too inexperienced (11%, 30 of 279) or perhaps too experienced, in that they don't need the extra support (9%, 25 of 279). Some people did not know whether there was a group near them, or were unaware that such groups existed - one person looked up their local group as a result of filling in the survey and signed up for it straight away! For others the topics were not relevant/interesting, the time or place was inconvenient, they didn't use R enough (using other tools more or being completely new to R), there were logistical issues (accessibility, problems signing up to meetups or not enough space at meetup) or social issues (feeling intimidated or worrying they would intimidate others), they'd just never considered it, or planned to go soon.
 
 
 A higher proportion of men (46%) said that they attended a user group, compared to women (25%). Men and women also differed in some of their responses when asked what would make them more likely to participate in the R community, or improve their experience. Therefore these results are shown for men and women separately below, for options with at least 5 respondents in a gender:category combination:
 
-<img src="/images/blog/community-involvement-of-users/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="../../images/blog/community-involvement-of-users/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
 
 The top two options were to have a new user group nearby (27%, 122 of 458) and mentoring (19%, 87 of 458). The proportions selecting these options were similar for men and women. For women, the next most wanted support was an online forum to discuss R-related issues; 20% of women vs 10% of men selected this option. The gender difference was similar regarding views on an online support group for their demographic (note this could be other than gender), but overall the positive response was much lower for this option. For men, after user groups and mentoring, the next most popular option was workshops, with similar numbers selecting free local introductory workshops, paid local advanced workshops and workshops at a conference in their domain. These options were also popular with women, with a slightly stronger preference for advanced workshops or workshops at conferences. Conferences specified in the comments were JSM, INFORMS, NIPS and ICML. For men, there were no other options selected by at least 10 individuals, but for women there was still support for user groups, workshops and an online support group aimed at their demographic (respectively 13%, 8% and 8% of women). Respondents were asked to specify the demographic in the comments, mostly this was women, but LGBT and academics (students/teachers/reseachers) were also specified.
 
