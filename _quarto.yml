@@ -25,26 +25,8 @@ website:
         file: contribution.qmd
       - text: "Data"
         file: data.qmd
-        
-      # - icon: file-earmark-text
       - text: Blog
-        menu:
-          - ./blogs/blog1.qmd
-          - ./blogs/blog2.qmd
-          - ./blogs/blog3.qmd
-          - ./blogs/blog4.qmd
-          - ./blogs/blog5.qmd
-          - ./blogs/blog6.qmd
-          - ./blogs/blog7.qmd
-          - ./blogs/blog8.qmd
-          - ./blogs/blog9.qmd
-          - ./blogs/blog10.qmd
-          - ./blogs/blog11.qmd
-          - ./blogs/blog12.qmd
-          - ./blogs/blog13.qmd
-          - ./blogs/blog14.qmd
-          - ./blogs/blog15.qmd
-
+        file: blog.qmd
       - text: "Other"
         menu:
           - workshops.qmd
