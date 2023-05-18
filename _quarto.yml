@@ -1,5 +1,8 @@
 project:
   type: website
+  
+execute:
+  freeze: auto
 
 website:
   title: "Forwards"
@@ -23,7 +26,6 @@ website:
       - text: "Data"
         file: data.qmd
         
-
       # - icon: file-earmark-text
       - text: Blog
         menu:
@@ -49,8 +51,6 @@ website:
           - package-dev.qmd
           - privacy-policy.qmd
 
-
-
     right: 
       - icon: mastodon
         aria-label: mastodon
@@ -64,17 +64,6 @@ website:
             url: https://github.com/forwards/website_source
    
     search: true
-
-
-
-
-
-
-
-
-
-
-
 
 format:
   html:
