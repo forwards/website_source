@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Stella Bollmann">
+<meta name="author" content="Dianne Cook">
+<meta name="author" content="Rudolf Debelak">
+<meta name="author" content="Jasmine Dumas">
+<meta name="author" content="John Fox">
+<meta name="author" content="Julie Josse">
+<meta name="author" content="Oliver Keyes">
+<meta name="author" content="Carolin Strobl">
+<meta name="author" content="Heather Turner">
+<meta name="dcterms.date" content="2017-01-13">
+<meta name="description" content="Report on demographics section of useR! 2016 survey">
+
+<title>Forwards - Mapping useRs</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Forwards - Mapping useRs">
+<meta property="og:description" content="Report on demographics section of useR! 2016 survey">
+<meta property="og:image" content="https://github.com/forwards/website_source/images/blog/mapping-users/banner.png">
+<meta property="og:site-name" content="Forwards">
+<meta property="og:image:height" content="516">
+<meta property="og:image:width" content="978">
+<meta name="twitter:title" content="Forwards - Mapping useRs">
+<meta name="twitter:description" content="Report on demographics section of useR! 2016 survey">
+<meta name="twitter:image" content="https://github.com/forwards/website_source/images/blog/mapping-users/banner.png">
+<meta name="twitter:image-height" content="516">
+<meta name="twitter:image-width" content="978">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../blog/mapping-users-2017/index.html" class="navbar-brand navbar-brand-logo">
+    <img src="https://forwards.github.io/images/forwards.svg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../blog/mapping-users-2017/index.html">
+    <span class="navbar-title">Forwards</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../community.html" rel="" target="">
+ <span class="menu-text">Community</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences.html" rel="" target="">
+ <span class="menu-text">Conferences</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contribution.html" rel="" target="">
+ <span class="menu-text">Contribution</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../data.html" rel="" target="">
+ <span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Other</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-other">    
+        <li>
+    <a class="dropdown-item" href="../../workshops.html" rel="" target="">
+ <span class="dropdown-text">Workshops</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../package-dev.html" rel="" target="">
+ <span class="dropdown-text">Package Development Workshop for women and other underrepresented groups</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../privacy-policy.html" rel="" target="">
+ <span class="dropdown-text">Forwards Privacy Policy</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://hachyderm.io/@R_Forwards" rel="" target=""><i class="bi bi-mastodon" role="img" aria-label="mastodon">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools tools-wide">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/forwards/website_source">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/forwards/website_source">
+            Report a Bug
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <div class="quarto-title-block"><div><h1 class="title">Mapping useRs</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+                  <div>
+        <div class="description">
+          Report on demographics section of useR! 2016 survey
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-contents">
+               <p>Stella Bollmann </p>
+               <p>Dianne Cook </p>
+               <p>Rudolf Debelak </p>
+               <p>Jasmine Dumas </p>
+               <p>John Fox </p>
+               <p>Julie Josse </p>
+               <p>Oliver Keyes </p>
+               <p>Carolin Strobl </p>
+               <p>Heather Turner </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 13, 2017</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#survey-results" id="toc-survey-results" class="nav-link" data-scroll-target="#survey-results">Survey results</a>
+  <ul class="collapse">
+  <li><a href="#gender-and-race" id="toc-gender-and-race" class="nav-link" data-scroll-target="#gender-and-race">Gender and race</a></li>
+  <li><a href="#lgbt" id="toc-lgbt" class="nav-link" data-scroll-target="#lgbt">LGBT</a></li>
+  <li><a href="#age" id="toc-age" class="nav-link" data-scroll-target="#age">Age</a></li>
+  <li><a href="#geography" id="toc-geography" class="nav-link" data-scroll-target="#geography">Geography</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#professional-environment" id="toc-professional-environment" class="nav-link" data-scroll-target="#professional-environment">Professional environment</a></li>
+  <li><a href="#caregiving" id="toc-caregiving" class="nav-link" data-scroll-target="#caregiving">Caregiving</a></li>
+  </ul></li>
+  <li><a href="#recommendations" id="toc-recommendations" class="nav-link" data-scroll-target="#recommendations">Recommendations</a>
+  <ul class="collapse">
+  <li><a href="#conference-proposals" id="toc-conference-proposals" class="nav-link" data-scroll-target="#conference-proposals">Conference proposals</a></li>
+  <li><a href="#task-force-proposals" id="toc-task-force-proposals" class="nav-link" data-scroll-target="#task-force-proposals">Task Force proposals</a></li>
+  </ul></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<!-- menu : "" -->
+<p><img src="../../images/blog/mapping-users/banner.png" class="img-fluid"></p>
+<p>Every year, hundreds of R programmers descend on a host city and spend three or four days sharing work, collaborating on projects and making new contacts - the useR! conference, this year held in Stanford, CA. useR! offers a wonderful opportunity to map a subset of the language’s most active users and the Women in R Task Force took this opportunity to survey attendees and find out their backgrounds, experiences and interests, in the hope that it will help us to get a better understanding of how to make the R community a more inclusive environment.</p>
+<p>Our survey received 455 responses, out of 899 attendees, and appears to represent the attendees pretty accurately.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> In this blog post, we’ll step through the attendees’ demographic background, how that represents the wider scientific and computing communities (and wider world), and propose recommendations for ways to bring these demographics towards parity.</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Survey responses showed that attendees were largely male and white, with Latinx, Native American and people of African descent particularly under-represented. Attendees were almost all employed, and what’s more, employed in a permanent, full-time job. Attendence skewed heavily towards people in their late 20s and early to mid 30s, with men tending to be older than women, and attendees largely coming from the United States and almost exclusively from North American and Western European countries.</p>
+<p>Our recommendations are that, going forward, useR! conferences set aside tickets and funding for under-represented groups, and put resources into facilities such as feeding rooms and childcare that would benefit caregivers with small children, many of whom are women. Additionally, the Task Force itself will be refocusing its efforts and mission to emphasise the intersectional nature of marginalisation that women face, in line with the dispiriting results around race, employment and educational attainment. We will also be running further surveys to build up a better idea of the “ground truth” of the R community, and to track improvements and suggestions on an ongoing basis.</p>
+</section>
+<section id="survey-results" class="level2">
+<h2 class="anchored" data-anchor-id="survey-results">Survey results</h2>
+<section id="gender-and-race" class="level3">
+<h3 class="anchored" data-anchor-id="gender-and-race">Gender and race</h3>
+<p>The gender breakdown of responses (<em>n=453</em>) showed that approximately <em>33%</em> of attendees identified as women, with the majority of the remainder identifying as men and a small number identifying outside the gender binary.</p>
+<p>While the inclusion of women is not as bad as at other conferences, it’s also definitely <em>lower</em> than it could be given that there are many scientific fields - such as biology, which R is particularly commonly used in - where women outnumber men in terms of degree attainment.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> At the same time, some of this may be offset by the location and chosen topics for presentations, which were more focused on visualisation or computing than biostatistics.</p>
+<p>Race is more complicated, because there’s more variation in the answers - as intended! Both race and gender questions were offered as a free text field to avoid restricting respondents to false dichotomies. One side-effect, though, is that it’s hard to aggregate the data. What we can say, though, is:</p>
+<ul>
+<li><span style="color:#0c2c84; font-weight:bolder">74%</span> of respondents identified as White or Caucasian;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">16%</span> fell within the US Federal guidelines for ‘Asian’, or identified directly as Asian;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">3%</span> identified as Hispanic or Latinx;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">1%</span> identified as people of African descent;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">0.5%</span> identified as Native American or Pacific Islander;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">0.25%</span> identified as Middle Eastern and</li>
+<li><span style="color:#0c2c84; font-weight:bolder">3%</span> identified as mixed-race.</li>
+</ul>
+<p>In comparison, a survey of STEM workers in the United States found 6% were Black and 7% Hispanic<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> - and the overall demographics of the United States point even more clearly to an under-representation of non-Asian minority groups.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> The response rate was somewhat lower on this question (n = 409), perhaps due to concerns about identifiability. Nonetheless, there’s clearly work to be done.</p>
+</section>
+<section id="lgbt" class="level3">
+<h3 class="anchored" data-anchor-id="lgbt">LGBT</h3>
+<p>5% of respondents identified as Lesbian, Gay, Bisexual or Transgender. How this maps to overall industry, academic and population trends is hard to identify, because the long history of persecution of LGBT individuals and the often confusing and ill-defined nature of identity means that the proportion of LGBT individuals is regularly under-reported. Attempts to control for that under-reporting have shown up to 19% of the U.S. population experience same-sex attraction,<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> although more traditional methodologies suggest around 11%.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>It’s possible that the useR! survey is one of the surveys in which under-reporting is found - although 447 responses were received, which suggests people at least didn’t <em>skip</em> it - but it’s probably fair to say that such a sizeable difference in outcome is going to contain some genuine differences in population, as well as methodological variation.</p>
+<p>Additionally, it is probable that the other demographics of LGBT attendees reflect the overall demographics of attendees, meaning that (for example) we would expect to find lesbians or bisexual women under-represented in that 5%.</p>
+</section>
+<section id="age" class="level3">
+<h3 class="anchored" data-anchor-id="age">Age</h3>
+<p>Approximating age (by subtracting the year of birth from 2016) shows the following:</p>
+<p><img src="../../images/blog/mapping-users/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;"></p>
+<p>Women trend younger than men at the conference, but the age distribution is similar across the two genders; <em>47%</em> of respondents (n = 438) were born in the 1980s - in other words, were people in their late 20s to mid 30s. This lines up neatly with the education data (more on that later) and suggests that people in their early 20s and 40+ year olds are not finding the conference appealing - because there are other things to spend time on, because money is tighter, or for some other reason.</p>
+<p>The women-being-younger element suggests that the rise in women attending (compared to 2015, where the proportion of women was only 19%) represents younger or newer members of the community attending, too.</p>
+</section>
+<section id="geography" class="level3">
+<h3 class="anchored" data-anchor-id="geography">Geography</h3>
+<p>The R community is a highly international one, with developers in a wide range of countries. One of the things we were interested to discover is how this comes out in the attendee mix at useR!. Accordingly, we asked attendees which country they currently resided in.</p>
+<p>Altogether, R programmers from 34 nations attended useR!, but the overwhelming majority of respondents (<em>71%</em> of n = 443) live in the United States. In some ways this isn’t surprising - the cost of getting to Stanford increases the further away you are, and it’s expensive to start with! - and the rotation of the conference between continents each year means that many non-US R programmers are likely to simply attend the next European event. At the same time, it’s still somewhat disappointing for an event considered the “main” R conference, particularly with only ~20 attendees coming from Canada, a country bordering the U.S.</p>
+<p><img src="../../images/blog/mapping-users/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;"></p>
+</section>
+<section id="education" class="level3">
+<h3 class="anchored" data-anchor-id="education">Education</h3>
+<p>The vast majority of attendees (&gt;85%, of n = 451) had <em>completed</em> postgraduate degrees:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Highest Qualification Completed</th>
+<th style="text-align: right;">Women (%)</th>
+<th style="text-align: right;">Men (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Professional degree or certification</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: right;">2.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Doctorate</td>
+<td style="text-align: right;">41.7</td>
+<td style="text-align: right;">45.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Masters degree</td>
+<td style="text-align: right;">42.9</td>
+<td style="text-align: right;">40.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Undergraduate degree</td>
+<td style="text-align: right;">13.7</td>
+<td style="text-align: right;">10.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">High school/Secondary school or lower</td>
+<td style="text-align: right;">0.6</td>
+<td style="text-align: right;">0.7</td>
+</tr>
+</tbody>
+</table>
+<p>This further suggests, on top of the data around age, that the conference is not attracting younger and more-early-career R programmers and researchers. Part of this may simply be that spending money on an R conference may be a lot easier to justify when you’re in full-time employment, or in a postgraduate degree with a stipend, than as an undergraduate or masters student; part of it is probably also that people without degrees, or without postgraduate degrees, earn less money and may come from poorer backgrounds, extending the problem.</p>
+<p>At the same time, it is worth noting that the concept of research conferences as places to attend is not something particularly pushed on undergraduates, and so there is a component of awareness as well as finance. Finally, it may simply be that the conference is very academia-oriented, and so is particularly attractive to academics (and those familiar with academia) rather than R programmers without an academic background.</p>
+<p>As the age data suggests, women tend to be slightly earlier on in the traditional academic career path.</p>
+</section>
+<section id="professional-environment" class="level3">
+<h3 class="anchored" data-anchor-id="professional-environment">Professional environment</h3>
+<p>Almost all of the attendees were employed, which (with the cost of the tickets) makes sense. More interestingly, a majority of the attendees (<em>~57%</em> of n = 444) were employed outside academia, primarily by private sector organisations. This is a strong indicator of what we’ve known anecdotally for a while - that R, a language originally designed and used in academia, is becoming more prevalent outside that context. At the same time, this may be a (somewhat) localised effect: while the language is increasingly popular, the technology industry centred on Silicon Valley is certainly an outlier in many respects for research overall.</p>
+<p><img src="../../images/blog/mapping-users/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;"></p>
+<p>Another interesting takeaway was that men are more likely to work in industry and permanent academic jobs than women - and women are far, <em>far</em> more likely to be students. Again, this isn’t surprising since it fits the pattern that women attending tend to be younger than men, and overall patterns that the tech industry (which is where one would expect the majority of privately-employed R programmers and scientists to work) has a known problem with employing and promoting women, as does academia.</p>
+<p>Almost all attendees work full-time. It’s difficult to tell if this is due to the wider community largely being employed or engaged in full-time activities, or due to the cost of attendance diminishing the ability of community members in more economically fragile situations such as part-time work or unemployment to attend. Female attendees were less likely to work part-time, and far more likely to identify their status as unemployed (although the sample size is too small to really draw conclusions):</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Employment Status</th>
+<th style="text-align: right;">Women (%)</th>
+<th style="text-align: right;">Men (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Full-time</td>
+<td style="text-align: right;">92.2</td>
+<td style="text-align: right;">94.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Part-time</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">4.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I am not currently employed</td>
+<td style="text-align: right;">6.0</td>
+<td style="text-align: right;">1.4</td>
+</tr>
+</tbody>
+</table>
+<p>The proportion identifying as unemployed is greater than the proportion that previously identified as unemployed or retired, which could indicate that some students are categorising themselves as ‘not in employment’ when not presented with an option that reflects student-status.</p>
+</section>
+<section id="caregiving" class="level3">
+<h3 class="anchored" data-anchor-id="caregiving">Caregiving</h3>
+<p>Approximately a quarter of respondents answered “yes” to the question “are you a caregiver for children or adult dependents on a regular basis?” (n = 445). More men than women identified as caregivers. This either indicates that R programmers are a singularly socially enlightened population, or reflects wider sociological conditioning around caregiving which makes it easier for men to leave children at home with their partner (if applicable) than for women to do the same - resulting in a self-selection effect in which women with children are less likely to be able to attend (and so women who do attend are less likely to have children they care for).</p>
+<p>Qualitative data suggests, unsurprisingly, the latter - in the free-text field for the survey, several (female) respondents mentioned the difficulty of persuading their (male) partners to handle childcare to allow them to attend conferences.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Caregiving Status</th>
+<th style="text-align: right;">Women (%)</th>
+<th style="text-align: right;">Men (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">No</td>
+<td style="text-align: right;">78.3</td>
+<td style="text-align: right;">71.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">21.7</td>
+<td style="text-align: right;">28.8</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="recommendations">Recommendations</h2>
+<section id="conference-proposals" class="level3">
+<h3 class="anchored" data-anchor-id="conference-proposals">Conference proposals</h3>
+<p>The survey data surfaces a lot of problems that can be tackled directly by future useR! conferences, and other conferences in the field too. In particular, it shows that while the gender breakdown of the conference is not as bad as we might fear, it’s still lagging behind the general population of the scientific fields R programming draws from, as well as the population as a whole. In addition, and in some ways more worryingly, attendees are overwhelmingly white, with Native Americans, Latinx people and people of African descent particularly under-represented.</p>
+<p>These problems won’t be solved overnight, but there are several things the conference can do that would make attending a more viable and enjoyable prospect for under-represented groups. These include:</p>
+<ol type="1">
+<li><p><em>A wider scholarship system</em>. useR! 2016 featured scholarships, helping pay for things like plane tickets or hotels for people from marginalised backgrounds who wished to attend. The committee tasked with allotting the money did excellent work, but the money available was small. Expanding the scholarship fund in future conferences would let more under-represented R programmers attend, going a long way towards making a more representative conference.</p></li>
+<li><p><em>Childcare and feeding support</em>. One of the things we saw in qualitative data, and something the quantitative data points to, is that the difficulties of juggling childcare is a blocker on attendance, particularly for women. Providing subsidised or free childcare at the conference itself (along with breastfeeding rooms), and incorporating childcare into the scholarship system, would help with this, and has been successfully done elsewhere.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p></li>
+<li><p><em>Staggered ticket release</em>. useR! 2016 sold out incredibly quickly, with all of the tickets gone within a day. This made it difficult for people to attend if they weren’t extremely on the ball and able to decide, on or before the first registration day, that they wanted to attend. By definition this hurts marginalised people because it hurts people who, for financial reasons, need to put some energy behind working out if they can attend. One solution worth considering is staggering the release of tickets over several days or weeks - perhaps with a waiting or notification list. This offers potential attendees multiple opportunities, reducing the penalty paid for not being ready to go on day 1.</p></li>
+<li><p>A <em>more precise code of conduct</em>. Following an open letter in 2015 the R Foundation adopted a resolution that any Foundation-affiliated conference have a Code of Conduct,<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> which we applaud. What that code contains, however, in terms of restrictions, the amount of information given to attendees, and the enforcement mechanisms and their ease of use, is largely left up to the individual conference instance. This creates inconsistency and uncertainty for both attendees and conference organisers. Selecting a specific code of conduct, with a specific enforcement mechanism, along with training for enforcers, would solve for much of this, and give concerned attendees more certainty that the conference is a safe place to be.</p></li>
+</ol>
+</section>
+<section id="task-force-proposals" class="level3">
+<h3 class="anchored" data-anchor-id="task-force-proposals">Task Force proposals</h3>
+<p>This survey has also helped to shape the goals of the Task Force on Women in the R Community. In particular, focusing in women, as a catchall, is not enough. Issues such as race, sexuality, disability and class intersect with gender and must also be considered if we are to build an R community that is more representative of the scientific/software communities and of society as a whole.</p>
+<p>Accordingly we are rebranding the Task Force as simply Forwards, so that we can consider the needs of other marginalised groups as part of our mission. Our primary focus will still be on women as there remains much work to do here and broadening participation of women was the motivation for setting up the task force. However many of the practical actions we can take, such as the proposals above, will also impact other marginalised groups and making this impact a formal part of our mission will help to ensure our actions do not only benefit white, highly educated women.</p>
+<p>As an immediate consequence, we will be publishing an open call for participation, seeking more members for the group. We are particularly interested in talking to volunteers from non-White, LGBT, non-middle-class or early career backgrounds.</p>
+<p>Running this survey has also served to reinforce that we have no fundamental ground truth here; it is hard to see what the backgrounds of those who try but fail to attend useR are, and their reasons for not going - it is hard to see what the demographics of R community members overall look like. Accordingly we will be running further surveys, adjusting several questions to factor in things we’ve learned from running this one, looking at the overall community and useR! attendees in a more nuanced way.</p>
+</section>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p>If your company would like to sponsor diversity scholarships or childcare at useR! 2017, please contact the chair of the local organizing committee, <a href="mailto:%20tobias.verbeke@openanalytics.eu">Tobias Verbeke</a>.</p>
+<p>We do not plan to release the raw survey data as many individuals can be uniquely identified from one or two demographic questions. We may release the data in an aggregated form once we have completed our full analysis (this post covers the first of three sections).</p>
+<p>The analysis presented here used the following packages:</p>
+<ul>
+<li>For data manipulation: dplyr, forcats, maptools, matrixStats, tidyr</li>
+<li>For visualisaton and reporting: knitr, ggplot2, mapproj, RColorBrewer, rworldmap, scales</li>
+</ul>
+<p>The code is available in the <a href="https://github.com/forwards/surveys-public/blog-posts/useR-2016/mapping-users/mapping-users.Rmd">Rmarkdown file</a>.</p>
+
+
+<!-- -->
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>See our supplementary report <em><a href="https://forwards.github.io/docs/nonresponse_user2016_survey/">Non-Responses in the UseR! 2016 Survey</a></em><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>National Science Foundation (2013) <em><a href="https://www.nsf.gov/statistics/wmpd/2013/digest/theme2_1.cfm">Women, Minorities, and Persons with Disabilities in Science and Engineering</a></em><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Landivar (2013) <em><a href="https://census.gov/content/census/en/library/publications/2013/acs/acs-24.html">Disparities in STEM Employment by Sex, Race, and Hispanic Origin</a></em><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Native Americans are technically overrepresented, but given we’re talking about single digits of attendees here that probably isn’t meaningful - see CEOSE (2012) <em><a href="https://www.nsf.gov/od/oia/activities/ceose/reports/Full_2011-2012_CEOSE_Report_to_Congress_Final_03-04-2014.pdf">Biennial Report to Congress</a></em><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><em><a href="https://www.census.gov/quickfacts/table/PST045215/00">United States Census</a></em><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Coffman (2013) <em><a href="http://www.nber.org/papers/w19508.pdfs">The Size of the LGBT Population and the Magnitude of Anti-Gay Sentiment are Substantially Underestimated</a></em><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Gates (2011) <em><a href="How Many People are Lesbian, Gay, Bisexual and Transgender?">http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/</a></em><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Brown (2014) <em><a href="http://spartanideas.msu.edu/2014/05/05/pycon-2014-community-community-community-also-childcare/">PyCon 2014: Community, community, community. Also, childcare.</a></em><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>R Foundation (2015) <em><a href="Codes of Conduct at R Conferences">https://www.r-project.org/behaviour.html</a></em><a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Mapping useRs"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> </span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Stella Bollmann</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Dianne Cook</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Rudolf Debelak</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Jasmine Dumas</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: John Fox</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Julie Josse</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Oliver Keyes</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Carolin Strobl</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Heather Turner</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2017-01-13</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="an">tags :</span><span class="co"> ["useR!", "survey", "demographics"]</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Report on demographics section of useR! 2016 survey"</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- menu : "" --&gt;</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="al">![](../../images/blog/mapping-users/banner.png)</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>Every year, hundreds of R programmers descend on a host city and spend three or four days sharing work, collaborating on projects and making new contacts - the useR! conference, this year held in Stanford, CA. useR! offers a wonderful opportunity to map a subset of the language's most active users and the Women in R Task Force took this opportunity to survey attendees and find out their backgrounds, experiences and interests, in the hope that it will help us to get a better understanding of how to make the R community a more inclusive environment.</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>Our survey received 455 responses, out of 899 attendees, and appears to represent the attendees pretty accurately.<span class="ot">[^1]</span> In this blog post, we'll step through the attendees' demographic background, how that represents the wider scientific and computing communities (and wider world), and propose recommendations for ways to bring these demographics towards parity.</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## Summary</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>Survey responses showed that attendees were largely male and white, with Latinx, Native American and people of African descent particularly under-represented. Attendees were almost all employed, and what's more, employed in a permanent, full-time job. Attendence skewed heavily towards people in their late 20s and early to mid 30s, with men tending to be older than women, and attendees largely coming from the United States and almost exclusively from North American and Western European countries.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>Our recommendations are that, going forward, useR! conferences set aside tickets and funding for under-represented groups, and put resources into facilities such as feeding rooms and childcare that would benefit caregivers with small children, many of whom are women. Additionally, the Task Force itself will be refocusing its efforts and mission to emphasise the intersectional nature of marginalisation that women face, in line with the dispiriting results around race, employment and educational attainment. We will also be running further surveys to build up a better idea of the "ground truth" of the R community, and to track improvements and suggestions on an ongoing basis.</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">## Survey results</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="fu">### Gender and race</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>The gender breakdown of responses (*n=453*) showed that approximately *33%* of attendees identified as women, with the majority of the remainder identifying as men and a small number identifying outside the gender binary. </span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>While the inclusion of women is not as bad as at other conferences, it's also definitely *lower* than it could be given that there are many scientific fields - such as biology, which R is particularly commonly used in - where women outnumber men in terms of degree attainment.<span class="ot">[^4]</span> At the same time, some of this may be offset by the location and chosen topics for presentations, which were more focused on visualisation or computing than biostatistics.</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>Race is more complicated, because there's more variation in the answers - as intended! Both race and gender questions were offered as a free text field to avoid restricting respondents to false dichotomies. One side-effect, though, is that it's hard to aggregate the data. What we can say, though, is:</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;span</span> <span class="er">style</span><span class="ot">=</span><span class="st">"color:#0c2c84; font-weight:bolder"</span><span class="kw">&gt;</span>74%<span class="kw">&lt;/span&gt;</span> of respondents identified as White or Caucasian;</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;span</span> <span class="er">style</span><span class="ot">=</span><span class="st">"color:#0c2c84; font-weight:bolder"</span><span class="kw">&gt;</span>16%<span class="kw">&lt;/span&gt;</span> fell within the US Federal guidelines for 'Asian', or identified directly as Asian;</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;span</span> <span class="er">style</span><span class="ot">=</span><span class="st">"color:#0c2c84; font-weight:bolder"</span><span class="kw">&gt;</span>3%<span class="kw">&lt;/span&gt;</span> identified as Hispanic or Latinx;</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;span</span> <span class="er">style</span><span class="ot">=</span><span class="st">"color:#0c2c84; font-weight:bolder"</span><span class="kw">&gt;</span>1%<span class="kw">&lt;/span&gt;</span> identified as people of African descent;</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;span</span> <span class="er">style</span><span class="ot">=</span><span class="st">"color:#0c2c84; font-weight:bolder"</span><span class="kw">&gt;</span>0.5%<span class="kw">&lt;/span&gt;</span> identified as Native American or Pacific Islander;</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;span</span> <span class="er">style</span><span class="ot">=</span><span class="st">"color:#0c2c84; font-weight:bolder"</span><span class="kw">&gt;</span>0.25%<span class="kw">&lt;/span&gt;</span> identified as Middle Eastern and</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;span</span> <span class="er">style</span><span class="ot">=</span><span class="st">"color:#0c2c84; font-weight:bolder"</span><span class="kw">&gt;</span>3%<span class="kw">&lt;/span&gt;</span> identified as mixed-race.</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>In comparison, a survey of STEM workers in the United States found 6% were Black and 7% Hispanic<span class="ot">[^2]</span> <span class="ot">[^6]</span> - and the overall demographics of the United States point even more clearly to an under-representation of non-Asian minority groups.<span class="ot">[^3]</span> The response rate was somewhat lower on this question (n = 409), perhaps due to concerns about identifiability. Nonetheless, there's clearly work to be done.</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu">### LGBT</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>5% of respondents identified as Lesbian, Gay, Bisexual or Transgender. How this maps to overall industry, academic and population trends is hard to identify, because the long history of persecution of LGBT individuals and the often confusing and ill-defined nature of identity means that the proportion of LGBT individuals is regularly under-reported. Attempts to control for that under-reporting have shown up to 19% of the U.S. population experience same-sex attraction,<span class="ot">[^5]</span> although more traditional methodologies suggest around 11%.<span class="ot">[^9]</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>It's possible that the useR! survey is one of the surveys in which under-reporting is found - although 447 responses were received, which suggests people at least didn't *skip* it - but it's probably fair to say that such a sizeable difference in outcome is going to contain some genuine differences in population, as well as methodological variation.</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>Additionally, it is probable that the other demographics of LGBT attendees reflect the overall demographics of attendees, meaning that (for example) we would expect to find lesbians or bisexual women under-represented in that 5%.</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="fu">### Age</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>Approximating age (by subtracting the year of birth from 2016) shows the following:</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;img</span> <span class="er">src</span><span class="ot">=</span><span class="st">"../../images/blog/mapping-users/unnamed-chunk-2-1.png"</span> <span class="er">title</span><span class="ot">=</span><span class="st">"plot of chunk unnamed-chunk-2"</span> <span class="er">alt</span><span class="ot">=</span><span class="st">"plot of chunk unnamed-chunk-2"</span> <span class="er">style</span><span class="ot">=</span><span class="st">"display: block; margin: auto;"</span> <span class="kw">/&gt;</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>Women trend younger than men at the conference, but the age distribution is similar across the two genders; *47%* of respondents (n = 438) were born in the 1980s - in other words, were people in their late 20s to mid 30s. This lines up neatly with the education data (more on that later) and suggests that people in their early 20s and 40+ year olds are not finding the conference appealing - because there are other things to spend time on, because money is tighter, or for some other reason. </span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>The women-being-younger element suggests that the rise in women attending (compared to 2015, where the proportion of women was only 19%) represents younger or newer members of the community attending, too.</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="fu">### Geography</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>The R community is a highly international one, with developers in a wide range of countries. One of the things we were interested to discover is how this comes out in the attendee mix at useR!. Accordingly, we asked attendees which country they currently resided in.</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>Altogether, R programmers from 34 nations attended useR!, but the overwhelming majority of respondents (*71%* of n = 443) live in the United States. In some ways this isn't surprising - the cost of getting to Stanford increases the further away you are, and it's expensive to start with! - and the rotation of the conference between continents each year means that many non-US R programmers are likely to simply attend the next European event. At the same time, it's still somewhat disappointing for an event considered the "main" R conference, particularly with only ~20 attendees coming from Canada, a country bordering the U.S.</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;img</span> <span class="er">src</span><span class="ot">=</span><span class="st">"../../images/blog/mapping-users/unnamed-chunk-4-1.png"</span> <span class="er">title</span><span class="ot">=</span><span class="st">"plot of chunk unnamed-chunk-4"</span> <span class="er">alt</span><span class="ot">=</span><span class="st">"plot of chunk unnamed-chunk-4"</span> <span class="er">style</span><span class="ot">=</span><span class="st">"display: block; margin: auto;"</span> <span class="kw">/&gt;</span></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="fu">### Education</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>The vast majority of attendees (&gt;85%, of n = 451) had *completed* postgraduate degrees:</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>|Highest Qualification Completed       | Women (%)| Men (%)|</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>|:-------------------------------------|---------:|-------:|</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>|Professional degree or certification  |       1.2|     2.8|</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>|Doctorate                             |      41.7|    45.7|</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>|Masters degree                        |      42.9|    40.4|</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>|Undergraduate degree                  |      13.7|    10.3|</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>|High school/Secondary school or lower |       0.6|     0.7|</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>This further suggests, on top of the data around age, that the conference is not attracting younger and more-early-career R programmers and researchers. Part of this may simply be that spending money on an R conference may be a lot easier to justify when you're in full-time employment, or in a postgraduate degree with a stipend, than as an undergraduate or masters student; part of it is probably also that people without degrees, or without postgraduate degrees, earn less money and may come from poorer backgrounds, extending the problem.</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>At the same time, it is worth noting that the concept of research conferences as places to attend is not something particularly pushed on undergraduates, and so there is a component of awareness as well as finance. Finally, it may simply be that the conference is very academia-oriented, and so is particularly attractive to academics (and those familiar with academia) rather than R programmers without an academic background.</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>As the age data suggests, women tend to be slightly earlier on in the traditional academic career path.</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="fu">### Professional environment</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>Almost all of the attendees were employed, which (with the cost of the tickets) makes sense. More interestingly, a majority of the attendees (*~57%* of n = 444) were employed outside academia, primarily by private sector organisations. This is a strong indicator of what we've known anecdotally for a while - that R, a language originally designed and used in academia, is becoming more prevalent outside that context. At the same time, this may be a (somewhat) localised effect: while the language is increasingly popular, the technology industry centred on Silicon Valley is certainly an outlier in many respects for research overall.</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;img</span> <span class="er">src</span><span class="ot">=</span><span class="st">"../../images/blog/mapping-users/unnamed-chunk-6-1.png"</span> <span class="er">title</span><span class="ot">=</span><span class="st">"plot of chunk unnamed-chunk-6"</span> <span class="er">alt</span><span class="ot">=</span><span class="st">"plot of chunk unnamed-chunk-6"</span> <span class="er">style</span><span class="ot">=</span><span class="st">"display: block; margin: auto;"</span> <span class="kw">/&gt;</span></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>Another interesting takeaway was that men are more likely to work in industry and permanent academic jobs than women - and women are far, *far* more likely to be students. Again, this isn't surprising since it fits the pattern that women attending tend to be younger than men, and overall patterns that the tech industry (which is where one would expect the majority of privately-employed R programmers and scientists to work) has a known problem with employing and promoting women, as does academia.</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>Almost all attendees work full-time. It's difficult to tell if this is due to the wider community largely being employed or engaged in full-time activities, or due to the cost of attendance diminishing the ability of community members in more economically fragile situations such as part-time work or unemployment to attend. Female attendees were less likely to work part-time, and far more likely to identify their status as unemployed (although the sample size is too small to really draw conclusions):</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>|Employment Status           | Women (%)| Men (%)|</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>|:---------------------------|---------:|-------:|</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>|Full-time                   |      92.2|    94.3|</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>|Part-time                   |       1.8|     4.3|</span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a>|I am not currently employed |       6.0|     1.4|</span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>The proportion identifying as unemployed is greater than the proportion that previously identified as unemployed or retired, which could indicate that some students are categorising themselves as 'not in employment' when not presented with an option that reflects student-status.</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="fu">### Caregiving</span></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>Approximately a quarter of respondents answered "yes" to the question "are you a caregiver for children or adult dependents on a regular basis?" (n = 445). More men than women identified as caregivers. This either indicates that R programmers are a singularly socially enlightened population, or reflects wider sociological conditioning around caregiving which makes it easier for men to leave children at home with their partner (if applicable) than for women to do the same - resulting in a self-selection effect in which women with children are less likely to be able to attend (and so women who do attend are less likely to have children they care for).</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>Qualitative data suggests, unsurprisingly, the latter - in the free-text field for the survey, several (female) respondents mentioned the difficulty of persuading their (male) partners to handle childcare to allow them to attend conferences.</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>|Caregiving Status | Women (%)| Men (%)|</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>|:-----------------|---------:|-------:|</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>|No                |      78.3|    71.2|</span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a>|Yes               |      21.7|    28.8|</span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="fu">## Recommendations</span></span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="fu">### Conference proposals</span></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a>The survey data surfaces a lot of problems that can be tackled directly by future useR! conferences, and other conferences in the field too. In particular, it shows that while the gender breakdown of the conference is not as bad as we might fear, it's still lagging behind the general population of the scientific fields R programming draws from, as well as the population as a whole. In addition, and in some ways more worryingly, attendees are overwhelmingly white, with Native Americans, Latinx people and people of African descent particularly under-represented.</span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a>These problems won't be solved overnight, but there are several things the conference can do that would make attending a more viable and enjoyable prospect for under-represented groups. These include:</span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>*A wider scholarship system*. useR! 2016 featured scholarships, helping pay for things like plane tickets or hotels for people from marginalised backgrounds who wished to attend. The committee tasked with allotting the money did excellent work, but the money available was small. Expanding the scholarship fund in future conferences would let more under-represented R programmers attend, going a long way towards making a more representative conference.</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>*Childcare and feeding support*. One of the things we saw in qualitative data, and something the quantitative data points to, is that the difficulties of juggling childcare is a blocker on attendance, particularly for women. Providing subsidised or free childcare at the conference itself (along with breastfeeding rooms), and incorporating childcare into the scholarship system, would help with this, and has been successfully done elsewhere.<span class="ot">[^7]</span></span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>*Staggered ticket release*. useR! 2016 sold out incredibly quickly, with all of the tickets gone within a day. This made it difficult for people to attend if they weren't extremely on the ball and able to decide, on or before the first registration day, that they wanted to attend. By definition this hurts marginalised people because it hurts people who, for financial reasons, need to put some energy behind working out if they can attend. One solution worth considering is staggering the release of tickets over several days or weeks - perhaps with a waiting or notification list. This offers potential attendees multiple opportunities, reducing the penalty paid for not being ready to go on day 1.</span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>A *more precise code of conduct*. Following an open letter in 2015 the R Foundation adopted a resolution that any Foundation-affiliated conference have a Code of Conduct,<span class="ot">[^8]</span> which we applaud. What that code contains, however, in terms of restrictions, the amount of information given to attendees, and the enforcement mechanisms and their ease of use, is largely left up to the individual conference instance. This creates inconsistency and uncertainty for both attendees and conference organisers. Selecting a specific code of conduct, with a specific enforcement mechanism, along with training for enforcers, would solve for much of this, and give concerned attendees more certainty that the conference is a safe place to be.</span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a><span class="fu">### Task Force proposals</span></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a>This survey has also helped to shape the goals of the Task Force on Women in the R Community. In particular, focusing in women, as a catchall, is not enough. Issues such as race, sexuality, disability and class intersect with gender and must also be considered if we are to build an R community that is more representative of the scientific/software communities and of society as a whole.</span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a>Accordingly we are rebranding the Task Force as simply Forwards, so that we can consider the needs of other marginalised groups as part of our mission. Our primary focus will still be on women as there remains much work to do here and broadening participation of women was the motivation for setting up the task force. However many of the practical actions we can take, such as the proposals above, will also impact other marginalised groups and making this impact a formal part of our mission will help to ensure our actions do not only benefit white, highly educated women.</span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a>As an immediate consequence, we will be publishing an open call for participation, seeking more members for the group. We are particularly interested in talking to volunteers from non-White, LGBT, non-middle-class or early career backgrounds.</span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a>Running this survey has also served to reinforce that we have no fundamental ground truth here; it is hard to see what the backgrounds of those who try but fail to attend useR are, and their reasons for not going - it is hard to see what the demographics of R community members overall look like. Accordingly we will be running further surveys, adjusting several questions to factor in things we've learned from running this one, looking at the overall community and useR! attendees in a more nuanced way.</span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a><span class="fu">## Notes</span></span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a>If your company would like to sponsor diversity scholarships or childcare at useR! 2017, please contact the chair of the local organizing committee, <span class="co">[</span><span class="ot">Tobias Verbeke</span><span class="co">](mailto: tobias.verbeke@openanalytics.eu)</span>.</span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a>We do not plan to release the raw survey data as many individuals can be uniquely identified from one or two demographic questions. We may release the data in an aggregated form once we have completed our full analysis (this post covers the first of three sections).</span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a>The analysis presented here used the following packages:</span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a><span class="ss"> - </span>For data manipulation: dplyr, forcats, maptools, matrixStats, tidyr</span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a><span class="ss"> - </span>For visualisaton and reporting: knitr, ggplot2, mapproj, RColorBrewer, rworldmap, </span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a> scales</span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a>The code is available in the <span class="co">[</span><span class="ot">Rmarkdown file</span><span class="co">](https://github.com/forwards/surveys-public/blog-posts/useR-2016/mapping-users/mapping-users.Rmd)</span>.</span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]: </span>See our supplementary report *[Non-Responses in the UseR! 2016 Survey](https://forwards.github.io/docs/nonresponse_user2016_survey/)*</span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a><span class="ot">[^2]: </span>Landivar (2013) *[Disparities in STEM Employment by Sex, Race, and Hispanic Origin](https://census.gov/content/census/en/library/publications/2013/acs/acs-24.html)*</span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a><span class="ot">[^3]: </span>*[United States Census](https://www.census.gov/quickfacts/table/PST045215/00)*</span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a><span class="ot">[^4]: </span>National Science Foundation (2013) *[Women, Minorities, and Persons with Disabilities in Science and Engineering](https://www.nsf.gov/statistics/wmpd/2013/digest/theme2_1.cfm)*</span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a><span class="ot">[^5]: </span>Coffman (2013) *[The Size of the LGBT Population and the Magnitude of Anti-Gay Sentiment are Substantially Underestimated](http://www.nber.org/papers/w19508.pdfs)*</span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a><span class="ot">[^6]: </span>Native Americans are technically overrepresented, but given we're talking about single digits of attendees here that probably isn't meaningful - see CEOSE (2012) *[Biennial Report to Congress](https://www.nsf.gov/od/oia/activities/ceose/reports/Full_2011-2012_CEOSE_Report_to_Congress_Final_03-04-2014.pdf)*</span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a><span class="ot">[^7]: </span>Brown (2014) *[PyCon 2014: Community, community, community. Also, childcare.](http://spartanideas.msu.edu/2014/05/05/pycon-2014-community-community-community-also-childcare/)*</span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a><span class="ot">[^8]: </span>R Foundation (2015) *[https://www.r-project.org/behaviour.html](Codes of Conduct at R Conferences)*</span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a><span class="ot">[^9]: </span>Gates (2011) *[http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/](How Many People are Lesbian, Gay, Bisexual and Transgender?)*</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Copyright 2023, R Forwards</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

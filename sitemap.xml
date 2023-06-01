@@ -1,103 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/forwards/website_source/conferences.html</loc>
-    <lastmod>2023-06-01T00:41:40.507Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/contribution.html</loc>
-    <lastmod>2023-06-01T00:41:42.583Z</lastmod>
+    <loc>https://github.com/forwards/website_source/package-dev.html</loc>
+    <lastmod>2023-06-01T05:19:42.946Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/forwards/website_source/blog.html</loc>
-    <lastmod>2023-06-01T00:41:44.247Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/index.html</loc>
-    <lastmod>2023-06-01T00:41:44.635Z</lastmod>
+    <lastmod>2023-06-01T05:19:46.214Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/forwards/website_source/privacy-policy.html</loc>
-    <lastmod>2023-06-01T00:41:45.139Z</lastmod>
+    <lastmod>2023-06-01T05:19:46.662Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/forwards/website_source/package-dev.html</loc>
-    <lastmod>2023-06-01T00:41:45.551Z</lastmod>
+    <loc>https://github.com/forwards/website_source/blog/users-relationship-with-r-2017/index.html</loc>
+    <lastmod>2023-06-01T05:19:48.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/blacklivesmatter-statement/index.html</loc>
+    <lastmod>2023-06-01T05:19:48.870Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/mapping-users-2017/index.html</loc>
+    <lastmod>2023-06-01T05:19:50.734Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/r-in-latin-america-2018/index.html</loc>
+    <lastmod>2023-06-01T05:19:52.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/the-state-of-r-in-africa-2019/index.html</loc>
+    <lastmod>2023-06-01T05:19:53.130Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/girls-coding-workshop-melbourne/index.html</loc>
+    <lastmod>2023-06-01T05:19:53.566Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/havanar/index.html</loc>
+    <lastmod>2023-06-01T05:19:54.110Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/workshops-for-women-and-girls/index.html</loc>
+    <lastmod>2023-06-01T05:19:54.934Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/rladies-charlottesville-workshop-recap/index.html</loc>
+    <lastmod>2023-06-01T05:19:55.570Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/call-to-join-forwards/index.html</loc>
+    <lastmod>2023-06-01T05:19:56.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/users-participation-in-the-r-community-2017/index.html</loc>
+    <lastmod>2023-06-01T05:19:57.958Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/southern-africa-project-2020/index.html</loc>
+    <lastmod>2023-06-01T05:19:58.858Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/r-in-africa-2017/index.html</loc>
+    <lastmod>2023-06-01T05:19:59.830Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/blog/emily-robinson-interview/index.html</loc>
+    <lastmod>2023-06-01T05:20:01.122Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/forwards/website_source/education.html</loc>
-    <lastmod>2023-06-01T00:41:45.895Z</lastmod>
+    <lastmod>2023-06-01T05:20:01.482Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/forwards/website_source/workshops.html</loc>
-    <lastmod>2023-06-01T00:41:46.395Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/data.html</loc>
-    <lastmod>2023-06-01T00:41:46.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/about.html</loc>
-    <lastmod>2023-06-01T00:41:47.471Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2018-02-05_r-in-latin-america/index.html</loc>
-    <lastmod>2023-06-01T00:41:48.603Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2018-07-07_havanar/index.html</loc>
-    <lastmod>2023-06-01T00:41:49.087Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2017-03-11_users-relationship-with-r/index.html</loc>
-    <lastmod>2023-06-01T00:41:50.595Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2017-01-13_call-to-join-forwards/index.html</loc>
-    <lastmod>2023-06-01T00:41:51.031Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2017-06-19_users-participation-in-the-r-community/index.html</loc>
-    <lastmod>2023-06-01T00:41:53.023Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2019-11-15_the-state-of-r-in-africa/index.html</loc>
-    <lastmod>2023-06-01T00:41:53.663Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2020-05-25_southern-africa-project-2020/index.html</loc>
-    <lastmod>2023-06-01T00:41:54.559Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2019-11-22_recap-of-r-ladies-charlottesville-forwards-workshop/index.html</loc>
-    <lastmod>2023-06-01T00:41:55.119Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2020-06-06_blacklivesmatter-a-joint-statement-by-forwards-and-r-ladies/index.html</loc>
-    <lastmod>2023-06-01T00:41:55.903Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2019-09-22_workshops-for-women-and-girls/index.html</loc>
-    <lastmod>2023-06-01T00:41:56.723Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2017-12-01_r-in-africa/index.html</loc>
-    <lastmod>2023-06-01T00:41:57.711Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2017-02-07_emily-robinson-from-social-scientist-to-data-scientist/index.html</loc>
-    <lastmod>2023-06-01T00:41:59.059Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2017-01-13_mapping-users/index.html</loc>
-    <lastmod>2023-06-01T00:42:01.023Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/forwards/website_source/blog/2017-11-20_girls-coding-workshop-melbourne/index.html</loc>
-    <lastmod>2023-06-01T00:42:02.159Z</lastmod>
+    <loc>https://github.com/forwards/website_source/index.html</loc>
+    <lastmod>2023-06-01T05:20:01.858Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/forwards/website_source/community.html</loc>
-    <lastmod>2023-06-01T00:42:02.571Z</lastmod>
+    <lastmod>2023-06-01T05:20:02.250Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/docs/recommendations_user.html</loc>
+    <lastmod>2023-06-01T05:20:02.750Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/docs/MCA_community_useR2016_survey.html</loc>
+    <lastmod>2023-06-01T05:20:04.150Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/docs/MCA_programming_useR2016_survey.html</loc>
+    <lastmod>2023-06-01T05:20:05.566Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/docs/nonresponse_useR2016_survey.html</loc>
+    <lastmod>2023-06-01T05:20:06.574Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/about.html</loc>
+    <lastmod>2023-06-01T05:20:07.146Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/conferences.html</loc>
+    <lastmod>2023-06-01T05:20:07.502Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/contribution.html</loc>
+    <lastmod>2023-06-01T05:20:07.854Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/workshops.html</loc>
+    <lastmod>2023-06-01T05:20:08.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/forwards/website_source/data.html</loc>
+    <lastmod>2023-06-01T05:20:08.774Z</lastmod>
   </url>
 </urlset>

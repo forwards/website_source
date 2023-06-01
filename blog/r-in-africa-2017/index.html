@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Andrew Collier">
+<meta name="author" content="Anelda van der Walt">
+<meta name="author" content="Ziv Shkedy">
+<meta name="author" content="Theoni Photopoulou">
+<meta name="author" content="Margareth Gfrerer">
+<meta name="author" content="Heather Turner">
+<meta name="dcterms.date" content="2017-12-01">
+<meta name="description" content="Round-up of initiatives in the R community across Africa.">
+
+<title>Forwards - R in Africa</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Forwards - R in Africa">
+<meta property="og:description" content="Round-up of initiatives in the R community across Africa.">
+<meta property="og:image" content="https://github.com/forwards/website_source/images/blog/r-in-africa/globe.jpg">
+<meta property="og:site-name" content="Forwards">
+<meta name="twitter:title" content="Forwards - R in Africa">
+<meta name="twitter:description" content="Round-up of initiatives in the R community across Africa.">
+<meta name="twitter:image" content="https://github.com/forwards/website_source/images/blog/r-in-africa/globe.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../blog/r-in-africa-2017/index.html" class="navbar-brand navbar-brand-logo">
+    <img src="https://forwards.github.io/images/forwards.svg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../blog/r-in-africa-2017/index.html">
+    <span class="navbar-title">Forwards</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../community.html" rel="" target="">
+ <span class="menu-text">Community</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences.html" rel="" target="">
+ <span class="menu-text">Conferences</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contribution.html" rel="" target="">
+ <span class="menu-text">Contribution</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../data.html" rel="" target="">
+ <span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Other</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-other">    
+        <li>
+    <a class="dropdown-item" href="../../workshops.html" rel="" target="">
+ <span class="dropdown-text">Workshops</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../package-dev.html" rel="" target="">
+ <span class="dropdown-text">Package Development Workshop for women and other underrepresented groups</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../privacy-policy.html" rel="" target="">
+ <span class="dropdown-text">Forwards Privacy Policy</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://hachyderm.io/@R_Forwards" rel="" target=""><i class="bi bi-mastodon" role="img" aria-label="mastodon">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools tools-wide">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/forwards/website_source">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/forwards/website_source">
+            Report a Bug
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <div class="quarto-title-block"><div><h1 class="title">R in Africa</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+                  <div>
+        <div class="description">
+          Round-up of initiatives in the R community across Africa.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">news</div>
+                <div class="quarto-category">community</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-contents">
+               <p>Andrew Collier </p>
+               <p>Anelda van der Walt </p>
+               <p>Ziv Shkedy </p>
+               <p>Theoni Photopoulou </p>
+               <p>Margareth Gfrerer </p>
+               <p>Heather Turner </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 1, 2017</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#satrdays-in-cape-town" id="toc-satrdays-in-cape-town" class="nav-link active" data-scroll-target="#satrdays-in-cape-town">satRdays in Cape Town</a></li>
+  <li><a href="#softwaredata-carpentry" id="toc-softwaredata-carpentry" class="nav-link" data-scroll-target="#softwaredata-carpentry">Software/Data Carpentry</a></li>
+  <li><a href="#r-ladies-in-africa" id="toc-r-ladies-in-africa" class="nav-link" data-scroll-target="#r-ladies-in-africa">R-Ladies in Africa</a></li>
+  <li><a href="#er-biostat-making-r-based-education-materials-accessible-for-all" id="toc-er-biostat-making-r-based-education-materials-accessible-for-all" class="nav-link" data-scroll-target="#er-biostat-making-r-based-education-materials-accessible-for-all">&gt;eR-Biostat: making R based education materials accessible for all</a></li>
+  <li><a href="#other-activities" id="toc-other-activities" class="nav-link" data-scroll-target="#other-activities">Other activities</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><img src="../../images/blog/r-in-africa/globe.jpg" class="img-fluid"></p>
+<p>R is used around the world and yet, in English-speaking media at least, we tend to hear most about what is happening in North America, Europe, and Australasia. So we would like to highlight some recent initiatives in the R community from other regions of the world, with this first post in the series focusing on R in Africa.</p>
+<!--more-->
+<section id="satrdays-in-cape-town" class="level2">
+<h2 class="anchored" data-anchor-id="satrdays-in-cape-town">satRdays in Cape Town</h2>
+<p>Following the first successful <a href="http://budapest.satrdays.org/">satRday in Budapest</a> on 3 September 2016, a <a href="http://capetown2017.satrdays.org/">satRday in Cape Town</a> was held on 18 February 2017. The event was hosted at <a href="http://workshop17.co.za/">Workshop 17</a> in the Victoria &amp; Alfred Waterfront. There were three great keynote speakers (<a href="https://twitter.com/JennyBryan">Jenny Bryan</a>, <a href="https://twitter.com/juliasilge">Julia Silge</a> and <a href="https://twitter.com/SteffLocke">Steph Locke</a>). In addition to the invited speakers the organizers received 41 contributed proposals, of which 23 were accepted: 3 tutorials, 8 standard talks and 12 lightning talks. Just over 200 tickets were issued for the event and the venue was literally packed. On two days prior to the conference there were workshops by the keynote speakers. These were also very well attended.</p>
+<p><img src="../../images/blog/r-in-africa/D3S_6897.JPG" class="img-fluid"></p>
+<p><em><br>satRday was an excellent networking opportunity!</em></p>
+<p>A second <a href="http://capetown2018.satrdays.org/">satRday in Cape Town</a> is now planned for 17 March 2018, with two exciting keynote speakers: <a href="https://twitter.com/maelle">Maëlle Salmon</a> and <a href="https://twitter.com/StatsOnTheT">Stephanie Kovalchik</a>. They will be presenting workshops on R package development and sports analytics with R on the day prior to the conference.</p>
+<p>Next year’s conference will be held at a bigger venue on the campus of the University of Cape Town, which will be able to accommodate even more enthusiastic R users. Tickets are on sale and the <a href="https://www.papercall.io/satrday-cape-town-2018">Call for Papers</a> is open.</p>
+</section>
+<section id="softwaredata-carpentry" class="level2">
+<h2 class="anchored" data-anchor-id="softwaredata-carpentry">Software/Data Carpentry</h2>
+<p>Since 2015 <a href="https://software-carpentry.org/">Software Carpentry</a> and <a href="http://www.datacarpentry.org/">Data Carpentry</a> have been enabling R capacity development in Africa. Software and Data Carpentry host two-day workshops teaching researchers and postgraduate students foundational skills to assist with better research software development and data analysis respectively. The Carpentries are global non-profit volunteer organisations that not only teach tools like R, Python, SQL, and git/Github, but also run a two-day <a href="https://carpentries.github.io/instructor-training/">instructor training workshop</a> to help technical experts teach more effectively.</p>
+<p><img src="../../images/blog/r-in-africa/carpentries.jpg" class="img-fluid"> <em><br>Highlights from Carpentry workshops</em></p>
+<p>Over the past three years more than 30 workshops were run in countries like <a href="https://software-carpentry.org/blog/2017/05/instructor-training-south-africa.html">South Africa</a>, <a href="https://software-carpentry.org/blog/2017/09/mauritius.html">Mauritius</a>, Ghana, <a href="https://software-carpentry.org/blog/2017/09/mauritius.html">Gabon</a>, <a href="https://software-carpentry.org/blog/2017/09/namibia.html">Namibia</a>, Botswana, <a href="http://www.datacarpentry.org/blog/tdwg/">Kenya</a>, and <a href="https://software-carpentry.org/blog/2017/09/ethiopia.html">Ethiopia</a>. These workshops have reached hundreds of researchers and students who mostly had limited or no prior exposure to programming.</p>
+<p>More information about the lessons we teach is available at the websites: <a href="https://software-carpentry.org/lessons/">Software Carpentry</a> and <a href="http://www.datacarpentry.org/lessons/">Data Carpentry</a>.</p>
+<p>If you’d like to get involved in Carpentries in Africa, please <a href="https://groups.google.com/forum/#!forum/swc-za">join our Google Group</a> or request a workshop by completing the <a href="https://software-carpentry.org/workshops/request/">form</a>.</p>
+</section>
+<section id="r-ladies-in-africa" class="level2">
+<h2 class="anchored" data-anchor-id="r-ladies-in-africa">R-Ladies in Africa</h2>
+<p>The set-up of a Cape Town chapter of <a href="https://rladies.org/">R-Ladies</a> was inspired by the first satRday conference in Cape Town. All three plenary speakers at that conference were part of the R-Ladies community and it was extremely refreshing to go to a conference largely about science and technology where women took the centre stage. Cape Town is a multicultural, multilingual and multiracial city, but this diversity is not represented in the R user community. The aim of the Cape Town chapter of R-Ladies is to grow the female R user community in Cape Town and bring to it the diversity of cultures, ethnicities and backgrounds present in the city. By the end of 2017 the group will have had five meetups since their launch in July this year. They are still quite a small group, but they are confident they will grow in time. One might expect that there would be many more people using R in a big city, but issues with congestion and public transport may form a barrier to people attending. The answer might be to form even more R-Ladies chapters around different parts of the city so that people don’t have to travel far! R-Ladies Cape Town can be reached at <a href="mailto:capetown@rladies.org" class="email">capetown@rladies.org</a> and on <a href="https://twitter.com/rladiescapetown">Twitter <span class="citation" data-cites="RLadiesCapeTown">@RLadiesCapeTown</span></a>.</p>
+<p>R Ladies Addis was founded on October 30, 2017 in the course of the 2nd Data Carpentry Workshop in Addis Ababa, with 7 founding members and 2 honorary members. Thanks to the support provided by Ms.&nbsp;Anelda van der Walt from South Africa, an honorary member of R Ladies Addis as well as the R Ladies community, R Ladies Addis got ready for its first meeting on November 14, 2017. The agenda of this meeting was to decide the framework of R Ladies Addis activities. The group has set its special focus on working with women students and women researchers by offering R training and R competitions. R Ladies Addis has been invited to reach out to the different corners of Ethiopia. For the time being R Ladies is present at https://r-ladies-addis.github.io/studyGroup and can be reached by e-mail <a href="mailto:addisababa@rladies.org" class="email">addisababa@rladies.org</a>.</p>
+<p><img src="../../images/blog/r-in-africa/r-ladies-addis-ababa.png" class="img-fluid"> <em><br>1st Meeting of R Ladies Addis on Nov.&nbsp;14, 2017</em></p>
+<p>A new chapter of R-Ladies will soon be starting in Cotonou, Benin. The organizers plan to have their first meeting in January to conincide with the start of the new academic year. Follow the group on <a href="https://twitter.com/RLadiesCtn">Twitter, <span class="citation" data-cites="RLadiesCtn">@RLadiesCtn</span></a> or email <a href="mailto:cotonou@rladies.org" class="email">cotonou@rladies.org</a> to find out more! Local R-Ladies also hope to establish groups in Fez, Morocco and Johannesburg, South Africa; if you are interested in these groups, or interested in starting a chapter in your own area (in Africa or beyond!) you can contact <a href="mailto:info@rladies.org" class="email">info@rladies.org</a>.</p>
+</section>
+<section id="er-biostat-making-r-based-education-materials-accessible-for-all" class="level2">
+<h2 class="anchored" data-anchor-id="er-biostat-making-r-based-education-materials-accessible-for-all">&gt;eR-Biostat: making R based education materials accessible for all</h2>
+<p>One of the main problems in education at both undergraduate and master’s levels in developing countries is the lack of high quality materials for courses in education programs. The <strong>&gt;eR-Biostat</strong> initiative is focused on providing <strong>R-based</strong> materials for higher education programs in Biostatistics/Statistics, as well as introductory materials for non-statisticians and in future, an E-learning system for courses at different education levels.</p>
+<p>Courses are organized in four clusters and are ready to be delivered in class. The <strong>Introductory courses</strong> aim to train students in data analysis using R at a basic level. These courses were developed for undergraduate students, both non-statisticians and statisticians. The courses within this cluster can also be used as courses to support R usage in undergraduate programs in biostatistics/statistics. The <strong>Basic courses</strong> are designed for an intermediate level and a basic knowledge in statistics is required in order to follow the courses. The courses within this cluster can be used as training courses for non-statisticians and as courses to support R usage in undergraduate programs in biostatistics/statistics. The <strong>Statistical modelling (I)</strong> and <strong>Statistical modelling (II)</strong> clusters consist of basic and advanced courses, respectively, at master’s level in biostatistics/statistics.</p>
+<p><img src="../../images/blog/r-in-africa/er-biostat-ethiopia.png" class="img-fluid"> <em><br>The first &gt;eR-Biostat workshop in Gondar University, Ethiopia</em></p>
+<p>Course materials and updated information about our activities are available online (See <a href="https://er-biostat.github.io/Courses/">&gt;eR-BioStat</a>).</p>
+<p>Follow us on <a href="https://www.facebook.com/ER-BioStat-1463845487001786/">Facebook</a> and <a href="https://twitter.com/erbiostat">Twitter (<span class="citation" data-cites="erbiostat">@erbiostat</span>)</a>. Interested to contribute a course and/or an &gt;eR-Biostat event? Send an email to <a href="mailto:erbiostat@gmail.com" class="email">erbiostat@gmail.com</a> or <a href="mailto:ziv.shkedy@uhasselt.be" class="email">ziv.shkedy@uhasselt.be</a>.</p>
+</section>
+<section id="other-activities" class="level2">
+<h2 class="anchored" data-anchor-id="other-activities">Other activities</h2>
+<p>Here we have focused on some of the more recent initiatives, but of course there are many other groups encouraging the use of R in Africa. For example, several general R User Groups have been established; many are listed on the <a href="http://datascience-africa.org/">Data Science Africa web site</a> and a few more are listed on the <a href="https://jumpingrivers.github.io/meetingsR/r-user-groups.html">R User Groups</a> listing hosted by jumping rivers. On the education side, the centres of the <a href="https://www.nexteinstein.org/">African Institute of Mathematical Sciences (AIMS)</a> often use R in their courses and workshops. In particular AIMS Tanzania is a partner in the <a href="http://www.africanmathsinitiative.net/blog/initiatives/african-data-initiative/">Africa Data Initiative</a> that developed <a href="http://r-instat.org/index.html">R-Instat</a> a front-end to R designed to make R more accessible for students. Going beyond the classroom, <a href="http://yieldingresults.org/">BeST (Bespoke eStyle Statistical Training for Africa and South Asia)</a> assist in upskilling scientists working in agricultural development via online courses in R. If you are aware of other such initiatives, feel free to share them in the comments!</p>
+
+
+<!-- -->
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> R in Africa</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> </span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Andrew Collier</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Anelda van der Walt</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Ziv Shkedy</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Theoni Photopoulou</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Margareth Gfrerer</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Heather Turner</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2017-12-01</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Round-up of initiatives in the R community across Africa."</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> ["news", "community"]</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="al">![](../../images/blog/r-in-africa/globe.jpg)</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>R is used around the world and yet, in English-speaking media at least, we tend </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>to hear most about what is happening in North America, Europe, and Australasia.</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>So we would like to highlight some recent initiatives in the R </span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>community from other regions of the world, with this first post in the series </span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>focusing on R in Africa.</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!--more--&gt;</span> </span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">## satRdays in Cape Town</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>Following the first successful </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">satRday in Budapest</span><span class="co">](http://budapest.satrdays.org/)</span> on 3 September 2016, a </span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">satRday in Cape Town</span><span class="co">](http://capetown2017.satrdays.org/)</span> was held on </span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>18 February 2017. The event was hosted at </span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Workshop 17</span><span class="co">](http://workshop17.co.za/)</span> in the Victoria &amp; Alfred Waterfront. </span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>There were three great keynote speakers </span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>(<span class="co">[</span><span class="ot">Jenny Bryan</span><span class="co">](https://twitter.com/JennyBryan)</span>, </span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Julia Silge</span><span class="co">](https://twitter.com/juliasilge)</span> and </span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Steph Locke</span><span class="co">](https://twitter.com/SteffLocke)</span>). In addition to the invited </span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>speakers the organizers received 41 contributed proposals, of which 23 were </span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>accepted: 3 tutorials, 8 standard talks and 12 lightning talks. Just over 200 </span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>tickets were issued for the event and the venue was literally packed. On two </span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>days prior to the conference there were workshops by the keynote speakers. </span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>These were also very well attended.</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="al">![](../../images/blog/r-in-africa/D3S_6897.JPG)</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>*&lt;br/&gt;satRday was an excellent networking opportunity!*</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>A second <span class="co">[</span><span class="ot">satRday in Cape Town</span><span class="co">](http://capetown2018.satrdays.org/)</span> is now</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>planned for 17 March 2018, with two exciting keynote speakers: <span class="co">[</span><span class="ot">Maëlle Salmon</span><span class="co">](https://twitter.com/maelle)</span> and </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Stephanie Kovalchik</span><span class="co">](https://twitter.com/StatsOnTheT)</span>. </span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>They will be presenting workshops on R package development and sports analytics</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>with R on the day prior to the conference.</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>Next year's conference will be held at a bigger venue on the campus of the </span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>University of Cape Town, which will be able to accommodate even more </span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>enthusiastic R users. Tickets are on sale and the </span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Call for Papers</span><span class="co">](https://www.papercall.io/satrday-cape-town-2018)</span> is open.</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="fu">## Software/Data Carpentry</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>Since 2015 <span class="co">[</span><span class="ot">Software Carpentry</span><span class="co">](https://software-carpentry.org/)</span> and </span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Data Carpentry</span><span class="co">](http://www.datacarpentry.org/)</span> have been enabling R capacity</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>development in Africa. Software and Data Carpentry host two-day workshops </span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>teaching researchers and postgraduate students foundational skills to assist </span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>with better research software development and data analysis respectively. </span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>The Carpentries are global non-profit volunteer organisations that not only </span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>teach tools like R, Python, SQL, and git/Github, but also run a two-day </span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">instructor training workshop</span><span class="co">](https://carpentries.github.io/instructor-training/)</span> </span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>to help technical experts teach more effectively.</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="al">![](../../images/blog/r-in-africa/carpentries.jpg)</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>*&lt;br/&gt;Highlights from Carpentry workshops*</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>Over the past three years more than 30 workshops were run in countries like </span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">South Africa</span><span class="co">](https://software-carpentry.org/blog/2017/05/instructor-training-south-africa.html)</span>, </span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Mauritius</span><span class="co">](https://software-carpentry.org/blog/2017/09/mauritius.html)</span>, Ghana,</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Gabon</span><span class="co">](https://software-carpentry.org/blog/2017/09/mauritius.html)</span>,</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Namibia</span><span class="co">](https://software-carpentry.org/blog/2017/09/namibia.html)</span>, Botswana,</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Kenya</span><span class="co">](http://www.datacarpentry.org/blog/tdwg/)</span>, and</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Ethiopia</span><span class="co">](https://software-carpentry.org/blog/2017/09/ethiopia.html)</span>. These </span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>workshops have reached hundreds of researchers and students who mostly had </span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>limited or no prior exposure to programming. </span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>More information about the lessons we teach is available at the websites: </span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Software Carpentry</span><span class="co">](https://software-carpentry.org/lessons/)</span> and </span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Data Carpentry</span><span class="co">](http://www.datacarpentry.org/lessons/)</span>.</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>If you'd like to get involved in Carpentries in Africa, please</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">join our Google Group</span><span class="co">](https://groups.google.com/forum/#!forum/swc-za)</span> or </span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>request a workshop by completing the <span class="co">[</span><span class="ot">form</span><span class="co">](https://software-carpentry.org/workshops/request/)</span>.</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="fu">## R-Ladies in Africa</span></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>The set-up of a Cape Town chapter of <span class="co">[</span><span class="ot">R-Ladies</span><span class="co">](https://rladies.org/)</span> </span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>was inspired by the first satRday</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>conference in Cape Town. All three plenary speakers at that conference</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>were part of the R-Ladies community and it was extremely refreshing to go to a</span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>conference largely about science and technology where women took the centre </span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>stage. Cape Town is a multicultural, multilingual and multiracial city, but this</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>diversity is not represented in the R user community. The aim of the Cape Town </span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>chapter of R-Ladies is to grow the female R user community in Cape Town and</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>bring to it the diversity of cultures, ethnicities and backgrounds present in </span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>the city. By the end of 2017 the group will have had five meetups since their </span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>launch in July this year. They are still quite a small group, but they are </span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>confident they will grow in time. One might expect that there would be </span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>many more people using R in a big city, but issues with congestion and public</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a>transport may form a barrier to people attending. The answer might be to form</span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>even more R-Ladies chapters around different parts of the city so that people</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>don’t have to travel far! R-Ladies Cape Town can be reached at </span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;capetown@rladies.org&gt;</span> and on </span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Twitter @RLadiesCapeTown</span><span class="co">](https://twitter.com/rladiescapetown)</span>.</span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a>R Ladies Addis was founded on October 30, 2017 in the course of the 2nd Data </span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>Carpentry Workshop in Addis Ababa, with 7 founding members and 2 honorary </span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>members. Thanks to the support provided by Ms. Anelda van der Walt from </span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>South Africa, an honorary member of R Ladies Addis as well as the R Ladies </span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>community, R Ladies Addis got ready for its first meeting on November 14, 2017. </span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>The agenda of this meeting was to decide the framework of R </span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>Ladies Addis activities. The group has set its special focus on working </span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>with women students and women researchers by offering R training and R</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>competitions. R Ladies Addis has been invited to reach out to the different </span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>corners of Ethiopia. For the time being R Ladies is present at </span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>https://r-ladies-addis.github.io/studyGroup and can be reached by e-mail</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;addisababa@rladies.org&gt;</span>.</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="al">![](../../images/blog/r-in-africa/r-ladies-addis-ababa.png)</span></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a>*&lt;br/&gt;1st Meeting of R Ladies Addis on Nov. 14, 2017*</span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a>A new chapter of R-Ladies will soon be starting in Cotonou, Benin. The </span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a>organizers plan to have their first meeting in January to conincide with the </span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a>start of the new academic year. Follow the group on </span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Twitter, @RLadiesCtn</span><span class="co">](https://twitter.com/RLadiesCtn)</span> or email </span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;cotonou@rladies.org&gt;</span> to find out more! Local R-Ladies also hope to</span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a>establish groups in Fez, Morocco and Johannesburg, South Africa; if you are </span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a>interested in these groups, or interested in starting a chapter in your own area</span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a>(in Africa or beyond!) you can contact <span class="ot">&lt;info@rladies.org&gt;</span>.</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="fu">## &gt;eR-Biostat: making R based education materials accessible for all</span></span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a>One of the main problems in education at both undergraduate and master's </span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a>levels in developing countries is the lack of high quality materials </span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a>for courses in education programs. The **&gt;eR-Biostat** initiative is focused on </span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a>providing **R-based** materials for higher education programs in</span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a>Biostatistics/Statistics, as well as introductory materials for </span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a>non-statisticians and in future, an E-learning system for courses at different </span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a>education levels.</span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a>Courses are organized in four clusters and are ready to be delivered in class. </span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a>The **Introductory courses** aim to train students in data analysis using R at a </span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a>basic level. These courses were developed for undergraduate students, both </span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a>non-statisticians and statisticians. The courses within this cluster can also </span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a>be used as courses to support R usage in undergraduate programs in</span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a>biostatistics/statistics. The **Basic courses** are designed for an </span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a>intermediate level and a basic knowledge in statistics is required in order to </span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a>follow the courses. The courses within this cluster can be used as training</span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a>courses for non-statisticians and as courses to support R usage in </span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a>undergraduate programs in biostatistics/statistics. The </span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a>**Statistical modelling (I)** and **Statistical modelling (II)** clusters</span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a>consist of basic and advanced courses, respectively, at master's level in </span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a>biostatistics/statistics.</span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a><span class="al">![](../../images/blog/r-in-africa/er-biostat-ethiopia.png)</span></span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a>*&lt;br/&gt;The first &gt;eR-Biostat workshop in Gondar University, Ethiopia*</span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a>Course materials and updated information about our activities are available </span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a>online (See <span class="co">[</span><span class="ot">&gt;eR-BioStat</span><span class="co">](https://er-biostat.github.io/Courses/)</span>).</span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a>Follow us on <span class="co">[</span><span class="ot">Facebook</span><span class="co">](https://www.facebook.com/ER-BioStat-1463845487001786/)</span> </span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a>and <span class="co">[</span><span class="ot">Twitter (@erbiostat)</span><span class="co">](https://twitter.com/erbiostat)</span>. Interested to </span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a>contribute a course and/or an &gt;eR-Biostat event? Send an email to </span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;erbiostat@gmail.com&gt;</span> or <span class="ot">&lt;ziv.shkedy@uhasselt.be&gt;</span>.</span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a><span class="fu">## Other activities</span></span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a>Here we have focused on some of the more recent initiatives, but of </span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a>course there are many other groups encouraging the use of R in Africa. For </span>
+<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a>example, several general R User Groups have been established; many are listed </span>
+<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a>on the <span class="co">[</span><span class="ot">Data Science Africa web site</span><span class="co">](http://datascience-africa.org/)</span> and a few </span>
+<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a>more are listed on the <span class="co">[</span><span class="ot">R User Groups</span><span class="co">](https://jumpingrivers.github.io/meetingsR/r-user-groups.html)</span> </span>
+<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a>listing hosted by jumping rivers. On the education side, the centres of the </span>
+<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">African Institute of Mathematical Sciences (AIMS)</span><span class="co">](https://www.nexteinstein.org/)</span> </span>
+<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a>often use R in their courses and workshops. In particular AIMS Tanzania is a </span>
+<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a>partner in the </span>
+<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Africa Data Initiative</span><span class="co">](http://www.africanmathsinitiative.net/blog/initiatives/african-data-initiative/)</span> </span>
+<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a>that developed <span class="co">[</span><span class="ot">R-Instat</span><span class="co">](http://r-instat.org/index.html)</span> a front-end to R </span>
+<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a>designed to make R more accessible for students. Going beyond </span>
+<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a>the classroom, </span>
+<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">BeST (Bespoke eStyle Statistical Training for Africa and South Asia)</span><span class="co">](http://yieldingresults.org/)</span> assist in upskilling scientists working in</span>
+<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a>agricultural development via online courses in R. If you are aware of other </span>
+<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a>such initiatives, feel free to share them in the comments!</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Copyright 2023, R Forwards</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
