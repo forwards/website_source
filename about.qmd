@@ -31,7 +31,7 @@ The task force is happy to engage with other individuals and organisations (such
 
 ## Core Members
 
-[Heather Turner](https://warwick.ac.uk/statistics/staff/academic-research/turner) - Chair and ‘On-ramps’ team leader. Heather is a Research Software Engineering Fellow in the Statistics department at the University of Warwick and is on the board of the R Foundation. ([LinkedIn](https://uk.linkedin.com/in/heathrturnr)/[Twitter](https://twitter.com/HeathrTurnr)/ [GitHub](https://github.com/hturner))
+[Heather Turner](https://warwick.ac.uk/statistics/staff/academic-research/turner) - Chair and ‘On-ramps’ team leader. Heather is a Research Software Engineering Fellow in the Statistics department at the University of Warwick and is on the board of the R Foundation. ([LinkedIn](https://uk.linkedin.com/in/heathrturnr)/[Mastodon](https://fosstodon.org/@HeathrTurnr)/ [GitHub](https://github.com/hturner))
 
 
 [gwynn gebeyehu](http://www.nzgwynn.com/) - Administrator and ‘Accessibility’ team leader. gwynn completed a post-doc at Harvard Business School and co-founded of the Harvard Data Science Initiative R User Group. ([Mastodon](https://mstdn.social/@nzgwynn))/[GitHub](https://github.com/nzgwynn))
