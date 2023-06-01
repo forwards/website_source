@@ -1,1 +1,1 @@
-Sitemap: https://forwards.github.io/website_source/sitemap.xml
+Sitemap: https://github.com/forwards/website_source/sitemap.xml
