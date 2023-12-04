@@ -1,3 +1,5 @@
+date: today
+date-format: "YYYY"
 project:
   type: website
   
@@ -9,7 +11,9 @@ website:
   
   page-navigation: true
   reader-mode: true
-  page-footer: "Copyright 2023, R Forwards"
+  page-footer: |
+      © {{< meta date >}} Forwards, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.<br>
+      
   navbar:
     logo:  https://forwards.github.io/images/forwards.svg
     logo-href: index.qmd
@@ -32,11 +36,16 @@ website:
           - workshops.qmd
           - package-dev.qmd
           - privacy-policy.qmd
+          - logo-information.qmd
 
     right: 
       - icon: mastodon
         aria-label: mastodon
         href: https://hachyderm.io/@R_Forwards
+        rel: me
+      - icon: envelope
+        aria-label: email
+        href: mailto:rowforwards@mail.com
     tools:
       - icon: github
         menu:
@@ -54,3 +63,4 @@ format:
       dark: [darkly, theme-dark.scss] #cosmo
     css: styles.css
     toc: true  
+    email-obfuscation: javascript

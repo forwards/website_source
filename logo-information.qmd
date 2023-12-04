@@ -1,0 +1,7 @@
+---
+title: "Forwards logo information"
+date: ""
+type: other
+---
+
+The Forwards logo is a derivative of the [R logo](https://www.r-project.org/logo/Rlogo.svg), [©2016 The R Foundation](https://www.r-project.org/logo/), used under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
