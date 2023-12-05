@@ -10,19 +10,18 @@ Leading the R community forwards in widening the participation of women and othe
 Find out more [about]() the task force.
 
 <!-- responsive two column layout - likely to be one column in RStudio viewer! -->
-<div class = "twocolumn">
-<!-- <div class = "column"> -->
 
-## Upcoming Events
+:::: {.grid}
 
-*2019/05/25* [First ever R conference in East Africa: SatRdays Kampala 2019](https://kampala2019.satrdays.org/) **Lend your support to this pathbreaking conference by contributing to SatRdays Kampala's [Indiegogo campaign](https://www.indiegogo.com/projects/satrdays-kampala-2019-fundraiser#/)**
-
-![AfricaR logo](images/AfricaR.png)
-
+::: {.g-col-12 .g-col-lg-6}
 
 ## News
 
 *For more details on past workshops, see the [Edu](edu) section.*
+
+*2019/05/25* [First ever R conference in East Africa: SatRdays Kampala 2019](https://kampala2019.satrdays.org/) **Lend your support to this pathbreaking conference by contributing to SatRdays Kampala's [Indiegogo campaign](https://www.indiegogo.com/projects/satrdays-kampala-2019-fundraiser#/)**
+
+![](images/AfricaR.png){fig-alt="AfricaR logo"}
 
 *2019-04-06, Dublin* Isabella Gollini, with Bruna Wundervald, Chiara Cotroneo, and Jo Niec, teach "Develop Packages in R"
 
@@ -41,15 +40,26 @@ Find out more [about]() the task force.
 *2018-05-14, Budapest* Package Development Workshop for Women at [eRum 2018](https://2018.erum.io/#talk-2-307)
 
 
-<!-- [older news items](oldnews)  -->
+[older news items](oldnews)
 
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+
+## Mastodon posts
+
+<link rel="stylesheet" href="mastodon-timeline.css" />
+<script src="mastodon-timeline.js"></script>
+
+<div class="mt-container">
+  <div id="mt-body" class="mt-body" role="feed">
+    <div class="loading-spinner"></div>
+  </div>
 </div>
 
-<!-- https://dev.twitter.com/web/embedded-timelines/parameters -->
-<!-- data-tweet-limit="3" -->
-<div class = "column">
-## Latest Tweets
-<a class="twitter-timeline" data-height = "900" data-theme="light" data-chrome="noheader" href="https://twitter.com/R_Forwards" data-dnt="true"></a> <script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+:::
 
-</div>
+:::
+
+<!-- add break to ensure maston widget doesn't overlap footer -->
+<br>
