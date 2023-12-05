@@ -1,5 +1,6 @@
-
-# Community
+---
+title: "Community"
+---
 
 Forwards partners with community groups within and beyond the R community to work towards more inclusive tech and open source/research software communities.
 

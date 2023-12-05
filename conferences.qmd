@@ -1,6 +1,5 @@
 ---
-title: Conferences
-type: other
+title: "Conferences"
 ---
 
 Forwards works to promote diversity and inclusion at R community conferences, especially useR!, the main R conference organized by the R Foundation.

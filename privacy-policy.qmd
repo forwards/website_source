@@ -1,4 +1,3 @@
-
 ---
 title: "Forwards Privacy Policy"
 type: other

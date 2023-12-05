@@ -1,6 +1,5 @@
 ---
 title: "Forwards logo information"
-date: ""
 type: other
 ---
 

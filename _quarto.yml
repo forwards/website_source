@@ -1,7 +1,9 @@
-date: today
-date-format: "YYYY"
+# control articles rendered: 
+# https://community.rstudio.com/t/quarto-equivalent-to-exclude-yaml-command-in-distill/148758/2
 project:
   type: website
+  render:
+    - "*.qmd"
   
 execute:
   freeze: auto
@@ -12,11 +14,11 @@ website:
   page-navigation: true
   reader-mode: true
   page-footer: |
-      © {{< meta date >}} Forwards, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.<br>
+      © 2023 Forwards, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.<br>
       
   navbar:
     logo:  https://forwards.github.io/images/forwards.svg
-    logo-href: index.qmd
+    logo-href: /index.html
     left: 
       # - menu: 
       - text: "About"
@@ -25,11 +27,13 @@ website:
         file: community.qmd
       - text: "Conferences"
         file: conferences.qmd
+      - text: "Education"
+        file: edu/index.qmd
       - text: "Contribution"
         file: contribution.qmd
       - text: "Data"
         file: data.qmd
-      - text: Blog
+      - text: "Blog"
         file: blog.qmd
       - text: "Other"
         menu:

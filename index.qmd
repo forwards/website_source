@@ -2,14 +2,14 @@
 title: "Forwards"
 ---
 
-
 ## Mission
 
 Leading the R community forwards in widening the participation of women and other under-represented groups.
 
 Find out more [about]() the task force.
 
-<!-- responsive two column layout - likely to be one column in RStudio viewer! -->
+<!-- responsive two column layout 
+- one column switching to two columns on large screens and above  -->
 
 :::: {.grid}
 
@@ -48,6 +48,12 @@ Find out more [about]() the task force.
 
 ## Mastodon posts
 
+<!-- 
+Mastodon widget from https://gitlab.com/idotj/mastodon-embed-feed-timeline
+ - options, e.g. number of toots, set in mastodon-timeline.js
+ - height of mt-container set in mastodon-timeline.css 
+ (if max toots greater than height, will add scroll bar)
+ -->
 <link rel="stylesheet" href="mastodon-timeline.css" />
 <script src="mastodon-timeline.js"></script>
 
@@ -60,6 +66,3 @@ Find out more [about]() the task force.
 :::
 
 :::
-
-<!-- add break to ensure maston widget doesn't overlap footer -->
-<br>

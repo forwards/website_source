@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Package orientation</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Forwards Teaching Team" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\..\libs\remark-css\default.css" type="text/css" />
+    <link rel="stylesheet" href="..\..\libs\forwards.css" type="text/css" />
+    <link rel="stylesheet" href="..\..\libs\forwards-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Package orientation
+### Forwards Teaching Team<br><br><img src='../../pics/forwards_296x296.png' alt='Forwards logo' width='100'>
+### <br><i class="fab  fa-twitter "></i> <a href="https://twitter.com/R_Forwards">@R_Forwards</a><br><a href="https://forwards.github.io/" class="uri">https://forwards.github.io/</a>
+### <br> updated: 2020-03-04
+
+---
+
+
+
+
+class: inverse center middle
+
+# Get to know your R installation
+
+---
+
+class: clear font180
+
+Where is R installed on your computer?
+
+```r
+R.home()
+```
+
+---
+
+class: clear font180
+
+What files are in your R installation?
+
+```r
+list.files(R.home())
+```
+
+---
+
+class: clear font180
+
+Which version of R are you using?
+
+```r
+R.version
+```
+
+---
+
+class: clear middle
+
+background-image: url(../../pics/stork.png)
+background-position: 95% 25%
+background-size: 300px
+
+## Where do R packages come from?
+
+---
+
+class: clear font180
+
+CRAN and GitHub, mostly
+.pull-left[
+CRAN:
+
+```r
+install.packages("foo")
+```
+
+GitHub:
+
+```r
+library(devtools)
+install_github("jane/foo")
+```
+]
+
+---
+
+class: clear font180
+
+## Where do R packages live on your computer?
+
+.center[
+&lt;img src="../../pics/library.png" width="500px" /&gt;
+]
+
+--
+
+R packages live in a library.
+
+---
+
+class: clear font180
+
+
+## Get to know your R library
+
+The default library:
+```r
+.Library
+```
+
+---
+
+class: clear font180
+
+## Get to know your R library
+
+All the libraries R knows about:
+```r
+.libPaths()
+```
+
+
+---
+
+class: clear font180
+
+
+## Get to know your R library
+
+* For many R users `.Library` and `.libPaths()` are the same.  
+
+--
+
+* Other R users maintain, or have access to, multiple libraries.
+
+--
+
+* You may not have write access to the default library.
+
+--
+
+* For example, you can put add-on packages in a user-level library:
+`/Users/jenny/resources/R/library`
+
+---
+
+class: clear font180
+
+How many packages do you have installed?
+
+```r
+View(installed.packages())
+```
+How do the packages break down by Priority (and what does that mean, anyway)?
+
+---
+
+class: clear font180
+
+## Startup files
+
+.pull-left[
+
+`.Rprofile`
+
+Code that runs at startup
+ - Load workflow packages
+ - Set options
+ - Use in moderation!
+ ]
+ 
+.pull-right[
+`.Renviron`
+
+Settings for R
+ - Set library paths
+ - Set environment variables
+]
+
+---
+
+class: clear font180
+
+## Before we start:
+
+Make sure you have recent versions of:
+
+.pull-left[
+`devtools`  
+`pkgdown`  
+`roxygen2`  
+]
+
+.pull-right[
+`testthat`   
+`tidyverse`  
+`usethis`  
+]
+
+Tip: use `View(old.packages())`
+
+---
+
+class: inverse center middle
+
+# Packages vs scripts
+
+---
+
+class: clear middle font200
+
+.center[
+How is developing a  
+**package**
+same/different  
+from developing a **script**?
+]
+
+---
+
+class: clear font180
+
+**How same?**  
+
+Iterate early and often!  
+
+Change it, try it, change it, try it, **ad nauseum**
+
+---
+
+class: clear font180
+
+**How different?**
+
+Write functions not "top-level" code.  
+
+Dependencies are different: no `library()` calls
+
+Install &amp; restart (or simulate that): don't `source()`
+
+---
+
+class: font180
+
+# Your turn
+
+Look at 
+1. Where’s the R code? What is it mostly comprised of?
+2. What do you think is in the DESCRIPTION file? How
+about the NAMESPACE file?
+3. MAN-what?
+
+---
+
+class: clear
+
+&lt;img src="../../pics/annotated_installation.png" width="900px" /&gt;
+
+&lt;small&gt;Figure from Hadley Wickham’s book, R packages
+http://r-pkgs.had.co.nz
+https://github.com/hadley/r-pkgs/blob/master/diagrams/installation.png&lt;/small&gt;
+
+---
+
+class: clear
+
+&lt;img src="../../pics/annotated_loading.png" width="900px" /&gt;
+
+&lt;small&gt;Figure from Hadley Wickham’s book, R packages
+http://r-pkgs.had.co.nz
+https://github.com/hadley/r-pkgs/blob/master/diagrams/loading.png&lt;/small&gt;
+
+---
+
+class: clear font180
+
+&lt;img src="../../pics/annotated_load_all.png" width="900px" /&gt;
+
+.center[
+`devtools::load_all()` is to package development  
+as  
+interactive “stepping through” code is to script development
+]
+
+---
+
+class: clear font180
+
+&lt;img src="../../pics/annotated_install_and_restart.png" width="900px" /&gt;
+
+.center[
+RStudio’s Install &amp; Restart is to package development  
+as  
+`source()` or
+RStudio’s “Source” or `Rscript foo.R` is to script development
+]
+
+---
+
+class: clear font180
+
+.center[
+Use `devtools::load_all( )` a lot!  
+
+(And “Install and Restart” sparingly)
+]
+
+---
+
+class: inverse center middle
+
+# Let's do this!
+
+---
+
+class: clear font180
+
+## License
+
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;&lt;img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"&gt;Package Development Workshop&lt;/span&gt; by &lt;span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"&gt;Forwards&lt;/span&gt; is licensed under a &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="../../libs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": true,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
