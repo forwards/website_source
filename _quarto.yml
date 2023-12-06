@@ -12,6 +12,7 @@ website:
   title: "Forwards"
   site-url: https://forwards.github.io/
   description: "R Foundation taskforce on women and other under-represented groups."
+  favicon: /images/favicon.ico
   
   page-navigation: true
   reader-mode: true
@@ -19,7 +20,7 @@ website:
       © 2023 Forwards, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.<br>
       
   navbar:
-    logo:  https://forwards.github.io/images/forwards.svg
+    logo:  /images/forwards.svg
     logo-href: /index.html
     left: 
       # - menu: 
@@ -66,7 +67,7 @@ website:
 format:
   html:
     theme:  
-      light: pulse 
+      light: cosmo
       dark: [darkly, theme-dark.scss] #cosmo
     css: styles.css
     toc: true  

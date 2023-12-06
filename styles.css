@@ -1,1 +1,10 @@
 /* css styles */
+
+.navbar-logo{
+  max-height: 48px;
+}
+
+.navbar{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
