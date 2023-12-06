@@ -3,16 +3,6 @@ title: 'useR! 2016 participants and R programming: a multivariate analysis'
 author: "Julie Josse and Heather Turner"
 date: "2017-06-17"
 type: survey_report
-knit: (function(inputFile, encoding) {
-    outputFile <- 
-        knitr::knit(inputFile, 
-                    output = paste0("../../website_source/content/docs/",
-                                    gsub(".*/(.*).Rmd", "\\1", inputFile), 
-                                    ".md"), encoding = encoding);
-    out <- readLines(outputFile);
-    out <- gsub("/images/", "//images/", out);
-    writeLines(out, outputFile)
-    })
 ---
 
 
@@ -21,8 +11,8 @@ knit: (function(inputFile, encoding) {
 
 ### Background
 
-The useR! survey gathers responses to questions on different themes for 455 attendees: demographic characteristics, R programming and involvement in the R community. The separate analyses of each question in each theme are detailed in the posts [Mapping useRs](https://forwards.github.io/blog/2017/01/13/mapping-users/),  [useRs Relationship with R](https://forwards.github.io/blog/2017/03/11/users-relationship-with-r/) and [Community Involvement of useRs](https://forwards.github.io/blog/2017/06/19/users-participation-in-the-r-community/). Here, we aim at understanding attendees' joint responses to the questions of the survey for a given theme. In other words, we would like to highlight the relationships between their answers, as well as to highlight the similarities between the respondents.
-Multiple correspondence analysis (MCA) is a dimensionality reduction method which allows to explore and visualize a set of categorical variables. It can be seen as the counterpart of PCA for categorical data. The aim of this document is to go beyond univariate analyses and to present the results of a multivariate analyses of the R programming questions using MCA. A corresponding analysis of the R community questions is detailed in [a companion report](https://forwards.github.io/docs/mca_community_user2016_survey/).
+The useR! survey gathers responses to questions on different themes for 455 attendees: demographic characteristics, R programming and involvement in the R community. The separate analyses of each question in each theme are detailed in the posts [Mapping useRs](blog/2017/01/13/mapping-users/),  [useRs Relationship with R](blog/2017/03/11/users-relationship-with-r/) and [Community Involvement of useRs](blog/2017/06/19/users-participation-in-the-r-community/). Here, we aim at understanding attendees' joint responses to the questions of the survey for a given theme. In other words, we would like to highlight the relationships between their answers, as well as to highlight the similarities between the respondents.
+Multiple correspondence analysis (MCA) is a dimensionality reduction method which allows to explore and visualize a set of categorical variables. It can be seen as the counterpart of PCA for categorical data. The aim of this document is to go beyond univariate analyses and to present the results of a multivariate analyses of the R programming questions using MCA. A corresponding analysis of the R community questions is detailed in [a companion report](docs/mca_community_user2016_survey/).
 
 ### Questions
 
@@ -82,7 +72,7 @@ The following graphic summarizes relationships between the answers to the "uses 
 
 
 
-<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
 Proximities between categories Q11.NA and Q14.NA indicate that people who did not answer Q11 (How long have you been using R for?) often did not answer Q14 (Do you use R as a recreational activity, primarily as part of a job or both?). However, it only concerns 16 individuals. 
 
@@ -98,7 +88,7 @@ The graph of the individuals allows identification of the individuals located at
 
 ## Analysis of the perception of the R programming language
 
-<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
 The analysis of questions related to the perception of the R language (Q15, Q16, Q17) shows again that attendees who did not answer one question often did not answer others (1st dimension). More interestingly, the second dimension of the graph highlights that people thinking very strongly that R is monotonous also think that it is not fun, not cool, or even think R is poor. It highlights that among respondents there is a sub-population of people who do not appreciate R. However, it concerns around 10 individuals. 
 
@@ -111,19 +101,19 @@ Interestingly, these respondents tend to recommend R to a friend as a programmin
 Does the perception of the R language differ according to the experience of the user? To answer this question,
 the perception variables are projected as supplementary variables on the graph obtained with the "uses of R" variables. Supplementary variables are not used to build the dimensions of variability, they are projected _a posteriori_ and help for the interpretation. 
 
-<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
 We note that experienced users particularly appreciate R. They find that R is fun, not monotonous and they recommend to use it.
 
 ##  Relationship with demographic
 
-<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
 
 Demographic variables are also projected as supplementary variables. We excluded the ethnic group variable (Q4) and the country of residence variable (Q5) because of the large number of infrequent categories. The graph above shows that the demographic characteristics are significantly related to the user profiles. An analysis of variance with demographic variables as covariates, and the coordinates of the individuals on the dimensions as explanatory variables, has been performed[^fn2]. The graph shows that people with a doctorate are more highly represented among advanced users.  This also shows that men are more highly represented than women among the most advanced users. As stated in the post [useRs Relationship with R](https:://forwards.github.io/blog/2017/03/11/users-relationship-with-r/), it could be explained by the fact that women tend to be younger, but here we note that the variable Age does not significantly explain the coordinates of the individuals on the graph. 
 To get more insight into this possible confounding effect, we created a variable sex-age and represent it. The plot confirms that men are over-represented amongst the advanced users.
 
 
-<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-9-1.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" /><img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-9-2.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-9-1.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" /><img src="unnamed-chunk-9-2.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" />
 
 
 
@@ -139,14 +129,14 @@ Several rules can be used to select the number of components used for the cluste
 
 
 
-<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-12-1.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-12-1.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" style="display: block; margin: auto;" />
 
 The number of clusters is chosen according to the barplot of the inertia gains[^fn1] which suggests 3 clusters. 
 
 However, since a cluster with non-respondents is expected, we consider 4 clusters to have a more interpretable clustering.
 
 
-<img src="/images/reports/MCA_programming_useR2016_survey/unnamed-chunk-13-1.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-13-1.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" style="display: block; margin: auto;" />
 
 The first cluster located on the left represent the experienced users while the second cluster gathers the intermediate users and the third one the beginners. The fourth cluster is constituted with people who did not  answer.
 

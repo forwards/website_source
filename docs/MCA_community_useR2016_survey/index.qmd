@@ -3,16 +3,6 @@ title: "useR! 2016 participants and the R community: a multivariate analysis"
 author: "Julie Josse and Heather Turner"
 date: "2017-06-18"
 type: survey_report
-knit: (function(inputFile, encoding) {
-    outputFile <- 
-        knitr::knit(inputFile, 
-                    output = paste0("../../website_source/content/docs/",
-                                    gsub(".*/(.*).Rmd", "\\1", inputFile), 
-                                    ".md"), encoding = encoding);
-    out <- readLines(outputFile);
-    out <- gsub("/images/", "//images/", out);
-    writeLines(out, outputFile)
-    })
 ---
 
 
@@ -21,7 +11,7 @@ knit: (function(inputFile, encoding) {
 
 ### Background
 
-The useR! survey gathers responses to questions on different themes for 455 attendees: demographic characteristics, R programming and involvement in the R community. The separate analyses of each question in each theme are detailed in the posts [Mapping useRs](https://forwards.github.io/blog/2017/01/13/mapping-users/),  [useRs Relationship with R](https://forwards.github.io/blog/2017/03/11/users-relationship-with-r/) and [Community Involvement of useRs](https://forwards.github.io/blog/2017/06/19/users-participation-in-the-r-community/). A multivariate analysis of the R programming questions is detailed in [a companion report](https://forwards.github.io/docs/mca_programming_user2016_survey/). Here, we perform MCA on the R community questions.
+The useR! survey gathers responses to questions on different themes for 455 attendees: demographic characteristics, R programming and involvement in the R community. The separate analyses of each question in each theme are detailed in the posts [Mapping useRs](blog/2017/01/13/mapping-users/),  [useRs Relationship with R](blog/2017/03/11/users-relationship-with-r/) and [Community Involvement of useRs](blog/2017/06/19/users-participation-in-the-r-community/). A multivariate analysis of the R programming questions is detailed in [a companion report](docs/mca_programming_user2016_survey/). Here, we perform MCA on the R community questions.
 
 ### R community questions
 
@@ -81,7 +71,7 @@ Questions are the following ones:
 
 MCA summarizes the relationships between the categories of the R community variables.
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
 To interpret the main dimensions of variability in the response profiles, we study the proximities between categories. Indeed, two categories are close on the graph if most respondents taking the first category also take the other category. 
 
@@ -101,7 +91,7 @@ They consider themselves as outside the R community.
 On the bottom, in contrast, there are individuals who tend to consider themselves as part of the R community.
 They attend general R user group meetings and they use Twitter. Twitter would be their preferred medium for R community news.
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 
 ### Relationship with demographic
@@ -110,18 +100,18 @@ In the following graph, answers about the demographic questions are projected as
 
 Only demographic characteristics that are significantly related the R community profiles are represented. An analysis of variance with demographic variables as covariates, and the coordinates of the individuals on the dimensions as explanatory variables, has been performed.
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
 
 It appears that people having an undergraduate degree or a master degree are located at the top of the graph, while those with a doctorate are at the bottom. This would imply that people with undergraduate degree or master degree are more likely to consider themselves as outside the R community than people having a doctorate. The same comment holds for women versus men. It is interesting to note, caregivers for children or adult dependents tend to be at the bottom of the graph, while non-caregivers are on the top. 
 
 We represent the age categories on the map since some confounding effects with other demographic variables could explain the previous results. Youngest people tend to be on the top of the second axis, which suggests that they consider themselves as outside the community.
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
 
 To get more insights into this possible confounder effect, we created a new variable sex-age and represent it:
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
 It highlights that both young (men and women) and women do not consider themselves as part of the R community.
 
@@ -170,7 +160,7 @@ We investigate the number of respondents in each group according to the number o
 
 We choose to keep 10 components as this will keep enough information, while highlighting a new cluster in the previous big one.
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-12-1.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-12-1.png" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" style="display: block; margin: auto;" />
 
 Respondents are grouped in the clusters as follows:
 
@@ -179,7 +169,7 @@ Respondents are grouped in the clusters as follows:
 |:--|----:|-----:|-----:|----:|
 |%  | 2.71| 61.17| 35.44| 0.68|
 
-<img src="/images/reports/MCA_community_useR2016_survey/unnamed-chunk-14-1.png" title="plot of chunk unnamed-chunk-14" alt="plot of chunk unnamed-chunk-14" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-14-1.png" title="plot of chunk unnamed-chunk-14" alt="plot of chunk unnamed-chunk-14" style="display: block; margin: auto;" />
 
 From the previous interpretation of the two first dimensions of variability, the location of clusters on the graph allows providing a brief summary of the clusters: 
 cluster 1 is the group of non-respondents, while cluster 2 contains some respondents who feel they are part of the R community unlike the cluster 3 respondents.

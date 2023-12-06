@@ -37,8 +37,7 @@ website:
         file: blog.qmd
       - text: "Other"
         menu:
-          - workshops.qmd
-          - package-dev.qmd
+          - docs/index.qmd
           - privacy-policy.qmd
           - logo-information.qmd
 

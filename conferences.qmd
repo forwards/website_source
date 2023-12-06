@@ -4,7 +4,7 @@ title: "Conferences"
 
 Forwards works to promote diversity and inclusion at R community conferences, especially useR!, the main R conference organized by the R Foundation.
 
-In 2016 we made a [series of recommendations](docs/recommendations_user.qmd), which have led to many improvements
+In 2016 we made a [series of recommendations](docs/recommendations_user), which have led to many improvements
 
  - increased representation of women in invited roles (speakers, program committee, session chairs)
  - increased representation of women in contributed program and attendees

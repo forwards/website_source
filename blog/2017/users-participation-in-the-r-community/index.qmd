@@ -1,7 +1,7 @@
 ---
 title: "useRs Participation in the R Community"
 aliases:
-  - "/blog/2017/06/19/community-involvement-of-users/index.html"
+  - "/blog/2017/06/19/users-participation-in-the-r-community/index.html"
 author: 
   - name: Stella Bollmann
   - name: Dianne Cook
