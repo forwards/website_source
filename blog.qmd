@@ -8,6 +8,9 @@ listing:
   categories: true
   sort-ui: true
   filter-ui: true
+  feed: true
 page-layout: full
 title-block-style: "none"
 ---
+
+Our blog is aggregated by [R Weekly](https://rweekly.org/) and [R Bloggers](https://www.r-bloggers.com).
