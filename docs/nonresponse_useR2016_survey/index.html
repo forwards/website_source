@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Heather Turner and Julie Josse">
+<meta name="dcterms.date" content="2016-10-07">
+
+<title>Forwards - Non-response in useR! 2016 Survey</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="https://forwards.github.io/images/forwards.svg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Forwards</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../community.html" rel="" target="">
+ <span class="menu-text">Community</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences.html" rel="" target="">
+ <span class="menu-text">Conferences</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../edu/index.html" rel="" target="">
+ <span class="menu-text">Education</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contribution.html" rel="" target="">
+ <span class="menu-text">Contribution</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../data.html" rel="" target="">
+ <span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Other</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-other">    
+        <li>
+    <a class="dropdown-item" href="../../docs/index.html" rel="" target="">
+ <span class="dropdown-text">Reports</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../privacy-policy.html" rel="" target="">
+ <span class="dropdown-text">Forwards Privacy Policy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../logo-information.html" rel="" target="">
+ <span class="dropdown-text">Forwards logo information</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://hachyderm.io/@R_Forwards" rel="me" target=""><i class="bi bi-mastodon" role="img" aria-label="mastodon">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog/index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:rowforwards@mail.com" rel="" target=""><i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools tools-wide">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/forwards/website_source">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/forwards/website_source">
+            Report a Bug
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#adjusting-for-non-response" id="toc-adjusting-for-non-response" class="nav-link" data-scroll-target="#adjusting-for-non-response">Adjusting for non-response</a>
+  <ul class="collapse">
+  <li><a href="#age" id="toc-age" class="nav-link" data-scroll-target="#age">Age</a></li>
+  <li><a href="#education-level" id="toc-education-level" class="nav-link" data-scroll-target="#education-level">Education level</a></li>
+  <li><a href="#employment-status" id="toc-employment-status" class="nav-link" data-scroll-target="#employment-status">Employment status</a></li>
+  <li><a href="#time-using-r" id="toc-time-using-r" class="nav-link" data-scroll-target="#time-using-r">Time using R</a></li>
+  <li><a href="#recreational-use-of-r" id="toc-recreational-use-of-r" class="nav-link" data-scroll-target="#recreational-use-of-r">Recreational use of R</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  </ul></li>
+  <li><a href="#grouped-summaries" id="toc-grouped-summaries" class="nav-link" data-scroll-target="#grouped-summaries">Grouped Summaries</a>
+  <ul class="collapse">
+  <li><a href="#age-1" id="toc-age-1" class="nav-link" data-scroll-target="#age-1">Age</a></li>
+  <li><a href="#education-level-1" id="toc-education-level-1" class="nav-link" data-scroll-target="#education-level-1">Education level</a></li>
+  <li><a href="#employment-status-1" id="toc-employment-status-1" class="nav-link" data-scroll-target="#employment-status-1">Employment status</a></li>
+  <li><a href="#time-using-r-1" id="toc-time-using-r-1" class="nav-link" data-scroll-target="#time-using-r-1">Time using R</a></li>
+  <li><a href="#recreational-use-of-r-1" id="toc-recreational-use-of-r-1" class="nav-link" data-scroll-target="#recreational-use-of-r-1">Recreational use of R</a></li>
+  </ul></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Non-response in useR! 2016 Survey</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Heather Turner and Julie Josse </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 7, 2016</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<!-- Survey report says 456 responses, what are extra 2? -->
+<p>The useR! survey received a total of 455 responses out of 904 attendees. Anticipating a high proportion of non-response, questions were included in the survey on participants’ gender, registration type and country of residence, with a view to adjusting observed counts in each cross-classified group to match the proportions in the total useR! 2016 population. Unfortunately the country of residence was not recorded during registration and could not be reliably derived from available information such as affiliation. Although registration type should have been available, in practice it was missing for about one third of participants. This leaves gender, which was (self-)recorded for presenters, but not for other attendees. In order to obtain a gender assignment for all participants, the first names were analysed with the <strong>genderizer</strong> package, which predicts gender from first name, based on profiles scraped from the web. For participants where the gender was unknown, the genderizer prediction was used if it was based on a sample &gt; 10 and had probability &gt; 0.9, otherwise the gender was assigned based on a manual web search, where this led to a clear assignment. This gave estimates of 235 female, 593 male and 76 undetermined.</p>
+<p>Assuming that the gender distribution is similar in the undetermined group, the survey population overrepresents female attendees by about 10%:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Gender</th>
+<th style="text-align: right;">Survey Percentage</th>
+<th style="text-align: right;">Attendee Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Female</td>
+<td style="text-align: right;">37.31</td>
+<td style="text-align: right;">28.38</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Male</td>
+<td style="text-align: right;">62.47</td>
+<td style="text-align: right;">71.62</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Non-Binary</td>
+<td style="text-align: right;">0.22</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+<p>(The assumption that the undetermined have a similar gender distribution seems reasonable, as similar estimates of attendee breakdown were obtained based on genderizer results only, where there were 52.17% undetermined). This over-representation of females is a common phenomenon in surveys and particularly unsurprising here as females may be more motivated to respond to a survey run by the Women in R taskforce.</p>
+</section>
+<section id="adjusting-for-non-response" class="level2">
+<h2 class="anchored" data-anchor-id="adjusting-for-non-response">Adjusting for non-response</h2>
+<p>In order to adjust for the difference in gender balance between the sample and the full population, weights may be computed for males and females so that the ratio of females to males based on adjusted counts (sum of weights in each category) is equal to that estimated for the full sample. Specifically, the weight for females is 0.76 and the weight for males is 1.14.</p>
+<p>These weights can then be used in further analysis, for example when tabulating by another survey variable. Here we will consider a few examples for illustration.</p>
+<section id="age" class="level3">
+<h3 class="anchored" data-anchor-id="age">Age</h3>
+<p>The unweighted and weighted densities have a very similar shape, but using the weighting shifts the density slightly to the left, i.e.&nbsp;when females are down-weighted there is a slight shift to a generally older population.</p>
+<p><img src="unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;"></p>
+</section>
+<section id="education-level" class="level3">
+<h3 class="anchored" data-anchor-id="education-level">Education level</h3>
+<p>Here there is very little difference between the unweighted and weighted counts.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Q7</th>
+<th style="text-align: right;">Count</th>
+<th style="text-align: right;">Adj.Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Professional degree or certification</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">10.67</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Doctorate</td>
+<td style="text-align: right;">199</td>
+<td style="text-align: right;">200.69</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Masters degree</td>
+<td style="text-align: right;">187</td>
+<td style="text-align: right;">186.06</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Undergraduate degree</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">50.63</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">High school/Secondary school or lower</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6.90</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="employment-status" class="level3">
+<h3 class="anchored" data-anchor-id="employment-status">Employment status</h3>
+<p>Again the differences between unweighted and weighted counts are small here, however there is a consistent shift from less financially secure positions (student, unemployed and employed non-permenantly in academia) to more financially secure positions (employed permenantly in academia, employed in industry). This tallies with the younger distribution of females noted above.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Q8</th>
+<th style="text-align: right;">Count</th>
+<th style="text-align: right;">Adj.Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Employed in industry</td>
+<td style="text-align: right;">183</td>
+<td style="text-align: right;">186.24</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Employed permanently in academia</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">78.08</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Employed non-permanently in academia</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">57.10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Employed in government/non-profit</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">69.54</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Self-employed</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6.48</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Retired</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2.29</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Student</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">40.71</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Unemployed</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3.42</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">14.14</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="time-using-r" class="level3">
+<h3 class="anchored" data-anchor-id="time-using-r">Time using R</h3>
+<p>With the weighted counts we see a slight shift towards greater experience; this again tallies with females being generally younger and less advanced in their careers.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Q11</th>
+<th style="text-align: right;">Count</th>
+<th style="text-align: right;">Adj.Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">&gt; 10 years</td>
+<td style="text-align: right;">119</td>
+<td style="text-align: right;">123.28</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5-10 years</td>
+<td style="text-align: right;">132</td>
+<td style="text-align: right;">132.38</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2-5 years</td>
+<td style="text-align: right;">118</td>
+<td style="text-align: right;">118.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1-2 years</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">31.57</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6-12 months</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">28.17</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&lt; 6 months</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8.76</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">15.80</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="recreational-use-of-r" class="level3">
+<h3 class="anchored" data-anchor-id="recreational-use-of-r">Recreational use of R</h3>
+<p>With the weighted counts we see a shift towards using R for recreational activity alone or as well as for work. Since the weighting down-weights females relative to males this suggests males are more able or more willing to use R for fun.</p>
+<table class="table">
+<colgroup>
+<col style="width: 78%">
+<col style="width: 8%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Q14</th>
+<th style="text-align: right;">Count</th>
+<th style="text-align: right;">Adj.Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">For both recreational and job/educational purposes.</td>
+<td style="text-align: right;">160</td>
+<td style="text-align: right;">169.41</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Primarily as a recreational activity, in your free time;</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4.58</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Primarily as part of a job or educational course;</td>
+<td style="text-align: right;">275</td>
+<td style="text-align: right;">265.55</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">18.46</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<p>The examples above illustrate that the difference between unweighted and weighted counts tends to be small and is unlikely to affect conclusions drawn about the distribution of a particular variable in the useR! population as a whole.</p>
+<p>Where there is a material difference between unweighted and weighted counts, this can be attributed to gender, since the weighting only depends on this factor. In this case it would be more interesting to explore the gender difference by showing a summary grouped by gender and then the weighting becomes irrelevant as we are no longer trying to represent the whole population.</p>
+<p>Summarising by gender will necessarily exclude individuals that are non-binary or have not stated their gender. In addition, summarising by gender can result in (more) categories containing only a few individuals, which is undesirable as we wish to protect anonymity. Therefore a grouped summary should only be used when there is a substantive gender difference and small groups can be combined without too much loss of information. First considering the unweighted and weighted counts can help in making this judgement. Using the weights in this exploratory way is perhaps more appropriate than using them to adjust the counts, given that they are based in part on predicted data.</p>
+</section>
+</section>
+<section id="grouped-summaries" class="level2">
+<h2 class="anchored" data-anchor-id="grouped-summaries">Grouped Summaries</h2>
+<p>Here we show how the conclusions of the previous section might be applied to our illustrative questions.</p>
+<section id="age-1" class="level3">
+<h3 class="anchored" data-anchor-id="age-1">Age</h3>
+<p>The difference in density between weighted and unweighted is small but consistent across a wide age range so deserves further exploration. Since we are using a density summary there is no issue with small sub-groups.</p>
+<p>Breaking down by gender shows the difference in age distribution much more clearly:</p>
+<p><img src="unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;"></p>
+</section>
+<section id="education-level-1" class="level3">
+<h3 class="anchored" data-anchor-id="education-level-1">Education level</h3>
+<p>Although there is some evidence of a more educated male population (weighted counts shift to higher education levels) the difference is small. In addition the numbers without university-level education are very small and even combined with the missing group there is potential that individuals are identified when broken down by gender. Therefore it is best to keep genders combined here and base the final summary on unweighted counts.</p>
+<p><img src="unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;"></p>
+</section>
+<section id="employment-status-1" class="level3">
+<h3 class="anchored" data-anchor-id="employment-status-1">Employment status</h3>
+<p>Here the shift from unweighted counts to weighted counts is larger. Although there are small groups, these can reasonably be combined into an “Other” category.</p>
+<p><img src="unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;"></p>
+</section>
+<section id="time-using-r-1" class="level3">
+<h3 class="anchored" data-anchor-id="time-using-r-1">Time using R</h3>
+<p>Again there are material differences between unweighted and weighted counts, here the original groups can be left as is:</p>
+<p><img src="unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;"></p>
+</section>
+<section id="recreational-use-of-r-1" class="level3">
+<h3 class="anchored" data-anchor-id="recreational-use-of-r-1">Recreational use of R</h3>
+<p>Here there is a clear difference between unweighted and weighted counts. As only four people (men) said that they used R primarily as a recreational activity, this can be combined with the missing category:</p>
+<p><img src="unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;"></p>
+</section>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p>Where there is no material difference between genders, the over-representation of women in the sample is unimportant. Where there is a substantive difference, it is interesting to explore this difference in a grouped summary, where again the over-representation of women becomes irrelevant as males and females are summarised separately.</p>
+<p>Therefore rather than base final summaries on weighted counts, which are based in part on predicted data, it is better to use the weighted counts as a guide to when a grouped summary is appropriate.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">© 2023 Forwards, under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> license.<br></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

@@ -2,20 +2,30 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/blog/blacklivesmatter-statement/index.html",
-      "/blog/southern-africa-project-2020/index.html",
-      "/blog/rladies-charlottesville-workshop-recap/index.html",
-      "/blog/the-state-of-r-in-africa-2019/index.html",
-      "/blog/workshops-for-women-and-girls/index.html",
-      "/blog/havanar/index.html",
-      "/blog/r-in-latin-america-2018/index.html",
-      "/blog/r-in-africa-2017/index.html",
-      "/blog/girls-coding-workshop-melbourne/index.html",
-      "/blog/users-participation-in-the-r-community-2017/index.html",
-      "/blog/users-relationship-with-r-2017/index.html",
-      "/blog/emily-robinson-interview/index.html",
-      "/blog/mapping-users-2017/index.html",
-      "/blog/call-to-join-forwards/index.html"
+      "/blog/2020/blacklivesmatter-statement/index.html",
+      "/blog/2020/southern-africa-project-2020/index.html",
+      "/blog/2019/rladies-charlottesville-workshop-recap/index.html",
+      "/blog/2019/the-state-of-r-in-africa/index.html",
+      "/blog/2019/workshops-for-women-and-girls/index.html",
+      "/blog/2018/havanar/index.html",
+      "/blog/2018/r-in-latin-america/index.html",
+      "/blog/2017/r-in-africa/index.html",
+      "/blog/2017/girls-coding-workshop-melbourne/index.html",
+      "/blog/2017/users-participation-in-the-r-community/index.html",
+      "/blog/2017/users-relationship-with-r/index.html",
+      "/blog/2017/emily-robinson-interview/index.html",
+      "/blog/2017/call-to-join-forwards/index.html",
+      "/blog/2017/mapping-users/index.html"
+    ]
+  },
+  {
+    "listing": "/edu/index.html",
+    "items": [
+      "/blog/2017/girls-coding-workshop-melbourne/index.html",
+      "/blog/2018/havanar/index.html",
+      "/blog/2019/rladies-charlottesville-workshop-recap/index.html",
+      "/blog/2020/southern-africa-project-2020/index.html",
+      "/blog/2019/workshops-for-women-and-girls/index.html"
     ]
   }
 ]

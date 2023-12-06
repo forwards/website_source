@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Forwards</title>
+<link>https://forwards.github.io/blog.html</link>
+<atom:link href="https://forwards.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>R Foundation taskforce on women and other under-represented groups.</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Sat, 06 Jun 2020 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>#BlackLivesMatter: A joint statement by Forwards and R-Ladies</title>
+  <link>https://forwards.github.io/blog/2020/blacklivesmatter-statement/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2020/blacklivesmatter-statement/blm.png" class="img-fluid"></p>
+<p>As organizations committed to broadening diversity and inclusion in our community, we stand with #BlackLivesMatter and join those who demand justice for systemic oppression. Pervasive racism negatively impacts the participation of Black people in society. The current events in the USA echo what has happened and continues to happen to minoritised people across the world. We are aggregating resources and are taking deliberate actions to amplify the voices of Black, Indigenous and People of Color in the R community now and moving forward.</p>
+<p>To our community members who are suffering right now, we stand by you, we hear your voices, but we know that that is not enough to enact the change we need. The work of breaking systems of injustice is slow and hard, and we know that some of you are carrying more of the load than others. There are no words to make this easier.</p>
+<section id="a-message-from-forwards" class="level2">
+<h2 class="anchored" data-anchor-id="a-message-from-forwards">A Message from Forwards</h2>
+<p>Forwards recognizes that Black people are often missing or overlooked in core activities of the R community. We acknowledge that many are frustrated by the slow progress or apparent lack of action. At a time when we are reminded that racial injustice pulls people down, it is our goal to create space for Black, Indigenous and People of Color to rise as R programmers and community leaders.</p>
+<p>We work through small, but hopefully impactful actions, such as:</p>
+<ul>
+<li><p>Highlighting the work of people from underrepresented groups and sharing information about relevant events and opportunities on <a href="https://twitter.com/r_forwards"><span class="citation" data-cites="R_Forwards">@R_Forwards</span> Twitter</a>.</p></li>
+<li><p>Supporting useR! conference organizers with the diversity scholarship program.</p></li>
+<li><p>Recommending people from underrepresented groups for roles such as conference speakers, committee members, session chairs, etc.</p></li>
+<li><p>Supporting the leadership team of <a href="https://africa-r.org/">AfricaR</a>.</p></li>
+<li><p>Reaching a diverse group with our <a href="https://forwards.github.io/blog/2019/09/22/workshops-for-women-and-girls/">workshops for women and girls</a> and workshops in underserved regions (e.g.&nbsp;<a href="https://forwards.github.io/blog/2018/07/07/havanar/">Cuba</a>, <a href="https://forwards.github.io/blog/2020/05/25/southern-africa-project-2020/">Southern Africa</a>).</p></li>
+</ul>
+<p>We understand that there is much more that could be done to directly support and represent Black, Indigenous and People of Color and we are committed to play our part. We will continue to develop actions and long-term goals to improve intersectional representation in our taskforce and the wider R community.</p>
+</section>
+<section id="a-message-from-r-ladies" class="level2">
+<h2 class="anchored" data-anchor-id="a-message-from-r-ladies">A Message from R-Ladies</h2>
+<p>While the R-Ladies mission is focused on improving gender diversity within the R community, we also recognize both the struggle that Black people face, and the compound effect of intersectionality when a member identifies with multiple underrepresented groups. R-Ladies Global makes a commitment to improve how the organization supports Black, Indigenous and People of Color through the following actions:</p>
+<ul>
+<li><p>We will start and continue dialogue around concrete actions to promote social justice globally through dedicated channels in our Slack workspaces. As we engage, we commit to listening, empathizing, seeking to understand, and translating our conversations into action. We commit to making our community spaces places of not only safety for all our members, but of active work towards equity and justice.</p></li>
+<li><p>We will incorporate into our website a dedicated page of resources and information regarding tangible actions we, as an organisation, and single individuals can take to support #BlackLivesMatter and other social justice movements.</p></li>
+<li><p>We will improve ethnic and racial representation on the R-Ladies Global Team so voices from all intersectional minorities are better represented.</p></li>
+<li><p>We will launch a number of programs to support our members (e.g.&nbsp;travel grants, book vouchers, educational subscriptions) through funds donated to R-Ladies, we will dedicate 50% of the funds towards community members with intersectional identities and half of that directed exclusively to Black members.</p></li>
+</ul>
+</section>
+<section id="closing-statement" class="level2">
+<h2 class="anchored" data-anchor-id="closing-statement">Closing statement</h2>
+<p>We will work harder to listen to and amplify the voices of minoritized members of our respective communities worldwide. We are invested in the continuous work of breaking down systems of injustice, and in making room for those that are currently suffering in those systems to participate fully and occupy leading positions. We urge everyone in the R community to do the same.</p>
+<p>R Forwards Core Team: Heather Turner, Noa Tamir, Tatjana Kecojevic, Emily Dodwell, Kevin O’Brien, Julie Josse.</p>
+<p>R-Ladies Global: Claudia Vitolo, Erin LeDell, Hannah Frick, Laura Ación, Athanasia Monika Mowinckel, Yanina Bellini Saibene, Noa Tamir, Maëlle Salmon, Jennifer Thompson, Florencia D’Andrea, Patricia A. Loto, Saranjeet Kaur Bhogal, Christin Zasada, Nadejda Sero, Sheila Saia.</p>
+<p>R-Ladies chapter organizers (current and former) with others strongly involved in the R-Ladies and R communities: gwynn sturdevant, Paola Corrales, Paloma Rojas-Saunero, Riva Quiroga, Roxana Noelia Villafañe, Monica L. Alonso, Danielle Navarro, Mine Çetinkaya-Rundel, Sara Mortara, Genelle Denzin, Divya Seernani, Elisa Schneider, Kyla McConnel, Ana Laura Diedrichs, Liza Dosso, Mariel Lovatto, María Nanton, Ludmila Janda, Hazel Kavili, Ines Teacã, Lucía Rodríguez Planes, Andrea Sánchez-Tapia, Disha Patil, Ayanthi Gunawardana, Jan Strappa, Kaelen Medeiros, Vebashini Naidoo, Emily Dodwell, Julia Silge, Marcela Alfaro, Jenny Bryan, Lucy D’Agostino McGowan, Alison Hill, Andrea Gómez Vargas, Angela Li, Beatriz Milz, Haydée Svab, Tijana Blagojev, Katarina Kosmina, Jovana Savic.</p>
+
+
+<!-- -->
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>community</category>
+  <category>news</category>
+  <guid>https://forwards.github.io/blog/2020/blacklivesmatter-statement/index.html</guid>
+  <pubDate>Sat, 06 Jun 2020 00:00:00 GMT</pubDate>
+  <media:content url="https://forwards.github.io/blog/2020/blacklivesmatter-statement/blm.png" medium="image" type="image/png" height="54" width="144"/>
+</item>
+<item>
+  <title>Southern Africa Project 2020</title>
+  <dc:creator>Heather Turner</dc:creator>
+  <link>https://forwards.github.io/blog/2020/southern-africa-project-2020/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2020/southern-africa-project-2020/optimized/r_workshop_participants_gaborone.jpg" class="img-fluid"></p>
+<p>Using the <a href="https://joburg2020.satrdays.org/">satRday Johannesburg 2020</a> conference as a springboard, Forwards set up a project to help build the R community in Southern Africa. With funding from the <a href="http://whyr.pl/foundation/">Why R? Foundation</a>, the <a href="https://www.r-consortium.org/">R Consortium</a> and a <a href="https://www.crowdfunder.co.uk/forwards-southern-africa-project-2020">crowd-funding campaign</a>, Forwards collaborated with local R users to run a series of training and community events in South Africa, Eswatini and Botswana. All the events promoted <a href="https://twitter.com/AfricaRUsers">AfricaR</a>, the pan-African network of R users, to help raise awareness of this community among R users in Southern Africa.</p>
+<section id="south-africa" class="level1">
+<h1>South Africa</h1>
+<p>The events began with Heather Turner assisting Bianca Peterson in running her 2-day <a href="https://joburg2020.satrdays.org/introductory-r-workshop.html">Introduction to R Workshop</a> hosted by PwC, Midrand.</p>
+<p><img src="https://forwards.github.io/blog/2020/southern-africa-project-2020/optimized/intro_to_r_joburg.jpg" class="img-fluid"> <em><br>Bianca Peterson with participants at the Introduction to R workshop, Johannesburg</em></p>
+<p>This event was attended by over 20 participants, mostly from local businesses and organizations. Although Bianca and Heather were there because of the satRday, most of the participants were new to R and only came to the workshop. This demonstrates the potential for conferences to facilitate outreach events that grow the community. Due to fantastic support of the crowd-funding campaign, Forwards was able to award a scholarship to Ofentse Phuti-Rice, a Computer Science MSc student from Botswana. The scholarship enabled her to attend this workshop, the Web Scraping with R pre-satRday workshop led by Megan Beckett and Andrew Collier, and the satRday itself.</p>
+<p>After the Introduction to R workshop, Heather joined fellow satRday keynote Colin Fay to speak at R-Ladies Johannesburg. Colin spoke on <a href="https://speakerdeck.com/colinfay/contributing-to-the-r-ecosystem-0611f5a1-2d6e-4d19-951d-3181906ad61e">how to contribute to the R ecosystem</a> - everything from sharing what you’re learning to writing a package - while Heather spoke about <a href="https://www.heatherturner.net/talks/publishing-and-promoting-r-packages">publishing and promoting your packages</a>. This time the dozen or so attendees were R enthusiasts, most of whom would be at the satRday workshops and/or conference.</p>
+<p><img src="https://forwards.github.io/blog/2020/southern-africa-project-2020/optimized/r-ladies-jozi.jpg" class="img-fluid"> <em><br>The folks at R-Ladies Johannesburg</em></p>
+<p>The satRday workshops were the following day. Heather led a workshop using the latest iteration of the <a href="https://forwards.github.io/edu/workshops/full_day_pkg_dev/">Forwards package development slides</a>, with Bianca assisting. The workshop was open to all, however funding from the R Consortium supported scholarships for four women to attend: Astrid Radermacher, a postdoc at the University of Cape Town; Lillian Pazvakawambwa, a lecturer at the University of Namibia; Fransina Amutenya, a statistician at Namibia Statistics Agency and Caroline Akoth, Advocacy and Operations Lead, Women in GIS, Kenya. The scholarship enabled the recipients to attend the satRday conference as well as the workshop.</p>
+<p><img src="https://forwards.github.io/blog/2020/southern-africa-project-2020/optimized/package_dev_joburg.jpg" class="img-fluid"> <em><br>Heather Turner leading the R Package Development workshop, Johannesburg.</em></p>
+<p>The satRday itself was attended by over 100 people, with many folk travelling from across South Africa and beyond to attend.</p>
+<p><img src="https://forwards.github.io/blog/2020/southern-africa-project-2020/optimized/satrday_joburg.jpg" class="img-fluid"> <em><br>Participants waiting for the programme to start at satRday Johannesburg.</em></p>
+<p>There was a <a href="https://joburg2020.satrdays.org/#programme">packed programme</a> of 2 keynote talks, 13 regular talks and 8 lightning talks - there are links to slides and videos in the programme. Heather gave a talk on Diversity and Inclusion in the R Community (<a href="https://www.youtube.com/watch?v=n2_xhiO4rTY">Video</a>, <a href="https://www.heatherturner.net/talks/satrdayjoburg2020/">Slides</a>), focusing on outreach to underrepresented groups beyond white women and the path to becoming an R (core) developer. The conference was also a great opportunity for networking, particularly among people from different cities/countries.</p>
+<p><img src="https://forwards.github.io/blog/2020/southern-africa-project-2020/optimized/emmanuel_and_heather.jpg" class="img-fluid"> <em><br>Emmanuel Ọlámíjùwọ́n, co-organizer of Eswatini UseR group, with Heather Turner, satRday Johannesburg.</em></p>
+</section>
+<section id="eswatini" class="level1">
+<h1>Eswatini</h1>
+<p>After the satRday, Heather travelled to Eswatini to give a two-day workshop at the University of Eswatini, hosted by the <a href="https://twitter.com/EswatiniUseR">Eswatini UseR group</a>. Participants were mostly students/staff at the university, but a few came from outside organizations such as the revenue authority and a local non-profit. The workshop covered data import, data wrangling, data visualisation and linear modelling, and the participants created an R markdown report based on a case study.</p>
+<p><img src="https://forwards.github.io/blog/2020/southern-africa-project-2020/optimized/eswatini_workshop.jpg" class="img-fluid"> <em><br>Participants at Introduction To R workshop, Eswatini, including two of the user group organizers at the back by the windows, L: Garikayi Chemhaka, R: Nontsikelelo Shongwe</em></p>
+<p>There was a lot of interest in more advanced topics, such as handling missing data, working with big data and machine learning. At the end of the workshop, Heather gave a talk on the <a href="https://www.heatherturner.net/talks/r-community">R Community and Free Resources</a> so that participants would know how to get support and materials for further learning.</p>
+<p><img src="https://forwards.github.io/blog/2020/southern-africa-project-2020/optimized/mbongeni_dube.jpg" class="img-fluid"> <em><br>Mbongeni Dube, co-organizer of Eswatini UseR group, outside the workshop venue.</em></p>
+</section>
+<section id="gaborone" class="level1">
+<h1>Gaborone</h1>
+<p>Due to a flight cancellation (unrelated to COVID-19), Heather was not able to visit Gaborone as planned. However the organizers from the new <a href="https://www.meetup.com/Botswana-R-Users/">Botswana R Users</a> group, along with co-organizers from <a href="https://twitter.com/WiMLDS_Gaborone">WiMLDS Gaborone</a> and <a href="https://twitter.com/PydataBW">PyData Botswana</a> helped facilitate an Introduction to R tutorial, with Heather teaching remotely over Zoom. The tutorial gave a basic orientation of R/RStudio, before focusing on visualization with base R and ggplot2 (<a href="https://www.heatherturner.net/teaching/intro-to-r/">slides here</a>, we skipped data wrangling).</p>
+<p>The participants took some great photos, including our banner image and the one of women attendees below.</p>
+<p><img src="https://forwards.github.io/blog/2020/southern-africa-project-2020/optimized/women_botswana.jpg" class="img-fluid"> <em><br>Women that attended the Introduction To R workshop, Botswana.</em></p>
+<p>After the workshop, the Botswana R User group was officially launched. Heather gave her talk on the R Community and Free Resources, while Edson Kambeu gave an overview of the vision for the R User Group. Attendees took turns to introduce themselves: there were a number of students and people working as statisticians or data scientists; most people currently used SPSS or Python, but were interested to learn R.</p>
+</section>
+<section id="elsewhere" class="level1">
+<h1>Elsewhere</h1>
+<p>Those are all the events that have taken place so far. The original aim was also to run a tutorial and launch a R User Group in Namibia. This proved to be too difficult to arrange to coincide with Heather’s visit to the area, but useful connections were made and organizers at the University of Namibia have applied for a grant from The R Consortium to help launch a user group. There is also some funding left over from the crowdfunder, which we hope to use to support a tutor from South Africa to lead a tutorial in Windhoek, when circumstances allow it. We have also made connections to people interested in R (and QGIS) training in Lesotho and hope to follow that up if we can.</p>
+</section>
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<p>We’d like to thank all our supporters that made these events possible, especially the individuals that contributed to the crowdfunder. It was great that we were able to cover all the anticipated costs as well as fund some scholarships to the Johannesburg satRday and pre-conference workshops. The events helped to get many people started with R and hopefully inspired them to continue with it, supported by the local groups and wider community.</p>
+</section>
+<section id="photo-credits" class="level1">
+<h1>Photo credits</h1>
+<p>Photos from Gaborone by meetup attendees.<br>
+Photo of R-Ladies Johannesburg by Kirsty Lee Garson.<br>
+Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n.</p>
+
+
+<!-- -->
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>community</category>
+  <category>education</category>
+  <category>software</category>
+  <guid>https://forwards.github.io/blog/2020/southern-africa-project-2020/index.html</guid>
+  <pubDate>Mon, 25 May 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Recap of R-Ladies Charlottesville Forwards Workshop</title>
+  <dc:creator>Angela Li</dc:creator>
+  <dc:creator>Samantha Toet</dc:creator>
+  <link>https://forwards.github.io/blog/2019/rladies-charlottesville-workshop-recap/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2019/rladies-charlottesville-workshop-recap/optimized/group_photo.jpg" class="img-fluid"></p>
+<p>On September 8, 2019, <a href="https://twitter.com/Samantha_Toet?lang=en">Samantha Toet</a> and <a href="https://twitter.com/CivicAngela?lang=en">Angela Li</a> co-taught a 3-hour Forwards Package Development Workshop at a weekend <a href="https://www.meetup.com/rladies-charlottesville/">R-Ladies Charlottesville</a> Meetup.</p>
+<p>The workshop took place as a result of Angela being in town - she reached out to Sam and suggested the workshop, Sam thought it was a good idea, and they worked together to coordinate the logistics (all Sam!) and teaching. By using the <a href="https://github.com/forwards/workshops">Forwards curriculum</a> and <a href="https://drive.google.com/drive/folders/1aRSg1uf1xQnvfhDEmmcLcoONZYtxigo5">pre-made organizing templates</a> - with a few tweaks of their own, of course - they were able to pull together the workshop in a month.</p>
+<p>The workshop was an abbreviated version of the full Forwards curriculum that allowed participants to develop their first-ever package. The workshop started with motivating the need to create a package, then walked through making a package from scratch, then went over best practices and sharing out a package. We thought it was a good “story arc” for participants: create, document, test, and share.</p>
+<p>We enjoyed teaching the workshop, and there were several things we learned from teaching it:</p>
+<ul>
+<li><p><strong><a href="https://speakerdeck.com/minecr/let-them-eat-cake-first-0a3bbf75-f6f1-42d5-8d2f-ac2ff741611f">Let them eat cake (first)</a>, or have participants create and explore their own package, no matter how small it is.</strong> You can help with some of the heavy lifting by providing sample functions to use in the package, but give them ownership of the full process.</p></li>
+<li><p><strong>Mistakes are good!</strong> Coding is never perfect or streamlined, so by troubleshooting on the spot, you’re demonstrating the iterative process. For example, Sam started off her session by live troubleshooting a Roxygen tagging issue. Participants could call out their suggestions and collaboratively come to a solution. Participants were also able to get a real taste of the process of looking at help pages, changing some part of the code, re-documenting and building the package, and looking at the results.</p></li>
+<li><p><strong>Focus on workflows and process over exact tooling.</strong> The goal of this workshop was not to make every participant an expert package developer, but help participants see the patterns of package development. By internalizing these patterns (for example, modify code -&gt; load -&gt; explore in console, or write tests -&gt; modify code -&gt; load), participants are able to understand the general workflow and start to ask deeper questions and explore more on their own.</p></li>
+</ul>
+<p>If you’re interested in organizing an R-Ladies based workshop of your own, you can use the <a href="https://github.com/forwards/workshops/tree/master/Cville2019">resources we developed</a>. Please don’t hesitate to reach out to either of us for more information - we’d be happy to chat (or maybe even co-teach)!</p>
+
+
+<!-- -->
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>education</category>
+  <category>software</category>
+  <category>community</category>
+  <guid>https://forwards.github.io/blog/2019/rladies-charlottesville-workshop-recap/index.html</guid>
+  <pubDate>Fri, 22 Nov 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://forwards.github.io/blog/2019/rladies-charlottesville-workshop-recap/optimized/group_photo.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The state of R in Africa</title>
+  <dc:creator>Lorna Maria</dc:creator>
+  <link>https://forwards.github.io/blog/2019/the-state-of-r-in-africa/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2019/the-state-of-r-in-africa/banner.jpg" class="img-fluid"></p>
+<section id="growth-of-the-r-ecosystem-in-africa" class="level2">
+<h2 class="anchored" data-anchor-id="growth-of-the-r-ecosystem-in-africa">Growth of the R ecosystem in Africa</h2>
+<p>Over the past 2 years, we have seen R transform from just an academic and health care research language to one of the major languages in the budding data science community in Africa. For a long time, data scientists and related disciplines have relied on R and many other packages to analyse data, however, the broader developer community didn’t fully understand its power in the tech industry. An effective model to enter the Africa developer ecosystem relies on a small group of enthusiasts creating a safe learning environment, documenting and sharing their learning experiences and slowly attracting interested learners. Africa R users group are using this model to introduce R as a language for data science by organising communities across different cities in Africa.</p>
+</section>
+<section id="evolution-of-chapters-and-representation" class="level2">
+<h2 class="anchored" data-anchor-id="evolution-of-chapters-and-representation">Evolution of chapters and representation</h2>
+<p>The growth of technical talent in Africa positively correlates with the growth of communities around certain technologies/tools/languages. These communities are creating a long table to share opportunities on the continent. When we shift the spotlight to R in the Africa tech community we see an evolution in useR groups of not only academic researchers using R in their PhD or master’s degrees but also people using R at their workplaces or for their freelance projects. There is a unique representation in the Africa R community that shows how the useRs have created a safe space for equal active participation. Global communities like R Ladies and Women in Machine Learning and Data Science have given so many women in the community a platform to start R user groups in their localities. The support from these groups has contributed to the early success of R user groups as the safest places to start your data science career. <img src="https://forwards.github.io/blog/2019/the-state-of-r-in-africa/representation.jpg" class="img-fluid" alt="R Ladies at the Annual Women Techmakers Event"></p>
+<p>Some of the chapters include <a href="https://mobile.twitter.com/Rladieskampala">Kampala</a>,<a href="https://mobile.twitter.com/LagosRUsers">Lagos</a>,<a href="https://mobile.twitter.com/daR_users">Dar es salaam</a>, <a href="https://mobile.twitter.com/AbidjanRusers">Abidjan</a>, <a href="https://mobile.twitter.com/RLadiesJozi">Johannesburg</a>,[DRC] (https://mobile.twitter.com/DrcUsers),<a href="https://mobile.twitter.com/RLadiesCtn">Cotonou</a> among others.</p>
+</section>
+<section id="events" class="level2">
+<h2 class="anchored" data-anchor-id="events">Events</h2>
+<p>Monthly Meetups: These are the most popular events in the community. Groups of 10-50 useRs meet every month to learn and help each other with R related issues. They are usually supported by the local useR group in the area and are at the forefront of the growing popularity of data science in the local communities.</p>
+<p>SatRday: The R community in Johanessburg and Kampala have both hosted satRday events in April 2019 and May 2019 respectively. These events featured lightning talks and hands-on workshops for R users and were free. These have been the biggest R focused events on the continent for the year and the hope is they will spread to other regional hosts in the coming year. <img src="https://forwards.github.io/blog/2019/the-state-of-r-in-africa/events.jpg" class="img-fluid" alt="A useR meetup in Dar es salaam"></p>
+</section>
+<section id="the-future" class="level2">
+<h2 class="anchored" data-anchor-id="the-future">The Future</h2>
+<p>R as a statistical programming language has a great value to the data science community on the continent and useRs are showing this value through their work, research and education. Most useR groups in Africa currently focus on developing material that shows the amazing facets of R, rendering it as an option on the table for potential clients and the community. We are starting to see R cross paths with other programming languages thus raising a need to create room for it in learning and early career choices through building communities, mentoring talent and eventually powering businesses. Follow <a href="https://mobile.twitter.com/AfricaRUsers">AfricaR</a> and individual chapters on their social media to view the most recent updates on events.</p>
+
+
+<!-- -->
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>news</category>
+  <category>community</category>
+  <guid>https://forwards.github.io/blog/2019/the-state-of-r-in-africa/index.html</guid>
+  <pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Workshops for Women and Girls</title>
+  <dc:creator>Forwards Teaching Team</dc:creator>
+  <link>https://forwards.github.io/blog/2019/workshops-for-women-and-girls/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2019/workshops-for-women-and-girls/girls-workshop-nyc.jpg" class="img-fluid"></p>
+<p>Thanks to generous funding from the <a href="https://www.r-consortium.org/projects/awarded-projects">R Consortium</a>, Forwards has offered a series of workshops around the world to support the development of coding skills and to increase the participation of women in the R community. In the last year and a half, more than 10 workshops have engaged more than 100 high school students and women in Australia, New Zealand, Europe and the USA. Information about our series of workshops for women and girls can be found on the <a href="https://forwards.github.io/edu/">Edu</a> section of the Forwards website.</p>
+<p>Here we round up some of the highlights.</p>
+<section id="auckland" class="level2">
+<h2 class="anchored" data-anchor-id="auckland">Auckland</h2>
+<p>Forwards teamed up with the Auckland University Department of Statistics to offer two R workshops in December 2017, one day for women on package development and one day for girls on web app development. Hadley Wickham and Jenny Bryan developed course materials for the package development workshop, while Di Cook developed the materials for the girls’ workshop. Both sets of materials were released under Creative Commons licenses so that they could be reused and adapted for future workshops.</p>
+<p>See the <a href="https://ebsmonash.shinyapps.io/kea_tutorial/">material for the girls’ workshop</a> and two of the apps developed by the girls to explore New Zealand’s PISA standardised scores: <a href="https://ebsmonash.shinyapps.io/booknerds/">Booknerd’s App</a> and <a href="https://ebsmonash.shinyapps.io/pisa-zoe/">Zoe’s App</a>.</p>
+</section>
+<section id="budapest" class="level2">
+<h2 class="anchored" data-anchor-id="budapest">Budapest</h2>
+<p>Using the material developed for Auckland, Isabella Gollini and Heather Turner ran a package development workshop for women at <a href="https://2018.erum.io/">eRum 2018</a>. Thanks to support from the R Consortium and the eRum conference, eight women were funded to attend the workshop and given free conference registration, with representatives from Denmark, Georgia, Germany, India, Sweden and the UK. Other eRum participants were also able to attend.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://forwards.github.io/blog/2019/workshops-for-women-and-girls/eRum-package-workshop.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Women in group discussions at the Budapest package development workshop</figcaption>
+</figure>
+</div>
+</section>
+<section id="new-york-city" class="level2">
+<h2 class="anchored" data-anchor-id="new-york-city">New York City</h2>
+<p>Emily Dodwell and Joyce Robbins taught the first Forwards high school girls workshop in the United States in October 2018 at AT&amp;T in New York City. Sixteen motivated, curious, and dedicated students worked diligently throughout a morning session to tackle an introduction to R, plots in ggplot2, Markdown, and manipulating data with dplyr. Breakout groups over a lunch of pizza and salad discussed careers in data science; volunteers shared their career trajectories, and students asked questions and shared their experiences in high school STEM courses and extracurricular activities.</p>
+<p>The six-hour workshop culminated in an afternoon hackathon, the theme of which was transportation in and around NYC. Each pair of students chose one of three publicly available datasets—NYC Flights, Taxis, and CitiBike—to explore using the R skills they learned earlier in the day. They then gave a five-minute presentation highlighting visualizations they created that captured interesting behavior or answered questions they formulated.</p>
+<p>Many thanks to the volunteers from AT&amp;T Labs Research, Cheryl Flynn and Ritwik Mitra, and from R-Ladies NYC, Soumya Kalra and Angeline Protacio.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://forwards.github.io/blog/2019/workshops-for-women-and-girls/girls-workshop-nyc-working.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Working photo at the New York City Forwards girls’ workshop</figcaption>
+</figure>
+</div>
+</section>
+<section id="chicago" class="level2">
+<h2 class="anchored" data-anchor-id="chicago">Chicago</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://forwards.github.io/blog/2019/workshops-for-women-and-girls/chicago-package-workshop.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Group photo of women at the Chicago package development workshop</figcaption>
+</figure>
+</div>
+<p>Angela Li and Stephanie Kirmer, both of R-Ladies Chicago, organized a women’s package workshop in February 2019 for 30 women at the Center for Spatial Data Science in Chicago. This marked the first time an R-Ladies group had run the full package development workshop. The workshop brought women from 11 states in the US to freezing-cold Chicago to learn how to develop their first package. The workshop was preceded by an R-Ladies get-together with an R-Ladies purple cake, where workshop participants from out-of-town were able to get to know each other.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://forwards.github.io/blog/2019/workshops-for-women-and-girls/chicago-rladies-purple-cake.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Group photo of women at the R-Ladies get-together behind a table with a large iced purple cake</figcaption>
+</figure>
+</div>
+<p><a href="https://skirmer.github.io/ChiEval">Pre and post-survey results</a> from the workshop can be found online (thank you, Stephanie, for putting this together!). For a more in-depth look at the event, <a href="https://www.jlukito.com/blog/2019/2/24/attending-the-r-forwards-package-workshop-hosted-by-r-ladies-chicago">Josephine Lukito</a> and <a href="https://rladieschicago.org/post/2019-02-28-rworkshop_recap/">Florencia Mangini</a> both wrote fantastic recaps of the workshop. You can also find tweets from the event under the hashtag <a href="https://twitter.com/search?q=%23RForwardsChi">#RForwardsChi</a> on Twitter.</p>
+<p>Thanks to the R Consortium, funding was provided for 9 women from California, Tennessee, New York, Wisconsin, and more to attend this workshop. Thanks also to Katherine Simeon, Ola Giwa, and Nichole Burke for being helpers at this event.</p>
+</section>
+<section id="brisbane" class="level2">
+<h2 class="anchored" data-anchor-id="brisbane">Brisbane</h2>
+<p>Forwards teamed up with <a href="https://acems.org.au/home">ACEMS</a> to organise the Brisbane Coding Workshop for Girls held at River City Labs (https://www.rivercitylabs.net) in March 2019. There were approximately 10 girls and 5 helpers. The girls worked on instructional material to get up and running with R and the tidyverse (https://ebsmonash.shinyapps.io/sunny_tutorial/) in the morning. After a pizza lunch, the girls experimented with developing their own shiny app. A theme for the afternoon was “break it, fix it, break it, fix it, …” to encourage experimenting and trying new things. The girls used data from the <a href="https://www.ala.org.au">Atlas of Living Australia</a>, on wildlife sightings around Brisbane, as the basis for the app. There is an <a href="https://cran.r-project.org/web/packages/ALA4R/index.html">R package</a> to interface with this extraordinary data resource. For examples of the apps developed see <a href="https://ebsmonash.shinyapps.io/Claudia_brissy_wildlife/">Claudia’s App</a> and <a href="https://ebsmonash.shinyapps.io/Rachel_brissy_wildlife/">Rachel’s App</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://forwards.github.io/blog/2019/workshops-for-women-and-girls/brisbane-girls-workshop.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The view into River City Labs where the Brisbane girls coding workshop was held, with the girls and leaders chatting at the pizza lunch</figcaption>
+</figure>
+</div>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>Materials for Forwards workshops can be found in our <a href="https://github.com/forwards/workshops">workshops</a> repository. Additional materials can be found in the <a href="https://github.com/forwards/teaching_examples">teaching_examples</a> repository or linked from our <a href="https://forwards.github.io/edu/">Education</a> page. All Forwards workshop materials are licensed with a Creative Commons license to encourage reuse by the community - please check the exact license on the material, in some cases, there is a restriction to non-commercial use.</p>
+<p>If you are interested in organizing a workshop of your own, please take a look at the <a href="https://drive.google.com/drive/folders/1aRSg1uf1xQnvfhDEmmcLcoONZYtxigo5?usp=sharing">Template Forwards Workshop Google Drive</a> for materials you can use to coordinate logistics for your workshop! This was put together by the Chicago workshop organizers and is something the teaching team plan to build on to support workshop organizers.</p>
+
+
+<!-- -->
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>education</category>
+  <category>software</category>
+  <category>community</category>
+  <guid>https://forwards.github.io/blog/2019/workshops-for-women-and-girls/index.html</guid>
+  <pubDate>Sun, 22 Sep 2019 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>HavanaR Workshop 2018</title>
+  <dc:creator>Ziv Shkedy</dc:creator>
+  <dc:creator>Julie Josse</dc:creator>
+  <link>https://forwards.github.io/blog/2018/havanar/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2018/havanar/universidad_de_la_habana_fachada.jpg" class="img-fluid"></p>
+<p>The first meeting of R users in Cuba, HavanaR! Club 2018, will take place from 29-10-2018 to 02-11-2018. The workshop is organized jointly by the Group of Probability and Statistics of Universidad de La Habana, the &gt;eR-Biostat initiative, the Center for Statistics, CenStat &amp; I-Biostat, Hasselt University, Belgium and Forwards.</p>
+<p>The workshop will focus on visualisation methods and exploratory analysis of high dimensional and multivariate datasets.</p>
+<p>Program:</p>
+<p>29-Oct: Basic concepts of exploratory data analysis using R. Exploratory Analysis of high dimensional data using R (Adetayo Kasim, Durham University, UK, a.s.kasim@durham.ac.uk and Ziv Shkedy, Hasselt University, Belgium, ziv.shkedy@uhasselt.be).</p>
+<p>30-Oct: Exploratory Analysis of high dimensional data using R (Adetayo Kasim and Ziv Shkedy).</p>
+<p>31-Oct: HavanaR! Club 2018: The Cuban R users workshop with presentations of the participants.</p>
+<p>01-Nov: Exploratory Multivariate Data Analysis using R (Julie Josse, Ecole Polytechnique, France, julie.josse@polytechnique.edu).</p>
+<p>02-Nov: Exploratory Multivariate Data Analysis using R (Julie Josse).</p>
+<p>The workshop is free but registration in mandatory. To register please send an email to erbiostat@gmail.com or cbouza2002@gmail.com.</p>
+<p>More details and workshop materials will be available online at https://er-biostat.github.io/Courses/. All updates about the workshop will be anounced on the Facebook page (https://www.facebook.com/ER-BioStat-1463845487001786/) and Twitter (<span class="citation" data-cites="erbiostat">@erbiostat</span>).</p>
+
+
+<!-- -->
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>news</category>
+  <category>community</category>
+  <category>education</category>
+  <guid>https://forwards.github.io/blog/2018/havanar/index.html</guid>
+  <pubDate>Sat, 07 Jul 2018 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>R in Latin America</title>
+  <dc:creator>Ariel Levy</dc:creator>
+  <dc:creator>Fernando Mayer</dc:creator>
+  <dc:creator>Juan Pablo Marín Díaz</dc:creator>
+  <dc:creator>Riva Quiroga</dc:creator>
+  <dc:creator>Marcela Alfaro</dc:creator>
+  <dc:creator>Alejandro Reyes</dc:creator>
+  <dc:creator>Heather Turner</dc:creator>
+  <link>https://forwards.github.io/blog/2018/r-in-latin-america/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2018/r-in-latin-america/posters1_SERI_cropped.jpg" class="img-fluid"></p>
+<p>Following on from our post on <a href="https://forwards.github.io/blog/2017/12/01/r-in-africa/">R in Africa</a> this next post in the series looks at the R community across Latin America.</p>
+<!--more-->
+<section id="conferences" class="level2">
+<h2 class="anchored" data-anchor-id="conferences">Conferences</h2>
+<p>As the use of R has grown in Latin America, there has been an increasing demand for local R conferences. The community has responded and a number of conferences are planned for the coming months.</p>
+<section id="international-seminar-on-statistics-with-r" class="level3">
+<h3 class="anchored" data-anchor-id="international-seminar-on-statistics-with-r">International Seminar on Statistics with R</h3>
+<p>One of the first to spot the demand was Luciane Alcoforado, a professor at the Fluminense Federal University (UFF) in Rio de Janeiro, Brazil. Realizing there was no large R event in Brazil, she set about coordinating the first International Seminar on Statistics with R (<a href="http://serrio2016.weebly.com/">SER: Seminário Internacional de Estatística com R</a>), which was held in Niterói in May 2016.</p>
+<p><img src="https://forwards.github.io/blog/2018/r-in-latin-america/Alcoforado2_ISER.png" class="img-fluid"> <em><br>Luciane Alcoforado, Coordinator of the first SER</em></p>
+<p>More than 250 people attended this pioneering event, with attendance balanced across academia and industry. Encouraged by this success, the I SER organizers ran the event again in 2017, with an expanded program and similar numbers attending.</p>
+<p><img src="https://forwards.github.io/blog/2018/r-in-latin-america/Sean_online_SERI_scaled.jpg" class="img-fluid"> <em><br>Sean Kross presents remotely at the first SER</em></p>
+<p>A third edition, <a href="http://www.ser.uff.br/">III SER</a>, is now planned for May 22-24, 2018, to be hosted again by UFF in Niterói, Brazil. On the first day, 8 mini courses will be run, aimed at both practitioners and students. This year most of the international guests come from the USA and England. They include Jesse Mostipak, Becky Pattinson, Garreth Maccray, and Gabriela de Queiroz. These guests will present alongside invited speakers from the local region. There will also be thirty selected contributed talks and a poster session with awards for the best three of each. It’s a huge opportunity to get your research known. The last conference day will close with a tribute session to Prof.&nbsp;Djalma Pessoa who was a pioneer R user in Brazil.</p>
+<p>Registration to III SER and the mini-courses is open now and the call for papers is open until March 23 2018.</p>
+</section>
+<section id="r-day" class="level3">
+<h3 class="anchored" data-anchor-id="r-day">R Day</h3>
+<p>A second event in Brazil, R Day, will take place at the Federal University of Paraná (UFPR), Curitiba, on May 22, 2018. The Statistics Department at UFPR was one of the first in Brazil to adopt R as the standard programming language for statistics teaching, in 2002. It was also the first institution to host a <a href="http://cran-r.c3sl.ufpr.br">CRAN mirror</a> in the country, and started the <a href="http://www.leg.ufpr.br/doku.php/software:rbr">R-br mailing list</a> in 2011, which now has more than 1000 subscribers.</p>
+<p>The R Day is organized as a satellite event of the <a href="http://rbras.org.br/rbras63/">63rd RBRAS meeting</a> (Brazilian Region of the International Biometric Society), and is endorsed by the R Foundation to further develop the academic R community in Brazil. There will be three keynotes, 9 oral presentations, and 8 tutorials, aimed at both users and developers. The main goal is to be community-driven, so anyone can submit proposals for oral presentations and/or tutorials (only the three keynote speakers will be invited by the organizers).</p>
+<p>The aim of R Day is to gather the vast R community in Brazil, by offering the possibility for users and developers to show their work and exchange experience on all sorts of R subjects. Proposals for oral presentations and tutorials are open until April 04. The registration is free and can be made until April 22.</p>
+<p>For more information and updates, registration and proposal forms, checkout the <a href="http://rday.leg.ufpr.br">R Day website</a>, and follow us on <a href="https://www.facebook.com/leg.ufpr/">Facebook</a> and <a href="https://twitter.com/LEG_UFPR">Twitter</a>.</p>
+<p><img src="https://forwards.github.io/blog/2018/r-in-latin-america/r-day.png" class="img-fluid"> <em><br>R Day logo (left), Curitiba Botanical Garden (top right), and UFPR historical building (bottom right)</em></p>
+</section>
+<section id="satrday-bogota" class="level3">
+<h3 class="anchored" data-anchor-id="satrday-bogota">satRday Bogota</h3>
+<p>The first Latin American chapter of the one day conference series satRdays will take place in Bogota, Colombia in August 2018. The focus of the conference will be about tidy concepts applied to data visualization. It is organized by <a href="http://datasketch.co">Datasketch</a>, a Data Journalism Portal for Latin America.</p>
+<p>The main goal of the conference is to create a common space for interaction among newbies and experts in R. Special interest will be given to works created by or for underrepresented communities and to showcase different solutions developed using R for the different elections that are happening in 2018 in different Latin American countries.</p>
+<p>There are tentative plans for a workshop session the day before with hands-on tutorials about:</p>
+<ul>
+<li>Data visualization and common mistakes.</li>
+<li>Data structuring and preparation: PDFs, Databases and API’s.</li>
+</ul>
+<p>A website containing more details will be available soon.</p>
+</section>
+<section id="latinr" class="level3">
+<h3 class="anchored" data-anchor-id="latinr">LatinR</h3>
+<p>On October 25, 2017, an announcement was made by Heather Turner on the RUG Organizers Slack: the R Foundation Conference Committee would like to see academic-focused R events in regions not currently covered by useR! In less than a week, a group of Latam R-Ladies were organizing their first conference-call to start thinking about how this challenge could be achieved. This quick response was not the result of mere chance, but the consequence of a year in which the R community — both RUG and R-Ladies groups — grew stronger in South America. By mid November everything was set-up: a name, a place, a date, and a motivated international organizing committee.</p>
+<p>LatinR 2018 will be held in Buenos Aires on September 4-5 within the 47th Argentinian Meeting of Informatics and Operational Research (JAIIO), which is organized by The Argentinian Informatics Society (SADIO). With a diverse and renowned Scientific Committee, this two-day event aims to bring together researchers, students, and R-enthusiasts from different backgrounds in order to strengthen the R community and make the impact that R is having in the region more visible, in both academic and non academic contexts.</p>
+<p>For more information about oral presentations &amp; poster submission, keynotes, and workshops, you can check out the <a href="http://latin-r.com/en">LatinR website</a> or follow us on Twitter and Facebook: <span class="citation" data-cites="LatinR2018">@LatinR2018</span>.</p>
+</section>
+<section id="conectar-2019" class="level3">
+<h3 class="anchored" data-anchor-id="conectar-2019">ConectaR 2019</h3>
+<p>In 2019, it is Costa Rica’s turn: <a href="www.conectar2019.org">ConectaR 2019</a> will take place in San José. The event has the endorsement of R Foundation and will be hosted at the <a href="www.ucr.ac.cr">University of Costa Rica (UCR)</a>. ConectaR has an organizing committee comprising members of academia (<a href="www.estadistica.ucr.ac.cr">School of Statistics</a>, <a href="www.cimpa.ucr.ac.cr">Pure and Applied Mathematics Research Center (CIMPA)</a>), public research centers (<a href="www.odd.ucr.ac.cr">The Development Observatory</a>, <a href="https://www.bioversityinternational.org/">Bioversity International (CGIAR)</a>) and industry (<a href="www.ixpantia.com">ixpantia</a>). ConectaR will have two keynote speakers (yet to be confirmed) and will be receiving proposals for oral presentations and posters starting April 2018. In addition to that, there will be tutorials, invited talks, and a job fair. An attendance of over 150 people is expected, with the goal of building a community of R users in the Central American Region.</p>
+</section>
+</section>
+<section id="other-initiatives" class="level2">
+<h2 class="anchored" data-anchor-id="other-initiatives">Other Initiatives</h2>
+<section id="rbioconductor-latin-american-developers-workshop" class="level3">
+<h3 class="anchored" data-anchor-id="rbioconductor-latin-american-developers-workshop">R/Bioconductor Latin American Developers’ Workshop</h3>
+<p>In recent years, biology has seen a rise in the use of technologies that enable high-throughput, quantitative, data-rich profiling of cellular states. As a result, the field faces computational challenges to analyse such data. The <a href="http://bioconductor.org/">R/Bioconductor</a> project is an open source, open development software platform that provides tools to translate complex data sets into biological knowledge. An R/Bioconductor workshop will be held in Cuernavaca, Mexico on July 30 - Aug 3, 2018.</p>
+<p>The workshop is aimed at students and researchers interested in the analysis of biological data. We encourage applications from diverse disciplines, including but not limited to biologists, bioinformaticians, data scientists, software engineers and programmers. The main goals of the workshop are:</p>
+<ol type="1">
+<li>Teaching participants the principles of reproducible data science through the development of R/Bioconductor packages.</li>
+<li>Turning bioinformatic software users into bioinformatic software developers.</li>
+<li>Fostering the exchange of expertise and establishing multidisciplinary collaborations.</li>
+<li>Creating a community of Latin American scientists committed to the development of software and computational pipelines for biological data analysis.</li>
+<li>Helping to train bioinformatics instructors that can continue to grow in their local communities.</li>
+</ol>
+<p>This workshop is part of a long-term project to create a community of developers from Latin America. We hope to hold regular meetings in the future (similar to <a href="https://bioconductor.org/help/course-materials/2017/BioC2017/">BioC</a>, <a href="https://bioconductor.github.io/EuroBioc2017/">EuroBioc</a> and <a href="https://www.abacbs.org/biocasia2016">BioCAsia</a>) where attendees present their own software contributions.</p>
+<p>A website containing more details will be available soon.</p>
+</section>
+<section id="local-groups" class="level3">
+<h3 class="anchored" data-anchor-id="local-groups">Local groups</h3>
+<p>Beyond conferences and workshops, local groups provide a venue for R users to meet more regularly. Jumping Rivers provide a <a href="https://jumpingrivers.github.io/meetingsR/r-user-groups.html#south-america">user group directory</a>, which also covers R-Ladies groups, however as R-Ladies are expanding rapidly it is worth checking the <a href="https://github.com/rladies/starter-kit/blob/master/Current-Chapters.md">R-Ladies Starter Kit</a> for the latest status.</p>
+<p>Recently members of the RUG and R-Ladies groups in Bogota, Columbia collaborated on a striking intervention about feminicides in Colombia using plots created in R. Read more on their initiative in <a href="https://www.datasketch.co/en/p/how-we-used-r-to-raise-alarms-about-feminicides-in-colombia">this report</a> (<strong>warning: readers may find the content distressing</strong>). This is an example of how local groups can work together on wider issues as well as providing networking and development opportunities for their members.</p>
+</section>
+<section id="making-connections" class="level3">
+<h3 class="anchored" data-anchor-id="making-connections">Making Connections</h3>
+<p>Part of building the community in Latin America is making connections between disconnected groups. If you think we have missed something, or you would like to be involved in plans for future events in the region, let us know in the comments or contact us on <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#114;&#x6f;&#x77;&#102;&#x6f;&#114;&#x77;&#x61;&#114;&#100;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x65;&#x6d;&#x61;&#x69;&#108;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>email (rowforwards at gmail dot com)</noscript> or <a href="https://twitter.com/r_forwards">Twitter</a>.</p>
+<p><small>Banner image shows the poster session at I SER.</small></p>
+
+
+<!-- -->
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>news</category>
+  <category>community</category>
+  <guid>https://forwards.github.io/blog/2018/r-in-latin-america/index.html</guid>
+  <pubDate>Mon, 05 Feb 2018 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>R in Africa</title>
+  <dc:creator>Andrew Collier</dc:creator>
+  <dc:creator>Anelda van der Walt</dc:creator>
+  <dc:creator>Ziv Shkedy</dc:creator>
+  <dc:creator>Theoni Photopoulou</dc:creator>
+  <dc:creator>Margareth Gfrerer</dc:creator>
+  <dc:creator>Heather Turner</dc:creator>
+  <link>https://forwards.github.io/blog/2017/r-in-africa/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2017/r-in-africa/globe.jpg" class="img-fluid"></p>
+<p>R is used around the world and yet, in English-speaking media at least, we tend to hear most about what is happening in North America, Europe, and Australasia. So we would like to highlight some recent initiatives in the R community from other regions of the world, with this first post in the series focusing on R in Africa.</p>
+<!--more-->
+<section id="satrdays-in-cape-town" class="level2">
+<h2 class="anchored" data-anchor-id="satrdays-in-cape-town">satRdays in Cape Town</h2>
+<p>Following the first successful <a href="http://budapest.satrdays.org/">satRday in Budapest</a> on 3 September 2016, a <a href="http://capetown2017.satrdays.org/">satRday in Cape Town</a> was held on 18 February 2017. The event was hosted at <a href="http://workshop17.co.za/">Workshop 17</a> in the Victoria &amp; Alfred Waterfront. There were three great keynote speakers (<a href="https://twitter.com/JennyBryan">Jenny Bryan</a>, <a href="https://twitter.com/juliasilge">Julia Silge</a> and <a href="https://twitter.com/SteffLocke">Steph Locke</a>). In addition to the invited speakers the organizers received 41 contributed proposals, of which 23 were accepted: 3 tutorials, 8 standard talks and 12 lightning talks. Just over 200 tickets were issued for the event and the venue was literally packed. On two days prior to the conference there were workshops by the keynote speakers. These were also very well attended.</p>
+<p><img src="https://forwards.github.io/blog/2017/r-in-africa/D3S_6897.JPG" class="img-fluid"></p>
+<p><em><br>satRday was an excellent networking opportunity!</em></p>
+<p>A second <a href="http://capetown2018.satrdays.org/">satRday in Cape Town</a> is now planned for 17 March 2018, with two exciting keynote speakers: <a href="https://twitter.com/maelle">Maëlle Salmon</a> and <a href="https://twitter.com/StatsOnTheT">Stephanie Kovalchik</a>. They will be presenting workshops on R package development and sports analytics with R on the day prior to the conference.</p>
+<p>Next year’s conference will be held at a bigger venue on the campus of the University of Cape Town, which will be able to accommodate even more enthusiastic R users. Tickets are on sale and the <a href="https://www.papercall.io/satrday-cape-town-2018">Call for Papers</a> is open.</p>
+</section>
+<section id="softwaredata-carpentry" class="level2">
+<h2 class="anchored" data-anchor-id="softwaredata-carpentry">Software/Data Carpentry</h2>
+<p>Since 2015 <a href="https://software-carpentry.org/">Software Carpentry</a> and <a href="http://www.datacarpentry.org/">Data Carpentry</a> have been enabling R capacity development in Africa. Software and Data Carpentry host two-day workshops teaching researchers and postgraduate students foundational skills to assist with better research software development and data analysis respectively. The Carpentries are global non-profit volunteer organisations that not only teach tools like R, Python, SQL, and git/Github, but also run a two-day <a href="https://carpentries.github.io/instructor-training/">instructor training workshop</a> to help technical experts teach more effectively.</p>
+<p><img src="https://forwards.github.io/blog/2017/r-in-africa/carpentries.jpg" class="img-fluid"> <em><br>Highlights from Carpentry workshops</em></p>
+<p>Over the past three years more than 30 workshops were run in countries like <a href="https://software-carpentry.org/blog/2017/05/instructor-training-south-africa.html">South Africa</a>, <a href="https://software-carpentry.org/blog/2017/09/mauritius.html">Mauritius</a>, Ghana, <a href="https://software-carpentry.org/blog/2017/09/mauritius.html">Gabon</a>, <a href="https://software-carpentry.org/blog/2017/09/namibia.html">Namibia</a>, Botswana, <a href="http://www.datacarpentry.org/blog/tdwg/">Kenya</a>, and <a href="https://software-carpentry.org/blog/2017/09/ethiopia.html">Ethiopia</a>. These workshops have reached hundreds of researchers and students who mostly had limited or no prior exposure to programming.</p>
+<p>More information about the lessons we teach is available at the websites: <a href="https://software-carpentry.org/lessons/">Software Carpentry</a> and <a href="http://www.datacarpentry.org/lessons/">Data Carpentry</a>.</p>
+<p>If you’d like to get involved in Carpentries in Africa, please <a href="https://groups.google.com/forum/#!forum/swc-za">join our Google Group</a> or request a workshop by completing the <a href="https://software-carpentry.org/workshops/request/">form</a>.</p>
+</section>
+<section id="r-ladies-in-africa" class="level2">
+<h2 class="anchored" data-anchor-id="r-ladies-in-africa">R-Ladies in Africa</h2>
+<p>The set-up of a Cape Town chapter of <a href="https://rladies.org/">R-Ladies</a> was inspired by the first satRday conference in Cape Town. All three plenary speakers at that conference were part of the R-Ladies community and it was extremely refreshing to go to a conference largely about science and technology where women took the centre stage. Cape Town is a multicultural, multilingual and multiracial city, but this diversity is not represented in the R user community. The aim of the Cape Town chapter of R-Ladies is to grow the female R user community in Cape Town and bring to it the diversity of cultures, ethnicities and backgrounds present in the city. By the end of 2017 the group will have had five meetups since their launch in July this year. They are still quite a small group, but they are confident they will grow in time. One might expect that there would be many more people using R in a big city, but issues with congestion and public transport may form a barrier to people attending. The answer might be to form even more R-Ladies chapters around different parts of the city so that people don’t have to travel far! R-Ladies Cape Town can be reached at <script type="text/javascript">
+<!--
+h='&#114;&#108;&#x61;&#100;&#x69;&#x65;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x63;&#x61;&#112;&#x65;&#116;&#x6f;&#x77;&#110;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>capetown at rladies dot org</noscript> and on <a href="https://twitter.com/rladiescapetown">Twitter <span class="citation" data-cites="RLadiesCapeTown">@RLadiesCapeTown</span></a>.</p>
+<p>R Ladies Addis was founded on October 30, 2017 in the course of the 2nd Data Carpentry Workshop in Addis Ababa, with 7 founding members and 2 honorary members. Thanks to the support provided by Ms.&nbsp;Anelda van der Walt from South Africa, an honorary member of R Ladies Addis as well as the R Ladies community, R Ladies Addis got ready for its first meeting on November 14, 2017. The agenda of this meeting was to decide the framework of R Ladies Addis activities. The group has set its special focus on working with women students and women researchers by offering R training and R competitions. R Ladies Addis has been invited to reach out to the different corners of Ethiopia. For the time being R Ladies is present at https://r-ladies-addis.github.io/studyGroup and can be reached by e-mail <script type="text/javascript">
+<!--
+h='&#114;&#108;&#x61;&#100;&#x69;&#x65;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x61;&#100;&#100;&#x69;&#x73;&#x61;&#98;&#x61;&#98;&#x61;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>addisababa at rladies dot org</noscript>.</p>
+<p><img src="https://forwards.github.io/blog/2017/r-in-africa/r-ladies-addis-ababa.png" class="img-fluid"> <em><br>1st Meeting of R Ladies Addis on Nov.&nbsp;14, 2017</em></p>
+<p>A new chapter of R-Ladies will soon be starting in Cotonou, Benin. The organizers plan to have their first meeting in January to conincide with the start of the new academic year. Follow the group on <a href="https://twitter.com/RLadiesCtn">Twitter, <span class="citation" data-cites="RLadiesCtn">@RLadiesCtn</span></a> or email <script type="text/javascript">
+<!--
+h='&#114;&#108;&#x61;&#100;&#x69;&#x65;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x63;&#x6f;&#116;&#x6f;&#110;&#x6f;&#x75;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>cotonou at rladies dot org</noscript> to find out more! Local R-Ladies also hope to establish groups in Fez, Morocco and Johannesburg, South Africa; if you are interested in these groups, or interested in starting a chapter in your own area (in Africa or beyond!) you can contact <script type="text/javascript">
+<!--
+h='&#114;&#108;&#x61;&#100;&#x69;&#x65;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x69;&#110;&#102;&#x6f;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>info at rladies dot org</noscript>.</p>
+</section>
+<section id="er-biostat-making-r-based-education-materials-accessible-for-all" class="level2">
+<h2 class="anchored" data-anchor-id="er-biostat-making-r-based-education-materials-accessible-for-all">&gt;eR-Biostat: making R based education materials accessible for all</h2>
+<p>One of the main problems in education at both undergraduate and master’s levels in developing countries is the lack of high quality materials for courses in education programs. The <strong>&gt;eR-Biostat</strong> initiative is focused on providing <strong>R-based</strong> materials for higher education programs in Biostatistics/Statistics, as well as introductory materials for non-statisticians and in future, an E-learning system for courses at different education levels.</p>
+<p>Courses are organized in four clusters and are ready to be delivered in class. The <strong>Introductory courses</strong> aim to train students in data analysis using R at a basic level. These courses were developed for undergraduate students, both non-statisticians and statisticians. The courses within this cluster can also be used as courses to support R usage in undergraduate programs in biostatistics/statistics. The <strong>Basic courses</strong> are designed for an intermediate level and a basic knowledge in statistics is required in order to follow the courses. The courses within this cluster can be used as training courses for non-statisticians and as courses to support R usage in undergraduate programs in biostatistics/statistics. The <strong>Statistical modelling (I)</strong> and <strong>Statistical modelling (II)</strong> clusters consist of basic and advanced courses, respectively, at master’s level in biostatistics/statistics.</p>
+<p><img src="https://forwards.github.io/blog/2017/r-in-africa/er-biostat-ethiopia.png" class="img-fluid"> <em><br>The first &gt;eR-Biostat workshop in Gondar University, Ethiopia</em></p>
+<p>Course materials and updated information about our activities are available online (See <a href="https://er-biostat.github.io/Courses/">&gt;eR-BioStat</a>).</p>
+<p>Follow us on <a href="https://www.facebook.com/ER-BioStat-1463845487001786/">Facebook</a> and <a href="https://twitter.com/erbiostat">Twitter (<span class="citation" data-cites="erbiostat">@erbiostat</span>)</a>. Interested to contribute a course and/or an &gt;eR-Biostat event? Send an email to <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x65;&#114;&#98;&#x69;&#x6f;&#x73;&#116;&#x61;&#116;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>erbiostat at gmail dot com</noscript> or <script type="text/javascript">
+<!--
+h='&#x75;&#104;&#x61;&#x73;&#x73;&#x65;&#108;&#116;&#46;&#98;&#x65;';a='&#64;';n='&#122;&#x69;&#118;&#46;&#x73;&#104;&#x6b;&#x65;&#100;&#x79;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>ziv.shkedy at uhasselt dot be</noscript>.</p>
+</section>
+<section id="other-activities" class="level2">
+<h2 class="anchored" data-anchor-id="other-activities">Other activities</h2>
+<p>Here we have focused on some of the more recent initiatives, but of course there are many other groups encouraging the use of R in Africa. For example, several general R User Groups have been established; many are listed on the <a href="http://datascience-africa.org/">Data Science Africa web site</a> and a few more are listed on the <a href="https://jumpingrivers.github.io/meetingsR/r-user-groups.html">R User Groups</a> listing hosted by jumping rivers. On the education side, the centres of the <a href="https://www.nexteinstein.org/">African Institute of Mathematical Sciences (AIMS)</a> often use R in their courses and workshops. In particular AIMS Tanzania is a partner in the <a href="http://www.africanmathsinitiative.net/blog/initiatives/african-data-initiative/">Africa Data Initiative</a> that developed <a href="http://r-instat.org/index.html">R-Instat</a> a front-end to R designed to make R more accessible for students. Going beyond the classroom, <a href="http://yieldingresults.org/">BeST (Bespoke eStyle Statistical Training for Africa and South Asia)</a> assist in upskilling scientists working in agricultural development via online courses in R. If you are aware of other such initiatives, feel free to share them in the comments!</p>
+
+
+<!-- -->
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>news</category>
+  <category>community</category>
+  <guid>https://forwards.github.io/blog/2017/r-in-africa/index.html</guid>
+  <pubDate>Fri, 01 Dec 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Girls Coding Workshop, Melbourne</title>
+  <dc:creator>Di Cook</dc:creator>
+  <link>https://forwards.github.io/blog/2017/girls-coding-workshop-melbourne/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2017/girls-coding-workshop-melbourne/cupcakes.jpg" class="img-fluid"></p>
+<p>The first girls R coding workshop was held at the Kathleen Symes library in Melbourne, Nov Oct 28, 2017. The girls learned about tidy data concepts, wrangling data tools, and built a shiny app to explore standardised test data from the 2015 OECD Programme for International Student Achievement. One of the apps developed can be viewed at <a href="https://t.co/zlw3HGzOaR">https://t.co/zlw3HGzOaR</a>.</p>
+<p>And we had lamingtons, upside down R cupcakes (R downunder) for morning tea, and pizzas for lunch.</p>
+<p><img src="https://forwards.github.io/blog/2017/girls-coding-workshop-melbourne/Melb_HS.jpg" class="img-fluid"> <img src="https://forwards.github.io/blog/2017/girls-coding-workshop-melbourne/Melb_HS2.jpg" class="img-fluid"></p>
+<p>Keep an eye on <a href="https://forwards.github.io/edu/">https://forwards.github.io/edu/</a> for announcements about more workshops.</p>
+
+
+<!-- -->
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>education</category>
+  <category>software</category>
+  <category>community</category>
+  <category>training</category>
+  <category>teaching</category>
+  <guid>https://forwards.github.io/blog/2017/girls-coding-workshop-melbourne/index.html</guid>
+  <pubDate>Mon, 20 Nov 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>useRs Participation in the R Community</title>
+  <dc:creator>Stella Bollmann</dc:creator>
+  <dc:creator>Dianne Cook</dc:creator>
+  <dc:creator>Rudolf Debelak</dc:creator>
+  <dc:creator>Jasmine Dumas</dc:creator>
+  <dc:creator>John Fox</dc:creator>
+  <dc:creator>Julie Josse</dc:creator>
+  <dc:creator>Oliver Keyes</dc:creator>
+  <dc:creator>Carolin Strobl</dc:creator>
+  <dc:creator>Heather Turner&quot;</dc:creator>
+  <link>https://forwards.github.io/blog/2017/users-participation-in-the-r-community/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2017/users-participation-in-the-r-community/user2016-reception.jpg" class="img-fluid"></p>
+<p>In our <a href="https://forwards.github.io/blog/2017/01/13/mapping-users/">first</a> and <a href="https://forwards.github.io/blog/2017/03/11/users-relationship-with-r/">second</a> posts on the useR! 2016 survey we discussed the responses from the demographic and programming sections. The main findings were:</p>
+<ul>
+<li>The useR! 2016 attendees were predominantly men, typically under 40, White/Caucasian and employed full-time.</li>
+<li>Women attendees tended to be younger, with less programming experience and lower involvement in package development.</li>
+<li>Most useRs had a generally positive view of R, finding it fun to use, but women were less likely than men to code recreationally.</li>
+</ul>
+<p>In this last blog post of the series, we consider useRs involvement in the wider R community.</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>A large proportion of useR! attendees feel that they belong to the R community, with the proportion increasing with length of time using R.</p>
+<p>Stackoverflow and the R mailing lists are the most common resources used for support, despite the negative experience of some useRs. A third of useRs attend a local user group, although the proportion is higher among men than women. The main reasons for not attending are there is no group nearby, or people are too busy. The top initiatives that would encourage more involvement are a new user group nearby and mentoring. Women are more likely than men to want additional support and are more in favour of online support and initiatives targeted at their demographic.</p>
+<p>The respondents had many suggestions for improving the R community and these along with the other survey responses provide a basis for Forwards and other R community leaders to work towards greater engagement.</p>
+</section>
+<section id="survey-results" class="level2">
+<h2 class="anchored" data-anchor-id="survey-results">Survey results</h2>
+<section id="belonging-to-the-community" class="level3">
+<h3 class="anchored" data-anchor-id="belonging-to-the-community">Belonging to the Community</h3>
+<p>The first question asked useRs whether they considered themselves to be part of the R community: 361 (79%) said yes, 69 (15%) said no and 28 (6%) did not give an answer. There was no significant difference in responses from men and women.</p>
+<p>It’s encouraging that such a large proportion feel part of the R community: as might be expected the proportion increased with the length of time the respondent had used R, yet even people with less than 6 months’ experience responded positively. This is a testament to a generally welcoming community as backed up by some of the free text comments, for example:</p>
+<blockquote class="blockquote">
+<p>Y’all seem to have a very active and robust community - keep it up!</p>
+</blockquote>
+</section>
+</section>
+<section id="section" class="level1">
+<h1></h1>
+<blockquote class="blockquote">
+<p>I really like the idea that R can be for you […] I was trained as an engineer, not a statistician. I really appreciate the welcoming I have received</p>
+</blockquote>
+<p>Other comments mentioned that “[m]eetups are a great source of network building”, useR! was “one of the most fun meetings [they’d] ever been to” and that companies “like RStudio stay true to open source and actively encourage folks to edit their packages”, all aspects encouraging participation and a sense of community.</p>
+<p>On the negative side, one person said they “wouldn’t feel officially part of the R community unless [they had] contributed to or made a package”. Another respondent, for whom useR! 2016 was their 3rd useR!, hoped to become better known to folks with similar interests by continuing to present at conferences. A third person observed an emphasis on having a PhD: “there’s definitely a sense of ‘you’re in the club or not’ […] it doesn’t feel like the [P]ython community wants to put a fence around itself and go ‘oh, this is for those who belong to the esteemed academy.’”</p>
+<p>Even some useRs with more than 10 years’ experience responded that they did not feel part of the R community. Possibly they view R as a tool, perhaps one of many they use, and are not interested in the community surrounding R. However, some people may not be aware of community activities, or how they can get more involved in the R project. As pointed out in another commment, the number of new users is increasing rapidly, so finding ways to spread awareness of these activities is important.</p>
+<section id="support-in-using-r" class="level3">
+<h3 class="anchored" data-anchor-id="support-in-using-r">Support in Using R</h3>
+<p>The next question in the community section asked useRs which resources they used for support. Respondents could select one or more resources from a list and/or add their own resources. The responses were comparable for both men and women, so the plot below summarises the results for all respondents, showing the resources that were selected by at least 10 individuals:</p>
+<p><img src="https://forwards.github.io/blog/2017/users-participation-in-the-r-community/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;"></p>
+<p>Over 70% (334 of 458) use StackOverflow for support, but the long-running R mailing lists are still heavily used, with 40% (180 of 458) using these. Both resources were criticised in the comments as being unfriendly to newcomers though, for example:</p>
+<blockquote class="blockquote">
+<p>The mailing lists need to be more inclusive / friendly. Way too often new users are scared away by the “read documentation” and/or “this is a statistics question” comments</p>
+</blockquote>
+</section>
+</section>
+<section id="section-1" class="level1">
+<h1></h1>
+<blockquote class="blockquote">
+<p>It would be wonderful to have something like StackOverflow, but more friendly + welcoming for newcomers.</p>
+</blockquote>
+<p>Another problem noted with StackOverflow (that probably also applies to the mailing lists) is that many questions are left unanswered. One respondent suggested splitting r-help into subgroups for better signal-to-noise ratio. This has been done to some extent with the Special Interest Group mailing lists of which there are more than 20 covering a range of topics e.g.&nbsp;databases, ecology, GUIs, jobs and teaching, see the <a href="https://www.r-project.org/mail.html">Mailing Lists</a> page for more. The Bioconductor support site and the rOpenSci mailing lists/forums, also featuring in the responses, are other examples of support focused on particular areas. Another suggestion in the comments was to start a new mailing or forum targeted at beginners and/or non-statisticians.</p>
+<p>The third most popular resource, with 26% (118 of 458) of respondents using it is the <a href="https://twitter.com/hashtag/rstats?lang=en-gb">#rstats Twitter hashtag</a>. This may be surprising to people not on Twitter, or not using Twitter for work purposes, but it is a natural extension of the support that people get from colleagues or local groups (also mentioned, but by only 9 and 5 respondents respectively). That is, it provides a network of people who share news of R packages, programming tips and who help each other on issues - sometimes crossreferencing other resources such as StackOverflow, e.g.&nbsp;to get an answer to their question.</p>
+<p>Four respondents used an internal mailing list or Slack group. Starting an open Slack group was suggested by a couple of respondents to provide a forum for discussion/support and for mentoring new users. There were individual mentions of the R user group on Facebook, Google groups and LinkedIn R user groups.</p>
+<p>Other resources are web search, blogs (particularly <a href="https://www.r-bloggers.com/">R-bloggers</a> which aggregates R blogs), R documentation, books, journals (e.g.&nbsp;<a href="https://journal.r-project.org/">The R Journal</a>, <a href="https://www.jstatsoft.org/index">Journal of Statistical Software</a>), GitHub, online courses/tutorials, and other specific websites.</p>
+<section id="getting-r-news" class="level3">
+<h3 class="anchored" data-anchor-id="getting-r-news">Getting R News</h3>
+<p>Next we asked useRs what was their preferred medium for R community news (e.g.&nbsp;events, webinars, opportunities). Again there was no significant difference between the responses for men and women, so the results for all genders are presented below:</p>
+<p><img src="https://forwards.github.io/blog/2017/users-participation-in-the-r-community/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;"></p>
+<p>The majority of useRs are split across four media: website (24%, 110 of 458), mailing list (21%, 96 of 458), blog (21%, 85 of 458) and Twitter (15%, 69 of 458). Therefore communication across a range of media is necessary to be confident in reaching a large proportion of R users and developers. In addition to the other media featured in the plot above (Facebook, RSS feed, podcast) useRs selected Google+ and their local R meetup group as sources of news. The remaining people in the “Other” category wanted to select multiple categories or had no preference. An exploratory multivariate analysis<sup>1</sup> suggests that Facebook (not Twitter), podcasts and blogs are more more popular among newcomers, especially women, so these media may be important for outreach. A sizeable proportion (13.1%) did not select any option, so do not have a preference or are not interested in R community news. Nonetheless, as conference participants, they may receive some news in person.</p>
+</section>
+<section id="local-groups" class="level3">
+<h3 class="anchored" data-anchor-id="local-groups">Local Groups</h3>
+<p>The last set of directed questions related to useR’s involvement in local R user groups. Among the 458 respondents, 152 (33%) said they attended a local group, whereas 279 (59%) did not and 27 (6%) did not respond. Of those that attended RUGs, 124 (82%) attended a general user group, while 12 (8%) attended a university-based group and 7 (5%) attended a company-based group. Other types of groups mentioned were a user group for women in R (R-Ladies), a combined general user and R-Ladies group, a group based in a government organization and an informal user group for government and academia.</p>
+<p>The respondents that did not attend a user group were asked why not, giving the following responses:</p>
+<p><img src="https://forwards.github.io/blog/2017/users-participation-in-the-r-community/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;"></p>
+<p>The most common responses were that there was no active group nearby (30%, 85 of 279) or they were too busy (30%, 84 of 279). The next most frequent responses correspond to people that feel too inexperienced (11%, 30 of 279) or perhaps too experienced, in that they don’t need the extra support (9%, 25 of 279). Some people did not know whether there was a group near them, or were unaware that such groups existed - one person looked up their local group as a result of filling in the survey and signed up for it straight away! For others the topics were not relevant/interesting, the time or place was inconvenient, they didn’t use R enough (using other tools more or being completely new to R), there were logistical issues (accessibility, problems signing up to meetups or not enough space at meetup) or social issues (feeling intimidated or worrying they would intimidate others), they’d just never considered it, or planned to go soon.</p>
+<p>A higher proportion of men (46%) said that they attended a user group, compared to women (25%). Men and women also differed in some of their responses when asked what would make them more likely to participate in the R community, or improve their experience. Therefore these results are shown for men and women separately below, for options with at least 5 respondents in a gender:category combination:</p>
+<p><img src="https://forwards.github.io/blog/2017/users-participation-in-the-r-community/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;"></p>
+<p>The top two options were to have a new user group nearby (27%, 122 of 458) and mentoring (19%, 87 of 458). The proportions selecting these options were similar for men and women. For women, the next most wanted support was an online forum to discuss R-related issues; 20% of women vs 10% of men selected this option. The gender difference was similar regarding views on an online support group for their demographic (note this could be other than gender), but overall the positive response was much lower for this option. For men, after user groups and mentoring, the next most popular option was workshops, with similar numbers selecting free local introductory workshops, paid local advanced workshops and workshops at a conference in their domain. These options were also popular with women, with a slightly stronger preference for advanced workshops or workshops at conferences. Conferences specified in the comments were JSM, INFORMS, NIPS and ICML. For men, there were no other options selected by at least 10 individuals, but for women there was still support for user groups, workshops and an online support group aimed at their demographic (respectively 13%, 8% and 8% of women). Respondents were asked to specify the demographic in the comments, mostly this was women, but LGBT and academics (students/teachers/reseachers) were also specified.</p>
+<p>Less frequently selected options, or aspects mentioned in the comments were childcare at conferences, a user group where it is possible to bring children, greater demand for R in local area and training in a non-English language (Chinese).</p>
+<p>The community maintains a <a href="https://jumpingrivers.github.io/meetingsR/r-user-groups.html">list of R User Groups</a> and R-Ladies Groups can be found there as well as on the <a href="http://rladies.org/">R Ladies Global website</a>. As the conference was in Stanford, it is not surprising that there were several people from the local area interested a group near them. For some of these, the <a href="https://www.meetup.com/R-Users/">Bay Area R User Group</a>, might work, but some individuals e.g.&nbsp;from Oakland or Palo Alto felt this was too far. Further afield there were a number of specific places mentioned, where there is already a local group or one not so far away, though many have started since useR! 2016:</p>
+<ul>
+<li>Los Angeles, CA <a href="https://www.meetup.com/LAarea-R-usergroup/">RUG</a></li>
+<li>Denver, CO <a href="https://www.meetup.com/DenverRUG/">RUG</a></li>
+<li>Connecticut CT <a href="https://www.meetup.com/rladies-connecticut/">R-ladies</a> (<strong>NEW</strong>)</li>
+<li>Washington DC <a href="https://www.meetup.com/stats-prog-dc/">RUG</a>; <a href="https://www.meetup.com/rladies-dc/">R-Ladies</a> (<strong>NEW</strong>)</li>
+<li>Miami, Florida <a href="https://www.meetup.com/R-Ladies-Miami/">R-Ladies</a> (<strong>NEW</strong>)</li>
+<li>Orlando, Florida <a href="https://www.meetup.com/R-Ladies-Orlando/">R-Ladies</a>(<strong>NEW</strong>)</li>
+<li>Ames, IA <a href="https://www.meetup.com/R-Ladies-Ames/">R-Ladies</a> (<strong>NEW</strong>)</li>
+<li>Boston, MA <a href="https://www.meetup.com/R-Ladies-Boston/">R-Ladies</a> (<strong>NEW</strong>)</li>
+<li>Greensboro, NC; not so far from Winston Salem <a href="https://www.meetup.com/Winston-Salem-R-Users-Group/">RUG</a></li>
+<li>Durham, NC <a href="https://www.meetup.com/R-Ladies-RTP/">R-Ladies</a> (<strong>NEW</strong>)</li>
+<li>Columbus, OH <a href="https://www.meetup.com/R-Ladies-Columbus/">R-Ladies</a> (<strong>NEW</strong>)</li>
+<li>Portland OR <a href="https://www.meetup.com/portland-r-user-group">RUG</a></li>
+<li>Nashville, TN <a href="https://www.meetup.com/Nashville-R-Users-Group/">RUG</a>; <a href="https://www.meetup.com/rladies-nashville/">R-Ladies</a> (<strong>NEW</strong>)</li>
+<li>Seattle, WA <a href="https://www.meetup.com/Seattle-useR/">RUG</a>; <a href="https://twitter.com/RLadiesSeattle">R-Ladies</a> (<strong>COMING SOON</strong>)</li>
+<li>Zurich, Switzerland <a href="https://www.meetup.com/Zurich-R-User-Group/">RUG</a></li>
+<li>Muenster, Germany <a href="https://www.meetup.com/Munster-R-Users-Group">RUG</a> (<strong>NEW</strong>)</li>
+</ul>
+<p>There were also some places where there isn’t an active group nearby and there may be potential to (re)start a new group:</p>
+<ul>
+<li>Central Valley, CA</li>
+<li>Davenport, IA</li>
+<li>Iowa City, IA</li>
+<li>SE Minnesota, MN</li>
+<li>Wilmington, NC</li>
+<li>Moscow, ID</li>
+<li>Eugene, OR</li>
+<li>Richland, WA</li>
+<li>Geneva, Switzerland</li>
+<li>Hasselt, Belgium</li>
+<li>Freiberg, Germany</li>
+<li>Glasgow, Scotland</li>
+<li>Cluj-Napoca, Romania</li>
+</ul>
+<p>Many domains were mentioned including spatial statistics, electrical engineering, operations research, health care and education. Some of these might be fed through to the corresponding local groups, while others might provide ideas for future useR! conferences.</p>
+</section>
+<section id="general-comments" class="level3">
+<h3 class="anchored" data-anchor-id="general-comments">General Comments</h3>
+<p>The survey concluded with two open-ended questions, first asking respondents for their ideas for improving the R community and second for general feedback on the survey. Some of the comments we have mentioned earlier, specific ideas from the remaining comments are outlined below.</p>
+<p>Community/R Project organisation:</p>
+<ul>
+<li>A webpage introducing the community and how it is organised online</li>
+<li>Taskforce for communities/local groups</li>
+<li>Promote local groups</li>
+<li>Move R core development and CRAN to a more inclusive platform such as GitHub.</li>
+<li>More women in leadership (R Core, R Consortium, R Foundation)</li>
+</ul>
+<p>useR!/conferences:</p>
+<ul>
+<li>A special gathering for first-time attendees at useR!</li>
+<li>A beginners’ track at useR!</li>
+<li>Workshops at useR! to help people solves problems they bring along</li>
+<li>Childcare at useR!</li>
+<li>Informal “birds of a feather” tables at conferences</li>
+<li>Continue with the diversity scholarship to help increase diversity at useR!</li>
+</ul>
+<p>Local groups:</p>
+<ul>
+<li>Publish guide for running local group</li>
+<li>Meetings aimed at different levels of expertise/experience</li>
+<li>Team participation in competitions, e.g.&nbsp;kaggle</li>
+<li>Voluntary work on data science problems for non-profits</li>
+<li>Open source sprint, e.g.&nbsp;on R tools for sight impaired</li>
+<li>Open source introductory materials for groups to run workshops</li>
+<li>User group [events] aimed at users who want to contribute to packages/base R</li>
+<li>Joint events with other data science groups</li>
+<li>Collaborative projects across user groups</li>
+<li>Online virtual R conference among user groups</li>
+<li>Global competitions to resolve core R issues</li>
+</ul>
+<p>Professional development/education:</p>
+<ul>
+<li>Slides repository on git like the Bioconductor courses resources</li>
+<li>R curriculum for undergraduate courses</li>
+<li>Guideline for switching from other languages, e.g.&nbsp;SPSS</li>
+<li>Resources to help long-time useRs keep up-to-date (try <a href="http://kbroman.org/hipsteR/">hipsteR!</a>)</li>
+<li>Mentorship, particularly for first CRAN submission</li>
+<li>Encourage networking between established and new useRs</li>
+<li>More workshops</li>
+</ul>
+<p>There was also a call for more outreach, particularly to young people (especially girls) in high schools, but also to educators, social scientists and business schools.</p>
+<p>There is a lot to work on here, but several respondents commented on their motivation to contribute, particularly after attending useR! and hearing of the work of Forwards (or the Women in R Taskforce as it was then) and R-Ladies. Others said they didn’t have the time to contribute very much, but in some cases would be prepared to contribute if they were asked to do something specific.</p>
+<p>Finally many respondents expressed thanks to Forwards for running the survey and for our efforts to improve diversity and inclusion - many thanks for your encouragement!</p>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p>It has taken us a while to work through the survey and report back. However a benefit of this is we can see that actions in the meantime by Forwards and the wider community are already starting to address many of the issues raised in the last part of the survey.</p>
+<p>The massive expansion of R-Ladies over the past year (from 4 groups to over 45<sup>2</sup>) means that many people who were looking for a group now have one nearby, or will have soon. Many of the suggestions for useR! are in place for useR! 2017: there will be a <a href="https://user2017.sched.com/event/Avzo/sessions-for-user-newbies">newbies session</a>, <a href="https://user2017.brussels/news/2017/user-2017-childcare">childcare</a> and a “hackathon space” for informal birds of a feather gatherings. In addition 26 participants were awarded diversity scholarships (thanks to the <a href="https://user2017.brussels/sponsors">conference sponsors</a>, especially platinum sponsors Microsoft, Open Analytics, R Consortium, RStudio, DataCamp, and IBM).</p>
+<p>With regards to education and outreach, the Forwards Teaching sub-team were recently awarded an <a href="https://www.r-consortium.org/blog/2017/04/03/q1-2017-isc-grants">R Consortium grant</a> to develop workshops specifically targeting women and high school girls - initial workshops are planned for September and December in Melbourne, Australia and Auckland, New Zealand respectively. Further workshops will be run in Europe and the US, and the material made available under a Creative Commons share-alike license for others to use.</p>
+<p>Beyond this, we can use the ideas and findings here to inform future initiatives. For example the Forwards Community sub-team can help to promote local groups by raising awareness, connecting people that want to start new groups and sharing ideas to increase participation. In line with our mission to increase participation among under-represented groups, we can focus on initiatives that appear to be particularly appealing to women, such as mentoring and an online forum.</p>
+<p>Overall we have learnt a lot from our survey of useR! participants. In future we would like to study other populations and have package authors in mind for our next big survey. However, we still wish to monitor participation of under-represented groups at useR! so will be running a demographic survey as part of the general conference evaluation survey at useR! 2017. If you’re coming to useR! please support us by responding!</p>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p>Now that we have completed this blog series, we will work on preparing an aggregated data set that minimises the risk of disclosure. We hope to release this over the summer.</p>
+<p>The analysis presented here used the following packages:</p>
+<ul>
+<li>For data manipulation: dplyr, forcats, tidyr</li>
+<li>For visualization and reporting: knitr, ggplot2</li>
+</ul>
+<p>The code is available in the <a href="https://github.com/forwards/surveys-public/blog-posts/useR-2016/community-involvement-of-users/2017-06-19-community-involvement-of-users.Rmd">Rmarkdown file</a>.</p>
+<p>The banner photo was taken at useR! 2016 by <a href="http://tu-dresden.de/Members/thomas.petzoldt">Thomas Petzoldt</a>, used with permission.</p>
+
+
+<!-- -->
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>See our supplementary report: <a href="https://forwards.github.io/docs/MCA_community_useR2016_survey/">useR! 2016 participants and the R community: a multivariate analysis</a>.↩︎</p></li>
+<li id="fn2"><p><a href="bit.ly/rladies_cascadiarconf">R-Ladies Global Community and Vision</a>, Gabriela de Queiroz, Cascadia R Conference, June 3, 2017, Portland, OR.↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>analysis</category>
+  <category>useR!</category>
+  <category>survey</category>
+  <category>community</category>
+  <guid>https://forwards.github.io/blog/2017/users-participation-in-the-r-community/index.html</guid>
+  <pubDate>Mon, 19 Jun 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>useRs Relationship with R</title>
+  <dc:creator>Stella Bollmann</dc:creator>
+  <dc:creator>Dianne Cook</dc:creator>
+  <dc:creator>Rudolf Debelak</dc:creator>
+  <dc:creator>Jasmine Dumas</dc:creator>
+  <dc:creator>John Fox</dc:creator>
+  <dc:creator>Julie Josse</dc:creator>
+  <dc:creator>Oliver Keyes</dc:creator>
+  <dc:creator>Carolin Strobl</dc:creator>
+  <dc:creator>Heather Turner</dc:creator>
+  <link>https://forwards.github.io/blog/2017/users-relationship-with-r/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2017/users-relationship-with-r/banner.png" class="img-fluid"></p>
+<p>In our <a href="https://forwards.github.io/blog/2017/01/13/mapping-users/">first post on the useR! 2016 survey</a> we discussed the responses from the demographic section, finding in particular that:</p>
+<ul>
+<li>The useR! 2016 attendees were predominately men, typically under 40, White/Caucasian and employed full-time.</li>
+<li>Women attendees tended to be younger and less advanced in their careers.</li>
+<li>Non-Asian minority races and LGBT individuals were under-represented.</li>
+<li>Approximately a quarter of attendees were caregivers.</li>
+</ul>
+<p>We now turn to look at useRs relationship with R: what experience do they have in using R and what do they think of R?</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>useR! attendees have generally been using R for many years and often have prior programming experience. Women tend to have less experience and a lower involvement in package development, though this can be attributed to a lower age distribution.</p>
+<p>Women are less likely to use R for recreation, but are just as likely as men to consider writing R fun. useR! attendees have a generally positive view of R and would recommend it to friends and colleagues for statistical analysis.</p>
+<p>We recommend teaching R to newcomers in a way that focuses on data science and does not assume a programming background. Mentors and managers should recognize that people from under-represented groups may need additional support to fill in gaps in their programming knowledge. To encourage people from under-represented groups to develop as R programmers and contribute to the community, we recommend promoting opportunities and activities that are paid and/or help to advance their careers.</p>
+</section>
+<section id="survey-results" class="level2">
+<h2 class="anchored" data-anchor-id="survey-results">Survey results</h2>
+<section id="programming-experience" class="level3">
+<h3 class="anchored" data-anchor-id="programming-experience">Programming experience</h3>
+<p>We first asked attendees how long they had been using R for. Unsurprisingly for attendees of a conference all about R, the respondents tend to be rather experienced, with more than half (57%, 251 of 442) using R for at least 5 years. Nonetheless, the conference does attract people new to R, with a small number having less than 6 months experience. A greater proportion of women than men have fewer than two years experience (24%, 39 of 164 vs 12%, 34 of 276) which correlates with the younger age distribution we noted in our first post. The following plot shows the percentages within each experience category for each gender:</p>
+<p><img src="https://forwards.github.io/blog/2017/users-relationship-with-r/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;"></p>
+<p>66% of women (109 of 165) said they had programming experience before learning to use R, compared with 82% of men (227 of 276). Since women tend to be younger, this could be due to increasing use of R in teaching, particularly on undergraduate courses. Thus younger people generally are less likely to have used other languages for data analysis such as SAS, Stata, S-plus, Genstat, etc. However it could indicate a different background of women vs.&nbsp;men, in particular they may be less likely to have any formal training in computer science, where they might have been taught C/C++, Java etc before learning R.</p>
+<p>We also asked about <em>how</em> people use the language. Respondents were asked to confirm that any or all of the following statements applied to them:</p>
+<ul>
+<li>“I use functions from existing R packages to analyze data”</li>
+<li>“I write R code designed to make my work easier, such as loops or conditionals or functions”</li>
+<li>“I write R functions for use by myself or my collaborators”</li>
+<li>“I contribute to R packages (on CRAN or elsewhere)”</li>
+<li>“I have written my own R package”</li>
+<li>“I have written my own R package and released it on CRAN or Bioconductor (or shared it on GitHub, R-Forge or similar platforms)”</li>
+</ul>
+<p>As might be expected given the length of time useR! attendees have been using R, their use is generally quite advanced with the vast majority using techniques to control the flow of their code (86%, 392 of 458) or writing custom R functions (85%, 389 of 458). More than half have written their own package(s) (52%, 238 of 458) and a third have publicly released a package (34%, 155 of 458).</p>
+<p>Reflecting the distribution of length of R programming experience, the proportion of women using advanced programming techniques is slightly lower than men and when it comes to package development the proportion is lower still:</p>
+<p><img src="https://forwards.github.io/blog/2017/users-relationship-with-r/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;"></p>
+<p>The final question we asked regarding use of R was whether the attendees use R primarily for work, recreation or both. The results were significantly different for men and women, only 22% of women (35 of 162) use R for both work and recreation compared to 45% of men (147 of 275); the few people that use R for recreation only were all men. Although factors such as age and programming experience may come into play here, it is likely that social expectations of women are also a factor. For example, although responsibility for cooking, childcare and housework is shared more evenly among working couples, in different sex couples women often shoulder a greater responsibility<sup>1</sup>. With reduced leisure time, women may be less willing to use R just for fun, or may feel less able to do so, due to expectations of their family and friends about how they should spend their free time.</p>
+<p><img src="https://forwards.github.io/blog/2017/users-relationship-with-r/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;"></p>
+<p>Overall, this paints a picture of useR! attendees as a population of mostly long-term R programmers often writing code for more than their individual use - which makes sense. As we discussed in our first post, conferences are expensive in terms of both time and money, so a conference on R is most viable for people that use R substantially in their work and hence can justify the cost to their employers. As the main conference organised by the R Foundation, useR! is particularly attractive to dedicated contributors to the R project, indeed talks and posters should present a contribution which will often be a new package or contribution to a package. This goes some way to explaining some of the inequalities in attendee demographics; we know from separate research (albeit using a rather crude metric) that CRAN maintainers, for example, are mostly not women.<sup>2</sup></p>
+<p>We have seen that the women that do attend useR! tend to be younger and less experienced. We have not explored the programming experience of other under-represented groups, for example with regard to ethnicity or sexual orientation, as the numbers in the sample are much lower, prohibiting reliable statistical conclusions and creating issues with identifiability. It is possible that, like women, members of other under-represented groups are also less likely to use R for recreation, as they will tend to have less time or money than is the norm.<sup>3</sup> This indicates a barrier to women and other under-represented groups transitioning from useRs to developeRs: package authorship and maintenance, and dedication to an open source community, is largely uncompensated.</p>
+</section>
+<section id="opinions-about-r" class="level3">
+<h3 class="anchored" data-anchor-id="opinions-about-r">Opinions about R</h3>
+<p>The second part of our section on R programming asked respondents for their opinions on R. On these questions there were no significant differences between the responses from men and women, so we present the results for all respondents, including non-binary individuals and those that did not declare their gender.</p>
+<p>We first asked respondents how strongly they agreed or disagreed with the following statements:</p>
+<ul>
+<li>writing R is fun</li>
+<li>writing R is considered cool or interesting by my peers</li>
+<li>writing R is a monotonous task</li>
+<li>writing R is difficult</li>
+</ul>
+<p>The results are presented below:</p>
+<p><img src="https://forwards.github.io/blog/2017/users-relationship-with-r/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;"></p>
+<p>We see that respondents overwhelmingly agree that writing R is fun, so even those people that use R primarily for work enjoy doing so. The view of their peers is slightly less positive, with 12% (51 of 438) stating that writing R is <em>not</em> considered cool or interesting by their peers and 15% having no opinion on this (65 of 438). Even among those who agreed with the second statement, the proportion that strongly agreed is lower compared to the first statement. So although the overall picture is positive, there is a sizable group for which writing R is not encouraged by their peers, which could affect their motivation to contribute, particularly outside of work.</p>
+<p>The majority (61%, 269 of 438) disagree with the statement that writing R is difficult. Those that agreed with this statement are spread across the experience levels, so some may have been expressing a general opinion about R programming rather than a personal one, necessarily. The disagreement is stronger (80%, 349 of 438) against the statement that writing R is a monotonous task, so while writing R may occasionally be difficult most useR! attendees find it challenging and interesting.</p>
+<p>The generally positive view of R among useR! attendees is not so surprising, after all most will have chosen to attend the conference, or if it was required by their work they have expressed an interest in R by applying for that job or choosing to use R at work in the first place. Nonetheless, the positive view is a benefit to the community as useRs encourage people to take up R and contribute more to the R project, with many useRs being in a position to teach R, mentor junior colleagues/students or contribute to community events such as R user groups or R-ladies.</p>
+<p>91% (418 of 439) said that they would recommend R to friends and colleagues. The reasons some people would not recommend R include a steep learning curve, too many idiosyncrasies, poor performance and that it encourages bad programming practice. Some simply said they would recommend other software over R or they may recommend R, depending on why their friend or colleague wanted to learn a programming language.</p>
+<p>When asked to pick a single reason for recommending R, nearly 40% (160 of 425) said it was good for statistical analysis. R has long been described as the lingua franca of statistics or data science, so this makes sense. The next biggest reason was that it was good for reproducible research, indicating the increasing importance that has been put on this topic in recent years. Other important features are the package ecosystem, strength at visualization and the fact that it is free and open source.</p>
+<p><img src="https://forwards.github.io/blog/2017/users-relationship-with-r/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;"></p>
+</section>
+</section>
+<section id="moving-forward" class="level2">
+<h2 class="anchored" data-anchor-id="moving-forward">Moving Forward</h2>
+<section id="outreach-to-under-represented-groups" class="level3">
+<h3 class="anchored" data-anchor-id="outreach-to-under-represented-groups">Outreach to under-represented groups</h3>
+<p>As the R community seeks to be more inclusive of under-represented groups we need to be aware that individuals from these groups are less likely to have a programming background and may have less freedom to spend time on unpaid and recreational contributions. Given R’s strength as a tool for statistical analysis, introductions to R should focus on this rather than the nuts and bolts of the language, as a general rule. More experienced R programmers from under-represented groups may need additional support to transition to developeRs – even when writing packages in pure R, concepts such as version control and object-oriented programming may be new and of course interfacing with other languages such as C++ is a further stretch. We should seek to promote opportunities to under-represented groups that are paid and/or will benefit their career, e.g.&nbsp;<a href="https://summerofcode.withgoogle.com/organizations/4947241283354624/">Google Summer of Code projects</a>, <a href="https://user2017.brussels/diversity-scholarships">useR! diversity scholarships</a>, professional development via <a href="https://rladies.org/">R-ladies groups</a>, developing a package with <a href="https://ropensci.org/community/">rOpenSci</a>, publishing in <a href="https://journal.r-project.org/">The R Journal</a> and so on.</p>
+</section>
+<section id="taskforce-initiatives" class="level3">
+<h3 class="anchored" data-anchor-id="taskforce-initiatives">Taskforce initiatives</h3>
+<p>Following our recent <a href="https://forwards.github.io/blog/2017/01/13/call-to-join-forwards/">call to join Forwards</a> we have set up a number of sub-teams to support women and other under-represented groups in the R community. In particular the teaching team will focus on more inclusive pedagogy, such as <a href="https://github.com/forwards/teaching_examples">using examples to engage a wider demographic</a>, and running workshops for women and girls. We have also set up a community team, to look at ways to reach out to under-represented groups and an on-ramps team to look at ways to help useRs transition to developeRs. These are all new initiatives, but we hope to get some projects off the ground in all these areas in the coming year. Anyone wishing to get involved can contact us at <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#114;&#x6f;&#x77;&#102;&#x6f;&#114;&#x77;&#x61;&#114;&#100;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>rowforwards at gmail dot com</noscript>.</p>
+</section>
+<section id="further-research" class="level3">
+<h3 class="anchored" data-anchor-id="further-research">Further research</h3>
+<p>Some interesting questions for further research on useRs relationship with R include:</p>
+<ul>
+<li>What programming experience do people have before using R? For example, what languages did people learn before R?</li>
+<li>Why do people write packages but not publicly release them? For example, are the packages for their own use (work/recreation), for internal company use, or are the packages in development? One respondent commented that their employer prohibited releasing packages on CRAN; how widespread is this?</li>
+<li>What are the pros and cons of using R? Several respondents commented that R has many benefits but also some drawbacks and richer data could be collected on this topic.</li>
+</ul>
+</section>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p>We do not plan to release the raw survey data as many individuals can be uniquely identified from one or two demographic questions. We may release the data in an aggregated form once we have completed our full analysis (this post covers the second of three sections).</p>
+<p>The analysis presented here used the following packages:</p>
+<ul>
+<li>For data manipulation: dplyr, forcats, purrr, tidyr</li>
+<li>For visualization and reporting: knitr, ggplot2, likert</li>
+</ul>
+<p>The code is available in the <a href="https://github.com/forwards/surveys-public/blog-posts/useR-2016/users-relationship-with-r/users-relationship-with-r.Rmd">Rmarkdown file</a>.</p>
+<p>The banner image was based on the <a href="https://twitter.com/MorphoFun/status/831668445032873985"><code>plotHeart</code></a> function written by Sandy Kawano for Valentine’s Day, based on this <a href="https://stackoverflow.com/a/6546778/173755">answer to a Stackoverflow post</a>.</p>
+
+
+<!-- -->
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>https://www.familiesandwork.org/downloads/modern-families.pdf↩︎</p></li>
+<li id="fn2"><p>https://forwards.github.io/data/#maintainer_gender_2016↩︎</p></li>
+<li id="fn3"><p>For example, average earnings in the US are lower for many ethnic minorities in general and in science and engineering occupations in particular, including computer and information science specifically (https://www.nsf.gov/statistics/2017/nsf17310/static/data/tab9-17.pdf). The American Association of University Women report that gay and bisexual men tend to be paid less than similarly qualified heterosexual men; while trans women (who have transitioned from male to female) experience a drop in pay. They also report that transgender people frequently face harassment and discrimination; this may affect their motivation for voluntary contribution (http://www.aauw.org/resource/the-simple-truth-about-the-gender-pay-gap/).↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>analysis</category>
+  <category>useR!</category>
+  <category>survey</category>
+  <category>programming</category>
+  <guid>https://forwards.github.io/blog/2017/users-relationship-with-r/index.html</guid>
+  <pubDate>Sat, 11 Mar 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Emily Robinson, from Social Scientist to Data Scientist</title>
+  <dc:creator>Maëlle Salmon</dc:creator>
+  <link>https://forwards.github.io/blog/2017/emily-robinson-interview/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- 
+description: "Interview of Emily Robinson, who transitioned from a social 
+science background to a career in data science, recently becoming a data analyst
+at Etsy."
+ -->
+<p><img src="https://forwards.github.io/blog/2017/emily-robinson-interview/portrait.png" class="img-fluid"></p>
+<p>Maëlle Salmon, a Forwards collaborator, got the chance to interview Emily Robinson, who recently became a data analyst at Etsy. A very inspiring R-Lady!</p>
+<!--more-->
+<p><strong><em>Hi, Emily! Thanks for letting us interview you! You studied Decision Sciences at Rice University and then graduated from INSEAD with a Master’s degree in Management (specialization in Organizational Behavior). What are those fields? How do they help you today?</em></strong></p>
+<p>Decision Sciences was an interdisciplinary major I actually created at Rice in my sophomore year based on <a href="https://www.cmu.edu/dietrich/sds/">Carnegie Mellon’s major</a>. Before then I’d been planning to major in economics or psychology, but I found that neither really satisfied what I was looking for: to understand how people make decisions. So I decided to take the rarely used option at Rice to design my own curriculum with the input of many faculty members, and I created a course list that was a mix of economics, psychology, statistics, and philosophy.</p>
+<p>Organizational Behavior is a pretty broad field, but essentially is the application of sociology and psychology applied to organizations/work. So people study everything from the effect of power on behavior to the benefits and pitfalls of multicultural teams to how social activists affect corporate political activity. I focused more on the micro (psychology) side and studied women in STEM fields.</p>
+<p>All of the statistics courses I took have definitely helped. Also, the data science project process is actually quite similar to social sciences research: you come up with a question or a hypothesis, gather and clean the data, run an analysis, and communicate your findings.</p>
+<p>Finally, I think there’s often a place for knowledge about human and organizational behavior to come into the data science research process. I talked a lot in my interviews about how social sciences knowledge could be used in designing experiments; for example, the fact that giving people more choices actually makes them less likely to buy something, or that people from different countries use satisfaction scales differently (e.g.&nbsp;an American and a German may be equally satisfied with a product, but because of cultural reasons the German gives a lower score on a scale out of 10).</p>
+<p><strong><em>You then decided to become a data scientist instead. What motivated this decision? (Also, note we now assume you make decisions in a smarter way than most of us, given the name of your college major!)</em></strong></p>
+<p>Short answer: I felt data science was where the most interesting questions, tools, and data were. I also believe that working as a data scientist/analyst offers a bigger possibility for broad impact than academia. While there’s definitely a lot of interesting and important research being done in academia, it’s a very long, slow process, with a lot of luck, and often times doesn’t reach anyone outside of the ivory tower. If anyone wants the longer story, please feel free to reach out to me on twitter/email.</p>
+<p><strong><em>When did you first come in contact with R? Was it love at first sight? From which point did you feel enough at ease to be not only a R user, but also a R programmer?</em></strong></p>
+<p>I was very lucky to do my undergraduate degree at Rice University, where at the time Hadley Wickham was a Statistics Professor. I only took one course with him, an Introduction to Statistics course, which didn’t involve R, but he had also designed later courses that were taught by his graduate students. At the time I didn’t realize how prominent in the R community he was, despite my brother Dave Robinson (then a PhD student at Princeton, now a data scientist at StackOverflow) shouting at me how cool it was that I was being taught by Hadley.</p>
+<p>Because the courses were so well-designed and taught, I definitely fell in love with R at first sight. Despite its reputation as having a steep learning curve, I found it fairly straight forward to pick up (or maybe I’m just romanticizing it in my memories). That being said, I didn’t use it much outside of my statistics courses that required it, except to make a few plots for one of my research projects. It was in graduate school that I started to use R of my own volition. As I wrote about in one of my blog posts, I got so frustrated with using STATA, the language of choice for my graduate program, for certain class assignments that I switched to using R.</p>
+<p>I think this transition from being an R user to R programmer was also helped by some new tidyverse packages that came out in the last few years, especially dplyr. While the packages I initially learned, like reshape2 and plyr, were great, R has clearly advanced in the four years since I did most of my R courses.</p>
+<p><strong><em>What is this program you’ve done for transitioning into your new career and how did you hear about it? How much can one learn in 12 weeks?</em></strong></p>
+<p>Metis is a <a href="http://www.thisismetis.com/data-science-bootcamps">Data Science Bootcamp</a> that helps people transition into careers as a Data Scientist/Analyst. I heard about it from my brother, who had spoken at Metis and gone to their career day, where students present their final projects to recruiters and data scientists. He had been really impressed by the quality of the students and their work, and so I looked into the program more. I found that it fit perfectly my background, as what I was missing was Python skills and Machine Learning knowledge. Metis is not meant to take you from 0 to 60; everyone who enters the program has some knowledge of statistics and programming, although their backgrounds still vary widely. In my cohort, we had people a few years out of college, one person with twenty years of marketing experience, and a few with PhDs in quantitative fields.</p>
+<p><img src="https://forwards.github.io/blog/2017/emily-robinson-interview/metis.jpg" class="img-fluid"> <em><br>Emily’s Metis cohort plus the two instructors (two people on the right)</em></p>
+<p>In terms of what you can learn in 12 weeks, Metis is not meant to make you an expert in everything they cover. Rather, by giving you exposure to many topics and having you do projects around them, you get a good enough grounding so that you can continue learning on your own. It also gives you a portfolio of projects that you can host on your GitHub and talk about during interviews. The other big benefit is the career support from the Metis career team and from the extensive alumni network. You receive help in making a resume and prepping for interviews, but also in connecting you to people at the companies you’re interested in. For me it was 100% worth it. It was also a lot of fun and I met some great people!</p>
+<p><strong><em>You had to use Python at Metis: Which language do you use the most now? Could you use only Python?</em></strong></p>
+<p>Since I just started my position, I’m not sure which language I’ll be using more. Etsy is pretty agnostic for which language its analysts use, and a lot of the work is done in SQL since we are working with such big datasets. If I had too, I could definitely use only Python, since I did use it so intensely for those few months. But I’m still definitely biased towards R and will probably be using that more.</p>
+<p><strong><em>You have just started a job at Etsy as a data scientist (congrats!). Could you tell us a little bit more about your job there? What kind of problems do you solve? How is the work organized between members of your team?</em></strong></p>
+<p>Thank you! My official title is actually Data Analyst and I’m on the analytics team; Data Scientists at Etsy are on the engineering (production) side and generally have PhDs in Computer Science/Machine Learning or similar backgrounds. While the analytics team sits together, we are embedded with other teams and serve as a sort of consultant, helping those teams improve how they use and analyze their data, run experiments, etc. For example, we have analysts working with marketing, accounting, seller services, etc.</p>
+<p>I’ll be working on search, which I’m very excited about since search is such a big part of the Etsy experience. Etsy actually just acquired BlackBird Technologies and their team to bring AI into their search, which should offer a lot of new opportunities. I’ll be working closely with another senior analyst and the broader search sciences team.</p>
+<p>That all being said, Etsy does a great job with orientation and the first few weeks are dedicated to meeting people, reading analytics on-boarding materials, and getting my tech stack set up. So I haven’t heard anything yet about what specific projects I’ll be working on and won’t for a little while.</p>
+<p><strong><em>What would you wish to have known sooner on your way to become a data scientist?</em></strong></p>
+<p>Don’t be intimidated! It’s easy to feel like unless you have a PhD in Machine Learning and are an expert in Big Data that there are no roles for you. This isn’t helped by the fact that some companies’ job postings read like a wish list for a Data Scientist unicorn. But if you’ve been working on building your skills, you can find a position for you. You also DO NOT need to necessarily meet all of the job requirements; don’t be afraid to apply to a job where you’re just missing one of multiple criteria, or you have a year or two fewer years of experience than they mention.</p>
+<p>And as with almost every job, networking is critical. At some companies, there are thousands of people applying for each position, and having someone refer you can really help you get your foot in the door. Even more than that, talking to someone about the culture and day-to-day work in a company will really help you in your interview, because you’ll know more about what they’re looking for and if you’re a good fit.</p>
+<p>Finally, don’t be hung up on titles and only focus on positions where the title is “Data Scientist”. The work you’re doing is what’s important, and some data analysts are doing work that at other companies would be classified as a data scientist job. My title is a Data Analyst (as was Hilary Parker’s when she started out at Etsy), and while I’m not going to be doing deep learning projects anytime soon, I don’t think there’s going to be any shortage of interesting and challenging work.</p>
+<p><strong><em>You mention the importance of giving back to the open-source community on your blog, <a href="https://robinsones.github.io/">Hooked on Data</a>. What are your plans with the blog and your programming in general? (Please keep writing on your blog!)</em></strong></p>
+<p>One big thing I want to do is host some in-person R tutorials for the R-Ladies NYC group. They had their kick-off meeting a few weeks ago, and many people expressed interest in an introduction to R tutorial and a more advanced one. While there are definitely some good resources online, my favorites are <a href="https://www.datacamp.com/">DataCamp</a> for interactive tutorials and Hadley and Garrett’s new <a href="http://r4ds.had.co.nz/">R for Data Science</a> book, I do think it can sometimes be easier to learn in person. I tried to get more people in my graduate program (including professors!) to use R, so I’d love to help a group that already recognizes the value of R and is eager to learn.</p>
+<p>Other than that, I definitely want to keep blogging. I think a lot of my work at Etsy is going to be confidential, so I won’t be able to share that, but hopefully I’ll be able to talk about some cool side projects I’m doing or general principles I learned from my work. I’ve promised posts about making my first R package and my final Metis project, so I’d better get going on those!</p>
+<p>P.S. DataCamp has a few free courses, but if anyone wants to try unlimited access you can do so for free for two days with <a href="https://www.datacamp.com/invite/llm1rCA6gyetm">this link</a>. There’s some really great courses, including one by Hadley and his sister Charlotte, and another by my brother!</p>
+<p><strong><em>Last but not least, we were thrilled to learn you are a RCatLady although you don’t have a cat! Also you have a dog! Is she a good R-Dog?</em></strong></p>
+<p><img src="https://forwards.github.io/blog/2017/emily-robinson-interview/dog2.JPG" class="img-fluid"> <em><br>Emily’s R-Dog Abby</em></p>
+<p>She is the best R-Dog. I’m very excited that Etsy is a dog-friendly office, and I plan to take her into the office sometime soon. I’m sure she’ll be very well-behaved; she spends most days sleeping on her bed or sitting under my mom’s desk at home right by her feet.</p>
+<p><strong><em>Okay now we are very jealous! Thanks again Emily for talking with us, all the best for the future!</em></strong></p>
+<p>Contact Emily via her <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#114;&#x6f;&#98;&#x69;&#110;&#x73;&#x6f;&#110;&#46;&#x65;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x65;&#x6d;&#x61;&#x69;&#108;&#32;&#x61;&#100;&#100;&#114;&#x65;&#x73;&#x73;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>email address (robinson.es at gmail dot com)</noscript>, go read her <a href="https://robinsones.github.io/">blog</a>, follow her on <a href="https://twitter.com/robinson_es">Twitter</a>, <a href="https://github.com/robinsones">Github</a>, or <a href="https://www.linkedin.com/in/robinsones">LinkedIn</a>.</p>
+<p><em>Disclaimer: The views expressed in this interview represent Emily’s own views and opinions, not necessarily those of Etsy.</em></p>
+
+
+<!-- -->
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>interviews</category>
+  <category>data science</category>
+  <category>careers</category>
+  <guid>https://forwards.github.io/blog/2017/emily-robinson-interview/index.html</guid>
+  <pubDate>Tue, 07 Feb 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Call to Join Forwards</title>
+  <link>https://forwards.github.io/blog/2017/call-to-join-forwards/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://forwards.github.io/blog/2017/call-to-join-forwards/wocintech_meeting.jpg" class="img-fluid"></p>
+<p>Forwards, the R Foundation taskforce on women and other under-represented groups, is seeking to address issues affecting under-represented groups in general as it works to broaden the participation of women in the R community.</p>
+<p>In order to adequately address such issues, we would like to widen the diversity of the taskforce itself. Accordingly, we are inviting people who are part of under-represented groups - be they groups identified by race, gender, sexuality, class or disability - to join us.</p>
+<p>The taskforce has teleconferences once every two months, although as the taskforce is spread globally it isn’t possible for all members to attend every time. Therefore online communication is also important and there are occasional meetings within subteams. Subteams work on specific tasks, such as data collection and analysis, social media, or working on recommendations for R Foundation supported activities.</p>
+<p>To express your interest or ask for further information, contact us at <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#114;&#x6f;&#x77;&#102;&#x6f;&#114;&#x77;&#x61;&#114;&#100;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>rowforwards at gmail dot com</noscript> by 31 January 2017.</p>
+<p><small>Credit: Banner image by <a href="www.wocintechchat.com/blog/wocintechphotos">#WOCinTech Chat</a>.</small></p>
+
+
+<!-- -->
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <category>news</category>
+  <category>action</category>
+  <guid>https://forwards.github.io/blog/2017/call-to-join-forwards/index.html</guid>
+  <pubDate>Fri, 13 Jan 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Mapping useRs</title>
+  <dc:creator>Stella Bollmann</dc:creator>
+  <dc:creator>Dianne Cook</dc:creator>
+  <dc:creator>Rudolf Debelak</dc:creator>
+  <dc:creator>Jasmine Dumas</dc:creator>
+  <dc:creator>John Fox</dc:creator>
+  <dc:creator>Julie Josse</dc:creator>
+  <dc:creator>Oliver Keyes</dc:creator>
+  <dc:creator>Carolin Strobl</dc:creator>
+  <dc:creator>Heather Turner</dc:creator>
+  <link>https://forwards.github.io/blog/2017/mapping-users/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- menu : "" -->
+<p><img src="https://forwards.github.io/blog/2017/mapping-users/banner.png" class="img-fluid"></p>
+<p>Every year, hundreds of R programmers descend on a host city and spend three or four days sharing work, collaborating on projects and making new contacts - the useR! conference, this year held in Stanford, CA. useR! offers a wonderful opportunity to map a subset of the language’s most active users and the Women in R Task Force took this opportunity to survey attendees and find out their backgrounds, experiences and interests, in the hope that it will help us to get a better understanding of how to make the R community a more inclusive environment.</p>
+<p>Our survey received 455 responses, out of 899 attendees, and appears to represent the attendees pretty accurately.<sup>1</sup> In this blog post, we’ll step through the attendees’ demographic background, how that represents the wider scientific and computing communities (and wider world), and propose recommendations for ways to bring these demographics towards parity.</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Survey responses showed that attendees were largely male and white, with Latinx, Native American and people of African descent particularly under-represented. Attendees were almost all employed, and what’s more, employed in a permanent, full-time job. Attendence skewed heavily towards people in their late 20s and early to mid 30s, with men tending to be older than women, and attendees largely coming from the United States and almost exclusively from North American and Western European countries.</p>
+<p>Our recommendations are that, going forward, useR! conferences set aside tickets and funding for under-represented groups, and put resources into facilities such as feeding rooms and childcare that would benefit caregivers with small children, many of whom are women. Additionally, the Task Force itself will be refocusing its efforts and mission to emphasise the intersectional nature of marginalisation that women face, in line with the dispiriting results around race, employment and educational attainment. We will also be running further surveys to build up a better idea of the “ground truth” of the R community, and to track improvements and suggestions on an ongoing basis.</p>
+</section>
+<section id="survey-results" class="level2">
+<h2 class="anchored" data-anchor-id="survey-results">Survey results</h2>
+<section id="gender-and-race" class="level3">
+<h3 class="anchored" data-anchor-id="gender-and-race">Gender and race</h3>
+<p>The gender breakdown of responses (<em>n=453</em>) showed that approximately <em>33%</em> of attendees identified as women, with the majority of the remainder identifying as men and a small number identifying outside the gender binary.</p>
+<p>While the inclusion of women is not as bad as at other conferences, it’s also definitely <em>lower</em> than it could be given that there are many scientific fields - such as biology, which R is particularly commonly used in - where women outnumber men in terms of degree attainment.<sup>2</sup> At the same time, some of this may be offset by the location and chosen topics for presentations, which were more focused on visualisation or computing than biostatistics.</p>
+<p>Race is more complicated, because there’s more variation in the answers - as intended! Both race and gender questions were offered as a free text field to avoid restricting respondents to false dichotomies. One side-effect, though, is that it’s hard to aggregate the data. What we can say, though, is:</p>
+<ul>
+<li><span style="color:#0c2c84; font-weight:bolder">74%</span> of respondents identified as White or Caucasian;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">16%</span> fell within the US Federal guidelines for ‘Asian’, or identified directly as Asian;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">3%</span> identified as Hispanic or Latinx;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">1%</span> identified as people of African descent;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">0.5%</span> identified as Native American or Pacific Islander;</li>
+<li><span style="color:#0c2c84; font-weight:bolder">0.25%</span> identified as Middle Eastern and</li>
+<li><span style="color:#0c2c84; font-weight:bolder">3%</span> identified as mixed-race.</li>
+</ul>
+<p>In comparison, a survey of STEM workers in the United States found 6% were Black and 7% Hispanic<sup>3</sup> <sup>4</sup> - and the overall demographics of the United States point even more clearly to an under-representation of non-Asian minority groups.<sup>5</sup> The response rate was somewhat lower on this question (n = 409), perhaps due to concerns about identifiability. Nonetheless, there’s clearly work to be done.</p>
+</section>
+<section id="lgbt" class="level3">
+<h3 class="anchored" data-anchor-id="lgbt">LGBT</h3>
+<p>5% of respondents identified as Lesbian, Gay, Bisexual or Transgender. How this maps to overall industry, academic and population trends is hard to identify, because the long history of persecution of LGBT individuals and the often confusing and ill-defined nature of identity means that the proportion of LGBT individuals is regularly under-reported. Attempts to control for that under-reporting have shown up to 19% of the U.S. population experience same-sex attraction,<sup>6</sup> although more traditional methodologies suggest around 11%.<sup>7</sup></p>
+<p>It’s possible that the useR! survey is one of the surveys in which under-reporting is found - although 447 responses were received, which suggests people at least didn’t <em>skip</em> it - but it’s probably fair to say that such a sizeable difference in outcome is going to contain some genuine differences in population, as well as methodological variation.</p>
+<p>Additionally, it is probable that the other demographics of LGBT attendees reflect the overall demographics of attendees, meaning that (for example) we would expect to find lesbians or bisexual women under-represented in that 5%.</p>
+</section>
+<section id="age" class="level3">
+<h3 class="anchored" data-anchor-id="age">Age</h3>
+<p>Approximating age (by subtracting the year of birth from 2016) shows the following:</p>
+<p><img src="https://forwards.github.io/blog/2017/mapping-users/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;"></p>
+<p>Women trend younger than men at the conference, but the age distribution is similar across the two genders; <em>47%</em> of respondents (n = 438) were born in the 1980s - in other words, were people in their late 20s to mid 30s. This lines up neatly with the education data (more on that later) and suggests that people in their early 20s and 40+ year olds are not finding the conference appealing - because there are other things to spend time on, because money is tighter, or for some other reason.</p>
+<p>The women-being-younger element suggests that the rise in women attending (compared to 2015, where the proportion of women was only 19%) represents younger or newer members of the community attending, too.</p>
+</section>
+<section id="geography" class="level3">
+<h3 class="anchored" data-anchor-id="geography">Geography</h3>
+<p>The R community is a highly international one, with developers in a wide range of countries. One of the things we were interested to discover is how this comes out in the attendee mix at useR!. Accordingly, we asked attendees which country they currently resided in.</p>
+<p>Altogether, R programmers from 34 nations attended useR!, but the overwhelming majority of respondents (<em>71%</em> of n = 443) live in the United States. In some ways this isn’t surprising - the cost of getting to Stanford increases the further away you are, and it’s expensive to start with! - and the rotation of the conference between continents each year means that many non-US R programmers are likely to simply attend the next European event. At the same time, it’s still somewhat disappointing for an event considered the “main” R conference, particularly with only ~20 attendees coming from Canada, a country bordering the U.S.</p>
+<p><img src="https://forwards.github.io/blog/2017/mapping-users/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;"></p>
+</section>
+<section id="education" class="level3">
+<h3 class="anchored" data-anchor-id="education">Education</h3>
+<p>The vast majority of attendees (&gt;85%, of n = 451) had <em>completed</em> postgraduate degrees:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Highest Qualification Completed</th>
+<th style="text-align: right;">Women (%)</th>
+<th style="text-align: right;">Men (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Professional degree or certification</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: right;">2.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Doctorate</td>
+<td style="text-align: right;">41.7</td>
+<td style="text-align: right;">45.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Masters degree</td>
+<td style="text-align: right;">42.9</td>
+<td style="text-align: right;">40.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Undergraduate degree</td>
+<td style="text-align: right;">13.7</td>
+<td style="text-align: right;">10.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">High school/Secondary school or lower</td>
+<td style="text-align: right;">0.6</td>
+<td style="text-align: right;">0.7</td>
+</tr>
+</tbody>
+</table>
+<p>This further suggests, on top of the data around age, that the conference is not attracting younger and more-early-career R programmers and researchers. Part of this may simply be that spending money on an R conference may be a lot easier to justify when you’re in full-time employment, or in a postgraduate degree with a stipend, than as an undergraduate or masters student; part of it is probably also that people without degrees, or without postgraduate degrees, earn less money and may come from poorer backgrounds, extending the problem.</p>
+<p>At the same time, it is worth noting that the concept of research conferences as places to attend is not something particularly pushed on undergraduates, and so there is a component of awareness as well as finance. Finally, it may simply be that the conference is very academia-oriented, and so is particularly attractive to academics (and those familiar with academia) rather than R programmers without an academic background.</p>
+<p>As the age data suggests, women tend to be slightly earlier on in the traditional academic career path.</p>
+</section>
+<section id="professional-environment" class="level3">
+<h3 class="anchored" data-anchor-id="professional-environment">Professional environment</h3>
+<p>Almost all of the attendees were employed, which (with the cost of the tickets) makes sense. More interestingly, a majority of the attendees (<em>~57%</em> of n = 444) were employed outside academia, primarily by private sector organisations. This is a strong indicator of what we’ve known anecdotally for a while - that R, a language originally designed and used in academia, is becoming more prevalent outside that context. At the same time, this may be a (somewhat) localised effect: while the language is increasingly popular, the technology industry centred on Silicon Valley is certainly an outlier in many respects for research overall.</p>
+<p><img src="https://forwards.github.io/blog/2017/mapping-users/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;"></p>
+<p>Another interesting takeaway was that men are more likely to work in industry and permanent academic jobs than women - and women are far, <em>far</em> more likely to be students. Again, this isn’t surprising since it fits the pattern that women attending tend to be younger than men, and overall patterns that the tech industry (which is where one would expect the majority of privately-employed R programmers and scientists to work) has a known problem with employing and promoting women, as does academia.</p>
+<p>Almost all attendees work full-time. It’s difficult to tell if this is due to the wider community largely being employed or engaged in full-time activities, or due to the cost of attendance diminishing the ability of community members in more economically fragile situations such as part-time work or unemployment to attend. Female attendees were less likely to work part-time, and far more likely to identify their status as unemployed (although the sample size is too small to really draw conclusions):</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Employment Status</th>
+<th style="text-align: right;">Women (%)</th>
+<th style="text-align: right;">Men (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Full-time</td>
+<td style="text-align: right;">92.2</td>
+<td style="text-align: right;">94.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Part-time</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">4.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I am not currently employed</td>
+<td style="text-align: right;">6.0</td>
+<td style="text-align: right;">1.4</td>
+</tr>
+</tbody>
+</table>
+<p>The proportion identifying as unemployed is greater than the proportion that previously identified as unemployed or retired, which could indicate that some students are categorising themselves as ‘not in employment’ when not presented with an option that reflects student-status.</p>
+</section>
+<section id="caregiving" class="level3">
+<h3 class="anchored" data-anchor-id="caregiving">Caregiving</h3>
+<p>Approximately a quarter of respondents answered “yes” to the question “are you a caregiver for children or adult dependents on a regular basis?” (n = 445). More men than women identified as caregivers. This either indicates that R programmers are a singularly socially enlightened population, or reflects wider sociological conditioning around caregiving which makes it easier for men to leave children at home with their partner (if applicable) than for women to do the same - resulting in a self-selection effect in which women with children are less likely to be able to attend (and so women who do attend are less likely to have children they care for).</p>
+<p>Qualitative data suggests, unsurprisingly, the latter - in the free-text field for the survey, several (female) respondents mentioned the difficulty of persuading their (male) partners to handle childcare to allow them to attend conferences.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Caregiving Status</th>
+<th style="text-align: right;">Women (%)</th>
+<th style="text-align: right;">Men (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">No</td>
+<td style="text-align: right;">78.3</td>
+<td style="text-align: right;">71.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">21.7</td>
+<td style="text-align: right;">28.8</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="recommendations">Recommendations</h2>
+<section id="conference-proposals" class="level3">
+<h3 class="anchored" data-anchor-id="conference-proposals">Conference proposals</h3>
+<p>The survey data surfaces a lot of problems that can be tackled directly by future useR! conferences, and other conferences in the field too. In particular, it shows that while the gender breakdown of the conference is not as bad as we might fear, it’s still lagging behind the general population of the scientific fields R programming draws from, as well as the population as a whole. In addition, and in some ways more worryingly, attendees are overwhelmingly white, with Native Americans, Latinx people and people of African descent particularly under-represented.</p>
+<p>These problems won’t be solved overnight, but there are several things the conference can do that would make attending a more viable and enjoyable prospect for under-represented groups. These include:</p>
+<ol type="1">
+<li><p><em>A wider scholarship system</em>. useR! 2016 featured scholarships, helping pay for things like plane tickets or hotels for people from marginalised backgrounds who wished to attend. The committee tasked with allotting the money did excellent work, but the money available was small. Expanding the scholarship fund in future conferences would let more under-represented R programmers attend, going a long way towards making a more representative conference.</p></li>
+<li><p><em>Childcare and feeding support</em>. One of the things we saw in qualitative data, and something the quantitative data points to, is that the difficulties of juggling childcare is a blocker on attendance, particularly for women. Providing subsidised or free childcare at the conference itself (along with breastfeeding rooms), and incorporating childcare into the scholarship system, would help with this, and has been successfully done elsewhere.<sup>8</sup></p></li>
+<li><p><em>Staggered ticket release</em>. useR! 2016 sold out incredibly quickly, with all of the tickets gone within a day. This made it difficult for people to attend if they weren’t extremely on the ball and able to decide, on or before the first registration day, that they wanted to attend. By definition this hurts marginalised people because it hurts people who, for financial reasons, need to put some energy behind working out if they can attend. One solution worth considering is staggering the release of tickets over several days or weeks - perhaps with a waiting or notification list. This offers potential attendees multiple opportunities, reducing the penalty paid for not being ready to go on day 1.</p></li>
+<li><p>A <em>more precise code of conduct</em>. Following an open letter in 2015 the R Foundation adopted a resolution that any Foundation-affiliated conference have a Code of Conduct,<sup>9</sup> which we applaud. What that code contains, however, in terms of restrictions, the amount of information given to attendees, and the enforcement mechanisms and their ease of use, is largely left up to the individual conference instance. This creates inconsistency and uncertainty for both attendees and conference organisers. Selecting a specific code of conduct, with a specific enforcement mechanism, along with training for enforcers, would solve for much of this, and give concerned attendees more certainty that the conference is a safe place to be.</p></li>
+</ol>
+</section>
+<section id="task-force-proposals" class="level3">
+<h3 class="anchored" data-anchor-id="task-force-proposals">Task Force proposals</h3>
+<p>This survey has also helped to shape the goals of the Task Force on Women in the R Community. In particular, focusing in women, as a catchall, is not enough. Issues such as race, sexuality, disability and class intersect with gender and must also be considered if we are to build an R community that is more representative of the scientific/software communities and of society as a whole.</p>
+<p>Accordingly we are rebranding the Task Force as simply Forwards, so that we can consider the needs of other marginalised groups as part of our mission. Our primary focus will still be on women as there remains much work to do here and broadening participation of women was the motivation for setting up the task force. However many of the practical actions we can take, such as the proposals above, will also impact other marginalised groups and making this impact a formal part of our mission will help to ensure our actions do not only benefit white, highly educated women.</p>
+<p>As an immediate consequence, we will be publishing an open call for participation, seeking more members for the group. We are particularly interested in talking to volunteers from non-White, LGBT, non-middle-class or early career backgrounds.</p>
+<p>Running this survey has also served to reinforce that we have no fundamental ground truth here; it is hard to see what the backgrounds of those who try but fail to attend useR are, and their reasons for not going - it is hard to see what the demographics of R community members overall look like. Accordingly we will be running further surveys, adjusting several questions to factor in things we’ve learned from running this one, looking at the overall community and useR! attendees in a more nuanced way.</p>
+</section>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p>If your company would like to sponsor diversity scholarships or childcare at useR! 2017, please contact the chair of the local organizing committee, <script type="text/javascript">
+<!--
+h='&#x6f;&#112;&#x65;&#110;&#x61;&#110;&#x61;&#108;&#x79;&#116;&#x69;&#x63;&#x73;&#46;&#x65;&#x75;';a='&#64;';n='&#x25;&#50;&#48;&#116;&#x6f;&#98;&#x69;&#x61;&#x73;&#46;&#118;&#x65;&#114;&#98;&#x65;&#x6b;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#84;&#x6f;&#98;&#x69;&#x61;&#x73;&#32;&#86;&#x65;&#114;&#98;&#x65;&#x6b;&#x65;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Tobias Verbeke (%20tobias.verbeke at openanalytics dot eu)</noscript>.</p>
+<p>We do not plan to release the raw survey data as many individuals can be uniquely identified from one or two demographic questions. We may release the data in an aggregated form once we have completed our full analysis (this post covers the first of three sections).</p>
+<p>The analysis presented here used the following packages:</p>
+<ul>
+<li>For data manipulation: dplyr, forcats, maptools, matrixStats, tidyr</li>
+<li>For visualisaton and reporting: knitr, ggplot2, mapproj, RColorBrewer, rworldmap, scales</li>
+</ul>
+<p>The code is available in the <a href="https://github.com/forwards/surveys-public/blog-posts/useR-2016/mapping-users/mapping-users.Rmd">Rmarkdown file</a>.</p>
+
+
+<!-- -->
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>See our supplementary report <em><a href="https://forwards.github.io/docs/nonresponse_user2016_survey/">Non-Responses in the UseR! 2016 Survey</a></em>↩︎</p></li>
+<li id="fn2"><p>National Science Foundation (2013) <em><a href="https://www.nsf.gov/statistics/wmpd/2013/digest/theme2_1.cfm">Women, Minorities, and Persons with Disabilities in Science and Engineering</a></em>↩︎</p></li>
+<li id="fn3"><p>Landivar (2013) <em><a href="https://census.gov/content/census/en/library/publications/2013/acs/acs-24.html">Disparities in STEM Employment by Sex, Race, and Hispanic Origin</a></em>↩︎</p></li>
+<li id="fn4"><p>Native Americans are technically overrepresented, but given we’re talking about single digits of attendees here that probably isn’t meaningful - see CEOSE (2012) <em><a href="https://www.nsf.gov/od/oia/activities/ceose/reports/Full_2011-2012_CEOSE_Report_to_Congress_Final_03-04-2014.pdf">Biennial Report to Congress</a></em>↩︎</p></li>
+<li id="fn5"><p><em><a href="https://www.census.gov/quickfacts/table/PST045215/00">United States Census</a></em>↩︎</p></li>
+<li id="fn6"><p>Coffman (2013) <em><a href="http://www.nber.org/papers/w19508.pdfs">The Size of the LGBT Population and the Magnitude of Anti-Gay Sentiment are Substantially Underestimated</a></em>↩︎</p></li>
+<li id="fn7"><p>Gates (2011) <em><a href="How Many People are Lesbian, Gay, Bisexual and Transgender?">http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/</a></em>↩︎</p></li>
+<li id="fn8"><p>Brown (2014) <em><a href="http://spartanideas.msu.edu/2014/05/05/pycon-2014-community-community-community-also-childcare/">PyCon 2014: Community, community, community. Also, childcare.</a></em>↩︎</p></li>
+<li id="fn9"><p>R Foundation (2015) <em><a href="Codes of Conduct at R Conferences">https://www.r-project.org/behaviour.html</a></em>↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+  <guid>https://forwards.github.io/blog/2017/mapping-users/index.html</guid>
+  <pubDate>Fri, 13 Jan 2017 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
