@@ -10,6 +10,8 @@ execute:
 
 website:
   title: "Forwards"
+  site-url: https://forwards.github.io/
+  description: "R Foundation taskforce on women and other under-represented groups."
   
   page-navigation: true
   reader-mode: true
@@ -46,6 +48,8 @@ website:
         aria-label: mastodon
         href: https://hachyderm.io/@R_Forwards
         rel: me
+      - icon: rss
+        href: index.xml
       - icon: envelope
         aria-label: email
         href: mailto:rowforwards@mail.com

@@ -1,5 +1,11 @@
 ---
 title: "Forwards"
+listing:
+  contents:  
+    - "blog/!(drafts)*/*/index.qmd"
+  max-items: 1
+  fields: []
+  feed: false
 ---
 
 ## Mission
