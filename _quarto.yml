@@ -13,6 +13,9 @@ website:
   site-url: https://forwards.github.io/
   description: "R Foundation taskforce on women and other under-represented groups."
   favicon: /images/favicon.ico
+  twitter-card:
+    site: "@R_Forwards"
+  open-graph: true
   
   page-navigation: true
   reader-mode: true
@@ -72,3 +75,4 @@ format:
     css: styles.css
     toc: true  
     email-obfuscation: javascript
+    include-in-header: analytics.html
