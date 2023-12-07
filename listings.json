@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/edu/index.html",
-    "items": [
-      "/blog/2017/girls-coding-workshop-melbourne/index.html",
-      "/blog/2018/havanar/index.html",
-      "/blog/2019/rladies-charlottesville-workshop-recap/index.html",
-      "/blog/2020/southern-africa-project-2020/index.html",
-      "/blog/2019/workshops-for-women-and-girls/index.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/2020/blacklivesmatter-statement/index.html",
@@ -26,6 +16,16 @@
       "/blog/2017/emily-robinson-interview/index.html",
       "/blog/2017/call-to-join-forwards/index.html",
       "/blog/2017/mapping-users/index.html"
+    ]
+  },
+  {
+    "listing": "/edu/index.html",
+    "items": [
+      "/blog/2017/girls-coding-workshop-melbourne/index.html",
+      "/blog/2018/havanar/index.html",
+      "/blog/2019/rladies-charlottesville-workshop-recap/index.html",
+      "/blog/2020/southern-africa-project-2020/index.html",
+      "/blog/2019/workshops-for-women-and-girls/index.html"
     ]
   }
 ]
