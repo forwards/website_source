@@ -1,5 +1,5 @@
 /.quarto/
-.DS_Store
+**/.DS_Store
 .Rproj.user
 /_site/
 website_source.Rproj

@@ -9,3 +9,7 @@ Please note, this website is not currently publicly launched.
 The official (though out-of-date and unable-to-be-updated) Forwards website is at https://forwards.github.io. 
 
 This quarto website will be deployed to the official Forwards website address when it is ready to be launched.
+
+## Editing checklist
+
+- [] hyperlinks reference full URLs (including "https://")

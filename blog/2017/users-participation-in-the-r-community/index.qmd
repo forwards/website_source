@@ -221,4 +221,4 @@ The banner photo was taken at useR! 2016 by [Thomas Petzoldt](http://tu-dresden.
 
 [^1]: See our supplementary report: [useR! 2016 participants and the R community: a multivariate analysis](https://forwards.github.io/docs/MCA_community_useR2016_survey/).
 
-[^2]: [R-Ladies Global Community and Vision](bit.ly/rladies_cascadiarconf), Gabriela de Queiroz, Cascadia R Conference, June 3, 2017, Portland, OR.
+[^2]: [R-Ladies Global Community and Vision](https://bit.ly/rladies_cascadiarconf), Gabriela de Queiroz, Cascadia R Conference, June 3, 2017, Portland, OR.
