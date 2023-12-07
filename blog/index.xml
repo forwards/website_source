@@ -6,8 +6,8 @@
       version="2.0">
 <channel>
 <title>Forwards</title>
-<link>https://forwards.github.io/blog.html</link>
-<atom:link href="https://forwards.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://forwards.github.io/blog/index.html</link>
+<atom:link href="https://forwards.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>R Foundation taskforce on women and other under-represented groups.</description>
 <generator>quarto-1.3.450</generator>
 <lastBuildDate>Sat, 06 Jun 2020 00:00:00 GMT</lastBuildDate>
@@ -57,7 +57,7 @@
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>community</category>
   <category>news</category>
   <guid>https://forwards.github.io/blog/2020/blacklivesmatter-statement/index.html</guid>
@@ -122,7 +122,7 @@ Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n.</p>
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>community</category>
   <category>education</category>
   <category>software</category>
@@ -155,7 +155,7 @@ Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n.</p>
 <!-- -->
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>education</category>
   <category>software</category>
   <category>community</category>
@@ -196,7 +196,7 @@ Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n.</p>
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>news</category>
   <category>community</category>
   <guid>https://forwards.github.io/blog/2019/the-state-of-r-in-africa/index.html</guid>
@@ -279,7 +279,7 @@ Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n.</p>
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>education</category>
   <category>software</category>
   <category>community</category>
@@ -312,7 +312,7 @@ Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n.</p>
 <!-- -->
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>news</category>
   <category>community</category>
   <category>education</category>
@@ -402,12 +402,7 @@ Photo of Eswatini UseR group by Emmanual Ọlámíjùwọ́n.</p>
 </section>
 <section id="making-connections" class="level3">
 <h3 class="anchored" data-anchor-id="making-connections">Making Connections</h3>
-<p>Part of building the community in Latin America is making connections between disconnected groups. If you think we have missed something, or you would like to be involved in plans for future events in the region, let us know in the comments or contact us on <script type="text/javascript">
-<!--
-h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#114;&#x6f;&#x77;&#102;&#x6f;&#114;&#x77;&#x61;&#114;&#100;&#x73;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x65;&#x6d;&#x61;&#x69;&#108;'+'<\/'+'a'+'>');
-// -->
-</script><noscript>email (rowforwards at gmail dot com)</noscript> or <a href="https://twitter.com/r_forwards">Twitter</a>.</p>
+<p>Part of building the community in Latin America is making connections between disconnected groups. If you think we have missed something, or you would like to be involved in plans for future events in the region, let us know in the comments or contact us on <a href="mailto:rowforwards@gmail.com" class="email">email</a> or <a href="https://twitter.com/r_forwards">Twitter</a>.</p>
 <p><small>Banner image shows the poster session at I SER.</small></p>
 
 
@@ -416,7 +411,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>news</category>
   <category>community</category>
   <guid>https://forwards.github.io/blog/2018/r-in-latin-america/index.html</guid>
@@ -457,30 +452,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 </section>
 <section id="r-ladies-in-africa" class="level2">
 <h2 class="anchored" data-anchor-id="r-ladies-in-africa">R-Ladies in Africa</h2>
-<p>The set-up of a Cape Town chapter of <a href="https://rladies.org/">R-Ladies</a> was inspired by the first satRday conference in Cape Town. All three plenary speakers at that conference were part of the R-Ladies community and it was extremely refreshing to go to a conference largely about science and technology where women took the centre stage. Cape Town is a multicultural, multilingual and multiracial city, but this diversity is not represented in the R user community. The aim of the Cape Town chapter of R-Ladies is to grow the female R user community in Cape Town and bring to it the diversity of cultures, ethnicities and backgrounds present in the city. By the end of 2017 the group will have had five meetups since their launch in July this year. They are still quite a small group, but they are confident they will grow in time. One might expect that there would be many more people using R in a big city, but issues with congestion and public transport may form a barrier to people attending. The answer might be to form even more R-Ladies chapters around different parts of the city so that people don’t have to travel far! R-Ladies Cape Town can be reached at <script type="text/javascript">
-<!--
-h='&#114;&#108;&#x61;&#100;&#x69;&#x65;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x63;&#x61;&#112;&#x65;&#116;&#x6f;&#x77;&#110;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>capetown at rladies dot org</noscript> and on <a href="https://twitter.com/rladiescapetown">Twitter <span class="citation" data-cites="RLadiesCapeTown">@RLadiesCapeTown</span></a>.</p>
-<p>R Ladies Addis was founded on October 30, 2017 in the course of the 2nd Data Carpentry Workshop in Addis Ababa, with 7 founding members and 2 honorary members. Thanks to the support provided by Ms.&nbsp;Anelda van der Walt from South Africa, an honorary member of R Ladies Addis as well as the R Ladies community, R Ladies Addis got ready for its first meeting on November 14, 2017. The agenda of this meeting was to decide the framework of R Ladies Addis activities. The group has set its special focus on working with women students and women researchers by offering R training and R competitions. R Ladies Addis has been invited to reach out to the different corners of Ethiopia. For the time being R Ladies is present at https://r-ladies-addis.github.io/studyGroup and can be reached by e-mail <script type="text/javascript">
-<!--
-h='&#114;&#108;&#x61;&#100;&#x69;&#x65;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x61;&#100;&#100;&#x69;&#x73;&#x61;&#98;&#x61;&#98;&#x61;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>addisababa at rladies dot org</noscript>.</p>
+<p>The set-up of a Cape Town chapter of <a href="https://rladies.org/">R-Ladies</a> was inspired by the first satRday conference in Cape Town. All three plenary speakers at that conference were part of the R-Ladies community and it was extremely refreshing to go to a conference largely about science and technology where women took the centre stage. Cape Town is a multicultural, multilingual and multiracial city, but this diversity is not represented in the R user community. The aim of the Cape Town chapter of R-Ladies is to grow the female R user community in Cape Town and bring to it the diversity of cultures, ethnicities and backgrounds present in the city. By the end of 2017 the group will have had five meetups since their launch in July this year. They are still quite a small group, but they are confident they will grow in time. One might expect that there would be many more people using R in a big city, but issues with congestion and public transport may form a barrier to people attending. The answer might be to form even more R-Ladies chapters around different parts of the city so that people don’t have to travel far! R-Ladies Cape Town can be reached at <a href="mailto:capetown@rladies.org" class="email">capetown@rladies.org</a> and on <a href="https://twitter.com/rladiescapetown">Twitter <span class="citation" data-cites="RLadiesCapeTown">@RLadiesCapeTown</span></a>.</p>
+<p>R Ladies Addis was founded on October 30, 2017 in the course of the 2nd Data Carpentry Workshop in Addis Ababa, with 7 founding members and 2 honorary members. Thanks to the support provided by Ms.&nbsp;Anelda van der Walt from South Africa, an honorary member of R Ladies Addis as well as the R Ladies community, R Ladies Addis got ready for its first meeting on November 14, 2017. The agenda of this meeting was to decide the framework of R Ladies Addis activities. The group has set its special focus on working with women students and women researchers by offering R training and R competitions. R Ladies Addis has been invited to reach out to the different corners of Ethiopia. For the time being R Ladies is present at https://r-ladies-addis.github.io/studyGroup and can be reached by e-mail <a href="mailto:addisababa@rladies.org" class="email">addisababa@rladies.org</a>.</p>
 <p><img src="https://forwards.github.io/blog/2017/r-in-africa/r-ladies-addis-ababa.png" class="img-fluid"> <em><br>1st Meeting of R Ladies Addis on Nov.&nbsp;14, 2017</em></p>
-<p>A new chapter of R-Ladies will soon be starting in Cotonou, Benin. The organizers plan to have their first meeting in January to conincide with the start of the new academic year. Follow the group on <a href="https://twitter.com/RLadiesCtn">Twitter, <span class="citation" data-cites="RLadiesCtn">@RLadiesCtn</span></a> or email <script type="text/javascript">
-<!--
-h='&#114;&#108;&#x61;&#100;&#x69;&#x65;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x63;&#x6f;&#116;&#x6f;&#110;&#x6f;&#x75;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>cotonou at rladies dot org</noscript> to find out more! Local R-Ladies also hope to establish groups in Fez, Morocco and Johannesburg, South Africa; if you are interested in these groups, or interested in starting a chapter in your own area (in Africa or beyond!) you can contact <script type="text/javascript">
-<!--
-h='&#114;&#108;&#x61;&#100;&#x69;&#x65;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x69;&#110;&#102;&#x6f;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>info at rladies dot org</noscript>.</p>
+<p>A new chapter of R-Ladies will soon be starting in Cotonou, Benin. The organizers plan to have their first meeting in January to conincide with the start of the new academic year. Follow the group on <a href="https://twitter.com/RLadiesCtn">Twitter, <span class="citation" data-cites="RLadiesCtn">@RLadiesCtn</span></a> or email <a href="mailto:cotonou@rladies.org" class="email">cotonou@rladies.org</a> to find out more! Local R-Ladies also hope to establish groups in Fez, Morocco and Johannesburg, South Africa; if you are interested in these groups, or interested in starting a chapter in your own area (in Africa or beyond!) you can contact <a href="mailto:info@rladies.org" class="email">info@rladies.org</a>.</p>
 </section>
 <section id="er-biostat-making-r-based-education-materials-accessible-for-all" class="level2">
 <h2 class="anchored" data-anchor-id="er-biostat-making-r-based-education-materials-accessible-for-all">&gt;eR-Biostat: making R based education materials accessible for all</h2>
@@ -488,17 +463,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'
 <p>Courses are organized in four clusters and are ready to be delivered in class. The <strong>Introductory courses</strong> aim to train students in data analysis using R at a basic level. These courses were developed for undergraduate students, both non-statisticians and statisticians. The courses within this cluster can also be used as courses to support R usage in undergraduate programs in biostatistics/statistics. The <strong>Basic courses</strong> are designed for an intermediate level and a basic knowledge in statistics is required in order to follow the courses. The courses within this cluster can be used as training courses for non-statisticians and as courses to support R usage in undergraduate programs in biostatistics/statistics. The <strong>Statistical modelling (I)</strong> and <strong>Statistical modelling (II)</strong> clusters consist of basic and advanced courses, respectively, at master’s level in biostatistics/statistics.</p>
 <p><img src="https://forwards.github.io/blog/2017/r-in-africa/er-biostat-ethiopia.png" class="img-fluid"> <em><br>The first &gt;eR-Biostat workshop in Gondar University, Ethiopia</em></p>
 <p>Course materials and updated information about our activities are available online (See <a href="https://er-biostat.github.io/Courses/">&gt;eR-BioStat</a>).</p>
-<p>Follow us on <a href="https://www.facebook.com/ER-BioStat-1463845487001786/">Facebook</a> and <a href="https://twitter.com/erbiostat">Twitter (<span class="citation" data-cites="erbiostat">@erbiostat</span>)</a>. Interested to contribute a course and/or an &gt;eR-Biostat event? Send an email to <script type="text/javascript">
-<!--
-h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x65;&#114;&#98;&#x69;&#x6f;&#x73;&#116;&#x61;&#116;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>erbiostat at gmail dot com</noscript> or <script type="text/javascript">
-<!--
-h='&#x75;&#104;&#x61;&#x73;&#x73;&#x65;&#108;&#116;&#46;&#98;&#x65;';a='&#64;';n='&#122;&#x69;&#118;&#46;&#x73;&#104;&#x6b;&#x65;&#100;&#x79;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>ziv.shkedy at uhasselt dot be</noscript>.</p>
+<p>Follow us on <a href="https://www.facebook.com/ER-BioStat-1463845487001786/">Facebook</a> and <a href="https://twitter.com/erbiostat">Twitter (<span class="citation" data-cites="erbiostat">@erbiostat</span>)</a>. Interested to contribute a course and/or an &gt;eR-Biostat event? Send an email to <a href="mailto:erbiostat@gmail.com" class="email">erbiostat@gmail.com</a> or <a href="mailto:ziv.shkedy@uhasselt.be" class="email">ziv.shkedy@uhasselt.be</a>.</p>
 </section>
 <section id="other-activities" class="level2">
 <h2 class="anchored" data-anchor-id="other-activities">Other activities</h2>
@@ -509,7 +474,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>news</category>
   <category>community</category>
   <guid>https://forwards.github.io/blog/2017/r-in-africa/index.html</guid>
@@ -534,7 +499,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'
 <!-- -->
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>education</category>
   <category>software</category>
   <category>community</category>
@@ -745,7 +710,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'
 <li id="fn1"><p>See our supplementary report: <a href="https://forwards.github.io/docs/MCA_community_useR2016_survey/">useR! 2016 participants and the R community: a multivariate analysis</a>.↩︎</p></li>
 <li id="fn2"><p><a href="bit.ly/rladies_cascadiarconf">R-Ladies Global Community and Vision</a>, Gabriela de Queiroz, Cascadia R Conference, June 3, 2017, Portland, OR.↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+</section></div> ]]></description>
   <category>analysis</category>
   <category>useR!</category>
   <category>survey</category>
@@ -837,12 +802,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'
 </section>
 <section id="taskforce-initiatives" class="level3">
 <h3 class="anchored" data-anchor-id="taskforce-initiatives">Taskforce initiatives</h3>
-<p>Following our recent <a href="https://forwards.github.io/blog/2017/01/13/call-to-join-forwards/">call to join Forwards</a> we have set up a number of sub-teams to support women and other under-represented groups in the R community. In particular the teaching team will focus on more inclusive pedagogy, such as <a href="https://github.com/forwards/teaching_examples">using examples to engage a wider demographic</a>, and running workshops for women and girls. We have also set up a community team, to look at ways to reach out to under-represented groups and an on-ramps team to look at ways to help useRs transition to developeRs. These are all new initiatives, but we hope to get some projects off the ground in all these areas in the coming year. Anyone wishing to get involved can contact us at <script type="text/javascript">
-<!--
-h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#114;&#x6f;&#x77;&#102;&#x6f;&#114;&#x77;&#x61;&#114;&#100;&#x73;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>rowforwards at gmail dot com</noscript>.</p>
+<p>Following our recent <a href="https://forwards.github.io/blog/2017/01/13/call-to-join-forwards/">call to join Forwards</a> we have set up a number of sub-teams to support women and other under-represented groups in the R community. In particular the teaching team will focus on more inclusive pedagogy, such as <a href="https://github.com/forwards/teaching_examples">using examples to engage a wider demographic</a>, and running workshops for women and girls. We have also set up a community team, to look at ways to reach out to under-represented groups and an on-ramps team to look at ways to help useRs transition to developeRs. These are all new initiatives, but we hope to get some projects off the ground in all these areas in the coming year. Anyone wishing to get involved can contact us at <a href="mailto:rowforwards@gmail.com" class="email">rowforwards@gmail.com</a>.</p>
 </section>
 <section id="further-research" class="level3">
 <h3 class="anchored" data-anchor-id="further-research">Further research</h3>
@@ -878,7 +838,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\
 <li id="fn2"><p>https://forwards.github.io/data/#maintainer_gender_2016↩︎</p></li>
 <li id="fn3"><p>For example, average earnings in the US are lower for many ethnic minorities in general and in science and engineering occupations in particular, including computer and information science specifically (https://www.nsf.gov/statistics/2017/nsf17310/static/data/tab9-17.pdf). The American Association of University Women report that gay and bisexual men tend to be paid less than similarly qualified heterosexual men; while trans women (who have transitioned from male to female) experience a drop in pay. They also report that transgender people frequently face harassment and discrimination; this may affect their motivation for voluntary contribution (http://www.aauw.org/resource/the-simple-truth-about-the-gender-pay-gap/).↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+</section></div> ]]></description>
   <category>analysis</category>
   <category>useR!</category>
   <category>survey</category>
@@ -936,19 +896,14 @@ at Etsy."
 <p><img src="https://forwards.github.io/blog/2017/emily-robinson-interview/dog2.JPG" class="img-fluid"> <em><br>Emily’s R-Dog Abby</em></p>
 <p>She is the best R-Dog. I’m very excited that Etsy is a dog-friendly office, and I plan to take her into the office sometime soon. I’m sure she’ll be very well-behaved; she spends most days sleeping on her bed or sitting under my mom’s desk at home right by her feet.</p>
 <p><strong><em>Okay now we are very jealous! Thanks again Emily for talking with us, all the best for the future!</em></strong></p>
-<p>Contact Emily via her <script type="text/javascript">
-<!--
-h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#114;&#x6f;&#98;&#x69;&#110;&#x73;&#x6f;&#110;&#46;&#x65;&#x73;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x65;&#x6d;&#x61;&#x69;&#108;&#32;&#x61;&#100;&#100;&#114;&#x65;&#x73;&#x73;'+'<\/'+'a'+'>');
-// -->
-</script><noscript>email address (robinson.es at gmail dot com)</noscript>, go read her <a href="https://robinsones.github.io/">blog</a>, follow her on <a href="https://twitter.com/robinson_es">Twitter</a>, <a href="https://github.com/robinsones">Github</a>, or <a href="https://www.linkedin.com/in/robinsones">LinkedIn</a>.</p>
+<p>Contact Emily via her <a href="mailto:robinson.es@gmail.com" class="email">email address</a>, go read her <a href="https://robinsones.github.io/">blog</a>, follow her on <a href="https://twitter.com/robinson_es">Twitter</a>, <a href="https://github.com/robinsones">Github</a>, or <a href="https://www.linkedin.com/in/robinsones">LinkedIn</a>.</p>
 <p><em>Disclaimer: The views expressed in this interview represent Emily’s own views and opinions, not necessarily those of Etsy.</em></p>
 
 
 <!-- -->
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>interviews</category>
   <category>data science</category>
   <category>careers</category>
@@ -967,19 +922,14 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 <p>Forwards, the R Foundation taskforce on women and other under-represented groups, is seeking to address issues affecting under-represented groups in general as it works to broaden the participation of women in the R community.</p>
 <p>In order to adequately address such issues, we would like to widen the diversity of the taskforce itself. Accordingly, we are inviting people who are part of under-represented groups - be they groups identified by race, gender, sexuality, class or disability - to join us.</p>
 <p>The taskforce has teleconferences once every two months, although as the taskforce is spread globally it isn’t possible for all members to attend every time. Therefore online communication is also important and there are occasional meetings within subteams. Subteams work on specific tasks, such as data collection and analysis, social media, or working on recommendations for R Foundation supported activities.</p>
-<p>To express your interest or ask for further information, contact us at <script type="text/javascript">
-<!--
-h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#114;&#x6f;&#x77;&#102;&#x6f;&#114;&#x77;&#x61;&#114;&#100;&#x73;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>rowforwards at gmail dot com</noscript> by 31 January 2017.</p>
+<p>To express your interest or ask for further information, contact us at <a href="mailto:rowforwards@gmail.com" class="email">rowforwards@gmail.com</a> by 31 January 2017.</p>
 <p><small>Credit: Banner image by <a href="www.wocintechchat.com/blog/wocintechphotos">#WOCinTech Chat</a>.</small></p>
 
 
 <!-- -->
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+ ]]></description>
   <category>news</category>
   <category>action</category>
   <guid>https://forwards.github.io/blog/2017/call-to-join-forwards/index.html</guid>
@@ -1175,12 +1125,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'
 </section>
 <section id="notes" class="level2">
 <h2 class="anchored" data-anchor-id="notes">Notes</h2>
-<p>If your company would like to sponsor diversity scholarships or childcare at useR! 2017, please contact the chair of the local organizing committee, <script type="text/javascript">
-<!--
-h='&#x6f;&#112;&#x65;&#110;&#x61;&#110;&#x61;&#108;&#x79;&#116;&#x69;&#x63;&#x73;&#46;&#x65;&#x75;';a='&#64;';n='&#x25;&#50;&#48;&#116;&#x6f;&#98;&#x69;&#x61;&#x73;&#46;&#118;&#x65;&#114;&#98;&#x65;&#x6b;&#x65;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#84;&#x6f;&#98;&#x69;&#x61;&#x73;&#32;&#86;&#x65;&#114;&#98;&#x65;&#x6b;&#x65;'+'<\/'+'a'+'>');
-// -->
-</script><noscript>Tobias Verbeke (%20tobias.verbeke at openanalytics dot eu)</noscript>.</p>
+<p>If your company would like to sponsor diversity scholarships or childcare at useR! 2017, please contact the chair of the local organizing committee, <a href="mailto:%20tobias.verbeke@openanalytics.eu" class="email">Tobias Verbeke</a>.</p>
 <p>We do not plan to release the raw survey data as many individuals can be uniquely identified from one or two demographic questions. We may release the data in an aggregated form once we have completed our full analysis (this post covers the first of three sections).</p>
 <p>The analysis presented here used the following packages:</p>
 <ul>
@@ -1204,11 +1149,11 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#84
 <li id="fn4"><p>Native Americans are technically overrepresented, but given we’re talking about single digits of attendees here that probably isn’t meaningful - see CEOSE (2012) <em><a href="https://www.nsf.gov/od/oia/activities/ceose/reports/Full_2011-2012_CEOSE_Report_to_Congress_Final_03-04-2014.pdf">Biennial Report to Congress</a></em>↩︎</p></li>
 <li id="fn5"><p><em><a href="https://www.census.gov/quickfacts/table/PST045215/00">United States Census</a></em>↩︎</p></li>
 <li id="fn6"><p>Coffman (2013) <em><a href="http://www.nber.org/papers/w19508.pdfs">The Size of the LGBT Population and the Magnitude of Anti-Gay Sentiment are Substantially Underestimated</a></em>↩︎</p></li>
-<li id="fn7"><p>Gates (2011) <em><a href="How Many People are Lesbian, Gay, Bisexual and Transgender?">http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/</a></em>↩︎</p></li>
+<li id="fn7"><p>Gates (2011) <em><a href="http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/">How Many People are Lesbian, Gay, Bisexual and Transgender?</a></em>↩︎</p></li>
 <li id="fn8"><p>Brown (2014) <em><a href="http://spartanideas.msu.edu/2014/05/05/pycon-2014-community-community-community-also-childcare/">PyCon 2014: Community, community, community. Also, childcare.</a></em>↩︎</p></li>
-<li id="fn9"><p>R Foundation (2015) <em><a href="Codes of Conduct at R Conferences">https://www.r-project.org/behaviour.html</a></em>↩︎</p></li>
+<li id="fn9"><p>R Foundation (2015) <em><a href="https://www.r-project.org/behaviour.html">Codes of Conduct at R Conferences</a></em>↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div> ]]></description>
+</section></div> ]]></description>
   <guid>https://forwards.github.io/blog/2017/mapping-users/index.html</guid>
   <pubDate>Fri, 13 Jan 2017 00:00:00 GMT</pubDate>
 </item>
