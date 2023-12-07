@@ -3,11 +3,6 @@
 # Enable banner style title blocks
 title-block-banner: true
 
-license: CC BY-SA
-
-open-graph: true
-twitter-card: true
-
 toc: true    
 toc-depth: 3
 toc-title: Contents

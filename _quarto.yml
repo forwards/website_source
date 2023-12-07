@@ -40,7 +40,7 @@ website:
       - text: "Data"
         file: data.qmd
       - text: "Blog"
-        file: blog.qmd
+        file: blog/index.qmd
       - text: "Other"
         menu:
           - docs/index.qmd
@@ -74,5 +74,5 @@ format:
       dark: [darkly, theme-dark.scss] #cosmo
     css: styles.css
     toc: true  
-    email-obfuscation: javascript
+    email-obfuscation: references
     include-in-header: analytics.html

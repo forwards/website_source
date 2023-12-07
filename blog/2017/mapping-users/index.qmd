@@ -172,5 +172,5 @@ The code is available in the [Rmarkdown file](https://github.com/forwards/survey
 [^5]: Coffman (2013) *[The Size of the LGBT Population and the Magnitude of Anti-Gay Sentiment are Substantially Underestimated](http://www.nber.org/papers/w19508.pdfs)*
 [^6]: Native Americans are technically overrepresented, but given we're talking about single digits of attendees here that probably isn't meaningful - see CEOSE (2012) *[Biennial Report to Congress](https://www.nsf.gov/od/oia/activities/ceose/reports/Full_2011-2012_CEOSE_Report_to_Congress_Final_03-04-2014.pdf)*
 [^7]: Brown (2014) *[PyCon 2014: Community, community, community. Also, childcare.](http://spartanideas.msu.edu/2014/05/05/pycon-2014-community-community-community-also-childcare/)*
-[^8]: R Foundation (2015) *[https://www.r-project.org/behaviour.html](Codes of Conduct at R Conferences)*
-[^9]: Gates (2011) *[http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/](How Many People are Lesbian, Gay, Bisexual and Transgender?)*
+[^8]: R Foundation (2015) *[Codes of Conduct at R Conferences](https://www.r-project.org/behaviour.html)*
+[^9]: Gates (2011) *[How Many People are Lesbian, Gay, Bisexual and Transgender?](http://williamsinstitute.law.ucla.edu/research/census-lgbt-demographics-studies/how-many-people-are-lesbian-gay-bisexual-and-transgender/)*
