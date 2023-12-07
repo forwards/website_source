@@ -1,0 +1,40 @@
+---
+title: Website Relaunch
+author:
+  - name: Heather Turner
+  - name: Ella Kaye
+  - name: Zane Dax
+date: "2023-12-07"
+categories: [news]
+description: 'Announcement about the relaunch of the Forwards website.'
+draft: true
+---
+
+It's been long time since we updated the Forwards website. At some point our 
+continuous integration workflow stopped working and we didn't have time to fix 
+it. Moreover, we wanted to take the opportunity to update to newer tools and 
+processes, to make the website easy maintain. This was a bigger task, but 
+we're happy to say that we've now updated from blogdown plus a convoluted 
+Travis CI workflow, to Quarto plus a GitHub actions workflow. 
+
+We have simplified the organization of posts, so that they are group by year 
+rather than the full date of publication, which caused editing headaches when 
+collaborating on a blog post over several days or weeks. This has changed the 
+URL of blog posts, but rest assured we have added aliases so old links 
+should still work.
+
+Despite the lack of blog posts, the Forwards taskforce has remained active! 
+We've updated the news section on our homepage, which captures some of the 
+main activities in the past few years. For a fuller account of the missing 
+years you can check out the news column of the R Journal
+
+- [2020 vol 2](https://journal.r-project.org/news/RJ-2020-2-forwards-news/)
+- [2021 vol 1](https://journal.r-project.org/news/RJ-2021-1-forwardsnews/)
+- [2021 vol 2](https://journal.r-project.org/news/RJ-2021-2-forwards-news/)
+- [2022 vol 2](https://journal.r-project.org/news/RJ-2022-2-forwards/)
+- [2022 vol 4](https://journal.r-project.org/news/RJ-2022-4-forwards/)
+
+We plan to round up news from 2023 in volume 4 of the R Journal.
+
+Beyond that we hope to post here more regular in the coming months!
+

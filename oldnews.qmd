@@ -1,0 +1,124 @@
+---
+title: Archive
+description: Old news items related to Forwards.
+---
+
+
+*2022-07-21* - Several Forwards members contribute to [Ten simple rules to host an inclusive conference](https://doi.org/10.1371/journal.pcbi.1010164) published in PLOS Computational Biology, 18(7): 1–13, 2022.
+
+*2022-06-20* - Yanina Bellini-Saibene supports [useR! 2022](https://user2022.r-project.org/) to adopt inclusive practices.
+
+*2022-06-13* - Google Summer of Code 2022 begins. Di Cook and Heather Turner mentor Abhishek Ulayil on [Converting past R Journal articles to HTML](https://github.com/rstats-gsoc/gsoc2022/wiki/Converting-past-R-Journal-articles-to-HTML); Michael Chirico co-mentors Meet Bhatnagar on creating a dashboard to [monitor the status of translations in R](https://github.com/rstats-gsoc/gsoc2022/wiki/Track-R-Translations-Status).
+
+*2022-05-18* - Ella Kaye and Zane Dax run meeting to [relaunch RainbowR](https://rainbowr.netlify.app/posts/2022-06-20_relaunching-rainbowr/).
+
+*2022-05-17* - Paola Corrales and Yanina Bellini Saibene gave a tutorial [From spreadsheets to R](https://yabellini.netlify.app/courses/deplanillasdecalculoar/) in Spanish, at the Software Sustainability Institute’s Research Software Camp.
+
+*2022-05-16* - Saranjeet Kaur Bhogal starts a technical writer on the Google Season of Docs project to [Expand and Reorganize the R Development Guide](https://github.com/rstats-gsod/gsod2022/wiki/GSOD-2022-Proposal).
+
+*2022-02-22* - Saranjeet Kaur Bhogal and Heather Turner start series of [Collaboration Campfires](https://contributor.r-project.org/events/collaboration-campfires/) to 
+to demystify the R development process.
+
+*2022-02-19* - Yanina Bellini-Saibene and Heather Turner join the Building inclusive communities panel at the launch of the AsiaR community.
+
+*2022-01-17, Online* - Heather Turner and Rita Giordano run package development workshop for [R-Ladies Remote](https://www.meetup.com/rladies-remote/events/283196926/)
+
+*2022-01-14, Online* - Kevin O'Brien speaks at [Accra R Users Ghana Conference](https://www.youtube.com/watch?v=RSAQ8IVFBFc)
+
+*2022-01-12, New York* - Joyce Robbins leads package development workshop for 
+[R-Ladies NYC](https://www.rladiesnyc.org/post/package-development-2022/).
+
+*2021-11-29, Online* - Emma Rand and Mine Çetinkaya-Rundel run train-the-trainer 
+workshop on using modularized package development training materials.
+
+*2021-11-13, Online* - Heather Turner speaks at [R-Ladies Nairobi - 1st Anniversary](https://www.youtube.com/watch?v=pjvP_Gzqs6E).
+
+*2021-11-10, Online* - Yanina Bellini Saibene co-chairs [LatinR2021](https://latin-r.com/) including keynote by Saranjeet Kaur on the 
+R Development Guide.
+
+*2021-10-04* - Saranjeet Kaur and Heather Turner are selected for the Digital Infrastructure Incubator program funded by Code for Science and Society to work on [Building community around the R Development Guide](https://www.codeforsociety.org/incubator/projects/building-community-around-the-r-development-guide).
+
+*2021-09-04, Online* - Mine Çetinkaya-Rundel speaks at [satRday Nairobi](https://www.youtube.com/watch?v=8UvWcabFseI).
+
+*2021-08-01* - Forwards adopts [First Contributions](https://github.com/forwards/first-contributions/commits/master/README.md) GitHub repo and Zane Dax adds Spanish translation of documentation.
+
+*2021-07-05, Online* - Forwards support for [useR! 2021](http://user2021.r-project.org/) includes Liz Hare co-developing [accessibility guidelines](https://user2021.r-project.org/participation/accessibility/#accessibility-guidelines) and Jonathan Godfrey speaking in joint keynote on [Tools and technologies for supporting algorithm fairness and inclusion](https://www.youtube.com/watch?v=D1vQjcSaEps&list=PL4IzsxWztPdmHoJwIVa4um44w2GMjctmP&index=1).
+
+*2021/06/03, Online* - Kevin O’Brien co-organizes [R-Ladies Remote Takeover](https://www.youtube.com/c/WhyRFoundationVideos/search) of the Why R? Webinars.
+
+*2021/05/17* - Noa Tamir starts as Senior Writer/Editor on [Google Season of Docs](https://github.com/rstats-gsod/gsod2021/wiki/GSOD-2021-Proposal) project 
+to develop documentation supporting *useR!* organization.
+
+*2021/02/22* - Saranjeet Kaur starts 1-week project funded by the R Foundation t to develop a first version of the [R Development Guide](https://contributor.r-project.org/rdevguide/).
+
+*2021/02/07, Online* - Kevin O’Brien starts [Why R? World Series](https://www.youtube.com/playlist?list=PLKMUlj_pGn_mpO0B7eH9ao6SbPg0eLWLG) of video interviews.
+
+*2021/02/01, Online* - Emma Rand and Mine Çetinkaya-Rundel teach package 
+development workshop as series of three 1-hour modules.
+
+*2020/12/16, Lomé, Togo* - Forwards supports "Introduction to R" workshop, led by Anicet Ebou and Audrey Addablah.
+
+*2020/07/24, Online* - Forwards co-founds the [R Contribution Working Group](https://contributor.r-project.org/working-group), aiming 
+to encourage new contributors to base R.
+
+*2020/07/10, Online* - Richard Ngamita joins other community leaders in the 
+[Supporting diversity in the R community](https://www.youtube.com/watch?v=gDO1OphmF5Q) panel at *useR! 2020*.
+
+*2020/04/02, Online* - Kevin O'Brien works with Why R? Foundation to start the 
+online [Why R? Webinars](https://www.youtube.com/watch?v=eC1-B2RLGwk&list=PLKMUlj_pGn_nXxvVHPP7Mwzxv5zY98Gr-) giving broad access to R talks from a more diverse set of speakers. 
+
+*2020/03/04, Johannesburg* - Heather Turner starts a series of talks and workshops 
+as part of [Southern Africa Project 2020](http://localhost:6149/blog/2020/southern-africa-project-2020/).
+
+*2020/02/29, Copenhagen* - Heather Turner spoke on "Moving Forwards: Greater Equity and Inclusion in the R Community" at [CelebRation 2020](https://biostatistics.dk/celebration2020/).
+
+*2020/01/07, York* - Emma Rand and Susannah Cowtan teach a [Package development workshop for women & other underrepresented groups](Package development workshop for women & other underrepresented groups).
+
+*2019/11/15, Cardiff* - Heather Turner organizes a hackathon as part of [satRday Cardiff 2019](https://cardiff2019.satrdays.org/) in partnership with Anna-Jayne Metcalfe, creato of [Transgender Day of Remebrance](https://tdor.translivesmatter.info/) website.
+
+*2019/09/08, Charlottesville* - Samantha Toet and Angela Li teach Package Development Workshop at a weekend [R-Ladies Charlottesville Meetup](blog/2019/rladies-charlottesville-workshop-recap/).
+
+*2019/07/09, Toulouse* - Forwards support [useR! 2019](http://user2019.r-project.org/) with accessibility, diversity scholarship scheme, conference buddies and code of conduct.
+
+*2019/05/25* - [First ever R conference in East Africa: SatRdays Kampala 2019](https://kampala2019.satrdays.org/) **Lend your support to this pathbreaking conference by contributing to SatRdays Kampala's [Indiegogo campaign](https://www.indiegogo.com/projects/satrdays-kampala-2019-fundraiser#/)**
+
+![](images/AfricaR.png){fig-alt="AfricaR logo"}
+
+*2019-04-06, Dublin* - Isabella Gollini, with Bruna Wundervald, Chiara Cotroneo, and Jo Niec, teach "Develop Packages in R"
+
+*2019-03-30, Brisbane* - Di Cook and a team of brilliant women teach "R Coding Workshop for Year 11 Girls"
+ 
+*2019-02-23, Chicago* - Stephanie Kirmer and Angela Li teach "Women's Package Development Workshop", hosted by [R-Ladies Chicago](https://rladieschicago.org)
+
+*2018-11-24, Belgrade* - Tatjana Kecojevic teaches [klik-R workshop](http://klikr.rbind.io/2018/09/24/klikr-outlook/) on "Data Science Story Telling with R" for young people aged 13-18 years.
+
+*2018-10-27, New York City* - Emily Dodwell and Joyce Robbins lead "Data Science in R: Coding Workshop for 11th and 12th Grade Girls"
+
+*2018-07-30, Vancouver* - Di Cook serves as panelist on late breaking session at JSM2018, [*Addressing Sexual Misconduct in the Statistics Community*](http://ww2.amstat.org/meetings/jsm/2018/onlineprogram/AbstractDetails.cfm?abstractid=329833) Organizer [blog post](http://statisticalrecipes.blogspot.com/2018/06/addressing-sexual-misconduct-in.html) 
+
+*2018-06-23, Cardiff, Wales* - Heather Turner teaches "Upgrade Your Workflow with a Custom Package" at [Cardiff satRday](https://cardiff2018.satrdays.org/)
+
+*2018-05-24, Melbourne* - [Earo Wang](https://earo.me) leads "Package Development Workshop for Women: Everything you need to know to create your own R package" at [R Ladies Melbourne](https://www.meetup.com/en-AU/R-Ladies-Melbourne/events/250196006/) [slides]( http://slides.earo.me/rladies-pkg/#1), [code](https://github.com/earowang/rladies-pkg)
+
+*2018-05-14, Budapest* - Package Development Workshop for Women at [eRum 2018](https://2018.erum.io/#talk-2-307)
+
+*2017-12-08* - Girls coding workshop held at Auckland University
+
+*2017-12-07* - Women's package writing workshop held at Auckland University, with instructors Hadley Wickham, Jenny Bryan, and Di Cook
+
+*2017-10-28* - [Girls R coding workshop](https://forwards.github.io/blog/2017/11/20/girls-coding-workshop-melbourne/) held at the Kathleen Symes library in Melbourne.
+
+*2017-07-12* - Julie Josse presents the results of the Forwards useR! 2016 survey at [useR! 2017](https://user2017.brussels/) [[Video](https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Diversity-of-the-R-Community?term=useR!%20diversity)] [[Slides](http://schd.ws/hosted_files/user2017/7d/useR%212017.pdf)].
+
+*2017-01-13* - Open call to join the taskforce, [further details](/blog/2017/01/13/call-to-join-forwards/).
+
+*2016-11-13* - Heather Turner's presentation from [eRum 2016](http://erum.ue.poznan.pl/), "Addressing the Gender Gap in the R Project", now on [YouTube](https://www.youtube.com/watch?v=fp6JY7cirww&list=PLCsJUtCRSFbejqCqAURNVOFFpoDCMeuO5) [[slides](http://rpubs.com/hturner/eRum2016)].
+
+*2016-11-04* - Jenny Bryan, Di Cook and Julie Josse are elected as ordinary members of the R Foundation, bringing the total number of women to 5 out of 37.
+
+*2016-10-20* - Di Cook presents the work of the task force at [Women in Statistics and Data Science 2016](https://ww2.amstat.org/meetings/wsds/2016/onlineprogram/AbstractDetails.cfm?AbstractID=303353).
+
+*2016-08-22* - R Consortium approves funding for a [joint proposal](https://www.r-consortium.org/blog/2016/08/22/the-r-consortium-funds-three-projects-in-july) from the San Francisco and London R-ladies groups for alignment and global expansion.
+
+*2016-06-27* - Proportion of women at useR! 2016 rises to 28% from 19% at useR! 2015.
+

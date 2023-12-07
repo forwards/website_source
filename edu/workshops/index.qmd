@@ -10,14 +10,16 @@ Thanks to generous funding from the [R Consortium](https://www.r-consortium.org/
 
 - *Workshops for high school girls* serve as an introduction to coding in R and are designed for students interested in STEM, coding, and data analysis.  Participants learn about plotting data, web scraping, and the development of Shiny apps.  A selection of topics related to contemporary current affairs are used, and where possible, incorporate data specific to the workshop’s geographic location.
 
+<!--
 ### Upcoming workshops
+-->
+
+### Past Workshops
 
 - [**Package development workshop for women & other underrepresented groups**](../york) at the University York  
 *2020-01-07, York, UK*  
 Free to attend, travel scholarships available for travel within the UK. [More details](../york).  
 Instructors: Emma Rand, Susannah Cowtan
-
-### Past Workshops
 
 - [**Forwards and ACEMS R Coding Workshop for Year 11 Girls**](../brisbane/) at River City Labs  
 *2019-03-30, Brisbane, Australia*  
