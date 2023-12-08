@@ -1,15 +1,9 @@
 # website_source
 
-This is the repo for the new, in-development version of the Forwards website, built with [quarto](https://quarto.org).
+This is the old repo for the Forwards website.
 
-https://forwards.github.io/website_source
+The `archive` branch contains the source for the original blogdown website.
 
-Please note, this website is not currently publicly launched.
+The `main` branch contains initial work on the Quarto website, which was deployed to the `gh-pages` branch.
 
-The official (though out-of-date and unable-to-be-updated) Forwards website is at https://forwards.github.io. 
-
-This quarto website will be deployed to the official Forwards website address when it is ready to be launched.
-
-## Editing checklist
-
-- [] hyperlinks reference full URLs (including "https://")
+The repo (including the archive branch) has now been moved to [forwards.github.io](https://github.com/forwards/forwards.github.io/).
